@@ -6,10 +6,9 @@ You can enable it in System Config.",,"0","0"
 "password_id","user_id","password_hash","expires","last_updated"
 "1","1","1d1dd6f68d1cbad8051203497f0584ad0154f182642bac8fe45c3b04639e0bac:U1TxFEJIlmHVfOcf11K7cgLrqkAKj5fn:3_32_2_67108864","0","1637129377"
 "identity","severity","created_at"
-"c79237a69f9c7b43241a29075febea12","1","2021-11-17 19:04:21"
 "da332d712f3215b9b94bfa268c398323","2","2021-11-17 16:58:44"
 "user_id","firstname","lastname","email","username","password","created","modified","logdate","lognum","reload_acl_flag","is_active","extra","rp_token","rp_token_created_at","interface_locale","failures_num","first_failure","lock_expires"
-"1","admin","admin","user@example.com","admin","1d1dd6f68d1cbad8051203497f0584ad0154f182642bac8fe45c3b04639e0bac:U1TxFEJIlmHVfOcf11K7cgLrqkAKj5fn:3_32_2_67108864","2021-11-17 13:09:37","2021-11-17 18:52:36","2021-11-17 18:44:51","6","0","1","{""configState"":{""general_country"":""1"",""general_region"":""1"",""general_locale"":""1"",""general_store_information"":""1"",""general_single_store_mode"":""1"",""web_url"":""0"",""web_seo"":""0"",""web_unsecure"":""0"",""web_secure"":""0"",""web_default"":""1"",""web_default_layouts"":""1"",""web_cookie"":""0"",""currency_options"":""1"",""currency_fixerio"":""0"",""currency_currencyconverterapi"":""0"",""currency_import"":""0"",""catalog_fields_masks"":""1"",""catalog_frontend"":""0"",""catalog_downloadable"":""1"",""mgstheme_install"":""1"",""mgstheme_import"":""1"",""mgstheme_general"":""1"",""mgstheme_background"":""1"",""mgstheme_fonts"":""0"",""mgstheme_custom_style"":""0"",""mgstheme_banner_slider"":""0"",""mgstheme_breadcrumbs_config"":""0"",""mgstheme_blog_config"":""0"",""mgstheme_portfolio_config"":""0"",""mpanel_customer"":""0"",""mpanel_product_tabs"":""0"",""mpanel_product_details"":""1"",""mpanel_form_mini_search"":""1"",""mpanel_catalog"":""1"",""brand_view_page_settings"":""0"",""brand_list_page_settings"":""0""}}",NULL,NULL,"en_US","0",NULL,NULL
+"1","admin","admin","user@example.com","admin","1d1dd6f68d1cbad8051203497f0584ad0154f182642bac8fe45c3b04639e0bac:U1TxFEJIlmHVfOcf11K7cgLrqkAKj5fn:3_32_2_67108864","2021-11-17 13:09:37","2021-11-23 14:43:11","2021-11-23 14:43:11","17","0","1","{""configState"":{""general_country"":""1"",""general_region"":""1"",""general_locale"":""1"",""general_store_information"":""1"",""general_single_store_mode"":""1"",""web_url"":""0"",""web_seo"":""0"",""web_unsecure"":""0"",""web_secure"":""0"",""web_default"":""1"",""web_default_layouts"":""1"",""web_cookie"":""0"",""currency_options"":""1"",""currency_fixerio"":""0"",""currency_currencyconverterapi"":""1"",""currency_import"":""1"",""catalog_fields_masks"":""1"",""catalog_frontend"":""0"",""catalog_downloadable"":""1"",""mgstheme_install"":""1"",""mgstheme_import"":""1"",""mgstheme_general"":""1"",""mgstheme_background"":""1"",""mgstheme_fonts"":""0"",""mgstheme_custom_style"":""0"",""mgstheme_banner_slider"":""1"",""mgstheme_breadcrumbs_config"":""1"",""mgstheme_blog_config"":""1"",""mgstheme_portfolio_config"":""0"",""mpanel_customer"":""1"",""mpanel_product_tabs"":""1"",""mpanel_product_details"":""1"",""mpanel_form_mini_search"":""1"",""mpanel_catalog"":""1"",""brand_view_page_settings"":""1"",""brand_list_page_settings"":""1"",""blog_general_settings"":""0"",""blog_sidebar_settings"":""0"",""social_facebook_settings"":""1"",""social_twitter_settings"":""1"",""blog_comment_settings"":""0"",""brand_product_page_settings"":""1"",""brand_sidebar_settings"":""1"",""brand_general_settings"":""0"",""mpanel_contact_google_map"":""1"",""color_general"":""0"",""color_header"":""0"",""color_main"":""1"",""color_footer"":""1"",""catalog_review"":""1"",""catalog_productalert"":""1"",""catalog_productalert_cron"":""1"",""catalog_placeholder"":""1"",""catalog_recently_products"":""1"",""catalog_product_video"":""0"",""rss_catalog"":""0"",""rss_wishlist"":""0"",""rss_config"":""0"",""checkout_options"":""1"",""checkout_cart"":""1"",""checkout_cart_link"":""1"",""checkout_sidebar"":""1"",""checkout_payment_failed"":""1"",""payment_other_express_checkout_other"":""1"",""payment_other_other_paypal_payment_solutions"":""1""}}",NULL,NULL,"en_US","0",NULL,NULL
 "user_id","expires_at"
 "id","session_id","user_id","status","created_at","updated_at","ip"
 "1",NULL,"1","1","2021-11-17 13:42:36","2021-11-17 13:47:00","127.0.0.1"
@@ -18,6 +17,17 @@ You can enable it in System Config.",,"0","0"
 "4",NULL,"1","1","2021-11-17 16:33:43","2021-11-17 17:39:27","127.0.0.1"
 "5",NULL,"1","1","2021-11-17 17:56:53","2021-11-17 18:28:33","127.0.0.1"
 "6",NULL,"1","1","2021-11-17 18:44:51","2021-11-17 19:04:13","127.0.0.1"
+"7",NULL,"1","1","2021-11-22 09:18:01","2021-11-22 11:20:41","127.0.0.1"
+"8",NULL,"1","1","2021-11-22 11:38:27","2021-11-22 12:02:12","127.0.0.1"
+"9",NULL,"1","1","2021-11-22 13:08:12","2021-11-22 13:11:36","127.0.0.1"
+"10",NULL,"1","1","2021-11-22 15:49:21","2021-11-22 17:30:34","127.0.0.1"
+"11",NULL,"1","1","2021-11-22 18:25:00","2021-11-22 18:29:29","127.0.0.1"
+"12",NULL,"1","1","2021-11-23 07:34:38","2021-11-23 07:44:53","127.0.0.1"
+"13",NULL,"1","1","2021-11-23 08:09:30","2021-11-23 08:44:08","127.0.0.1"
+"14",NULL,"1","1","2021-11-23 09:15:32","2021-11-23 09:37:15","127.0.0.1"
+"15",NULL,"1","1","2021-11-23 10:27:57","2021-11-23 10:34:16","127.0.0.1"
+"16",NULL,"1","1","2021-11-23 13:46:29","2021-11-23 14:27:48","127.0.0.1"
+"17",NULL,"1","1","2021-11-23 14:43:11","2021-11-23 14:43:11","127.0.0.1"
 "role_id","parent_id","tree_level","sort_order","role_type","user_id","user_type","role_name"
 "1","0","1","1","G","0","2","Administrators"
 "2","1","2","0","U","1","2","admin"
@@ -29,7 +39,13 @@ You can enable it in System Config.",,"0","0"
 "stock_id","website_id","stock_name"
 "1","0","Default"
 "item_id","product_id","stock_id","qty","min_qty","use_config_min_qty","is_qty_decimal","backorders","use_config_backorders","min_sale_qty","use_config_min_sale_qty","max_sale_qty","use_config_max_sale_qty","is_in_stock","low_stock_date","notify_stock_qty","use_config_notify_stock_qty","manage_stock","use_config_manage_stock","stock_status_changed_auto","use_config_qty_increments","qty_increments","use_config_enable_qty_inc","enable_qty_increments","is_decimal_divided","website_id"
+"12","12","1","10.0000","0.0000","1","0","0","1","1.0000","1","10000.0000","1","1",NULL,"1.0000","1","1","1","0","1","1.0000","1","0","0","0"
+"13","13","1","30.0000","0.0000","1","0","0","1","1.0000","1","10000.0000","1","1",NULL,"1.0000","1","1","1","0","1","1.0000","1","0","0","0"
+"14","14","1","5.0000","0.0000","1","0","0","1","1.0000","1","10000.0000","1","1",NULL,"1.0000","1","1","1","0","1","1.0000","1","0","0","0"
 "product_id","website_id","stock_id","qty","stock_status"
+"12","0","1","10.0000","1"
+"13","0","1","30.0000","1"
+"14","0","1","5.0000","1"
 "product_id","website_id","stock_id","qty","stock_status"
 "product_id","website_id","stock_id","qty","stock_status"
 "product_id","website_id","stock_id","qty","stock_status"
@@ -45,8 +61,8 @@ You can enable it in System Config.",,"0","0"
 "id","query_id","relation_id"
 "entity_id","attribute_set_id","parent_id","created_at","updated_at","path","position","level","children_count"
 "1","3","0","2021-11-17 13:09:26","2021-11-17 16:58:41","1","0","0","11"
-"2","3","1","2021-11-17 13:09:29","2021-11-17 17:11:43","1/2","1","1","10"
-"3","3","2","2021-11-17 14:41:27","2021-11-17 16:57:28","1/2/3","1","2","0"
+"2","3","1","2021-11-17 13:09:29","2021-11-22 09:50:09","1/2","1","1","10"
+"3","3","2","2021-11-17 14:41:27","2021-11-22 09:50:26","1/2/3","1","2","0"
 "4","3","2","2021-11-17 14:41:53","2021-11-17 16:58:59","1/2/4","2","2","3"
 "5","3","2","2021-11-17 14:42:06","2021-11-17 16:57:56","1/2/5","3","2","3"
 "6","3","5","2021-11-17 14:43:36","2021-11-17 16:57:56","1/2/5/6","1","3","0"
@@ -65,6 +81,8 @@ You can enable it in System Config.",,"0","0"
 "6","62","0","4",NULL
 "7","61","0","12",NULL
 "8","62","0","12",NULL
+"9","61","0","3",NULL
+"10","62","0","3",NULL
 "value_id","attribute_id","store_id","entity_id","value"
 "value_id","attribute_id","store_id","entity_id","value"
 "1","69","0","1","1"
@@ -127,6 +145,7 @@ You can enable it in System Config.",,"0","0"
 "58","70","0","12","0"
 "59","71","0","12","0"
 "60","53","0","12",NULL
+"66","53","0","3",NULL
 "value_id","attribute_id","store_id","entity_id","value"
 "1","47","0","2","<p>Trang chủ</p>"
 "2","50","0","2",NULL
@@ -140,6 +159,9 @@ You can enable it in System Config.",,"0","0"
 "10","47","0","12",NULL
 "11","50","0","12",NULL
 "12","51","0","12",NULL
+"13","47","0","3",NULL
+"14","50","0","3",NULL
+"15","51","0","3",NULL
 "value_id","attribute_id","store_id","entity_id","value"
 "1","45","0","1","Root Catalog"
 "2","45","0","2","Home"
@@ -202,10 +224,29 @@ You can enable it in System Config.",,"0","0"
 "59","63","0","12",NULL
 "60","120","0","12","ph-kin-choi-game"
 "64","120","0","3","game-console"
+"88","48","0","3",NULL
+"89","49","0","3",NULL
+"90","60","0","3",NULL
+"91","63","0","3",NULL
 "entity_id","category_id","product_id","position"
+"13","4","12","0"
+"14","9","12","0"
+"15","5","13","0"
+"16","8","13","0"
+"17","4","14","0"
+"18","9","14","0"
 "category_id","product_id","position","is_parent","store_id","visibility"
 "category_id","product_id","position","is_parent","store_id","visibility"
 "category_id","product_id","position","is_parent","store_id","visibility"
+"2","12","10000","0","1","4"
+"2","13","10000","0","1","4"
+"2","14","10000","0","1","4"
+"4","12","0","1","1","4"
+"4","14","0","1","1","4"
+"5","13","0","1","1","4"
+"8","13","0","1","1","4"
+"9","12","0","1","1","4"
+"9","14","0","1","1","4"
 "category_id","product_id","position","is_parent","store_id","visibility"
 "category_id","product_id","position","is_parent","store_id","visibility"
 "catalog_compare_item_id","visitor_id","customer_id","product_id","store_id","list_id"
@@ -311,19 +352,297 @@ You can enable it in System Config.",,"0","0"
 "selection_id","website_id","selection_price_type","selection_price_value","parent_product_id"
 "entity_id","website_id","stock_id","option_id","stock_status"
 "entity_id","attribute_set_id","type_id","sku","has_options","required_options","created_at","updated_at"
+"12","4","virtual","ps5pro","0","0","2021-11-22 17:20:37","2021-11-22 18:28:44"
+"13","4","virtual","PXN9613","0","0","2021-11-23 08:28:21","2021-11-23 08:28:21"
+"14","4","virtual","PlaystationPS4Pro1TBSONYCUH-7218BPTY","0","0","2021-11-23 08:34:38","2021-11-23 14:07:28"
 "value_id","attribute_id","store_id","entity_id","value"
+"25","94","0","12","2021-11-22 00:00:00"
+"26","95","0","12","2100-11-30 00:00:00"
+"27","101","0","12","2021-11-22 00:00:00"
+"28","102","0","12","2022-11-22 00:00:00"
+"29","94","0","13","2021-11-23 00:00:00"
+"30","95","0","13","2022-11-30 00:00:00"
+"31","94","0","14","2021-11-16 00:00:00"
+"32","95","0","14","2100-11-30 00:00:00"
+"33","79","0","14","2021-11-23 00:00:00"
+"34","80","0","14","2022-11-24 00:00:00"
 "value_id","attribute_id","store_id","entity_id","value"
+"21","77","0","12","17999000.000000"
+"22","77","0","13","599000.000000"
+"23","77","0","14","12879000.000000"
+"24","78","0","14","10300000.000000"
+"25","81","0","14","15346000.000000"
 "value_id","attribute_id","store_id","entity_id","position","value"
 "value_id","attribute_id","store_id","entity_id","value"
+"34","97","0","12","1"
+"35","99","0","12","4"
+"36","136","0","12","2"
+"37","97","0","13","1"
+"38","99","0","13","4"
+"39","136","0","13","0"
+"40","97","0","14","1"
+"41","99","0","14","4"
+"42","136","0","14","0"
 "value_id","attribute_id","value","media_type","disabled"
+"20","90","//p/s/ps5_2.jpg","image","0"
+"21","90","//t/a/taycam.jpg","image","0"
+"23","90","//p/s/ps4a.jpg","image","0"
 "value_id","store_id","entity_id","label","position","disabled","record_id"
+"20","0","12",NULL,"4","0","26"
+"21","0","13",NULL,"1","0","27"
+"23","0","14",NULL,"2","0","34"
 "value_id","entity_id"
+"20","12"
+"21","13"
+"23","14"
 "value_id","store_id","provider","url","title","description","metadata"
 "value_id","attribute_id","store_id","entity_id","value"
+"16","85","0","12","Máy chơi game Playstation 5 Pro"
+"17","75","0","12","<table class=""table table-bordered"">
+<thead>
+<tr>
+<td colspan=""2""><strong>CẤU HÌNH CHI TIẾT</strong></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mã sản phẩm</td>
+<td>PS5 Digital Edition</td>
+</tr>
+<tr>
+<td>Chi tiết CPU</td>
+<td>8-core AMD Zen 2 3.5 GHz</td>
+</tr>
+<tr>
+<td>GPU</td>
+<td>Kiến trúc RDNA 2 của AMD, sức mạnh 10.3 TFLOPS, tốc độ 2.23GHz, hỗ trợ Ray-Tracing</td>
+</tr>
+<tr>
+<td>RAM</td>
+<td>GDDR6 16GB</td>
+</tr>
+<tr>
+<td>Bộ nhớ trong</td>
+<td>825GB Custom SSD tốc độ đạt 5,5 GB/s</td>
+</tr>
+<tr>
+<td>Tính năng mới</td>
+<td>Hỗ trợ Ray-Tracing, hỗ trợ xuất hình ảnh game 4K 120Hz hoặc 8K 60Hz, âm thanh vòm 3D audio, tương thích ngược với game PS4</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table class=""table table-bordered"">
+<thead>
+<tr>
+<td colspan=""2""><strong>KẾT NỐI DỮ LIỆU</strong></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ổ đĩa BD/DVD (chỉ đọc)</td>
+<td>Không có</td>
+</tr>
+<tr>
+<td>Wi-Fi</td>
+<td>802.11 a/b/g/n/ac/ax</td>
+</tr>
+<tr>
+<td>Bluetooth</td>
+<td>5.1</td>
+</tr>
+<tr>
+<td>Cổng kết nối</td>
+<td>HDMI 2.1, 3 x USB-A, 1 x USB-C</td>
+</tr>
+<tr>
+<td>Cổng ra AV</td>
+<td>HDMI 2.1 (4K@120Hz, 8K@60Hz)</td>
+</tr>
+<tr>
+<td>Kết nối mạng</td>
+<td>Ethernet (10BASE-T, 100BASE-TX, 1000BASE-T)</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table class=""table table-bordered"">
+<thead>
+<tr>
+<td colspan=""2""><strong>THÔNG SỐ VẬT LÝ</strong></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Màu sắc sản phẩm</td>
+<td>Trắng</td>
+</tr>
+<tr>
+<td>Kích thước</td>
+<td>39 x 9.2 x 26 (cm)</td>
+</tr>
+<tr>
+<td>Trọng lượng</td>
+<td>3.9kg</td>
+</tr>
+<tr>
+<td>Nguồn điện</td>
+<td>100-240V, 50/60Hz</td>
+</tr>
+<tr>
+<td>Công suất tiêu thụ</td>
+<td>340W</td>
+</tr>
+<tr>
+<td>Nhiệt độ làm việc</td>
+<td>55 - 65 độ C</td>
+</tr>
+</tbody>
+<thead>
+<tr>
+<td colspan=""2""><strong>KHÁC</strong></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Trọn bộ sản phẩm</td>
+<td>Máy PS5 Digital Edition, Tay cầm DualSense, Dây USB-C, Cáp HDMI, Dây nguồn, Chân đế, Sách hướng dẫn</td>
+</tr>
+</tbody>
+</table>"
+"18","76","0","12","<p>+ MÁY MỚI 100%, FULL BOX ĐẦY ĐỦ PHỤ KIỆN - KO KÈM GAME GAME.</p>
+<p>+ HÀNG CÓ SẴN - KHÔNG PHẢI CHỜ ĐỢI. SHOP SHIP HÀNG LUÔN VÀ NGAY.</p>
+<p>+ MÁY NHẬP KHẨU - BẢO HÀNH 03 THÁNG ĐẾN 12 THÁNG - PHỤ KIỆN BẢO HÀNH 3 THÁNG.</p>
+<p>+ 1 ĐỔI 1 TRONG VÒNG 7 NGÀY NẾU CÓ LỖI TỪ NHÀ SẢN XUẤT.</p>"
+"19","75","0","13","<table class=""NormalTable"">
+<tbody>
+<tr>
+<td>
+<p><em><strong>Tay cầm chơi game PXN 9613 </strong></em></p>
+<p>Về tay cầm này, có hai sự lựa chọn cho bạn là một mã PXN <strong>9613</strong> màu đen và màu trắng với mức giá khá ""ổn áp"". Với thiết kế layout như xbox các phím cần analog, đặc biệt để chơi Fifa cũng được review khá tuyệt. Với ưu điểm chính là cần analog không quá cứng, núm to dễ ấn cho những anh em thích dùng skill được cộng đồng game thủ FO4 đánh giá rất cao.</p>
+<p><strong>PXN 9613</strong> có chế độ rung bần bật khá phê, việc có rung sẽ áp dụng cho các game đua xe hay đá bóng khi bạn đập cột dọc xà ngang tạo những cảm xúc nhất định.</p>
+<p><a href=""https://gamek.mediacdn.vn/133514250583805952/2020/8/5/pxn-1596622306283731082810.jpg"" target=""_blank"" rel=""noopener""><img src=""https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2020/8/5/pxn-1596622306283731082810.jpg"" alt=""Top 5 tay cầm để chơi game bóng đá trên PC ngon nhất hiện nay - Ảnh 1."" /></a></p>
+<p><strong><em>Sản phẩm có một chiếc hộp nhỏ gọn và bên trong là chiếc tay cầm đúng kiểu dáng của xbox nói chung, bè phần trên nhưng phần dưới khá thon gọn cầm dễ, phù hợp với hầu hết tay người châu Á chúng ta.</em></strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><br /><img src=""https://www.anphatpc.com.vn/media/lib/31912_Tay-cam-choi-game-gamepad-pxn-9613-white-black-5.jpg"" width=""700"" /></p>
+<p><strong><em>Về nút ấn L2 , R2 giống tay cầm xBOX One, cò L1, R1 thì lại giống Xbox 360 phù hợp với nhiều người thích phong cách cũ.</em></strong></p>
+<p> </p>
+<p><img src=""https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2020/4/15/photo-1-15869667932131586059287.jpg"" alt=""Chơi FIFA, Call of Duty: Warzone... bằng tay cầm gaming với giá chưa đầy 500 nghìn đồng - Ảnh 2."" /></p>
+<p><strong><em>Sản phẩm PXN9613B lẫn PX9613W đều dùng pin liền (pin sạc) nên không phải lo đi mua pin sạc nhiều lần (cỡ 300k) vì vậy bạn cũng coi như đỡ một khoản chí phí.</em></strong></p>
+<p><a href=""https://gamek.mediacdn.vn/133514250583805952/2020/4/15/photo-15-15869667936991016572948.jpg"" target=""_blank"" rel=""noopener""><img src=""https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2020/4/15/photo-15-15869667936991016572948.jpg"" alt=""Chơi FIFA, Call of Duty: Warzone... bằng tay cầm gaming với giá chưa đầy 500 nghìn đồng - Ảnh 15."" /></a></p>
+<p><strong><em>Về phần RUNG của sản phẩm thì tùy theo game mà sẽ có những feedback phù hợp. Giả sử nếu bạn lái xe ô tô như Forza Horizon 4, Need For Speed qua những cảnh gồ ghề thì rung bần bật - cảm giác rất đã nhưng với những game đá bóng thì điều này chưa thể hiện quá rõ do game chưa có nhiều tác động.</em></strong></p>
+<p><strong><em>Một thứ nữa nếu bạn thử chơi game bắn súng như GTA V, Call Of Duty Warzone thì sẽ là một trải nghiệm thú vị hơn do dùng tay cầm có chế độ auto AIM để giúp bạn bắn chuẩn xác, nhàn - phù hợp nhu cầu giải trí.</em></strong></p>"
+"20","76","0","13","<p><strong><em>THÔNG TIN CƠ BẢN CỦA SIÊU PHẨM PXN 9613 HOT NHẤT 2020</em></strong></p>
+<p> </p>
+<p>???? GamePad Tay cầm chơi game 599k không dây PXN 9613 Bluetooth Wireless Gaming dành cho PC / Android / Smart TV - Có RUNG</p>
+<p>???? Tay cầm PXN 9613 chơi FIFA ONLINE 4 , PES và hỗ trợ RẤT NHIỀU game PC phổ biến khác như GTA , NFS ....</p>
+<p>???? Model: Tay Cầm PXN-9613B Gamepad ( bản màu đen ) </p>
+<p>???? Chế Độ Kết Nối: Không Dây Bluetooth </p>
+<p>???? Phạm Vi Truyền: Khoảng 7 M (23 Ft) </p>
+<p>???? Ứng Dụng Nhiệt Độ: 10 Đến 40 °C (50 Đến 104 °F)</p>
+<p>???? Ứng Dụng Độ Ẩm: 20-80% • Pin: Sạc Pin Lithium-Ion 550 MAh </p>
+<p>???? Thời Gian Sạc: 3-4 Giờ </p>
+<p>???? Trọng Lượng Gói Hàng: 0.386Kg (0.851 Lb)</p>
+<p>???? Kích Thước Sản Phẩm (L X W X H): 15.30X11.10X6.10 Cm (6.02X4.37X2.4 In)</p>
+<p>???? Kích Thước Gói (L X W X H): 18.00X16.00X7.00 Cm (7.09X6.3X2.76 In) Bộ Sản Phẩm Bao Gồm:</p>
+<p>???? 1 X Bluetooth Không Dây Bộ Điều Khiển</p>
+<p>???? 1 X Bộ Thu Không Dây </p>
+<p>???? 1 X Cáp Sạc USB </p>
+<p>???? 1 X Hướng Dẫn Sử Dụng Song Ngữ Tiếng Anh Và Tiếng Trung Hệ Thống Hỗ Trợ:</p>
+<p>???? Android 4.0 Trở Lên </p>
+<p>???? SmartTV : Samsung , LG ... </p>
+<p>???? Windows XP/Vista/7/8/10</p>"
+"21","85","0","13","TAY CẦM PXN 9613 WHITE BLUETOOTH WIRELESS GAMING DÀNH CHO PC / ANDROID / SMART TV"
+"22","75","0","14","<div class=""nd title_box_scroll_content_2019"">
+<h2 class=""ddnb-title spct-title"">Đánh giá Máy chơi game Playstation PS4 Pro 1TB SONY CUH-7218B PTY</h2>
+<p>Máy chơi game Playstation PS4 Pro 1TB</p>
+<p>Máy chơi game Playstation PS4 Pro 1TB là phiên bản high-end của máy chơi game console PS4 được thiết kế với kiểu dáng mạnh mẽ có kích thước 327mm x 295mm x 55mm, và khối lượng 3,2kg giúp cho các game thủ có thể dễ dàng đặt máy ở cấc vị trí gần với màn hình chiếu, TV mang đến trải nghiệm chơi game thoải mái, tiện lợi.</p>
+<p><img class=""loading"" src=""https://hanoicomputercdn.com/media/lib/51092_gioi-thieu-may-choi-game-playstation-ps4-pro-1tb-sony-cuh-7218b-pty.png"" alt=""Giới thiệu Máy chơi game Playstation PS4 Pro 1TB SONY CUH-7218B PTY"" width=""100%"" data-was-processed=""true"" /></p>
+<h3>Thiết kế</h3>
+<p><img class=""loading"" src=""https://hanoicomputercdn.com/media/lib/51092_may-choi-game-playstation-ps4-pro-1tb-sony-cuh-7218b-pty-1.png"" alt="""" width=""100%"" data-was-processed=""true"" /></p>
+<p>Máy chơi game Playstation PS4 Pro 1TB được trang bị với bộ xử lý tuỳ chỉnh đơn chip mạnh mẽ với CPU x86-64 AMD “Jaguar”, 8 nhân và GPU có tốc độ xử lý 4.20 TFLOPS (FLoating-point Operations Per Second), engine đồ hoạ AMD Radeon™ mạnh mẽ giúp cho game thủ có thể chơi các tựa game AAA có đồ hoạ “khủng” với FPS (Frame Per Second) cao cho trải nghiệm chơi game mượt mà, cuốn hút. Ngoài ra, bộ xử lý của thiết bị còn hỗ trợ cho việc chạy các tựa game thực tế ảo (VR – Virtual Reality) mang đến cho các game thủ trải nghiệm gaming mới lạ, độc đáo.</p>
+<p><img class=""loading"" src=""https://hanoicomputercdn.com/media/lib/51092_cau-hinh-manh-cua-may-choi-game-playstation-ps4-pro-1tb-sony-cuh-7218b-pty.jpg"" alt=""Máy chơi game Playstation PS4 Pro 1TB SONY CUH-7218B PTY được trang bị cấu hình mạnh mẽ"" width=""100%"" data-was-processed=""true"" /></p>
+<p>Máy chơi game Playstation PS4 Pro 1TB còn được trang bị với bộ nhớ GDDR5 Main 8GB giúp cho thiết bị có tốc độ xử lý nhanh chóng, giảm thiểu thời gian tải game mang đến cho các game thủ trải nghiệm chơi game liền mạch, hiệu quả.</p>
+<p><img class=""loading"" src=""https://hanoicomputercdn.com/media/lib/51092_may-choi-game-playstation-ps4-pro-1tb-sony-cuh-7218b-pty-3.png"" alt="""" width=""100%"" data-was-processed=""true"" /></p>
+<p>Máy chơi game Playstation PS4 Pro 1TB được trang bị với bộ nhớ lớn 1TB giúp cho các game thủ có thể thoải mái tải đa dạng các tựa game mà không cần lo ngại đến vấn đề thiếu khoảng trống trong bộ nhớ, mang đến cho người dùng bộ sưu tập game phong phú hơn,hạn chế tình trạng phải xoá, làm trống ổ dữ liệu để có thể tải thêm các tựa game mới.</p>
+<h3>Giái trí đa phương tiện</h3>
+<p>Máy chơi game Playstation PS4 Pro 1TB còn được thiết kế với khả năng hỗ trợ xuất chiếu hình ảnh với độ phân giải lên đến 4K (4096 x 2160), cùng với công nghệ HDR tương thích với các TV 4K giúp cho người dùng có thể trải nghiệm các tựa game yêu thích với hình ảnh sắc nét, sống động, chân thực hơn, đắm mình vào trong các pha hành động kịch tính, hay tận hưởng các khoảng khắc tuyệt đẹp, ấn tượng trong các tựa game AAA như God Of War 4, Red Dead Redemption 2, The Witcher 3: Wild Hunt,….</p>
+<p><img class=""loading"" src=""https://hanoicomputercdn.com/media/lib/51092_giai-tri-da-phuong-tien-voi-may-choi-game-playstation-ps4-pro-1tb-sony-cuh-7218b-pty.jpg"" alt=""Giải trí đa phương tiện với Máy chơi game Playstation PS4 Pro 1TB SONY CUH-7218B PTY"" width=""100%"" data-was-processed=""true"" /></p>
+<p>Máy chơi game Playstation PS4 Pro 1TB được thiết kế với đầu đọc đĩa sử dụng công nghệ hiện đại có tốc độ đọc BD (Blu-ray Disk) x 6 CAV và tốc độ đọc DVD x 8 CAV vượt trội giúp cho việc load game từ đĩa vào trong máy trở nên ổn định và nhanh chóng.</p>
+<p><img class=""loading"" src=""https://hanoicomputercdn.com/media/lib/51092_may-choi-game-playstation-ps4-pro-1tb-sony-cuh-7218b-pty-6.png"" alt="""" width=""100%"" data-was-processed=""true"" /></p>
+<p>Máy chơi game Playstation PS4 Pro 1TB được trang bị với cổng kết nối mạng Ethernet (10BASE-T, 100BASE-TX, 1000BASE-T) chuẩn IEEE 802.11 a/b/g/n/ac giúp cho người dùng có thể thoải mái lướt web và chơi game online trên hệ thống PSN (Playstation Network). Cùng với nó, thiết bị còn được trang bị với 3 cổng SuperSpeed USB (USB 3.1 Gen1) với tốc độ truyền tải nhanh chóng và các cổng xuất hình ảnh, âm thanh là HDMI out, AUX, Digital out (Optical) giúp cho người dùng có thể dễ dàng, thoải mái kết nối thiết bị tới các màn hình TV, máy chiếu, dàn loa,… cho ra trải nghiệm chơi game thoải mái, tiện lợi và ấn tượng. Hơn nữa, Máy chơi game Playstation PS4 Pro 1TB còn được thiết kế với khả năng kết nối không dây Bluetooth 4.0 LE giúp cho người dùng có thể dễ dàng kết nối tới tay cầm trong phạm vi 10m mang đến trải nghiệm gaming thoải mái, tiện lợi.</p>
+<p><img class=""loading"" src=""https://hanoicomputercdn.com/media/lib/51092_may-choi-game-playstation-ps4-pro-1tb-sony-cuh-7218b-pty-7.png"" alt="""" width=""100%"" data-was-processed=""true"" /></p>
+<p>Máy chơi game Playstation PS4 Pro 1TB còn được đi kèm với một chiếc tay cầm không dây DUALSHOCK®4 có thiết kế độc quyền của SONY. Tay cầm được thiết kế với đầy đủ các nút chức năng cùng với bộ phận cảm ứng, loa, micro, chế độ rung tích hợp tạo thêm nhiều tính năng cho các màn chơi game đặc sắc, ấn tượng, chân thực hơn.</p>
+<p><img class=""loading"" src=""https://hanoicomputercdn.com/media/lib/51092_tay-cam-dualshock4-cua-may-choi-game-playstation-ps4-pro-1tb-sony-cuh-7218b-pty.jpg"" alt=""Tay cầm Dualshock 4 của Máy chơi game Playstation PS4 Pro 1TB SONY CUH-7218B PTY"" width=""100%"" data-was-processed=""true"" /></p>
+</div>"
+"23","76","0","14","<div class=""product-summary-item-title"">Thông số sản phẩm</div>
+<ul id=""js-tskt-item"" class=""product-summary-item-ul d-flex flex-wrap mb-0"">
+<li>Máy chơi game Sony PlayStation 4 Pro</li>
+<li>Hệ máy : Asia</li>
+<li>Model : CUH - 7000 series</li>
+<li>Sản phẩm Fullbox bao gồm :</li>
+<li>01 tay game</li>
+<li>01 cáp HDMI</li>
+<li>01 tai nghe mono</li>
+<li>01 cáp Micro USB</li>
+<li>01 dây nguồn</li>
+<li>01 sách hướng dẫn</li>
+</ul>"
+"24","85","0","14","Máy chơi game Playstation PS4 Pro 1TB SONY CUH-7218B PTY"
 "value_id","entity_id","all_groups","customer_group_id","qty","value","website_id","percentage_value"
+"1","14","1","0","2.0000","10300000.000000","0",NULL
 "value_id","attribute_id","store_id","entity_id","value"
+"140","73","0","12","Máy chơi game Playstation 5 Pro"
+"141","84","0","12","Máy chơi game Playstation 5 Pro"
+"142","86","0","12","Máy chơi game Playstation 5 Pro "
+"143","87","0","12","//p/s/ps5_2.jpg"
+"144","88","0","12","//p/s/ps5_2.jpg"
+"145","89","0","12","//p/s/ps5_2.jpg"
+"146","106","0","12","container2"
+"147","121","0","12","may-choi-game-playstation-5-pro"
+"148","129","0","12","0"
+"149","134","0","12","2"
+"150","135","0","12","//p/s/ps5_2.jpg"
+"159","100","0","12","6"
+"160","116","0","12","1column"
+"181","73","0","13","TAY CẦM PXN 9613 WHITE BLUETOOTH WIRELESS GAMING DÀNH CHO PC / ANDROID / SMART TV"
+"182","84","0","13","TAY CẦM PXN 9613 WHITE BLUETOOTH WIRELESS GAMING DÀNH CHO PC / ANDROID / SMART TV"
+"183","86","0","13","TAY CẦM PXN 9613 WHITE BLUETOOTH WIRELESS GAMING DÀNH CHO PC / ANDROID / SMART TV 
+
+
+
+Tay cầm chơi game PXN 9613 
+Về tay cầm này, có hai sự lựa chọn cho bạn là một mã PXN 9613 màu đen và màu trắng với mức giá khá ""ổn áp"". Với thiết kế layout như xbox"
+"184","87","0","13","//t/a/taycam.jpg"
+"185","88","0","13","//t/a/taycam.jpg"
+"186","89","0","13","//t/a/taycam.jpg"
+"187","106","0","13","container2"
+"188","121","0","13","tay-cm-pxn-9613-white-bluetooth-wireless-gaming-danh-cho-pc-android-smart-tv"
+"189","129","0","13","0"
+"190","134","0","13","2"
+"191","135","0","13","//t/a/taycam.jpg"
+"196","73","0","14","Máy chơi game Playstation PS4 Pro 1TB SONY CUH-7218B PTY"
+"197","84","0","14","Máy chơi game Playstation PS4 Pro 1TB SONY CUH-7218B PTY"
+"198","86","0","14","Máy chơi game Playstation PS4 Pro 1TB SONY CUH-7218B PTY 
+Đánh giá Máy chơi game Playstation PS4 Pro 1TB SONY CUH-7218B PTY
+Máy chơi game Playstation PS4 Pro 1TB
+Máy chơi game Playstation PS4 Pro 1TB là phiên bản high-end của máy chơi game console PS4 "
+"199","87","0","14","//p/s/ps4a.jpg"
+"200","88","0","14","//p/s/ps4a.jpg"
+"201","89","0","14","//p/s/ps4a.jpg"
+"202","106","0","14","container2"
+"203","121","0","14","may-choi-game-playstation-ps4-pro-1tb-sony-cuh-7218b-pty"
+"204","129","0","14","0"
+"205","134","0","14","2"
+"206","135","0","14","//p/s/ps4a.jpg"
 "action_id","type_id","visitor_id","customer_id","product_id","added_at"
 "entity_id","attribute_id","store_id","value","source_id"
+"12","99","1","4","12"
+"13","99","1","4","13"
+"14","99","1","4","14"
 "entity_id","attribute_id","store_id","value","source_id"
 "entity_id","attribute_id","store_id","value","source_id"
 "entity_id","attribute_id","store_id","value","source_id"
@@ -332,6 +651,18 @@ You can enable it in System Config.",,"0","0"
 "entity_id","attribute_id","store_id","value","source_id"
 "entity_id","attribute_id","store_id","value","source_id"
 "entity_id","customer_group_id","website_id","tax_class_id","price","final_price","min_price","max_price","tier_price"
+"12","0","1","2","17999000.000000","17999000.000000","17999000.000000","17999000.000000",NULL
+"12","1","1","2","17999000.000000","17999000.000000","17999000.000000","17999000.000000",NULL
+"12","2","1","2","17999000.000000","17999000.000000","17999000.000000","17999000.000000",NULL
+"12","3","1","2","17999000.000000","17999000.000000","17999000.000000","17999000.000000",NULL
+"13","0","1","0","599000.000000","599000.000000","599000.000000","599000.000000",NULL
+"13","1","1","0","599000.000000","599000.000000","599000.000000","599000.000000",NULL
+"13","2","1","0","599000.000000","599000.000000","599000.000000","599000.000000",NULL
+"13","3","1","0","599000.000000","599000.000000","599000.000000","599000.000000",NULL
+"14","0","1","0","12879000.000000","10300000.000000","10300000.000000","10300000.000000",NULL
+"14","1","1","0","12879000.000000","10300000.000000","10300000.000000","10300000.000000",NULL
+"14","2","1","0","12879000.000000","10300000.000000","10300000.000000","10300000.000000",NULL
+"14","3","1","0","12879000.000000","10300000.000000","10300000.000000","10300000.000000",NULL
 "entity_id","customer_group_id","website_id","tax_class_id","price_type","special_price","tier_percent","orig_price","price","min_price","max_price","tier_price","base_tier"
 "entity_id","customer_group_id","website_id","option_id","min_price","alt_price","max_price","tier_price","alt_tier_price"
 "entity_id","customer_group_id","website_id","option_id","min_price","alt_price","max_price","tier_price","alt_tier_price"
@@ -355,7 +686,7 @@ You can enable it in System Config.",,"0","0"
 "entity_id","customer_group_id","website_id","tax_class_id","price","final_price","min_price","max_price","tier_price"
 "entity_id","customer_group_id","website_id","min_price"
 "website_id","default_store_id","website_date","rate"
-"1","1","2021-11-17","1"
+"1","1","2021-11-23","1"
 "link_id","product_id","linked_product_id","link_type_id"
 "product_link_attribute_id","link_type_id","product_link_attribute_code","data_type"
 "1","1","position","int"
@@ -382,7 +713,16 @@ You can enable it in System Config.",,"0","0"
 "value_id","product_super_attribute_id","store_id","use_default","value"
 "link_id","product_id","parent_id"
 "product_id","website_id"
+"12","1"
+"13","1"
+"14","1"
 "url_rewrite_id","category_id","product_id"
+"27","4","12"
+"33","4","14"
+"30","5","13"
+"31","8","13"
+"28","9","12"
+"34","9","14"
 "agreement_id","name","content","content_height","checkbox_text","is_active","is_html","mode"
 "agreement_id","store_id"
 "block_id","title","identifier","content","creation_time","update_time","is_active"
@@ -433,7 +773,7 @@ You can enable it in System Config.",,"0","0"
 </div>
 </div>","2021-11-17 18:03:24","2021-11-17 18:03:24","1"
 "6","Orson Footer Contact","orson_footer_contact","<div class=""margin-bottom30""><span>30 South Avenue San Francisco</span> <span> <strong>Phone: </strong>+78 123 456 789<br /> </span> <span><strong>Email: </strong>Support@arrowhitech.com<br /></span> <a style=""color: #34a853;"" href=""http://magesolution.com/"">http://magesolution.com</a></div>","2021-11-17 18:03:24","2021-11-17 18:03:24","1"
-"7","Orson Footer Logo","orson_footer_logo","<div><img src=""{{media url=""wysiwyg/orson_footer_logo_14.png""}}"" alt="""" /></div>","2021-11-17 18:03:24","2021-11-17 18:03:24","1"
+"7","Orson Footer Logo","orson_footer_logo","<div><img src=""{{media url=""wysiwyg/footer-logo.png""}}"" alt=""""></div>","2021-11-17 18:03:24","2021-11-22 11:17:58","1"
 "8","Orson Footer Social Button","orson_footer_social_btn","<ul class=""social-btn"">
 <li><a href=""#"">&nbsp;<em class=""fa fa-facebook"">&nbsp;</em></a></li>
 <li><a href=""#"">&nbsp;<em class=""fa fa-twitter"">&nbsp;</em></a></li>
@@ -486,43 +826,43 @@ You can enable it in System Config.",,"0","0"
 </ul>
 </div>","2021-11-17 18:03:24","2021-11-17 18:03:24","1"
 "13","Orson Footer Get In Touch","orson_footer_get_in_touch","<div class=""contact-box"">
-<h4 class=""title""><span>Get in touch</span></h4>
+<h4 class=""title"">Get in touch</h4>
 <div class=""box-content"">
 <ul>
 <li><em class=""fa fa-map-marker"" style=""color: #fff;"">&nbsp;</em>
 <div class=""box-content""><span class=""h4"">ADDRESS</span>
-<p>1908 Street Name, City Name, United States</p>
+<p>144 đường Xuân Thủy, Quận Cầu Giấy, Hà Nội, Việt Nam</p>
 </div>
 </li>
 <li><em class=""fa fa-phone"" style=""color: #fff;"">&nbsp;</em>
 <div class=""box-content""><span class=""h4"">PHONE</span>
-<p>+1 (008) 789 77 35</p>
+<p>+0912958558</p>
 </div>
 </li>
 <li><em class=""fa fa-envelope-o"" style=""color: #fff;"">&nbsp;</em>
 <div class=""box-content""><span class=""h4"">EMAIL</span>
-<p>info@orsontheme.com</p>
+<p>shopgameconsole.com</p>
 </div>
 </li>
 </ul>
 </div>
-</div>","2021-11-17 18:03:24","2021-11-17 18:03:24","1"
+</div>","2021-11-17 18:03:24","2021-11-23 14:16:34","1"
 "14","Orson header hotline","orson_header_hotline","<div class=""hotline"">
 <div class=""icon"">&nbsp;<em class=""fa fa-phone"">&nbsp;</em></div>
 <div class=""text"">Hotline: <a href=""tel:+8866668888"">+88 6666 8888</a></div>
 </div>","2021-11-17 18:03:24","2021-11-17 18:03:24","1"
 "15","Orson Header Our Location","orson_header_our_location","<div class=""custom-link""><a href=""{{store url=""storelocator""}}""><em class=""fa fa-map-marker"">&nbsp;</em>&nbsp;&nbsp;Our Location</a></div>","2021-11-17 18:03:24","2021-11-17 18:03:24","1"
-"16","Orson logo footer","orson_ft_logo","<div class=""logo-footer""><img src=""{{media url=""wysiwyg/footer-logo2.png""}}"" alt="""" /></div>","2021-11-17 18:03:24","2021-11-17 18:03:24","1"
+"16","Orson logo footer","orson_ft_logo","<div class=""logo-footer""><img src=""{{media url=""wysiwyg/footer-logo.png""}}"" alt=""""></div>","2021-11-17 18:03:24","2021-11-22 11:12:10","1"
 "17","Orson Vertical Button","orson_vertical_button","<div class=""vertical-menu-home vertical-menu-button hidden-sm hidden-xs"">
 <div class=""menu-vertical-btn""><span><em class=""fa fa-bars"">&nbsp;</em></span></div>
 <div class=""menu-content"">{{block class=""MGS\Mmegamenu\Block\Vertical"" menu_id=""2"" template=""MGS_Mmegamenu::vertical.phtml""}}</div>
 </div>","2021-11-17 18:03:24","2021-11-17 18:03:24","1"
-"18","Orson Newsletter Popup","newsletter_popup","<p class=""img-newsletter""><img src=""{{media url=""wysiwyg/newsletter-popup.jpg""}}"" alt="""" width=""858"" height=""430"" /></p>
-<div class=""newsletter-popup-content""><span class=""h2"" style=""font-style: 28px;"">NEWSLETTER SIGN UP</span>
-<p class=""desc-popup hidden-xs"">Subscribe to the ORSON mailing list to receive updates on new arrivals,<br /> special offers and other discount information.</p>
+"18","Orson Newsletter Popup","newsletter_popup","<p class=""img-newsletter""><img src=""{{media url=""wysiwyg/play.jpg""}}"" alt="""" width=""858"" height=""430""></p>
+<div class=""newsletter-popup-content""><span class=""h2"" style=""font-style: 29px;"">Đăng ký</span>
+<p class=""desc-popup hidden-xs""><div style=""color=black"">Đăng ký email để nhận được các thông báo mới nhất về các sản phẩm,<br>của cửa hàng cùng các ưu đãi đặc biệt.</div></p>
 {{block class=""Magento\Newsletter\Block\Subscribe"" name=""home.newsletter"" as=""home.newsletter"" template=""Magento_Newsletter::subscribe-popup.phtml""/}}
-<div class=""checkbox""><label for=""dont_show""> <input id=""dont_show"" onclick=""dontShowPopup('dont_show')"" type=""checkbox"" /> Don't show this popup again </label></div>
-</div>","2021-11-17 18:03:24","2021-11-17 18:03:24","1"
+<div class=""checkbox""><label for=""dont_show""> <input id=""dont_show"" type=""checkbox""><div style=""color=black""> Không hiển thị lại thông báo này</div></label></div>
+</div>","2021-11-17 18:03:24","2021-11-23 08:23:18","1"
 "19","Orson Vertical Menu","orson_vertical_menu","<div class=""vertical-menu-home"">
 <div class=""menu-title""><span>All Categories</span> <span class=""icon-vertical pull-right""><em class=""fa fa-bars"">&nbsp;</em></span></div>
 <div class=""menu-content"">{{block class=""MGS\Mmegamenu\Block\Vertical"" menu_id=""3"" template=""MGS_Mmegamenu::vertical.phtml""}}</div>
@@ -650,83 +990,6 @@ With the Fusion Backpack strapped on, every trek is an adventure - even a bus ri
 <script src=""http://w.sharethis.com/button/buttons.js"" type=""text/javascript"" xml=""space""></script>
 <script type=""text/javascript"" xml=""space"">
 stLight.options({publisher: ""2d7bbd98-44f6-4bc2-8f76-d756c348fbb5"", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>","2021-11-17 18:03:24","2021-11-17 18:03:24","1"
-"35","Orson menu Footer 4","orson_footer_4_menu","<ul>
-<li><a href=""#"">HOME</a></li>
-<li><a href=""#"">ABOUT US</a></li>
-<li><a href=""#"">OUR PRODUCTS</a></li>
-<li><a href=""#"">OUR BRANDS</a></li>
-<li><a href=""#"">BLOG</a></li>
-<li><a href=""#"">FAQS</a></li>
-<li><a href=""#"">CONTACT US</a></li>
-</ul>","2021-11-17 18:04:06","2021-11-17 18:04:06","1"
-"36","Orson Logo Footer 4","orson_footer_4_logo","<div class=""logo-footer""><img class=""img-resposive"" src=""{{media url=""wysiwyg/footer_logo_white.png""}}"" alt="""" /></div>","2021-11-17 18:04:06","2021-11-17 18:04:06","1"
-"37","Orson Home 8 Banner Slider","orson_home_8_banner_slider","<div><a href=""#""><img class=""img-responsive"" src=""{{media url=""wysiwyg/slider_orson_h8_1.jpg""}}"" alt="""" /></a></div>
-<div><a href=""#""><img class=""img-responsive"" src=""{{media url=""wysiwyg/slider_orson_h8_1.jpg""}}"" alt="""" /></a></div>","2021-11-17 18:04:06","2021-11-17 18:04:06","1"
-"38","orson Home 8 Title Post Block","orson_home_8_title_post_block","<div class=""text-center title-boder"">
-<div class=""title-content"">
-<h2 class=""title"">From Our Blog</h2>
-</div>
-</div>","2021-11-17 18:04:06","2021-11-17 18:04:06","1"
-"39","Orson Home 8 Title New Block","orson_home_8_title_new_block","<div class=""text-center title-boder"">
-<div class=""title-content"">
-<h2 class=""title"">NEW ARRIVALS</h2>
-</div>
-</div>","2021-11-17 18:04:06","2021-11-17 18:04:06","1"
-"40","Orson Home 8 Sale Block 2","orson_home_8_sale_block_2","<div class=""sale-hot""><span class=""label-hot"">HOT</span>
-<div class=""sale-percent color-theme"">-50%</div>
-<div class=""text"">
-<p><strong>ALL ITEMS LAST SEASON</strong></p>
-<span>Ut id massa ligula. Vestibulum ultrices malesuada lorem, in maximus tellus lobortis bibendum.</span></div>
-</div>","2021-11-17 18:04:06","2021-11-17 18:04:06","1"
-"41","Orson Service Block 8_3","orson_service_block_8_3","<div class=""service-block"" style=""background: #34a853;"">
-<div class=""icon""><span class=""pe-7s-help2"" style=""color: #fff;"">&nbsp;</span></div>
-<div class=""text"">
-<div><strong style=""color: #fff;"">ONLINE SUPPORT 24/7</strong></div>
-<span style=""font-size: 13px; color: #fff;"">Lorem ipsum dolor sit amet</span></div>
-</div>","2021-11-17 18:04:06","2021-11-17 18:04:06","1"
-"42","Orson Service Block 8_2","orson_service_block_8_2","<div class=""service-block"" style=""background: #34a853;"">
-<div class=""icon""><span class=""pe-7s-cart"" style=""color: #fff;"">&nbsp;</span></div>
-<div class=""text"">
-<div><strong style=""color: #fff;"">FREE SHIPPINGS &amp; RETURN</strong></div>
-<span style=""font-size: 13px; color: #fff;"">Free shipping on all orders over $99</span></div>
-</div>","2021-11-17 18:04:06","2021-11-17 18:04:06","1"
-"43","Orson Service Block 8_1","orson_service_block_8_1","<div class=""service-block"" style=""background: #34a853;"">
-<div class=""icon""><span class=""pe-7s-piggy"" style=""color: #fff;"">&nbsp;</span></div>
-<div class=""text"">
-<div><strong style=""color: #fff;"">MONEY BACK GUARANTEE</strong></div>
-<span style=""font-size: 13px; color: #fff;"">100% money back guarantee</span></div>
-</div>","2021-11-17 18:04:06","2021-11-17 18:04:06","1"
-"44","Orson Home 8 Sale Block 1","orson_home_8_sale_block_1","<div class=""sale-hot""><span class=""label-hot"">HOT</span>
-<div class=""sale-percent color-theme"">-40%</div>
-<div class=""text"">
-<p><strong>WOMAN&rsquo;S TANKTOP &amp; CROPTOP</strong></p>
-<span>Ut id massa ligula. Vestibulum ultrices malesuada lorem, in maximus tellus lobortis bibendum.</span></div>
-</div>","2021-11-17 18:04:06","2021-11-17 18:04:06","1"
-"45","Orson Home 14 Service 1","orson_home_14_service_1","<div class=""service-block"" style=""border-right: 1px solid #ddd; border-top: 1px solid #ddd;"">
-<div class=""icon color-theme""><span class=""pe-7s-piggy"">&nbsp;</span></div>
-<div class=""text"">
-<div><strong class=""color-theme"">MONEY BACK GUARANTEE</strong></div>
-<span style=""font-size: 13px;"">100% money back guarantee</span></div>
-</div>","2021-11-17 18:26:01","2021-11-17 18:26:01","1"
-"46","Orson Home 14 Service 2","orson_home_14_service_2","<div class=""service-block"" style=""border-right: 1px solid #ddd; border-top: 1px solid #ddd;"">
-<div class=""icon color-theme""><span class=""pe-7s-cart"">&nbsp;</span></div>
-<div class=""text"">
-<div><strong class=""color-theme"">FREE SHIPPINGS &amp; RETURN</strong></div>
-<span style=""font-size: 13px;"">Free shipping on all orders over $99</span></div>
-</div>","2021-11-17 18:26:01","2021-11-17 18:26:01","1"
-"47","Orson Home 14 Service 3","orson_home_14_service_3","<div class=""service-block"" style=""border-top: 1px solid #ddd;"">
-<div class=""icon color-theme""><span class=""pe-7s-help2"">&nbsp;</span></div>
-<div class=""text"">
-<div><strong class=""color-theme"">ONLINE SUPPORT 24/7</strong></div>
-<span style=""font-size: 13px;"">Lorem ipsum dolor sit amet</span></div>
-</div>","2021-11-17 18:26:01","2021-11-17 18:26:01","1"
-"48","Orson Home 14 Title Shop By Category","orson_home_14_title_shop_by_category","<div class=""center-content"">
-<div class=""title-content margin-bottom50 text-colour-white"">
-<h2 class=""title"">SHOP BY CATEGORIES</h2>
-</div>
-</div>","2021-11-17 18:26:01","2021-11-17 18:26:01","1"
-"49","Orson  Home 14 Slider","orson_home_14_slider","<div><img class=""img-responsive"" src=""{{media url=""wysiwyg/orson_new_slider_1.jpg""}}"" alt="""" /></div>
-<div><img class=""img-responsive"" src=""{{media url=""wysiwyg/orson_new_slider_2.jpg""}}"" alt="""" /></div>","2021-11-17 18:26:01","2021-11-17 18:26:01","1"
 "50","Orson Online Support Home 3","orson_online_support_home_3","<div class=""service-block"" style=""border-top: 1px solid #ddd;"">
 <div class=""icon color-theme""><span class=""pe-7s-help2"">&nbsp;</span></div>
 <div class=""text"">
@@ -870,6 +1133,85 @@ countdown(2016,12,15,8,20);
 <div><strong>FREE SHIPPINGS &amp; RETURN</strong></div>
 <span style=""font-size: 13px;"">Free shipping on all orders over $99</span></div>
 </div>","2021-11-17 19:04:13","2021-11-17 19:04:13","1"
+"67","Orson menu Footer 4","orson_footer_4_menu","<ul>
+<li><a href=""#"">HOME</a></li>
+<li><a href=""#"">ABOUT US</a></li>
+<li><a href=""#"">OUR PRODUCTS</a></li>
+<li><a href=""#"">OUR BRANDS</a></li>
+<li><a href=""#"">BLOG</a></li>
+<li><a href=""#"">FAQS</a></li>
+<li><a href=""#"">CONTACT US</a></li>
+</ul>","2021-11-22 09:19:07","2021-11-22 09:19:07","1"
+"68","Orson Logo Footer 4","orson_footer_4_logo","<div class=""logo-footer""><img class=""img-resposive"" src=""{{media url=""wysiwyg/footer_logo.png""}}"" alt=""""></div>","2021-11-22 09:19:07","2021-11-22 11:12:21","1"
+"69","Orson Home 8 Banner Slider","orson_home_8_banner_slider","<div><a href=""#""><img class=""img-responsive"" src=""{{media url=""wysiwyg/slider_orson_h8_1.jpg""}}"" alt="""" /></a></div>
+<div><a href=""#""><img class=""img-responsive"" src=""{{media url=""wysiwyg/slider_orson_h8_1.jpg""}}"" alt="""" /></a></div>","2021-11-22 09:19:08","2021-11-22 09:19:08","1"
+"70","orson Home 8 Title Post Block","orson_home_8_title_post_block","<div class=""text-center title-boder"">
+<div class=""title-content"">
+<h2 class=""title"">From Our Blog</h2>
+</div>
+</div>","2021-11-22 09:19:08","2021-11-22 09:19:08","1"
+"71","Orson Home 8 Title New Block","orson_home_8_title_new_block","<div class=""text-center title-boder"">
+<div class=""title-content"">
+<h2 class=""title"">NEW ARRIVALS</h2>
+</div>
+</div>","2021-11-22 09:19:08","2021-11-22 09:19:08","1"
+"72","Orson Home 8 Sale Block 2","orson_home_8_sale_block_2","<div class=""sale-hot""><span class=""label-hot"">HOT</span>
+<div class=""sale-percent color-theme"">-50%</div>
+<div class=""text"">
+<p><strong>ALL ITEMS LAST SEASON</strong></p>
+<span>Ut id massa ligula. Vestibulum ultrices malesuada lorem, in maximus tellus lobortis bibendum.</span></div>
+</div>","2021-11-22 09:19:08","2021-11-22 09:19:08","1"
+"73","Orson Service Block 8_3","orson_service_block_8_3","<div class=""service-block"" style=""background: #34a853;"">
+<div class=""icon""><span class=""pe-7s-help2"" style=""color: #fff;"">&nbsp;</span></div>
+<div class=""text"">
+<div><strong style=""color: #fff;"">ONLINE SUPPORT 24/7</strong></div>
+<span style=""font-size: 13px; color: #fff;"">Lorem ipsum dolor sit amet</span></div>
+</div>","2021-11-22 09:19:08","2021-11-22 09:19:08","1"
+"74","Orson Service Block 8_2","orson_service_block_8_2","<div class=""service-block"" style=""background: #34a853;"">
+<div class=""icon""><span class=""pe-7s-cart"" style=""color: #fff;"">&nbsp;</span></div>
+<div class=""text"">
+<div><strong style=""color: #fff;"">FREE SHIPPINGS &amp; RETURN</strong></div>
+<span style=""font-size: 13px; color: #fff;"">Free shipping on all orders over $99</span></div>
+</div>","2021-11-22 09:19:08","2021-11-22 09:19:08","1"
+"75","Orson Service Block 8_1","orson_service_block_8_1","<div class=""service-block"" style=""background: #34a853;"">
+<div class=""icon""><span class=""pe-7s-piggy"" style=""color: #fff;"">&nbsp;</span></div>
+<div class=""text"">
+<div><strong style=""color: #fff;"">MONEY BACK GUARANTEE</strong></div>
+<span style=""font-size: 13px; color: #fff;"">100% money back guarantee</span></div>
+</div>","2021-11-22 09:19:08","2021-11-22 09:19:08","1"
+"76","Orson Home 8 Sale Block 1","orson_home_8_sale_block_1","<div class=""sale-hot""><span class=""label-hot"">HOT</span>
+<div class=""sale-percent color-theme"">-40%</div>
+<div class=""text"">
+<p><strong>WOMAN&rsquo;S TANKTOP &amp; CROPTOP</strong></p>
+<span>Ut id massa ligula. Vestibulum ultrices malesuada lorem, in maximus tellus lobortis bibendum.</span></div>
+</div>","2021-11-22 09:19:08","2021-11-22 09:19:08","1"
+"77","Orson Home 14 Service 1","orson_home_14_service_1","<div class=""service-block"" style=""border-right: 1px solid #ddd; border-top: 1px solid #ddd;"">
+<div class=""icon color-theme""><span class=""pe-7s-piggy"">&nbsp;</span></div>
+<div class=""text"">
+<div><strong class=""color-theme"">Hỗ trợ hoàn tiền uy tín</strong></div>
+<span style=""font-size: 13px;"">100% Hoàn tiền nếu sản phẩm lỗi</span></div>
+</div>","2021-11-22 09:31:20","2021-11-22 10:51:45","1"
+"78","Orson Home 14 Service 2","orson_home_14_service_2","<div class=""service-block"" style=""border-right: 1px solid #ddd; border-top: 1px solid #ddd;"">
+<div class=""icon color-theme""><span class=""pe-7s-cart"">&nbsp;</span></div>
+<div class=""text"">
+<div><strong class=""color-theme"">Giao hàng miễn phí&nbsp;</strong></div>
+<span style=""font-size: 13px;"">Giao hàng miễn phí với các đơn hàng trên 1 triệu đồng</span></div>
+</div>","2021-11-22 09:31:20","2021-11-22 10:52:48","1"
+"79","Orson Home 14 Service 3","orson_home_14_service_3","<div class=""service-block"" style=""border-top: 1px solid #ddd;"">
+<div class=""icon color-theme""><span class=""pe-7s-help2"">&nbsp;</span></div>
+<div class=""text"">
+<div><strong class=""color-theme"">Hỗ trợ khách hàng 24/7</strong></div>
+<span style=""font-size: 13px;"">Khách hàng có thể liên hệ hỗ trợ bất cứ lúc nào</span></div>
+</div>","2021-11-22 09:31:20","2021-11-22 10:54:22","1"
+"80","Orson Home 14 Title Shop By Category","orson_home_14_title_shop_by_category","<div class=""center-content"">
+<div class=""title-content margin-bottom50 text-colour-black"">
+<h2 class=""title"">SHOP BY CATEGORIES</h2>
+</div>
+</div>","2021-11-22 09:31:20","2021-11-22 10:49:10","1"
+"81","Orson  Home 14 Slider","orson_home_14_slider","<div><img class=""img-responsive"" src=""{{media url=""wysiwyg/ps5slider.png""}}"" alt=""""></div>
+<div><img class=""img-responsive"" src=""{{media url=""wysiwyg/banner1.jpg""}}"" alt=""""></div>
+<div><img class=""img-responsive"" src=""{{media url=""wysiwyg/banner2.jpg""}}"" alt=""""></div>
+<div><img class=""img-responsive"" src=""{{media url=""wysiwyg/banner3.jpg""}}"" alt=""""></div>","2021-11-22 09:31:20","2021-11-22 16:12:29","1"
 "block_id","store_id"
 "2","0"
 "3","0"
@@ -902,21 +1244,6 @@ countdown(2016,12,15,8,20);
 "30","0"
 "31","0"
 "32","0"
-"35","0"
-"36","0"
-"37","0"
-"38","0"
-"39","0"
-"40","0"
-"41","0"
-"42","0"
-"43","0"
-"44","0"
-"45","0"
-"46","0"
-"47","0"
-"48","0"
-"49","0"
 "50","0"
 "51","0"
 "52","0"
@@ -934,6 +1261,21 @@ countdown(2016,12,15,8,20);
 "64","0"
 "65","0"
 "66","0"
+"67","0"
+"68","0"
+"69","0"
+"70","0"
+"71","0"
+"72","0"
+"73","0"
+"74","0"
+"75","0"
+"76","0"
+"77","0"
+"78","0"
+"79","0"
+"80","0"
+"81","0"
 "page_id","title","page_layout","meta_keywords","meta_description","identifier","content_heading","content","creation_time","update_time","is_active","sort_order","layout_update_xml","custom_theme","custom_root_template","custom_layout_update_xml","layout_update_selected","custom_theme_from","custom_theme_to","meta_title"
 "1","404 Not Found","2columns-right","Page keywords","Page description","no-route","Whoops, our bad...","<dl>
 <dt>The page you requested was not found, and we have a fine guess why.</dt>
@@ -1216,7 +1558,7 @@ countdown(2016,12,15,8,20);
 <div class=""ch-item"">
 <div class=""ch-info-wrap"">
 <div class=""ch-info"">
-<div class=""ch-info-front""><em class=""icon pe-7s-timer"">&nbsp;</em>
+<div class=""ch-info-front""><em class=""icon pe-7s-timfrontend/Mgs/orson/vi_VN/Magento_CheckoutAgreements/template/checkout/checkout-agreements.html
 <h4 class=""title"">ICONS</h4>
 </div>
 <div class=""ch-info-back"">
@@ -1499,126 +1841,6 @@ Praesent vel neque eleifend dolor dapibus molestie non eu dui. Curabitur suscipi
 </div>
 </div>
 </div>","2021-11-17 18:03:25","2021-11-17 18:03:25","1","0",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-"9","Orson Home Version 8","1column",NULL,NULL,"orson_home_page_version_8",NULL,"<!-- BANNER -->
-<div class=""container-fluid"">
-<div class=""row"">
-<div class=""col-xs-12 no-padding"">{{widget type=""MGS\Mpanel\Block\Widget\Slider"" animate=""1""}}</div>
-<div class=""col-md-4 col-sm-4 col-xs-12 no-padding"">{{widget type=""MGS\Promobanners\Block\Widget\Banner"" banner_id=""orson_banner_home_8_1"" template=""banner.phtml""}}</div>
-<div class=""col-md-4 col-sm-4 col-xs-12 no-padding"">{{widget type=""MGS\Promobanners\Block\Widget\Banner"" banner_id=""orson_banner_home_8_2"" template=""banner.phtml""}}</div>
-<div class=""col-md-4 col-sm-4 col-xs-12 no-padding"">{{widget type=""MGS\Promobanners\Block\Widget\Banner"" banner_id=""orson_banner_home_8_3"" template=""banner.phtml""}}</div>
-</div>
-</div>
-<!-- NEW ARRIVALS -->
-<div style=""padding-top: 36px;"">
-<div class=""container"">
-<div class=""margin-bottom30"">{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""orson_home_8_title_new_block""}}</div>
-<div class=""icon-horizontal"">{{widget type=""MGS\Mpanel\Block\Widget\ProductList"" view_mode=""mode_grid"" type_list=""new"" per_row_grid=""4"" number_show=""8""}}</div>
-</div>
-</div>
-<!-- SALE -->
-<div style=""padding-top: 10px; padding-bottom: 20px;"">
-<div class=""container"">
-<div class=""row"">
-<div class=""col-md-6 col-sm-6 col-xs-12 margin-bottom20"">{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""orson_home_8_sale_block_1""}}</div>
-<div class=""col-md-6 col-sm-6 col-xs-12 margin-bottom20"">{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""orson_home_8_sale_block_2""}}</div>
-</div>
-</div>
-</div>
-<!-- TESTIMONIALS -->
-<div style=""background-color: #f6f5f5; padding-top: 56px; padding-bottom: 58px;"">
-<div class=""container"">
-<div class=""testimonials-center"">{{block class=""MGS\Testimonial\Block\Testimonial"" testimonials_count=""3"" row=""1"" nav=""true"" dots=""false"" autoplay=""false"" template=""slide.phtml""}}</div>
-</div>
-</div>
-<!-- BLOG -->
-<div style=""padding-top: 36px; padding-bottom: 44px;"">
-<div class=""container"">
-<div class=""margin-bottom30"">{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""orson_home_8_title_post_block""}}</div>
-<div>{{widget type=""MGS\Blog\Block\Widget\Lastest"" number_of_posts=""5"" show_thumbnail=""1"" thumbnail_width=""240"" thumbnail_height=""180"" show_short_content=""1"" limit_characters_short_content=""200"" view_as=""owl_carousel"" items=""3"" navigation=""1"" template=""widget/default.phtml""}}</div>
-</div>
-</div>
-<!-- SERVICE -->
-<div class=""container-fluid"">
-<div class=""row"">
-<div class=""col-md-4 col-sm-6 col-xs-12 no-padding"">{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""orson_service_block_8_1""}}</div>
-<div class=""col-md-4 col-sm-6 col-xs-12 no-padding"">{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""orson_service_block_8_2""}}</div>
-<div class=""col-md-4 col-sm-12 col-xs-12 no-padding"">{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""orson_service_block_8_3""}}</div>
-</div>
-</div>","2021-11-17 18:04:06","2021-11-17 18:04:06","1","0",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-"10","Orson Home Version 14","1column",NULL,NULL,"orson_home_page_version_14",NULL,"<div>{{widget type=""MGS\Mpanel\Block\Widget\Slider"" animate=""3""}}</div>
-<div class=""padding-top30"">
-<div class=""container"">
-<div class=""row"">
-<div class=""col-md-4 col-sm-6 col-xs-12 col-xs-half padding-bottom20"">{{widget type=""MGS\Promobanners\Block\Widget\Banner"" banner_id=""orson_banner_vintage_jacket"" template=""banner.phtml""}}</div>
-<div class=""col-md-4 col-sm-6 col-xs-12 col-xs-half padding-bottom20"">{{widget type=""MGS\Promobanners\Block\Widget\Banner"" banner_id=""orson_banner_high_heel"" template=""banner.phtml""}}</div>
-<div class=""col-md-4 col-xs-12 hidden-sm hidden-xs-half padding-bottom20"">{{widget type=""MGS\Promobanners\Block\Widget\Banner"" banner_id=""orson_banner_mini_handbag"" template=""banner.phtml""}}</div>
-</div>
-</div>
-</div>
-<div style=""padding-top: 53px; padding-bottom: 80px;"">
-<div class=""container center-content show-cate desc-center"">{{widget type=""MGS\Mpanel\Block\Widget\ProductList"" title=""New Arrivals"" view_mode=""mode_grid"" type_list=""new"" slider_mode_grid=""1"" per_row_grid=""4"" number_show=""6""}}</div>
-</div>
-<div class=""parallax"" style=""background-image: url('http://magesolution.com/orson/media/mpanel/background/bg_shop_by_category.jpg'); padding-top: 74px; padding-bottom: 80px;"">
-<div class=""container"">
-<div class=""row"">
-<div class=""col-md-3 col-sm-12 col-xs-12"">
-<div class=""row"">
-<div class=""col-xs-12 visible-sm visible-xs"">{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""orson_home_14_title_shop_by_category""}}</div>
-<div class=""col-xs-12 hidden-sm hidden-xs"">
-<div class=""separator"" style=""margin-top: 40px; margin-bottom: 43px;"">&nbsp;</div>
-</div>
-<div class=""col-md-12 col-xs-12 col-sm-6 col-xs-half"">{{widget type=""MGS\Promobanners\Block\Widget\Banner"" banner_id=""orson_home_14_accessories"" template=""banner.phtml""}}</div>
-<div class=""col-xs-12 hidden-sm hidden-xs-half"">
-<div class=""separator"" style=""margin-top: 10px; margin-bottom: 10px;"">&nbsp;</div>
-</div>
-<div class=""col-md-12 col-xs-12 col-sm-6 col-xs-half"">{{widget type=""MGS\Promobanners\Block\Widget\Banner"" banner_id=""orson_home_14_man_category"" template=""banner.phtml""}}</div>
-</div>
-<div class=""col-xs-12 visible-sm visible-xs"">
-<div class=""separator"" style=""margin-top: 10px; margin-bottom: 10px;"">&nbsp;</div>
-</div>
-</div>
-<div class=""col-md-6 col-sm-8 col-xs-12"">
-<div class=""hidden-sm hidden-xs"">{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""orson_home_14_title_shop_by_category""}}</div>
-{{widget type=""MGS\Promobanners\Block\Widget\Banner"" banner_id=""orson_home_14_woman_category"" template=""banner.phtml""}}
-<div class=""visible-xs"">
-<div class=""separator"" style=""margin-top: 10px; margin-bottom: 10px;"">&nbsp;</div>
-</div>
-</div>
-<div class=""col-md-3 col-sm-4 col-xs-12"">
-<div class=""row"">
-<div class=""col-xs-12 hidden-sm hidden-xs"">
-<div class=""separator"" style=""margin-top: 40px; margin-bottom: 43px;"">&nbsp;</div>
-</div>
-<div class=""col-xs-12 col-xs-half"">{{widget type=""MGS\Promobanners\Block\Widget\Banner"" banner_id=""orson_home_14_handbag"" template=""banner.phtml""}}</div>
-<div class=""col-xs-12 hidden-xs-half"">
-<div class=""separator"" style=""margin-top: 10px; margin-bottom: 10px;"">&nbsp;</div>
-</div>
-<div class=""col-xs-12 col-xs-half"">{{widget type=""MGS\Promobanners\Block\Widget\Banner"" banner_id=""orson_home_14_kids"" template=""banner.phtml""}}</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class=""center-content desc-center"" style=""padding-top: 74px;"">
-<div class=""container"">{{widget type=""MGS\Mpanel\Block\Widget\ProductList"" title=""Featured Products"" view_mode=""mode_grid"" type_list=""attribute"" attribute_filter_list=""featured_product"" slider_mode_grid=""1"" per_row_grid=""4"" number_show=""6""}}</div>
-</div>
-<hr style=""margin-top: 80px; margin-bottom: 25px;"" />
-<div class=""no-border-img padding-bottom25"">
-<div class=""container"">{{widget type=""MGS\Brand\Block\Widget\Brand"" brand_ids=""1,2,3,4,5,6"" view_as=""owl_carousel"" items=""5"" image_width=""240"" image_height=""90"" navigation=""1"" template=""widget/default.phtml""}}</div>
-</div>
-<div class=""center-content show-cate desc-center"" style=""background-color: #f8f8f8; padding-top: 76px; padding-bottom: 80px;"">
-<div class=""container"">{{widget type=""MGS\Mpanel\Block\Widget\Deals"" title=""Sale Off"" product_id=""44,20,19,18,12"" hide_add_to_cart=""1"" per_row=""3"" slider_mode=""1"" slider_control=""1""}}</div>
-</div>
-<div class=""center-content background-date"" style=""padding-top: 74px; padding-bottom: 80px;"">
-<div class=""container"">{{widget type=""MGS\Blog\Block\Widget\Lastest"" title=""Blog Updates"" number_of_posts=""4"" show_thumbnail=""1"" thumbnail_width=""240"" thumbnail_height=""180"" show_short_content=""1"" limit_characters_short_content=""150"" view_as=""owl_carousel"" items=""3"" navigation=""1"" template=""widget/default.phtml""}}</div>
-</div>
-<div class=""container-fluid"">
-<div class=""row"">
-<div class=""col-md-4 no-padding col-sm-12 col-xs-12"">{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""orson_home_14_service_1""}}</div>
-<div class=""col-md-4 no-padding col-sm-6 col-xs-12"">{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""orson_home_14_service_2""}}</div>
-<div class=""col-md-4 no-padding col-sm-6 col-xs-12"">{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""orson_home_14_service_3""}}</div>
-</div>
-</div>","2021-11-17 18:26:01","2021-11-17 18:26:01","1","0",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
 "11","Home Page Version 3","1column",NULL,NULL,"home_page_version_3",NULL,"<div>{{widget type=""MGS\Mpanel\Block\Widget\Slider""}}</div>
 <div class=""container padding-top30"">
 <div class=""row"">
@@ -1723,6 +1945,125 @@ Praesent vel neque eleifend dolor dapibus molestie non eu dui. Curabitur suscipi
 <div class=""col-xs-12"">{{widget type=""MGS\Brand\Block\Widget\Brand"" brand_ids=""1,2,3,4,5,6"" view_as=""owl_carousel"" items=""5"" image_width=""240"" image_height=""90"" navigation=""1"" template=""widget/default.phtml""}}</div>
 </div>
 </div>","2021-11-17 19:04:13","2021-11-17 19:04:13","1","0",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"13","Orson Home Version 8","1column",NULL,NULL,"orson_home_page_version_8",NULL,"<!-- BANNER -->
+<div class=""container-fluid"">
+<div class=""row"">
+<div class=""col-xs-12 no-padding"">{{widget type=""MGS\Mpanel\Block\Widget\Slider"" animate=""1""}}</div>
+<div class=""col-md-4 col-sm-4 col-xs-12 no-padding"">{{widget type=""MGS\Promobanners\Block\Widget\Banner"" banner_id=""orson_banner_home_8_1"" template=""banner.phtml""}}</div>
+<div class=""col-md-4 col-sm-4 col-xs-12 no-padding"">{{widget type=""MGS\Promobanners\Block\Widget\Banner"" banner_id=""orson_banner_home_8_2"" template=""banner.phtml""}}</div>
+<div class=""col-md-4 col-sm-4 col-xs-12 no-padding"">{{widget type=""MGS\Promobanners\Block\Widget\Banner"" banner_id=""orson_banner_home_8_3"" template=""banner.phtml""}}</div>
+</div>
+</div>
+<!-- NEW ARRIVALS -->
+<div style=""padding-top: 36px;"">
+<div class=""container"">
+<div class=""margin-bottom30"">{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""orson_home_8_title_new_block""}}</div>
+<div class=""icon-horizontal"">{{widget type=""MGS\Mpanel\Block\Widget\ProductList"" view_mode=""mode_grid"" type_list=""new"" per_row_grid=""4"" number_show=""8""}}</div>
+</div>
+</div>
+<!-- SALE -->
+<div style=""padding-top: 10px; padding-bottom: 20px;"">
+<div class=""container"">
+<div class=""row"">
+<div class=""col-md-6 col-sm-6 col-xs-12 margin-bottom20"">{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""orson_home_8_sale_block_1""}}</div>
+<div class=""col-md-6 col-sm-6 col-xs-12 margin-bottom20"">{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""orson_home_8_sale_block_2""}}</div>
+</div>
+</div>
+</div>
+<!-- TESTIMONIALS -->
+<div style=""background-color: #f6f5f5; padding-top: 56px; padding-bottom: 58px;"">
+<div class=""container"">
+<div class=""testimonials-center"">{{block class=""MGS\Testimonial\Block\Testimonial"" testimonials_count=""3"" row=""1"" nav=""true"" dots=""false"" autoplay=""false"" template=""slide.phtml""}}</div>
+</div>
+</div>
+<!-- BLOG -->
+<div style=""padding-top: 36px; padding-bottom: 44px;"">
+<div class=""container"">
+<div class=""margin-bottom30"">{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""orson_home_8_title_post_block""}}</div>
+<div>{{widget type=""MGS\Blog\Block\Widget\Lastest"" number_of_posts=""5"" show_thumbnail=""1"" thumbnail_width=""240"" thumbnail_height=""180"" show_short_content=""1"" limit_characters_short_content=""200"" view_as=""owl_carousel"" items=""3"" navigation=""1"" template=""widget/default.phtml""}}</div>
+</div>
+</div>
+<!-- SERVICE -->
+<div class=""container-fluid"">
+<div class=""row"">
+<div class=""col-md-4 col-sm-6 col-xs-12 no-padding"">{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""orson_service_block_8_1""}}</div>
+<div class=""col-md-4 col-sm-6 col-xs-12 no-padding"">{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""orson_service_block_8_2""}}</div>
+<div class=""col-md-4 col-sm-12 col-xs-12 no-padding"">{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""orson_service_block_8_3""}}</div>
+</div>
+</div>","2021-11-22 09:19:08","2021-11-22 09:19:08","1","0",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"14","Orson Home Version 14","1column",,,"orson_home_page_version_14",,"<div>{{widget type=""MGS\Mpanel\Block\Widget\Slider"" animate=""3""}}</div>
+<div class=""padding-top30"">
+<div class=""container"">
+<div class=""row"">
+<div class=""col-md-4 col-sm-6 col-xs-12 col-xs-half padding-bottom20"">{{widget type=""MGS\Promobanners\Block\Widget\Banner"" banner_id=""orson_banner_vintage_jacket"" template=""banner.phtml""}}</div>
+<div class=""col-md-4 col-sm-6 col-xs-12 col-xs-half padding-bottom20"">{{widget type=""MGS\Promobanners\Block\Widget\Banner"" banner_id=""orson_banner_high_heel"" template=""banner.phtml""}}</div>
+<div class=""col-md-4 col-xs-12 hidden-sm hidden-xs-half padding-bottom20"">{{widget type=""MGS\Promobanners\Block\Widget\Banner"" banner_id=""orson_banner_mini_handbag"" template=""banner.phtml""}}</div>
+</div>
+</div>
+</div>
+<div style=""padding-top: 53px; padding-bottom: 80px;"">
+<div class=""container center-content show-cate desc-center"">{{widget type=""MGS\Mpanel\Block\Widget\ProductList"" title=""New Arrivals"" view_mode=""mode_grid"" type_list=""new"" slider_mode_grid=""1"" per_row_grid=""4"" number_show=""6""}}</div>
+</div>
+<div class=""parallax"" style=""background-image: url('http://magesolution.com/orson/media/mpanel/background/bg_shop_by_category.jpg'); padding-top: 74px; padding-bottom: 80px;"">
+<div class=""container"">
+<div class=""row"">
+<div class=""col-md-3 col-sm-12 col-xs-12"">
+<div class=""row"">
+<div class=""col-xs-12 visible-sm visible-xs"">{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""orson_home_14_title_shop_by_category""}}</div>
+<div class=""col-xs-12 hidden-sm hidden-xs"">
+<div class=""separator"" style=""margin-top: 40px; margin-bottom: 43px;"">&nbsp;</div>
+</div>
+<div class=""col-md-12 col-xs-12 col-sm-6 col-xs-half"">{{widget type=""MGS\Promobanners\Block\Widget\Banner"" banner_id=""orson_home_14_accessories"" template=""banner.phtml""}}</div>
+<div class=""col-xs-12 hidden-sm hidden-xs-half"">
+<div class=""separator"" style=""margin-top: 10px; margin-bottom: 10px;"">&nbsp;</div>
+</div>
+<div class=""col-md-12 col-xs-12 col-sm-6 col-xs-half"">{{widget type=""MGS\Promobanners\Block\Widget\Banner"" banner_id=""orson_home_14_man_category"" template=""banner.phtml""}}</div>
+</div>
+<div class=""col-xs-12 visible-sm visible-xs"">
+<div class=""separator"" style=""margin-top: 10px; margin-bottom: 10px;"">&nbsp;</div>
+</div>
+</div>
+<div class=""col-md-6 col-sm-8 col-xs-12"">
+<div class=""hidden-sm hidden-xs"">{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""orson_home_14_title_shop_by_category""}}</div>
+{{widget type=""MGS\Promobanners\Block\Widget\Banner"" banner_id=""orson_home_14_woman_category"" template=""banner.phtml""}}
+<div class=""visible-xs"">
+<div class=""separator"" style=""margin-top: 10px; margin-bottom: 10px;"">&nbsp;</div>
+</div>
+</div>
+<div class=""col-md-3 col-sm-4 col-xs-12"">
+<div class=""row"">
+<div class=""col-xs-12 hidden-sm hidden-xs"">
+<div class=""separator"" style=""margin-top: 40px; margin-bottom: 43px;"">&nbsp;</div>
+</div>
+<div class=""col-xs-12 col-xs-half"">{{widget type=""MGS\Promobanners\Block\Widget\Banner"" banner_id=""orson_home_14_handbag"" template=""banner.phtml""}}</div>
+<div class=""col-xs-12 hidden-xs-half"">
+<div class=""separator"" style=""margin-top: 10px; margin-bottom: 10px;"">&nbsp;</div>
+</div>
+<div class=""col-xs-12 col-xs-half"">{{widget type=""MGS\Promobanners\Block\Widget\Banner"" banner_id=""orson_home_14_kids"" template=""banner.phtml""}}</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=""center-content desc-center"" style=""padding-top: 74px;"">
+<div class=""container"">{{widget type=""MGS\Mpanel\Block\Widget\ProductList"" title=""Featured Products"" view_mode=""mode_grid"" type_list=""new"" category_id=""category/9"" slider_mode_grid=""1"" per_row_grid=""4"" number_show=""8""}}</div>
+</div>
+<div class=""no-border-img padding-bottom25"">
+<div class=""container"">&nbsp;</div>
+</div>
+<div class=""center-content show-cate desc-center"" style=""background-color: #f8f8f8; padding-top: 76px; padding-bottom: 80px;"">
+<div class=""container"">{{widget type=""MGS\Mpanel\Block\Widget\Deals"" title=""Sale Off"" product_id=""14"" hide_add_to_cart=""1"" per_row=""3"" slider_mode=""1"" slider_control=""1""}}</div>
+</div>
+<div class=""center-content background-date"" style=""padding-top: 74px; padding-bottom: 80px;"">
+<div class=""container"">{{widget type=""MGS\Blog\Block\Widget\Lastest"" title=""Blog Updates"" number_of_posts=""4"" show_thumbnail=""1"" thumbnail_width=""240"" thumbnail_height=""180"" show_short_content=""1"" limit_characters_short_content=""150"" view_as=""owl_carousel"" items=""3"" navigation=""1"" template=""widget/default.phtml""}}</div>
+</div>
+<div class=""container-fluid"">
+<div class=""row"">
+<div class=""col-md-4 no-padding col-sm-12 col-xs-12"">{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""orson_home_14_service_1""}}</div>
+<div class=""col-md-4 no-padding col-sm-6 col-xs-12"">{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""orson_home_14_service_2""}}</div>
+<div class=""col-md-4 no-padding col-sm-6 col-xs-12"">{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""orson_home_14_service_3""}}</div>
+</div>
+</div>","2021-11-22 09:31:20","2021-11-23 14:08:23","1","0",NULL,,,NULL,NULL,NULL,NULL,
 "page_id","store_id"
 "1","0"
 "2","0"
@@ -1732,10 +2073,10 @@ Praesent vel neque eleifend dolor dapibus molestie non eu dui. Curabitur suscipi
 "6","0"
 "7","0"
 "8","0"
-"9","0"
-"10","0"
 "11","0"
 "12","0"
+"13","0"
+"14","0"
 "config_id","scope","scope_id","path","value","updated_at"
 "1","default","0","catalog/search/engine","elasticsearch7","2021-11-17 13:04:34"
 "2","default","0","catalog/search/elasticsearch7_server_hostname","localhost","2021-11-17 13:04:34"
@@ -1784,9 +2125,9 @@ Praesent vel neque eleifend dolor dapibus molestie non eu dui. Curabitur suscipi
 "46","websites","1","design/theme/theme_id","6","2021-11-17 16:35:11"
 "47","websites","1","design/header/welcome","Chào mừng tới ShopGameConsole.com","2021-11-17 16:40:22"
 "48","default","0","mgstheme/general/width","width1200","2021-11-17 18:03:25"
-"49","default","0","mgstheme/general/header","header_7","2021-11-17 19:04:19"
-"50","default","0","mgstheme/general/footer","footer_2","2021-11-17 18:26:04"
-"51","default","0","mgstheme/general/sticky_menu","1","2021-11-17 18:03:25"
+"49","default","0","mgstheme/general/header","header_6","2021-11-22 09:31:25"
+"50","default","0","mgstheme/general/footer","footer_2","2021-11-22 09:31:25"
+"51","default","0","mgstheme/general/sticky_menu","0","2021-11-22 10:09:24"
 "52","default","0","mgstheme/general/back_to_top","1","2021-11-17 18:03:25"
 "53","default","0","mgstheme/general/popup_newsletter","1","2021-11-17 18:03:25"
 "54","default","0","mgstheme/fonts/default_font","Roboto","2021-11-17 18:03:25"
@@ -1800,7 +2141,7 @@ Praesent vel neque eleifend dolor dapibus molestie non eu dui. Curabitur suscipi
 "62","default","0","mgstheme/fonts/price","Roboto","2021-11-17 18:03:25"
 "63","default","0","mgstheme/fonts/menu","Roboto","2021-11-17 18:03:25"
 "64","default","0","mgstheme/banner_slider/slider_tyle","2","2021-11-17 18:03:25"
-"65","default","0","mgstheme/banner_slider/identifier_block","orson_home-6_slider","2021-11-17 19:04:19"
+"65","default","0","mgstheme/banner_slider/identifier_block","orson_home_14_slider","2021-11-22 09:31:25"
 "66","default","0","mgstheme/banner_slider/banner_owl_loop","1","2021-11-17 18:03:25"
 "67","default","0","mgstheme/banner_slider/banner_owl_dot","1","2021-11-17 18:03:25"
 "68","default","0","mgstheme/banner_slider/banner_owl_auto","1","2021-11-17 18:03:25"
@@ -1816,12 +2157,23 @@ Praesent vel neque eleifend dolor dapibus molestie non eu dui. Curabitur suscipi
 "78","default","0","mpanel/contact_google_map/display_google_map","1","2021-11-17 18:03:25"
 "79","default","0","mpanel/contact_google_map/address_google_map","New York","2021-11-17 18:03:25"
 "80","default","0","mpanel/contact_google_map/html_google_map","<div class=""infobox""><h3 class=""title"">Orson</h3><span>New York</span><br>NY, United States <br>+0123456789<p></p></div>","2021-11-17 18:03:25"
-"81","default","0","web/default/cms_home_page","orson_home_page_version_6","2021-11-17 19:04:14"
-"82","default","0","mgstheme/custom_style/style",".search-form .form-search .search-select, .search-form .form-search .search-select #select-cat-dropdown, .search-form .form-search{
-border-color: #34a853;}","2021-11-17 19:04:19"
-"83","default","0","color/general/theme_color","#34a853","2021-11-17 19:04:20"
+"81","default","0","web/default/cms_home_page","orson_home_page_version_14","2021-11-22 09:31:20"
+"82","default","0","mgstheme/custom_style/style",".products-grid .product-content .product-top .icon-links li button:hover,.desc-center .products-grid .product-content .product-desc .controls .tocart:hover,.desc-center .products-grid .product-content .product-desc .controls .tocart:hover .icon,.widget-latest .item .go-to-detail:hover,.footer .footer-container .middle-footer .contact-box ul li .fa,.scroll-to-top {
+color: #fff;
+}
+.footer .footer-container .middle-footer .footer-box h4 span::after {
+background-color: rgba(255, 255, 255, 0.15);
+}
+.footer .footer-container .middle-footer .footer-box h4::after {
+content:none;
+}
+
+.search-form .form-search .search-select,.search-form .form-search .search-select #select-cat-dropdown,.search-form .form-search {
+	border-color: #000;
+}","2021-11-22 10:09:24"
+"83","default","0","color/general/theme_color","#7e0016","2021-11-22 09:31:25"
 "84","default","0","mgstheme/general/layout","wide","2021-11-17 18:04:30"
-"85","default","0","mgstheme/background/background_color",NULL,"2021-11-17 18:04:30"
+"85","default","0","mgstheme/background/background_color","#FFFFFF","2021-11-22 17:26:53"
 "86","default","0","mgstheme/background/background_cover","0","2021-11-17 18:04:30"
 "87","default","0","mgstheme/background/background_repeat","no-repeat","2021-11-17 18:04:30"
 "88","default","0","mgstheme/background/background_position_x","left","2021-11-17 18:04:30"
@@ -1960,6 +2312,7 @@ border-color: #34a853;}","2021-11-17 19:04:19"
 "35","1",NULL,NULL,NULL,NULL
 "36","1",NULL,NULL,NULL,NULL
 "entity_id","website_id","email","group_id","increment_id","store_id","created_at","updated_at","is_active","disable_auto_group_change","created_in","prefix","firstname","middlename","lastname","suffix","dob","password_hash","rp_token","rp_token_created_at","default_billing","default_shipping","taxvat","confirmation","gender","failures_num","first_failure","lock_expires","session_cutoff"
+"1","1","ngquangdinhhzz@gmail.com","1",NULL,"1","2021-11-23 14:17:35","2021-11-23 14:17:38","1","0","Default Store View",NULL,"Nguyen",NULL,"Dinh",NULL,NULL,"e8b80e3a339183a129b350bfb47af3c5618409afe76e1a674c0043cd856a0d68:kyxDX0bD3NAJSzIXIsEM2emnLe1DCKSE:3_32_2_67108864","jj2v0vhgwgIHYtySDmuhjsuwSByVfoHR","2021-11-23 07:17:38",NULL,NULL,NULL,NULL,NULL,"0",NULL,NULL,NULL
 "value_id","attribute_id","entity_id","value"
 "value_id","attribute_id","entity_id","value"
 "value_id","attribute_id","entity_id","value"
@@ -2051,6 +2404,7 @@ border-color: #34a853;}","2021-11-17 19:04:19"
 "customer_register_address","35"
 "customer_register_address","36"
 "entity_id","name","email","group_id","created_at","website_id","confirmation","created_in","dob","gender","taxvat","lock_expires","shipping_full","billing_full","billing_firstname","billing_lastname","billing_telephone","billing_postcode","billing_country_id","billing_region","billing_region_id","billing_street","billing_city","billing_fax","billing_vat_id","billing_company"
+"1","Nguyen Dinh","ngquangdinhhzz@gmail.com","1","2021-11-23 14:17:35","1",NULL,"Default Store View",NULL,NULL,NULL,NULL,,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
 "customer_group_id","customer_group_code","tax_class_id"
 "0","NOT LOGGED IN","3"
 "1","General","3"
@@ -2058,7 +2412,9 @@ border-color: #34a853;}","2021-11-17 19:04:19"
 "3","Retailer","3"
 "entity_id","customer_group_id","website_id"
 "log_id","customer_id","last_login_at","last_logout_at"
+"1","1","2021-11-23 14:17:41",NULL
 "visitor_id","customer_id","session_id","created_at","last_visit_at"
+"1","1",NULL,"2021-11-23 14:17:32","2021-11-23 14:27:41"
 "design_change_id","store_id","design","date_from","date_to"
 "entity_id","store_website_id","store_group_id","store_id","theme_theme_id"
 "0",NULL,NULL,NULL,
@@ -4681,7 +5037,7 @@ border-color: #34a853;}","2021-11-17 19:04:19"
 "134","4","gift_message_available",NULL,"Magento\Catalog\Model\Product\Attribute\Backend\Boolean","varchar",NULL,NULL,"select","Allow Gift Message",NULL,"Magento\Catalog\Model\Product\Attribute\Source\Boolean","0","0",NULL,"0",NULL
 "135","4","swatch_image",NULL,NULL,"varchar",NULL,"Magento\Catalog\Model\Product\Attribute\Frontend\Image","media_image","Swatch",NULL,NULL,"0","0",NULL,"0",NULL
 "136","4","tax_class_id",NULL,NULL,"int",NULL,NULL,"select","Tax Class",NULL,"Magento\Tax\Model\TaxClass\Source\Product","0","0","2","0",NULL
-"137","4","mgs_brand",NULL,NULL,"int",NULL,NULL,"select","Brand",NULL,NULL,"0","1",NULL,"0",NULL
+"137","4","mgs_brand",NULL,NULL,"int",NULL,NULL,"select","Brand",NULL,NULL,"0","1",,"0",NULL
 "138","1","mgs_social_fid",NULL,NULL,"text",NULL,NULL,"text",NULL,NULL,NULL,"0","1",NULL,"0",NULL
 "139","1","mgs_social_ftoken",NULL,NULL,"text",NULL,NULL,"text",NULL,NULL,NULL,"0","1",NULL,"0",NULL
 "140","1","mgs_social_gid",NULL,NULL,"text",NULL,NULL,"text",NULL,NULL,NULL,"0","1",NULL,"0",NULL
@@ -4950,7 +5306,7 @@ border-color: #34a853;}","2021-11-17 19:04:19"
 "3","catalog_category_product","invalid","2021-11-17 09:58:41","64dfe050fa38729b2da282b6d3fffadc"
 "4","catalog_product_category","valid","2021-11-17 06:10:58","66cb75d956b7ef9fdc738c85b1199b01"
 "5","catalogrule_rule","invalid","2021-11-17 09:58:41","96b91c6cf9cae6707c1d166742683601"
-"6","catalog_product_attribute","valid","2021-11-17 06:11:00","ecbaae225b67e09879e5d034e9036148"
+"6","catalog_product_attribute","invalid","2021-11-23 02:31:23","ecbaae225b67e09879e5d034e9036148"
 "7","cataloginventory_stock","invalid","2021-11-17 09:58:41","dfdc8958517005cb9b6ef9932255c89a"
 "8","catalog_product_price","invalid","2021-11-17 09:58:41","5115499c6fd2f627a533c768b43cdeb0"
 "9","catalogrule_product","valid","2021-11-17 06:11:00","e024a5794aa43d89643824563b2b7a65"
@@ -5161,26 +5517,6 @@ border-color: #34a853;}","2021-11-17 19:04:19"
 "alert_price_id","customer_id","product_id","price","website_id","store_id","add_date","last_send_date","send_count","status"
 "alert_stock_id","customer_id","product_id","website_id","store_id","add_date","send_date","send_count","status"
 "promobanners_id","title","filename","url","button","text_align","content","effect","custom_class","status","creation_time","update_time","identifier"
-"1","Orson Banner Home 8_3","/b/a/banner_h8_3.jpg","#",NULL,"middle-left",NULL,"zoom","type1","1","2021-11-17 18:04:06","2021-11-17 18:04:06","orson_banner_home_8_3"
-"2","Orson Banner Home 8_2","/b/a/banner_h8_2.jpg","#",NULL,"middle-left",NULL,"zoom","type1","1","2021-11-17 18:04:06","2021-11-17 18:04:06","orson_banner_home_8_2"
-"3","Orson Banner Home 8_1","/b/a/banner_h8_1.jpg","#",NULL,"middle-left",NULL,"zoom","type1","1","2021-11-17 18:04:06","2021-11-17 18:04:06","orson_banner_home_8_1"
-"4","Orson banner high heel","/h/i/high_heel.jpg","#","Shop Now","middle-left","<p style=""color: #a75720;""><strong>20% OFF</strong></p>
-<div style=""font-size: 30px; line-height: 0.9; font-weight: 900;""><em>HIGH-HEEL<br><span class=""color-theme"">ADDICTED</span></em>
-<br><br>
-</div>","zoom","type1","1","2021-11-17 18:26:01","2021-11-17 18:26:01","orson_banner_high_heel"
-"5","Orson banner vintage jacket","/v/i/vintage_jacket.jpg","#","Shop Now","middle-left","<p style=""color: #7e0016;""><strong>HOT ITEM!</strong></p>
-<div style=""font-size: 30px; line-height: 0.9; font-weight: 900;""><em>VINTAGE<br>JACKET</em>
-<br><br>
-</div>","zoom","type1","1","2021-11-17 18:26:01","2021-11-17 18:26:01","orson_banner_vintage_jacket"
-"6","Orson banner mini handbag","/m/i/mini_handbag.jpg","#","Shop Now","middle-left","<p><strong>FLASH SALE</strong></p>
-<div style=""font-size: 30px; line-height: 0.9; font-weight: 900;""><em><span style=""color: #a6571f;"">MINI</span><br>HANDBAG</em>
-<br><br>
-</div>","zoom","type1","1","2021-11-17 18:26:01","2021-11-17 18:26:01","orson_banner_mini_handbag"
-"7","Orson Home 14 Woman Category","/w/o/women_cate.jpg","#","Woman Category","bottom-center",NULL,"zoom","banner-padding30 btn-white","1","2021-11-17 18:26:01","2021-11-17 18:26:01","orson_home_14_woman_category"
-"8","Orson Home 14 Kids","/k/i/kid_cate.jpg","#","Kids","bottom-center",NULL,"zoom","banner-padding30 btn-white","1","2021-11-17 18:26:01","2021-11-17 18:26:01","orson_home_14_kids"
-"9","Orson Home 14 Handbag","/h/a/hand_cate.jpg","#","Handbag","bottom-center",NULL,"zoom","banner-padding30 btn-white","1","2021-11-17 18:26:01","2021-11-17 18:26:01","orson_home_14_handbag"
-"10","Orson Home 14 Man Category","/m/a/man_cate.jpg","#","Man Category","bottom-center",NULL,"zoom","banner-padding30 btn-white","1","2021-11-17 18:26:01","2021-11-17 18:26:01","orson_home_14_man_category"
-"11","Orson Home 14 Accessories","/a/c/accessories_cate.jpg","#","Accessories","bottom-center",NULL,"zoom","banner-padding30 btn-white","1","2021-11-17 18:26:01","2021-11-17 18:26:01","orson_home_14_accessories"
 "12","Orson Home 3 Men White","/b/a/banner_men_h3.jpg",NULL,NULL,"middle-right","<div class=""padding-right35 text-left"">
 <div style=""font-size: 30px;line-height: 1.1;"" class=""margin-bottom20"">
 <strong style=""color: #222;"">MAN<em style=""color: #ea7b45;"">in</em></strong><br>
@@ -5197,6 +5533,26 @@ border-color: #34a853;}","2021-11-17 19:04:19"
 </div>","zoom",NULL,"1","2021-11-17 18:26:13","2021-11-17 18:26:13","orson_home_3_fashion_trending"
 "14","Orson Home 6 Banner 2","/b/a/banner_h6_2.jpg","#",NULL,"middle-left",NULL,"zoom",NULL,"1","2021-11-17 19:04:13","2021-11-17 19:04:13","orson_home_6_banner_2"
 "15","Orson Home 6 Banner 1","/b/a/banner_h6_1.jpg","#","Shop Now","middle-left",NULL,"zoom",NULL,"1","2021-11-17 19:04:13","2021-11-17 19:04:13","orson_home_6_banner_1"
+"16","Orson Banner Home 8_3","/b/a/banner_h8_3.jpg","#",NULL,"middle-left",NULL,"zoom","type1","1","2021-11-22 09:19:08","2021-11-22 09:19:08","orson_banner_home_8_3"
+"17","Orson Banner Home 8_2","/b/a/banner_h8_2.jpg","#",NULL,"middle-left",NULL,"zoom","type1","1","2021-11-22 09:19:08","2021-11-22 09:19:08","orson_banner_home_8_2"
+"18","Orson Banner Home 8_1","/b/a/banner_h8_1.jpg","#",NULL,"middle-left",NULL,"zoom","type1","1","2021-11-22 09:19:08","2021-11-22 09:19:08","orson_banner_home_8_1"
+"19","Orson banner high heel","/t/a/taycamdeal.jpg","/tay-cm-pxn-9613-white-bluetooth-wireless-gaming-danh-cho-pc-android-smart-tv.html","Mua Ngay ","middle-left","<p style=""color: #a75720;""><strong>Chỉ 599k</strong></p>
+<div style=""font-size: 30px; line-height: 0.9; font-weight: 900;""><em> PXN<br><span class=""color-theme""></span></em>
+<br><br>
+</div>","zoom","type1","1","2021-11-22 09:31:20","2021-11-23 08:31:11","orson_banner_high_heel"
+"20","Ps5 deal","/p/s/ps5deal.jpg","may-choi-game-playstation-5-pro.html","Mua Ngay ","middle-left","<p style=""color: #7e0016;""><strong>Hàng mới!</strong></p>
+<div style=""font-size: 30px; line-height: 0.9; font-weight: 900;""><em>Ps5 Pro<br></em>
+<br><br>
+</div>","zoom","type1","1","2021-11-22 09:31:20","2021-11-22 17:30:57","orson_banner_vintage_jacket"
+"21","ps4 deal","/k/h/kh_ng_ti_u_.jpg","/may-choi-game-playstation-ps4-pro-1tb-sony-cuh-7218b-pty.html","Mua Ngay ","middle-left","<p><strong>SALE Chớp nhoáng</strong></p>
+<div style=""font-size: 30px; line-height: 0.9; font-weight: 900;""><em><span style=""color: #a6571f;"">Giảm 20%</span><br>PS4 Pro</em>
+<br><br>
+</div>","zoom","type1","1","2021-11-22 09:31:20","2021-11-23 08:35:58","orson_banner_mini_handbag"
+"22","Game Console","/g/a/gameconsole_2.jpg","game-console.html","Game Console","bottom-center",NULL,"zoom","banner-padding30 btn-white","1","2021-11-22 09:31:20","2021-11-22 11:49:58","orson_home_14_woman_category"
+"23","Phụ kiện ","/p/h/phukien.jpg","ph-kin-choi-game.html","Phụ kiện ","bottom-left",NULL,"zoom","banner-padding30 btn-white","1","2021-11-22 09:31:20","2021-11-22 12:02:12","orson_home_14_kids"
+"24","Tay cầm","/c/o/console.jpg","tay-cm.html","Tay cầm","bottom-center",NULL,"zoom","banner-padding30 btn-white","1","2021-11-22 09:31:20","2021-11-22 11:58:32","orson_home_14_handbag"
+"25","Xbox","/x/b/xboxx.jpg","may-choi-game/xbox.html","Xbox","top-right",NULL,"zoom","banner-padding30 btn-white","1","2021-11-22 09:31:20","2021-11-22 12:01:47","orson_home_14_man_category"
+"26","Playstation","/p/s/ps5.jpg","may-choi-game/playstation.html","Playstation","top-right",NULL,"zoom","banner-padding30 btn-white","1","2021-11-22 09:31:20","2021-11-23 08:30:11","orson_home_14_accessories"
 "id","name"
 "11","async.operations.all"
 "7","codegenerator"
@@ -5213,14 +5569,20 @@ border-color: #34a853;}","2021-11-17 19:04:19"
 "id","topic_name","body"
 "id","queue_id","message_id","updated_at","status","number_of_trials"
 "version"
-"version-6194efc41255f"
+"version-619b706d617fa"
 "entity_id","store_id","created_at","updated_at","converted_at","is_active","is_virtual","is_multi_shipping","items_count","items_qty","orig_order_id","store_to_base_rate","store_to_quote_rate","base_currency_code","store_currency_code","quote_currency_code","grand_total","base_grand_total","checkout_method","customer_id","customer_tax_class_id","customer_group_id","customer_email","customer_prefix","customer_firstname","customer_middlename","customer_lastname","customer_suffix","customer_dob","customer_note","customer_note_notify","customer_is_guest","remote_ip","applied_rule_ids","reserved_order_id","password_hash","coupon_code","global_currency_code","base_to_global_rate","base_to_quote_rate","customer_taxvat","customer_gender","subtotal","base_subtotal","subtotal_with_discount","base_subtotal_with_discount","is_changed","trigger_recollect","ext_shipping_info","gift_message_id","is_persistent"
+"1","1","2021-11-23 14:17:43","2021-11-23 14:18:34",NULL,"1","1","0","1","1.0000","0","0.0000","0.0000","VND","VND","VND","10300000.0000","10300000.0000",NULL,"1","3","1","ngquangdinhhzz@gmail.com",NULL,"Nguyen",NULL,"Dinh",NULL,NULL,NULL,"1","0","127.0.0.1",NULL,NULL,NULL,NULL,"VND","1.0000","1.0000",NULL,NULL,"10300000.0000","10300000.0000","10300000.0000","10300000.0000","1","0",NULL,NULL,"0"
 "address_id","quote_id","created_at","updated_at","customer_id","save_in_address_book","customer_address_id","address_type","email","prefix","firstname","middlename","lastname","suffix","company","street","city","region","region_id","postcode","country_id","telephone","fax","same_as_billing","collect_shipping_rates","shipping_method","shipping_description","weight","subtotal","base_subtotal","subtotal_with_discount","base_subtotal_with_discount","tax_amount","base_tax_amount","shipping_amount","base_shipping_amount","shipping_tax_amount","base_shipping_tax_amount","discount_amount","base_discount_amount","grand_total","base_grand_total","customer_notes","applied_taxes","discount_description","shipping_discount_amount","base_shipping_discount_amount","subtotal_incl_tax","base_subtotal_total_incl_tax","discount_tax_compensation_amount","base_discount_tax_compensation_amount","shipping_discount_tax_compensation_amount","base_shipping_discount_tax_compensation_amnt","shipping_incl_tax","base_shipping_incl_tax","vat_id","vat_is_valid","vat_request_id","vat_request_date","vat_request_success","validated_country_code","validated_vat_number","gift_message_id","free_shipping"
+"1","1","2021-11-23 14:17:43","2021-11-23 14:17:43","1","0",NULL,"billing","ngquangdinhhzz@gmail.com",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,"0","0",NULL,NULL,"0.0000","10300000.0000","10300000.0000","10300000.0000","10300000.0000","0.0000","0.0000","0.0000","0.0000","0.0000","0.0000","0.0000","0.0000","10300000.0000","10300000.0000",NULL,"[]",NULL,"0.0000","0.0000","10300000.0000","10300000.0000","0.0000","0.0000","0.0000",NULL,"0.0000","0.0000",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,"0"
+"2","1","2021-11-23 14:17:43","2021-11-23 14:17:43","1","0",NULL,"shipping","ngquangdinhhzz@gmail.com",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,"1","1",NULL,NULL,"0.0000","0.0000","0.0000","0.0000","0.0000","0.0000","0.0000","0.0000","0.0000","0.0000","0.0000","0.0000","0.0000","0.0000","0.0000",NULL,"null",NULL,"0.0000","0.0000","0.0000",NULL,"0.0000","0.0000","0.0000",NULL,"0.0000","0.0000",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,"0"
 "address_item_id","parent_item_id","quote_address_id","quote_item_id","created_at","updated_at","applied_rule_ids","additional_data","weight","qty","discount_amount","tax_amount","row_total","base_row_total","row_total_with_discount","base_discount_amount","base_tax_amount","row_weight","product_id","super_product_id","parent_product_id","store_id","sku","image","name","description","is_qty_decimal","price","discount_percent","no_discount","tax_percent","base_price","base_cost","price_incl_tax","base_price_incl_tax","row_total_incl_tax","base_row_total_incl_tax","discount_tax_compensation_amount","base_discount_tax_compensation_amount","gift_message_id","free_shipping"
 "entity_id","quote_id","masked_id"
 "item_id","quote_id","created_at","updated_at","product_id","store_id","parent_item_id","is_virtual","sku","name","description","applied_rule_ids","additional_data","is_qty_decimal","no_discount","weight","qty","price","base_price","custom_price","discount_percent","discount_amount","base_discount_amount","tax_percent","tax_amount","base_tax_amount","row_total","base_row_total","row_total_with_discount","row_weight","product_type","base_tax_before_discount","tax_before_discount","original_custom_price","redirect_url","base_cost","price_incl_tax","base_price_incl_tax","row_total_incl_tax","base_row_total_incl_tax","discount_tax_compensation_amount","base_discount_tax_compensation_amount","gift_message_id","free_shipping","weee_tax_applied","weee_tax_applied_amount","weee_tax_applied_row_amount","weee_tax_disposition","weee_tax_row_disposition","base_weee_tax_applied_amount","base_weee_tax_applied_row_amnt","base_weee_tax_disposition","base_weee_tax_row_disposition"
+"1","1","2021-11-23 14:18:18","2021-11-23 14:18:34","14","1",NULL,"1","PlaystationPS4Pro1TBSONYCUH-7218BPTY","Máy chơi game Playstation PS4 Pro 1TB SONY CUH-7218B PTY",NULL,NULL,NULL,"0","0",NULL,"1.0000","10300000.0000","10300000.0000",NULL,"0.0000","0.0000","0.0000","0.0000","0.0000","0.0000","10300000.0000","10300000.0000","0.0000","0.0000","virtual",NULL,NULL,NULL,NULL,"15346000.0000","10300000.0000","10300000.0000","10300000.0000","10300000.0000","0.0000","0.0000",NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
 "option_id","item_id","product_id","code","value"
+"1","1","14","info_buyRequest","{""uenc"":""aHR0cDovL3lvdXJuYW1lLm1hZ2VudG8uY29tL21heS1jaG9pLWdhbWUvcGxheXN0YXRpb24uaHRtbA,,"",""product"":""14"",""qty"":1}"
 "payment_id","quote_id","created_at","updated_at","method","cc_type","cc_number_enc","cc_last_4","cc_cid_enc","cc_owner","cc_exp_month","cc_exp_year","cc_ss_owner","cc_ss_start_month","cc_ss_start_year","po_number","additional_data","cc_ss_issue","additional_information","paypal_payer_id","paypal_payer_status","paypal_correlation_id"
+"1","1","2021-11-23 14:18:58","2021-11-23 14:18:58","checkmo",NULL,NULL,NULL,NULL,NULL,NULL,"0",NULL,"0","0",NULL,NULL,NULL,"null",NULL,NULL,NULL
 "rate_id","address_id","created_at","updated_at","carrier","carrier_title","code","method","method_description","price","error_message","method_title"
 "rating_id","entity_id","rating_code","position","is_active"
 "1","1","Quality","0","1"
@@ -5430,11 +5792,11 @@ border-color: #34a853;}","2021-11-17 19:04:19"
 "3","1","design_theme_listing","default","1","Default View","{""views"":{""default"":{""label"":""Default View"",""index"":""default"",""editable"":false,""data"":{""filters"":{""applied"":{""placeholder"":true}},""paging"":{""pageSize"":20,""current"":1,""options"":{""20"":{""value"":20,""label"":20},""30"":{""value"":30,""label"":30},""50"":{""value"":50,""label"":50},""100"":{""value"":100,""label"":100},""200"":{""value"":200,""label"":200}},""value"":20},""columns"":{""theme_id"":{""visible"":false,""sorting"":""asc""},""theme_title"":{""visible"":true,""sorting"":false},""parent_theme_title"":{""visible"":true,""sorting"":false},""theme_path"":{""visible"":true,""sorting"":false},""actions"":{""visible"":true,""sorting"":false}},""displayMode"":""grid"",""positions"":{""theme_id"":0,""theme_title"":1,""parent_theme_title"":2,""theme_path"":3,""actions"":4}},""value"":""Default View""}}}","2021-11-17 07:35:32","2021-11-17 07:35:32"
 "4","1","design_theme_listing","current","0",NULL,"{""current"":{""filters"":{""applied"":{""placeholder"":true}},""paging"":{""pageSize"":20,""current"":1,""options"":{""20"":{""value"":20,""label"":20},""30"":{""value"":30,""label"":30},""50"":{""value"":50,""label"":50},""100"":{""value"":100,""label"":100},""200"":{""value"":200,""label"":200}},""value"":20},""columns"":{""theme_id"":{""visible"":false,""sorting"":""asc""},""theme_title"":{""visible"":true,""sorting"":false},""parent_theme_title"":{""visible"":true,""sorting"":false},""theme_path"":{""visible"":true,""sorting"":false},""actions"":{""visible"":true,""sorting"":false}},""displayMode"":""grid"",""positions"":{""theme_id"":0,""theme_title"":1,""parent_theme_title"":2,""theme_path"":3,""actions"":4}}}","2021-11-17 07:35:33","2021-11-17 07:35:33"
 "5","1","product_listing","default","1","Default View","{""views"":{""default"":{""label"":""Default View"",""index"":""default"",""editable"":false,""data"":{""filters"":{""applied"":{""placeholder"":true}},""paging"":{""pageSize"":20,""current"":1,""options"":{""20"":{""value"":20,""label"":20},""30"":{""value"":30,""label"":30},""50"":{""value"":50,""label"":50},""100"":{""value"":100,""label"":100},""200"":{""value"":200,""label"":200}},""value"":20},""columns"":{""entity_id"":{""visible"":true,""sorting"":""asc""},""name"":{""visible"":true,""sorting"":false},""sku"":{""visible"":true,""sorting"":false},""price"":{""visible"":true,""sorting"":false},""websites"":{""visible"":true,""sorting"":false},""qty"":{""visible"":true,""sorting"":false},""short_description"":{""visible"":false,""sorting"":false},""special_price"":{""visible"":false,""sorting"":false},""cost"":{""visible"":false,""sorting"":false},""weight"":{""visible"":false,""sorting"":false},""meta_title"":{""visible"":false,""sorting"":false},""meta_keyword"":{""visible"":false,""sorting"":false},""meta_description"":{""visible"":false,""sorting"":false},""url_key"":{""visible"":false,""sorting"":false},""msrp"":{""visible"":false,""sorting"":false},""actions"":{""visible"":true,""sorting"":false},""type_id"":{""visible"":true,""sorting"":false},""attribute_set_id"":{""visible"":true,""sorting"":false},""visibility"":{""visible"":true,""sorting"":false},""status"":{""visible"":true,""sorting"":false},""manufacturer"":{""visible"":false,""sorting"":false},""color"":{""visible"":false,""sorting"":false},""custom_design"":{""visible"":false,""sorting"":false},""page_layout"":{""visible"":false,""sorting"":false},""country_of_manufacture"":{""visible"":false,""sorting"":false},""custom_layout"":{""visible"":false,""sorting"":false},""gift_message_available"":{""visible"":false,""sorting"":false},""tax_class_id"":{""visible"":false,""sorting"":false},""ids"":{""visible"":true,""sorting"":false},""thumbnail"":{""visible"":true,""sorting"":false},""special_from_date"":{""visible"":false,""sorting"":false},""special_to_date"":{""visible"":false,""sorting"":false},""news_from_date"":{""visible"":false,""sorting"":false},""news_to_date"":{""visible"":false,""sorting"":false},""custom_design_from"":{""visible"":false,""sorting"":false},""custom_design_to"":{""visible"":false,""sorting"":false}},""search"":{""value"":""""},""displayMode"":""grid"",""positions"":{""ids"":0,""entity_id"":1,""thumbnail"":2,""name"":3,""type_id"":4,""attribute_set_id"":5,""sku"":6,""price"":7,""qty"":8,""visibility"":9,""status"":10,""websites"":11,""short_description"":12,""special_price"":13,""special_from_date"":14,""special_to_date"":15,""cost"":16,""weight"":17,""manufacturer"":18,""meta_title"":19,""meta_keyword"":20,""meta_description"":21,""color"":22,""news_from_date"":23,""news_to_date"":24,""custom_design"":25,""custom_design_from"":26,""custom_design_to"":27,""page_layout"":28,""country_of_manufacture"":29,""custom_layout"":30,""url_key"":31,""msrp"":32,""gift_message_available"":33,""tax_class_id"":34,""actions"":35}},""value"":""Default View""}}}","2021-11-17 07:39:39","2021-11-17 07:39:39"
-"6","1","product_listing","current","0",NULL,"{""current"":{""filters"":{""applied"":{""placeholder"":true}},""paging"":{""pageSize"":20,""current"":1,""options"":{""20"":{""value"":20,""label"":20},""30"":{""value"":30,""label"":30},""50"":{""value"":50,""label"":50},""100"":{""value"":100,""label"":100},""200"":{""value"":200,""label"":200}},""value"":20},""columns"":{""entity_id"":{""visible"":true,""sorting"":""asc""},""name"":{""visible"":true,""sorting"":false},""sku"":{""visible"":true,""sorting"":false},""price"":{""visible"":true,""sorting"":false},""websites"":{""visible"":true,""sorting"":false},""qty"":{""visible"":true,""sorting"":false},""short_description"":{""visible"":false,""sorting"":false},""special_price"":{""visible"":false,""sorting"":false},""cost"":{""visible"":false,""sorting"":false},""weight"":{""visible"":false,""sorting"":false},""meta_title"":{""visible"":false,""sorting"":false},""meta_keyword"":{""visible"":false,""sorting"":false},""meta_description"":{""visible"":false,""sorting"":false},""url_key"":{""visible"":false,""sorting"":false},""msrp"":{""visible"":false,""sorting"":false},""actions"":{""visible"":true,""sorting"":false},""type_id"":{""visible"":true,""sorting"":false},""attribute_set_id"":{""visible"":true,""sorting"":false},""visibility"":{""visible"":true,""sorting"":false},""status"":{""visible"":true,""sorting"":false},""manufacturer"":{""visible"":false,""sorting"":false},""color"":{""visible"":false,""sorting"":false},""custom_design"":{""visible"":false,""sorting"":false},""page_layout"":{""visible"":false,""sorting"":false},""country_of_manufacture"":{""visible"":false,""sorting"":false},""custom_layout"":{""visible"":false,""sorting"":false},""gift_message_available"":{""visible"":false,""sorting"":false},""tax_class_id"":{""visible"":false,""sorting"":false},""ids"":{""visible"":true,""sorting"":false},""thumbnail"":{""visible"":true,""sorting"":false},""special_from_date"":{""visible"":false,""sorting"":false},""special_to_date"":{""visible"":false,""sorting"":false},""news_from_date"":{""visible"":false,""sorting"":false},""news_to_date"":{""visible"":false,""sorting"":false},""custom_design_from"":{""visible"":false,""sorting"":false},""custom_design_to"":{""visible"":false,""sorting"":false}},""search"":{""value"":""""},""displayMode"":""grid"",""positions"":{""ids"":0,""entity_id"":1,""thumbnail"":2,""name"":3,""type_id"":4,""attribute_set_id"":5,""sku"":6,""price"":7,""qty"":8,""visibility"":9,""status"":10,""websites"":11,""short_description"":12,""special_price"":13,""special_from_date"":14,""special_to_date"":15,""cost"":16,""weight"":17,""manufacturer"":18,""meta_title"":19,""meta_keyword"":20,""meta_description"":21,""color"":22,""news_from_date"":23,""news_to_date"":24,""custom_design"":25,""custom_design_from"":26,""custom_design_to"":27,""page_layout"":28,""country_of_manufacture"":29,""custom_layout"":30,""url_key"":31,""msrp"":32,""gift_message_available"":33,""tax_class_id"":34,""actions"":35}}}","2021-11-17 07:39:41","2021-11-17 07:39:41"
+"6","1","product_listing","current","0",NULL,"{""current"":{""filters"":{""applied"":{""placeholder"":true}},""paging"":{""pageSize"":20,""current"":1,""options"":{""20"":{""value"":20,""label"":20},""30"":{""value"":30,""label"":30},""50"":{""value"":50,""label"":50},""100"":{""value"":100,""label"":100},""200"":{""value"":200,""label"":200}},""value"":20},""columns"":{""entity_id"":{""visible"":true,""sorting"":""asc""},""name"":{""visible"":true,""sorting"":false},""sku"":{""visible"":true,""sorting"":false},""price"":{""visible"":true,""sorting"":false},""websites"":{""visible"":true,""sorting"":false},""qty"":{""visible"":true,""sorting"":false},""short_description"":{""visible"":false,""sorting"":false},""special_price"":{""visible"":false,""sorting"":false},""cost"":{""visible"":false,""sorting"":false},""weight"":{""visible"":false,""sorting"":false},""meta_title"":{""visible"":false,""sorting"":false},""meta_keyword"":{""visible"":false,""sorting"":false},""meta_description"":{""visible"":false,""sorting"":false},""url_key"":{""visible"":false,""sorting"":false},""msrp"":{""visible"":false,""sorting"":false},""actions"":{""visible"":true,""sorting"":false},""type_id"":{""visible"":true,""sorting"":false},""attribute_set_id"":{""visible"":true,""sorting"":false},""visibility"":{""visible"":true,""sorting"":false},""status"":{""visible"":true,""sorting"":false},""manufacturer"":{""visible"":false,""sorting"":false},""color"":{""visible"":false,""sorting"":false},""custom_design"":{""visible"":false,""sorting"":false},""page_layout"":{""visible"":false,""sorting"":false},""country_of_manufacture"":{""visible"":false,""sorting"":false},""custom_layout"":{""visible"":false,""sorting"":false},""gift_message_available"":{""visible"":false,""sorting"":false},""tax_class_id"":{""visible"":false,""sorting"":false},""ids"":{""visible"":true,""sorting"":false},""thumbnail"":{""visible"":true,""sorting"":false},""special_from_date"":{""visible"":false,""sorting"":false},""special_to_date"":{""visible"":false,""sorting"":false},""news_from_date"":{""visible"":false,""sorting"":false},""news_to_date"":{""visible"":false,""sorting"":false},""custom_design_from"":{""visible"":false,""sorting"":false},""custom_design_to"":{""visible"":false,""sorting"":false},""mgs_brand"":{""visible"":false,""sorting"":false}},""search"":{""value"":""""},""displayMode"":""grid"",""positions"":{""ids"":0,""entity_id"":1,""thumbnail"":2,""name"":3,""type_id"":4,""attribute_set_id"":5,""sku"":6,""price"":7,""qty"":8,""visibility"":9,""status"":10,""short_description"":11,""special_price"":12,""special_from_date"":13,""special_to_date"":14,""cost"":15,""weight"":16,""manufacturer"":17,""meta_title"":18,""meta_keyword"":19,""meta_description"":20,""color"":21,""news_from_date"":22,""news_to_date"":23,""custom_design"":24,""custom_design_from"":25,""custom_design_to"":26,""page_layout"":27,""country_of_manufacture"":28,""custom_layout"":29,""url_key"":30,""msrp"":31,""gift_message_available"":32,""tax_class_id"":33,""actions"":34,""mgs_brand"":35}}}","2021-11-17 07:39:41","2021-11-22 06:11:43"
 "7","1","cms_page_listing","default","1","Default View","{""views"":{""default"":{""label"":""Default View"",""index"":""default"",""editable"":false,""data"":{""filters"":{""applied"":{""placeholder"":true}},""columns"":{""page_id"":{""visible"":true,""sorting"":""asc""},""title"":{""visible"":true,""sorting"":false},""identifier"":{""visible"":true,""sorting"":false},""meta_title"":{""visible"":false,""sorting"":false},""meta_keywords"":{""visible"":false,""sorting"":false},""meta_description"":{""visible"":false,""sorting"":false},""actions"":{""visible"":true,""sorting"":false},""ids"":{""visible"":true,""sorting"":false},""page_layout"":{""visible"":true,""sorting"":false},""is_active"":{""visible"":true,""sorting"":false},""custom_theme"":{""visible"":false,""sorting"":false},""custom_root_template"":{""visible"":false,""sorting"":false},""creation_time"":{""visible"":true,""sorting"":false},""update_time"":{""visible"":true,""sorting"":false},""custom_theme_from"":{""visible"":false,""sorting"":false},""custom_theme_to"":{""visible"":false,""sorting"":false}},""paging"":{""pageSize"":20,""current"":1,""options"":{""20"":{""value"":20,""label"":20},""30"":{""value"":30,""label"":30},""50"":{""value"":50,""label"":50},""100"":{""value"":100,""label"":100},""200"":{""value"":200,""label"":200}},""value"":20},""search"":{""value"":""""},""displayMode"":""grid"",""positions"":{""ids"":0,""page_id"":1,""title"":2,""identifier"":3,""page_layout"":4,""is_active"":5,""creation_time"":6,""update_time"":7,""custom_theme_from"":8,""custom_theme_to"":9,""custom_theme"":10,""custom_root_template"":11,""meta_title"":12,""meta_keywords"":13,""meta_description"":14,""actions"":15}},""value"":""Default View""}}}","2021-11-17 09:26:44","2021-11-17 09:26:44"
-"8","1","cms_page_listing","current","0",NULL,"{""current"":{""filters"":{""applied"":{""placeholder"":true}},""columns"":{""page_id"":{""visible"":true,""sorting"":""asc""},""title"":{""visible"":true,""sorting"":false},""identifier"":{""visible"":true,""sorting"":false},""meta_title"":{""visible"":false,""sorting"":false},""meta_keywords"":{""visible"":false,""sorting"":false},""meta_description"":{""visible"":false,""sorting"":false},""actions"":{""visible"":true,""sorting"":false},""ids"":{""visible"":true,""sorting"":false},""page_layout"":{""visible"":true,""sorting"":false},""is_active"":{""visible"":true,""sorting"":false},""custom_theme"":{""visible"":false,""sorting"":false},""custom_root_template"":{""visible"":false,""sorting"":false},""creation_time"":{""visible"":true,""sorting"":false},""update_time"":{""visible"":true,""sorting"":false},""custom_theme_from"":{""visible"":false,""sorting"":false},""custom_theme_to"":{""visible"":false,""sorting"":false}},""paging"":{""pageSize"":20,""current"":1,""options"":{""20"":{""value"":20,""label"":20},""30"":{""value"":30,""label"":30},""50"":{""value"":50,""label"":50},""100"":{""value"":100,""label"":100},""200"":{""value"":200,""label"":200}},""value"":20},""search"":{""value"":""""},""displayMode"":""grid"",""positions"":{""ids"":0,""page_id"":1,""title"":2,""identifier"":3,""page_layout"":4,""is_active"":5,""creation_time"":6,""update_time"":7,""custom_theme_from"":8,""custom_theme_to"":9,""custom_theme"":10,""custom_root_template"":11,""meta_title"":12,""meta_keywords"":13,""meta_description"":14,""actions"":15}}}","2021-11-17 09:26:45","2021-11-17 09:26:45"
+"8","1","cms_page_listing","current","0",NULL,"{""current"":{""filters"":{""applied"":{""placeholder"":true}},""columns"":{""page_id"":{""visible"":true,""sorting"":""asc""},""title"":{""visible"":true,""sorting"":false},""identifier"":{""visible"":true,""sorting"":false},""meta_title"":{""visible"":false,""sorting"":false},""meta_keywords"":{""visible"":false,""sorting"":false},""meta_description"":{""visible"":false,""sorting"":false},""actions"":{""visible"":true,""sorting"":false},""ids"":{""visible"":true,""sorting"":false},""page_layout"":{""visible"":true,""sorting"":false},""is_active"":{""visible"":true,""sorting"":false},""custom_theme"":{""visible"":false,""sorting"":false},""custom_root_template"":{""visible"":false,""sorting"":false},""creation_time"":{""visible"":true,""sorting"":false},""update_time"":{""visible"":true,""sorting"":false},""custom_theme_from"":{""visible"":false,""sorting"":false},""custom_theme_to"":{""visible"":false,""sorting"":false}},""paging"":{""pageSize"":30,""current"":1,""options"":{""20"":{""value"":20,""label"":20},""30"":{""value"":30,""label"":30},""50"":{""value"":50,""label"":50},""100"":{""value"":100,""label"":100},""200"":{""value"":200,""label"":200}},""value"":30},""search"":{""value"":""""},""displayMode"":""grid"",""positions"":{""ids"":0,""page_id"":1,""title"":2,""identifier"":3,""page_layout"":4,""is_active"":5,""creation_time"":6,""update_time"":7,""custom_theme_from"":8,""custom_theme_to"":9,""custom_theme"":10,""custom_root_template"":11,""meta_title"":12,""meta_keywords"":13,""meta_description"":14,""actions"":15}}}","2021-11-17 09:26:45","2021-11-23 07:21:32"
 "9","1","cms_block_listing","default","1","Default View","{""views"":{""default"":{""label"":""Default View"",""index"":""default"",""editable"":false,""data"":{""search"":{""value"":""""},""filters"":{""applied"":{""placeholder"":true}},""paging"":{""pageSize"":20,""current"":1,""options"":{""20"":{""value"":20,""label"":20},""30"":{""value"":30,""label"":30},""50"":{""value"":50,""label"":50},""100"":{""value"":100,""label"":100},""200"":{""value"":200,""label"":200}},""value"":20},""columns"":{""block_id"":{""visible"":true,""sorting"":""asc""},""title"":{""visible"":true,""sorting"":false},""identifier"":{""visible"":true,""sorting"":false},""actions"":{""visible"":true,""sorting"":false},""ids"":{""visible"":true,""sorting"":false},""is_active"":{""visible"":true,""sorting"":false},""creation_time"":{""visible"":true,""sorting"":false},""update_time"":{""visible"":true,""sorting"":false}},""displayMode"":""grid"",""positions"":{""ids"":0,""block_id"":1,""title"":2,""identifier"":3,""is_active"":4,""creation_time"":5,""update_time"":6,""actions"":7}},""value"":""Default View""}}}","2021-11-17 09:26:52","2021-11-17 09:26:52"
-"10","1","cms_block_listing","current","0",NULL,"{""current"":{""search"":{""value"":""3""},""filters"":{""applied"":{""placeholder"":true}},""paging"":{""pageSize"":200,""current"":1,""options"":{""20"":{""value"":20,""label"":20},""30"":{""value"":30,""label"":30},""50"":{""value"":50,""label"":50},""100"":{""value"":100,""label"":100},""200"":{""value"":200,""label"":200}},""value"":200},""columns"":{""block_id"":{""visible"":true,""sorting"":""asc""},""title"":{""visible"":true,""sorting"":false},""identifier"":{""visible"":true,""sorting"":false},""actions"":{""visible"":true,""sorting"":false},""ids"":{""visible"":true,""sorting"":false},""is_active"":{""visible"":true,""sorting"":false},""creation_time"":{""visible"":true,""sorting"":false},""update_time"":{""visible"":true,""sorting"":false}},""displayMode"":""grid"",""positions"":{""ids"":0,""block_id"":1,""title"":2,""identifier"":3,""is_active"":4,""creation_time"":5,""update_time"":6,""actions"":7}}}","2021-11-17 09:26:53","2021-11-17 12:00:33"
+"10","1","cms_block_listing","current","0",NULL,"{""current"":{""search"":{""value"":""chec""},""filters"":{""applied"":{""placeholder"":true}},""paging"":{""pageSize"":200,""current"":1,""options"":{""20"":{""value"":20,""label"":20},""30"":{""value"":30,""label"":30},""50"":{""value"":50,""label"":50},""100"":{""value"":100,""label"":100},""200"":{""value"":200,""label"":200}},""value"":200},""columns"":{""block_id"":{""visible"":true,""sorting"":""asc""},""title"":{""visible"":true,""sorting"":false},""identifier"":{""visible"":true,""sorting"":false},""actions"":{""visible"":true,""sorting"":false},""ids"":{""visible"":true,""sorting"":false},""is_active"":{""visible"":true,""sorting"":false},""creation_time"":{""visible"":true,""sorting"":false},""update_time"":{""visible"":true,""sorting"":false}},""displayMode"":""grid"",""positions"":{""ids"":0,""block_id"":1,""title"":2,""identifier"":3,""is_active"":4,""creation_time"":5,""update_time"":6,""actions"":7}}}","2021-11-17 09:26:53","2021-11-23 07:28:15"
 "11","1","category_listing","default","1","Default View","{""views"":{""default"":{""label"":""Default View"",""index"":""default"",""editable"":false,""data"":{""filters"":{""applied"":{""placeholder"":true}},""paging"":{""pageSize"":20,""current"":1,""options"":{""20"":{""value"":20,""label"":20},""30"":{""value"":30,""label"":30},""50"":{""value"":50,""label"":50},""100"":{""value"":100,""label"":100},""200"":{""value"":200,""label"":200}},""value"":20},""columns"":{""category_id"":{""visible"":true,""sorting"":false},""title"":{""visible"":true,""sorting"":false},""url_key"":{""visible"":true,""sorting"":false},""meta_keywords"":{""visible"":false,""sorting"":false},""meta_description"":{""visible"":false,""sorting"":false},""sort_order"":{""visible"":true,""sorting"":false},""actions"":{""visible"":true,""sorting"":false},""ids"":{""visible"":true,""sorting"":false},""status"":{""visible"":true,""sorting"":false}},""displayMode"":""grid"",""positions"":{""ids"":0,""category_id"":1,""title"":2,""url_key"":3,""meta_keywords"":4,""meta_description"":5,""sort_order"":6,""status"":7,""actions"":8}},""value"":""Default View""}}}","2021-11-17 11:47:26","2021-11-17 11:47:26"
 "12","1","category_listing","current","0",NULL,"{""current"":{""filters"":{""applied"":{""placeholder"":true}},""paging"":{""pageSize"":20,""current"":1,""options"":{""20"":{""value"":20,""label"":20},""30"":{""value"":30,""label"":30},""50"":{""value"":50,""label"":50},""100"":{""value"":100,""label"":100},""200"":{""value"":200,""label"":200}},""value"":20},""columns"":{""category_id"":{""visible"":true,""sorting"":false},""title"":{""visible"":true,""sorting"":false},""url_key"":{""visible"":true,""sorting"":false},""meta_keywords"":{""visible"":false,""sorting"":false},""meta_description"":{""visible"":false,""sorting"":false},""sort_order"":{""visible"":true,""sorting"":false},""actions"":{""visible"":true,""sorting"":false},""ids"":{""visible"":true,""sorting"":false},""status"":{""visible"":true,""sorting"":false}},""displayMode"":""grid"",""positions"":{""ids"":0,""category_id"":1,""title"":2,""url_key"":3,""meta_keywords"":4,""meta_description"":5,""sort_order"":6,""status"":7,""actions"":8}}}","2021-11-17 11:47:27","2021-11-17 11:47:27"
 "13","1","brand_listing","default","1","Default View","{""views"":{""default"":{""label"":""Default View"",""index"":""default"",""editable"":false,""data"":{""filters"":{""applied"":{""placeholder"":true}},""paging"":{""pageSize"":20,""current"":1,""options"":{""20"":{""value"":20,""label"":20},""30"":{""value"":30,""label"":30},""50"":{""value"":50,""label"":50},""100"":{""value"":100,""label"":100},""200"":{""value"":200,""label"":200}},""value"":20},""search"":{""value"":""""},""columns"":{""brand_id"":{""visible"":true,""sorting"":false},""name"":{""visible"":true,""sorting"":false},""url_key"":{""visible"":true,""sorting"":false},""description"":{""visible"":true,""sorting"":false},""meta_keywords"":{""visible"":true,""sorting"":false},""meta_description"":{""visible"":true,""sorting"":false},""sort_order"":{""visible"":true,""sorting"":false},""actions"":{""visible"":true,""sorting"":false},""ids"":{""visible"":true,""sorting"":false},""is_featured"":{""visible"":true,""sorting"":false},""status"":{""visible"":true,""sorting"":false},""small_image"":{""visible"":true,""sorting"":false},""image"":{""visible"":true,""sorting"":false}},""displayMode"":""grid"",""positions"":{""ids"":0,""brand_id"":1,""name"":2,""url_key"":3,""small_image"":4,""image"":5,""description"":6,""meta_keywords"":7,""meta_description"":8,""is_featured"":9,""sort_order"":10,""status"":11,""actions"":12}},""value"":""Default View""}}}","2021-11-17 11:52:17","2021-11-17 11:52:17"
@@ -5443,6 +5805,10 @@ border-color: #34a853;}","2021-11-17 19:04:19"
 "16","1","comment_listing","current","0",NULL,"{""current"":{""filters"":{""applied"":{""placeholder"":true}},""paging"":{""pageSize"":20,""current"":1,""options"":{""20"":{""value"":20,""label"":20},""30"":{""value"":30,""label"":30},""50"":{""value"":50,""label"":50},""100"":{""value"":100,""label"":100},""200"":{""value"":200,""label"":200}},""value"":20},""columns"":{""comment_id"":{""visible"":true,""sorting"":false},""name"":{""visible"":true,""sorting"":false},""email"":{""visible"":true,""sorting"":false},""content"":{""visible"":true,""sorting"":false},""actions"":{""visible"":true,""sorting"":false},""ids"":{""visible"":true,""sorting"":false},""status"":{""visible"":true,""sorting"":false},""created_at"":{""visible"":true,""sorting"":false},""updated_at"":{""visible"":true,""sorting"":false}},""displayMode"":""grid"",""positions"":{""ids"":0,""comment_id"":1,""name"":2,""email"":3,""content"":4,""created_at"":5,""updated_at"":6,""status"":7,""actions"":8}}}","2021-11-17 11:53:31","2021-11-17 11:53:31"
 "17","1","post_listing","default","1","Default View","{""views"":{""default"":{""label"":""Default View"",""index"":""default"",""editable"":false,""data"":{""filters"":{""applied"":{""placeholder"":true}},""paging"":{""pageSize"":20,""current"":1,""options"":{""20"":{""value"":20,""label"":20},""30"":{""value"":30,""label"":30},""50"":{""value"":50,""label"":50},""100"":{""value"":100,""label"":100},""200"":{""value"":200,""label"":200}},""value"":20},""columns"":{""post_id"":{""visible"":true,""sorting"":false},""title"":{""visible"":true,""sorting"":false},""url_key"":{""visible"":true,""sorting"":false},""short_content"":{""visible"":false,""sorting"":false},""content"":{""visible"":false,""sorting"":false},""meta_keywords"":{""visible"":false,""sorting"":false},""meta_description"":{""visible"":false,""sorting"":false},""tags"":{""visible"":true,""sorting"":false},""user"":{""visible"":true,""sorting"":false},""updated_by_user"":{""visible"":false,""sorting"":false},""actions"":{""visible"":true,""sorting"":false},""ids"":{""visible"":true,""sorting"":false},""status"":{""visible"":true,""sorting"":false},""thumbnail"":{""visible"":false,""sorting"":false},""image"":{""visible"":false,""sorting"":false},""created_at"":{""visible"":true,""sorting"":false},""updated_at"":{""visible"":true,""sorting"":false}},""displayMode"":""grid"",""positions"":{""ids"":0,""post_id"":1,""title"":2,""url_key"":3,""image"":4,""thumbnail"":5,""short_content"":6,""content"":7,""meta_keywords"":8,""meta_description"":9,""tags"":10,""user"":11,""updated_by_user"":12,""created_at"":13,""updated_at"":14,""status"":15,""actions"":16}},""value"":""Default View""}}}","2021-11-17 11:53:33","2021-11-17 11:53:33"
 "18","1","post_listing","current","0",NULL,"{""current"":{""filters"":{""applied"":{""placeholder"":true}},""paging"":{""pageSize"":20,""current"":1,""options"":{""20"":{""value"":20,""label"":20},""30"":{""value"":30,""label"":30},""50"":{""value"":50,""label"":50},""100"":{""value"":100,""label"":100},""200"":{""value"":200,""label"":200}},""value"":20},""columns"":{""post_id"":{""visible"":true,""sorting"":false},""title"":{""visible"":true,""sorting"":false},""url_key"":{""visible"":true,""sorting"":false},""short_content"":{""visible"":false,""sorting"":false},""content"":{""visible"":false,""sorting"":false},""meta_keywords"":{""visible"":false,""sorting"":false},""meta_description"":{""visible"":false,""sorting"":false},""tags"":{""visible"":true,""sorting"":false},""user"":{""visible"":true,""sorting"":false},""updated_by_user"":{""visible"":false,""sorting"":false},""actions"":{""visible"":true,""sorting"":false},""ids"":{""visible"":true,""sorting"":false},""status"":{""visible"":true,""sorting"":false},""thumbnail"":{""visible"":false,""sorting"":false},""image"":{""visible"":false,""sorting"":false},""created_at"":{""visible"":true,""sorting"":false},""updated_at"":{""visible"":true,""sorting"":false}},""displayMode"":""grid"",""positions"":{""ids"":0,""post_id"":1,""title"":2,""url_key"":3,""image"":4,""thumbnail"":5,""short_content"":6,""content"":7,""meta_keywords"":8,""meta_description"":9,""tags"":10,""user"":11,""updated_by_user"":12,""created_at"":13,""updated_at"":14,""status"":15,""actions"":16}}}","2021-11-17 11:53:36","2021-11-17 11:53:36"
+"19","1","product_attributes_grid","default","1","Default View","{""views"":{""default"":{""label"":""Default View"",""index"":""default"",""editable"":false,""data"":{""columns"":{""ids"":{""visible"":true,""sorting"":false},""is_required"":{""visible"":true,""sorting"":false},""is_user_defined"":{""visible"":true,""sorting"":false},""is_visible"":{""visible"":true,""sorting"":false},""is_global"":{""visible"":true,""sorting"":false},""is_searchable"":{""visible"":true,""sorting"":false},""is_comparable"":{""visible"":true,""sorting"":false},""is_filterable"":{""visible"":true,""sorting"":false},""attribute_code"":{""visible"":true,""sorting"":""asc""},""frontend_label"":{""visible"":true,""sorting"":false}},""paging"":{""pageSize"":20,""current"":1,""options"":{""20"":{""value"":20,""label"":20},""30"":{""value"":30,""label"":30},""50"":{""value"":50,""label"":50},""100"":{""value"":100,""label"":100},""200"":{""value"":200,""label"":200}},""value"":20},""positions"":{""ids"":0,""attribute_code"":1,""frontend_label"":2,""is_required"":3,""is_user_defined"":4,""is_visible"":5,""is_global"":6,""is_searchable"":7,""is_comparable"":8,""is_filterable"":9},""displayMode"":""grid""},""value"":""Default View""}}}","2021-11-22 10:00:48","2021-11-22 10:00:48"
+"20","1","product_attributes_grid","current","0",NULL,"{""current"":{""columns"":{""ids"":{""visible"":true,""sorting"":false},""is_required"":{""visible"":true,""sorting"":false},""is_user_defined"":{""visible"":true,""sorting"":false},""is_visible"":{""visible"":true,""sorting"":false},""is_global"":{""visible"":true,""sorting"":false},""is_searchable"":{""visible"":true,""sorting"":false},""is_comparable"":{""visible"":true,""sorting"":false},""is_filterable"":{""visible"":true,""sorting"":false},""attribute_code"":{""visible"":true,""sorting"":""asc""},""frontend_label"":{""visible"":true,""sorting"":false}},""paging"":{""pageSize"":20,""current"":1,""options"":{""20"":{""value"":20,""label"":20},""30"":{""value"":30,""label"":30},""50"":{""value"":50,""label"":50},""100"":{""value"":100,""label"":100},""200"":{""value"":200,""label"":200}},""value"":20},""positions"":{""ids"":0,""attribute_code"":1,""frontend_label"":2,""is_required"":3,""is_user_defined"":4,""is_visible"":5,""is_global"":6,""is_searchable"":7,""is_comparable"":8,""is_filterable"":9},""displayMode"":""grid""}}","2021-11-22 10:00:49","2021-11-22 10:00:49"
+"21","1","product_attributes_listing","default","1","Default View","{""views"":{""default"":{""label"":""Default View"",""index"":""default"",""editable"":false,""data"":{""paging"":{""pageSize"":20,""current"":1,""options"":{""20"":{""value"":20,""label"":20},""30"":{""value"":30,""label"":30},""50"":{""value"":50,""label"":50},""100"":{""value"":100,""label"":100},""200"":{""value"":200,""label"":200}},""value"":20},""columns"":{""ids"":{""visible"":true,""sorting"":false},""is_required"":{""visible"":true,""sorting"":false},""is_user_defined"":{""visible"":true,""sorting"":false},""is_visible"":{""visible"":true,""sorting"":false},""is_global"":{""visible"":true,""sorting"":false},""is_searchable"":{""visible"":true,""sorting"":false},""is_comparable"":{""visible"":true,""sorting"":false},""is_filterable"":{""visible"":true,""sorting"":false},""attribute_code"":{""visible"":true,""sorting"":""asc""},""frontend_label"":{""visible"":true,""sorting"":false}},""positions"":{""ids"":0,""attribute_code"":1,""frontend_label"":2,""is_required"":3,""is_user_defined"":4,""is_visible"":5,""is_global"":6,""is_searchable"":7,""is_comparable"":8,""is_filterable"":9},""displayMode"":""grid""},""value"":""Default View""}}}","2021-11-22 10:02:52","2021-11-22 10:02:52"
+"22","1","product_attributes_listing","current","0",NULL,"{""current"":{""paging"":{""pageSize"":20,""current"":1,""options"":{""20"":{""value"":20,""label"":20},""30"":{""value"":30,""label"":30},""50"":{""value"":50,""label"":50},""100"":{""value"":100,""label"":100},""200"":{""value"":200,""label"":200}},""value"":20},""columns"":{""ids"":{""visible"":true,""sorting"":false},""is_required"":{""visible"":true,""sorting"":false},""is_user_defined"":{""visible"":true,""sorting"":false},""is_visible"":{""visible"":true,""sorting"":false},""is_global"":{""visible"":true,""sorting"":false},""is_searchable"":{""visible"":true,""sorting"":false},""is_comparable"":{""visible"":true,""sorting"":false},""is_filterable"":{""visible"":true,""sorting"":false},""attribute_code"":{""visible"":true,""sorting"":""asc""},""frontend_label"":{""visible"":true,""sorting"":false}},""positions"":{""ids"":0,""attribute_code"":1,""frontend_label"":2,""is_required"":3,""is_user_defined"":4,""is_visible"":5,""is_global"":6,""is_searchable"":7,""is_comparable"":8,""is_filterable"":9},""displayMode"":""grid""}}","2021-11-22 10:02:53","2021-11-22 10:02:53"
 "url_rewrite_id","entity_type","entity_id","request_path","target_path","redirect_type","store_id","description","is_autogenerated","metadata"
 "1","cms-page","1","no-route","cms/page/view/page_id/1","0","1",NULL,"1",NULL
 "2","cms-page","2","home","cms/page/view/page_id/2","0","1",NULL,"1",NULL
@@ -5462,10 +5828,19 @@ border-color: #34a853;}","2021-11-17 19:04:19"
 "17","cms-page","6","orson-our-services","cms/page/view/page_id/6","0","1",NULL,"1",NULL
 "18","cms-page","7","orson-our-office","cms/page/view/page_id/7","0","1",NULL,"1",NULL
 "19","cms-page","8","orson-careers","cms/page/view/page_id/8","0","1",NULL,"1",NULL
-"20","cms-page","9","orson_home_page_version_8","cms/page/view/page_id/9","0","1",NULL,"1",NULL
-"21","cms-page","10","orson_home_page_version_14","cms/page/view/page_id/10","0","1",NULL,"1",NULL
 "22","cms-page","11","home_page_version_3","cms/page/view/page_id/11","0","1",NULL,"1",NULL
 "23","cms-page","12","orson_home_page_version_6","cms/page/view/page_id/12","0","1",NULL,"1",NULL
+"24","cms-page","13","orson_home_page_version_8","cms/page/view/page_id/13","0","1",NULL,"1",NULL
+"25","cms-page","14","orson_home_page_version_14","cms/page/view/page_id/14","0","1",NULL,"1",NULL
+"26","product","12","may-choi-game-playstation-5-pro.html","catalog/product/view/id/12","0","1",NULL,"1",NULL
+"27","product","12","may-choi-game/may-choi-game-playstation-5-pro.html","catalog/product/view/id/12/category/4","0","1",NULL,"1","{""category_id"":""4""}"
+"28","product","12","may-choi-game/playstation/may-choi-game-playstation-5-pro.html","catalog/product/view/id/12/category/9","0","1",NULL,"1","{""category_id"":""9""}"
+"29","product","13","tay-cm-pxn-9613-white-bluetooth-wireless-gaming-danh-cho-pc-android-smart-tv.html","catalog/product/view/id/13","0","1",NULL,"1",NULL
+"30","product","13","tay-cm/tay-cm-pxn-9613-white-bluetooth-wireless-gaming-danh-cho-pc-android-smart-tv.html","catalog/product/view/id/13/category/5","0","1",NULL,"1","{""category_id"":""5""}"
+"31","product","13","tay-cm/khac/tay-cm-pxn-9613-white-bluetooth-wireless-gaming-danh-cho-pc-android-smart-tv.html","catalog/product/view/id/13/category/8","0","1",NULL,"1","{""category_id"":""8""}"
+"32","product","14","may-choi-game-playstation-ps4-pro-1tb-sony-cuh-7218b-pty.html","catalog/product/view/id/14","0","1",NULL,"1",NULL
+"33","product","14","may-choi-game/may-choi-game-playstation-ps4-pro-1tb-sony-cuh-7218b-pty.html","catalog/product/view/id/14/category/4","0","1",NULL,"1","{""category_id"":""4""}"
+"34","product","14","may-choi-game/playstation/may-choi-game-playstation-ps4-pro-1tb-sony-cuh-7218b-pty.html","catalog/product/view/id/14/category/9","0","1",NULL,"1","{""category_id"":""9""}"
 "variable_id","code","name"
 "value_id","variable_id","store_id","plain_value","html_value"
 "entity_id","customer_id","public_hash","payment_method_code","type","created_at","expires_at","gateway_token","details","is_active","is_visible"
@@ -5476,5 +5851,28 @@ border-color: #34a853;}","2021-11-17 19:04:19"
 "page_id","instance_id","page_group","layout_handle","block_reference","page_for","entities","page_template"
 "page_id","layout_update_id"
 "wishlist_id","customer_id","shared","sharing_code","updated_at"
+"1","1","0","E3B5RVYoNKQ9CNcnbtEZDw8vHwsyowsu","2021-11-23 14:17:44"
 "wishlist_item_id","wishlist_id","product_id","store_id","added_at","description","qty"
 "option_id","wishlist_item_id","product_id","code","value"
+"id","dbase","user","label","query"
+"db_name","col_name","col_type","col_length","col_collation","col_isNull","col_extra","col_default"
+"id","db_name","table_name","column_name","comment","mimetype","transformation","transformation_options","input_transformation","input_transformation_options"
+"username","settings_data"
+"id","username","export_type","template_name","template_data"
+"1","root","database","magento2","{""quick_or_custom"":""custom"",""what"":""sql"",""structure_or_data_forced"":""0"",""table_select[]"":[""adminnotification_inbox"",""admin_analytics_usage_version_log"",""admin_passwords"",""admin_system_messages"",""admin_user"",""admin_user_expiration"",""admin_user_session"",""authorization_role"",""authorization_rule"",""cache"",""cache_tag"",""captcha_log"",""cataloginventory_stock"",""cataloginventory_stock_item"",""cataloginventory_stock_status"",""cataloginventory_stock_status_idx"",""cataloginventory_stock_status_replica"",""cataloginventory_stock_status_tmp"",""catalogrule"",""catalogrule_customer_group"",""catalogrule_group_website"",""catalogrule_group_website_replica"",""catalogrule_product"",""catalogrule_product_price"",""catalogrule_product_price_replica"",""catalogrule_product_replica"",""catalogrule_website"",""catalogsearch_recommendations"",""catalog_category_entity"",""catalog_category_entity_datetime"",""catalog_category_entity_decimal"",""catalog_category_entity_int"",""catalog_category_entity_text"",""catalog_category_entity_varchar"",""catalog_category_product"",""catalog_category_product_index"",""catalog_category_product_index_replica"",""catalog_category_product_index_store1"",""catalog_category_product_index_store1_replica"",""catalog_category_product_index_tmp"",""catalog_compare_item"",""catalog_compare_list"",""catalog_eav_attribute"",""catalog_product_bundle_option"",""catalog_product_bundle_option_value"",""catalog_product_bundle_price_index"",""catalog_product_bundle_selection"",""catalog_product_bundle_selection_price"",""catalog_product_bundle_stock_index"",""catalog_product_entity"",""catalog_product_entity_datetime"",""catalog_product_entity_decimal"",""catalog_product_entity_gallery"",""catalog_product_entity_int"",""catalog_product_entity_media_gallery"",""catalog_product_entity_media_gallery_value"",""catalog_product_entity_media_gallery_value_to_entity"",""catalog_product_entity_media_gallery_value_video"",""catalog_product_entity_text"",""catalog_product_entity_tier_price"",""catalog_product_entity_varchar"",""catalog_product_frontend_action"",""catalog_product_index_eav"",""catalog_product_index_eav_decimal"",""catalog_product_index_eav_decimal_idx"",""catalog_product_index_eav_decimal_replica"",""catalog_product_index_eav_decimal_tmp"",""catalog_product_index_eav_idx"",""catalog_product_index_eav_replica"",""catalog_product_index_eav_tmp"",""catalog_product_index_price"",""catalog_product_index_price_bundle_idx"",""catalog_product_index_price_bundle_opt_idx"",""catalog_product_index_price_bundle_opt_tmp"",""catalog_product_index_price_bundle_sel_idx"",""catalog_product_index_price_bundle_sel_tmp"",""catalog_product_index_price_bundle_tmp"",""catalog_product_index_price_cfg_opt_agr_idx"",""catalog_product_index_price_cfg_opt_agr_tmp"",""catalog_product_index_price_cfg_opt_idx"",""catalog_product_index_price_cfg_opt_tmp"",""catalog_product_index_price_downlod_idx"",""catalog_product_index_price_downlod_tmp"",""catalog_product_index_price_final_idx"",""catalog_product_index_price_final_tmp"",""catalog_product_index_price_idx"",""catalog_product_index_price_opt_agr_idx"",""catalog_product_index_price_opt_agr_tmp"",""catalog_product_index_price_opt_idx"",""catalog_product_index_price_opt_tmp"",""catalog_product_index_price_replica"",""catalog_product_index_price_tmp"",""catalog_product_index_tier_price"",""catalog_product_index_website"",""catalog_product_link"",""catalog_product_link_attribute"",""catalog_product_link_attribute_decimal"",""catalog_product_link_attribute_int"",""catalog_product_link_attribute_varchar"",""catalog_product_link_type"",""catalog_product_option"",""catalog_product_option_price"",""catalog_product_option_title"",""catalog_product_option_type_price"",""catalog_product_option_type_title"",""catalog_product_option_type_value"",""catalog_product_relation"",""catalog_product_super_attribute"",""catalog_product_super_attribute_label"",""catalog_product_super_link"",""catalog_product_website"",""catalog_url_rewrite_product_category"",""checkout_agreement"",""checkout_agreement_store"",""cms_block"",""cms_block_store"",""cms_page"",""cms_page_store"",""core_config_data"",""cron_schedule"",""customer_address_entity"",""customer_address_entity_datetime"",""customer_address_entity_decimal"",""customer_address_entity_int"",""customer_address_entity_text"",""customer_address_entity_varchar"",""customer_eav_attribute"",""customer_eav_attribute_website"",""customer_entity"",""customer_entity_datetime"",""customer_entity_decimal"",""customer_entity_int"",""customer_entity_text"",""customer_entity_varchar"",""customer_form_attribute"",""customer_grid_flat"",""customer_group"",""customer_group_excluded_website"",""customer_log"",""customer_visitor"",""design_change"",""design_config_grid_flat"",""directory_country"",""directory_country_format"",""directory_country_region"",""directory_country_region_name"",""directory_currency_rate"",""downloadable_link"",""downloadable_link_price"",""downloadable_link_purchased"",""downloadable_link_purchased_item"",""downloadable_link_title"",""downloadable_sample"",""downloadable_sample_title"",""eav_attribute"",""eav_attribute_group"",""eav_attribute_label"",""eav_attribute_option"",""eav_attribute_option_swatch"",""eav_attribute_option_value"",""eav_attribute_set"",""eav_entity"",""eav_entity_attribute"",""eav_entity_datetime"",""eav_entity_decimal"",""eav_entity_int"",""eav_entity_store"",""eav_entity_text"",""eav_entity_type"",""eav_entity_varchar"",""eav_form_element"",""eav_form_fieldset"",""eav_form_fieldset_label"",""eav_form_type"",""eav_form_type_entity"",""email_template"",""flag"",""gift_message"",""googleoptimizer_code"",""importexport_importdata"",""import_history"",""indexer_state"",""integration"",""jwt_auth_revoked"",""layout_link"",""layout_update"",""login_as_customer"",""login_as_customer_assistance_allowed"",""magento_acknowledged_bulk"",""magento_bulk"",""magento_login_as_customer_log"",""magento_operation"",""media_content_asset"",""media_gallery_asset"",""media_gallery_asset_keyword"",""media_gallery_keyword"",""mview_state"",""newsletter_problem"",""newsletter_queue"",""newsletter_queue_link"",""newsletter_queue_store_link"",""newsletter_subscriber"",""newsletter_template"",""oauth_consumer"",""oauth_nonce"",""oauth_token"",""oauth_token_request_log"",""password_reset_request_event"",""patch_list"",""paypal_billing_agreement"",""paypal_billing_agreement_order"",""paypal_cert"",""paypal_payment_transaction"",""paypal_settlement_report"",""paypal_settlement_report_row"",""persistent_session"",""product_alert_price"",""product_alert_stock"",""queue"",""queue_lock"",""queue_message"",""queue_message_status"",""queue_poison_pill"",""quote"",""quote_address"",""quote_address_item"",""quote_id_mask"",""quote_item"",""quote_item_option"",""quote_payment"",""quote_shipping_rate"",""rating"",""rating_entity"",""rating_option"",""rating_option_vote"",""rating_option_vote_aggregated"",""rating_store"",""rating_title"",""release_notification_viewer_log"",""reporting_counts"",""reporting_module_status"",""reporting_orders"",""reporting_system_updates"",""reporting_users"",""report_compared_product_index"",""report_event"",""report_event_types"",""report_viewed_product_aggregated_daily"",""report_viewed_product_aggregated_monthly"",""report_viewed_product_aggregated_yearly"",""report_viewed_product_index"",""review"",""review_detail"",""review_entity"",""review_entity_summary"",""review_status"",""review_store"",""salesrule"",""salesrule_coupon"",""salesrule_coupon_aggregated"",""salesrule_coupon_aggregated_order"",""salesrule_coupon_aggregated_updated"",""salesrule_coupon_usage"",""salesrule_customer"",""salesrule_customer_group"",""salesrule_label"",""salesrule_product_attribute"",""salesrule_website"",""sales_bestsellers_aggregated_daily"",""sales_bestsellers_aggregated_monthly"",""sales_bestsellers_aggregated_yearly"",""sales_creditmemo"",""sales_creditmemo_comment"",""sales_creditmemo_grid"",""sales_creditmemo_item"",""sales_invoice"",""sales_invoiced_aggregated"",""sales_invoiced_aggregated_order"",""sales_invoice_comment"",""sales_invoice_grid"",""sales_invoice_item"",""sales_order"",""sales_order_address"",""sales_order_aggregated_created"",""sales_order_aggregated_updated"",""sales_order_grid"",""sales_order_item"",""sales_order_payment"",""sales_order_status"",""sales_order_status_history"",""sales_order_status_label"",""sales_order_status_state"",""sales_order_tax"",""sales_order_tax_item"",""sales_payment_transaction"",""sales_refunded_aggregated"",""sales_refunded_aggregated_order"",""sales_sequence_meta"",""sales_sequence_profile"",""sales_shipment"",""sales_shipment_comment"",""sales_shipment_grid"",""sales_shipment_item"",""sales_shipment_track"",""sales_shipping_aggregated"",""sales_shipping_aggregated_order"",""search_query"",""search_synonyms"",""sendfriend_log"",""sequence_creditmemo_0"",""sequence_creditmemo_1"",""sequence_invoice_0"",""sequence_invoice_1"",""sequence_order_0"",""sequence_order_1"",""sequence_shipment_0"",""sequence_shipment_1"",""session"",""setup_module"",""shipping_tablerate"",""sitemap"",""store"",""store_group"",""store_website"",""tax_calculation"",""tax_calculation_rate"",""tax_calculation_rate_title"",""tax_calculation_rule"",""tax_class"",""tax_order_aggregated_created"",""tax_order_aggregated_updated"",""theme"",""theme_file"",""translation"",""ui_bookmark"",""url_rewrite"",""variable"",""variable_value"",""vault_payment_token"",""vault_payment_token_order_payment_link"",""weee_tax"",""widget"",""widget_instance"",""widget_instance_page"",""widget_instance_page_layout"",""wishlist"",""wishlist_item"",""wishlist_item_option""],""table_structure[]"":[""adminnotification_inbox"",""admin_analytics_usage_version_log"",""admin_passwords"",""admin_system_messages"",""admin_user"",""admin_user_expiration"",""admin_user_session"",""authorization_role"",""authorization_rule"",""cache"",""cache_tag"",""captcha_log"",""cataloginventory_stock"",""cataloginventory_stock_item"",""cataloginventory_stock_status"",""cataloginventory_stock_status_idx"",""cataloginventory_stock_status_replica"",""cataloginventory_stock_status_tmp"",""catalogrule"",""catalogrule_customer_group"",""catalogrule_group_website"",""catalogrule_group_website_replica"",""catalogrule_product"",""catalogrule_product_price"",""catalogrule_product_price_replica"",""catalogrule_product_replica"",""catalogrule_website"",""catalogsearch_recommendations"",""catalog_category_entity"",""catalog_category_entity_datetime"",""catalog_category_entity_decimal"",""catalog_category_entity_int"",""catalog_category_entity_text"",""catalog_category_entity_varchar"",""catalog_category_product"",""catalog_category_product_index"",""catalog_category_product_index_replica"",""catalog_category_product_index_store1"",""catalog_category_product_index_store1_replica"",""catalog_category_product_index_tmp"",""catalog_compare_item"",""catalog_compare_list"",""catalog_eav_attribute"",""catalog_product_bundle_option"",""catalog_product_bundle_option_value"",""catalog_product_bundle_price_index"",""catalog_product_bundle_selection"",""catalog_product_bundle_selection_price"",""catalog_product_bundle_stock_index"",""catalog_product_entity"",""catalog_product_entity_datetime"",""catalog_product_entity_decimal"",""catalog_product_entity_gallery"",""catalog_product_entity_int"",""catalog_product_entity_media_gallery"",""catalog_product_entity_media_gallery_value"",""catalog_product_entity_media_gallery_value_to_entity"",""catalog_product_entity_media_gallery_value_video"",""catalog_product_entity_text"",""catalog_product_entity_tier_price"",""catalog_product_entity_varchar"",""catalog_product_frontend_action"",""catalog_product_index_eav"",""catalog_product_index_eav_decimal"",""catalog_product_index_eav_decimal_idx"",""catalog_product_index_eav_decimal_replica"",""catalog_product_index_eav_decimal_tmp"",""catalog_product_index_eav_idx"",""catalog_product_index_eav_replica"",""catalog_product_index_eav_tmp"",""catalog_product_index_price"",""catalog_product_index_price_bundle_idx"",""catalog_product_index_price_bundle_opt_idx"",""catalog_product_index_price_bundle_opt_tmp"",""catalog_product_index_price_bundle_sel_idx"",""catalog_product_index_price_bundle_sel_tmp"",""catalog_product_index_price_bundle_tmp"",""catalog_product_index_price_cfg_opt_agr_idx"",""catalog_product_index_price_cfg_opt_agr_tmp"",""catalog_product_index_price_cfg_opt_idx"",""catalog_product_index_price_cfg_opt_tmp"",""catalog_product_index_price_downlod_idx"",""catalog_product_index_price_downlod_tmp"",""catalog_product_index_price_final_idx"",""catalog_product_index_price_final_tmp"",""catalog_product_index_price_idx"",""catalog_product_index_price_opt_agr_idx"",""catalog_product_index_price_opt_agr_tmp"",""catalog_product_index_price_opt_idx"",""catalog_product_index_price_opt_tmp"",""catalog_product_index_price_replica"",""catalog_product_index_price_tmp"",""catalog_product_index_tier_price"",""catalog_product_index_website"",""catalog_product_link"",""catalog_product_link_attribute"",""catalog_product_link_attribute_decimal"",""catalog_product_link_attribute_int"",""catalog_product_link_attribute_varchar"",""catalog_product_link_type"",""catalog_product_option"",""catalog_product_option_price"",""catalog_product_option_title"",""catalog_product_option_type_price"",""catalog_product_option_type_title"",""catalog_product_option_type_value"",""catalog_product_relation"",""catalog_product_super_attribute"",""catalog_product_super_attribute_label"",""catalog_product_super_link"",""catalog_product_website"",""catalog_url_rewrite_product_category"",""checkout_agreement"",""checkout_agreement_store"",""cms_block"",""cms_block_store"",""cms_page"",""cms_page_store"",""core_config_data"",""cron_schedule"",""customer_address_entity"",""customer_address_entity_datetime"",""customer_address_entity_decimal"",""customer_address_entity_int"",""customer_address_entity_text"",""customer_address_entity_varchar"",""customer_eav_attribute"",""customer_eav_attribute_website"",""customer_entity"",""customer_entity_datetime"",""customer_entity_decimal"",""customer_entity_int"",""customer_entity_text"",""customer_entity_varchar"",""customer_form_attribute"",""customer_grid_flat"",""customer_group"",""customer_group_excluded_website"",""customer_log"",""customer_visitor"",""design_change"",""design_config_grid_flat"",""directory_country"",""directory_country_format"",""directory_country_region"",""directory_country_region_name"",""directory_currency_rate"",""downloadable_link"",""downloadable_link_price"",""downloadable_link_purchased"",""downloadable_link_purchased_item"",""downloadable_link_title"",""downloadable_sample"",""downloadable_sample_title"",""eav_attribute"",""eav_attribute_group"",""eav_attribute_label"",""eav_attribute_option"",""eav_attribute_option_swatch"",""eav_attribute_option_value"",""eav_attribute_set"",""eav_entity"",""eav_entity_attribute"",""eav_entity_datetime"",""eav_entity_decimal"",""eav_entity_int"",""eav_entity_store"",""eav_entity_text"",""eav_entity_type"",""eav_entity_varchar"",""eav_form_element"",""eav_form_fieldset"",""eav_form_fieldset_label"",""eav_form_type"",""eav_form_type_entity"",""email_template"",""flag"",""gift_message"",""googleoptimizer_code"",""importexport_importdata"",""import_history"",""indexer_state"",""integration"",""jwt_auth_revoked"",""layout_link"",""layout_update"",""login_as_customer"",""login_as_customer_assistance_allowed"",""magento_acknowledged_bulk"",""magento_bulk"",""magento_login_as_customer_log"",""magento_operation"",""media_content_asset"",""media_gallery_asset"",""media_gallery_asset_keyword"",""media_gallery_keyword"",""mview_state"",""newsletter_problem"",""newsletter_queue"",""newsletter_queue_link"",""newsletter_queue_store_link"",""newsletter_subscriber"",""newsletter_template"",""oauth_consumer"",""oauth_nonce"",""oauth_token"",""oauth_token_request_log"",""password_reset_request_event"",""patch_list"",""paypal_billing_agreement"",""paypal_billing_agreement_order"",""paypal_cert"",""paypal_payment_transaction"",""paypal_settlement_report"",""paypal_settlement_report_row"",""persistent_session"",""product_alert_price"",""product_alert_stock"",""queue"",""queue_lock"",""queue_message"",""queue_message_status"",""queue_poison_pill"",""quote"",""quote_address"",""quote_address_item"",""quote_id_mask"",""quote_item"",""quote_item_option"",""quote_payment"",""quote_shipping_rate"",""rating"",""rating_entity"",""rating_option"",""rating_option_vote"",""rating_option_vote_aggregated"",""rating_store"",""rating_title"",""release_notification_viewer_log"",""reporting_counts"",""reporting_module_status"",""reporting_orders"",""reporting_system_updates"",""reporting_users"",""report_compared_product_index"",""report_event"",""report_event_types"",""report_viewed_product_aggregated_daily"",""report_viewed_product_aggregated_monthly"",""report_viewed_product_aggregated_yearly"",""report_viewed_product_index"",""review"",""review_detail"",""review_entity"",""review_entity_summary"",""review_status"",""review_store"",""salesrule"",""salesrule_coupon"",""salesrule_coupon_aggregated"",""salesrule_coupon_aggregated_order"",""salesrule_coupon_aggregated_updated"",""salesrule_coupon_usage"",""salesrule_customer"",""salesrule_customer_group"",""salesrule_label"",""salesrule_product_attribute"",""salesrule_website"",""sales_bestsellers_aggregated_daily"",""sales_bestsellers_aggregated_monthly"",""sales_bestsellers_aggregated_yearly"",""sales_creditmemo"",""sales_creditmemo_comment"",""sales_creditmemo_grid"",""sales_creditmemo_item"",""sales_invoice"",""sales_invoiced_aggregated"",""sales_invoiced_aggregated_order"",""sales_invoice_comment"",""sales_invoice_grid"",""sales_invoice_item"",""sales_order"",""sales_order_address"",""sales_order_aggregated_created"",""sales_order_aggregated_updated"",""sales_order_grid"",""sales_order_item"",""sales_order_payment"",""sales_order_status"",""sales_order_status_history"",""sales_order_status_label"",""sales_order_status_state"",""sales_order_tax"",""sales_order_tax_item"",""sales_payment_transaction"",""sales_refunded_aggregated"",""sales_refunded_aggregated_order"",""sales_sequence_meta"",""sales_sequence_profile"",""sales_shipment"",""sales_shipment_comment"",""sales_shipment_grid"",""sales_shipment_item"",""sales_shipment_track"",""sales_shipping_aggregated"",""sales_shipping_aggregated_order"",""search_query"",""search_synonyms"",""sendfriend_log"",""sequence_creditmemo_0"",""sequence_creditmemo_1"",""sequence_invoice_0"",""sequence_invoice_1"",""sequence_order_0"",""sequence_order_1"",""sequence_shipment_0"",""sequence_shipment_1"",""session"",""setup_module"",""shipping_tablerate"",""sitemap"",""store"",""store_group"",""store_website"",""tax_calculation"",""tax_calculation_rate"",""tax_calculation_rate_title"",""tax_calculation_rule"",""tax_class"",""tax_order_aggregated_created"",""tax_order_aggregated_updated"",""theme"",""theme_file"",""translation"",""ui_bookmark"",""url_rewrite"",""variable"",""variable_value"",""vault_payment_token"",""vault_payment_token_order_payment_link"",""weee_tax"",""widget"",""widget_instance"",""widget_instance_page"",""widget_instance_page_layout"",""wishlist"",""wishlist_item"",""wishlist_item_option""],""table_data[]"":[""adminnotification_inbox"",""admin_analytics_usage_version_log"",""admin_passwords"",""admin_system_messages"",""admin_user"",""admin_user_expiration"",""admin_user_session"",""authorization_role"",""authorization_rule"",""cache"",""cache_tag"",""captcha_log"",""cataloginventory_stock"",""cataloginventory_stock_item"",""cataloginventory_stock_status"",""cataloginventory_stock_status_idx"",""cataloginventory_stock_status_replica"",""cataloginventory_stock_status_tmp"",""catalogrule"",""catalogrule_customer_group"",""catalogrule_group_website"",""catalogrule_group_website_replica"",""catalogrule_product"",""catalogrule_product_price"",""catalogrule_product_price_replica"",""catalogrule_product_replica"",""catalogrule_website"",""catalogsearch_recommendations"",""catalog_category_entity"",""catalog_category_entity_datetime"",""catalog_category_entity_decimal"",""catalog_category_entity_int"",""catalog_category_entity_text"",""catalog_category_entity_varchar"",""catalog_category_product"",""catalog_category_product_index"",""catalog_category_product_index_replica"",""catalog_category_product_index_store1"",""catalog_category_product_index_store1_replica"",""catalog_category_product_index_tmp"",""catalog_compare_item"",""catalog_compare_list"",""catalog_eav_attribute"",""catalog_product_bundle_option"",""catalog_product_bundle_option_value"",""catalog_product_bundle_price_index"",""catalog_product_bundle_selection"",""catalog_product_bundle_selection_price"",""catalog_product_bundle_stock_index"",""catalog_product_entity"",""catalog_product_entity_datetime"",""catalog_product_entity_decimal"",""catalog_product_entity_gallery"",""catalog_product_entity_int"",""catalog_product_entity_media_gallery"",""catalog_product_entity_media_gallery_value"",""catalog_product_entity_media_gallery_value_to_entity"",""catalog_product_entity_media_gallery_value_video"",""catalog_product_entity_text"",""catalog_product_entity_tier_price"",""catalog_product_entity_varchar"",""catalog_product_frontend_action"",""catalog_product_index_eav"",""catalog_product_index_eav_decimal"",""catalog_product_index_eav_decimal_idx"",""catalog_product_index_eav_decimal_replica"",""catalog_product_index_eav_decimal_tmp"",""catalog_product_index_eav_idx"",""catalog_product_index_eav_replica"",""catalog_product_index_eav_tmp"",""catalog_product_index_price"",""catalog_product_index_price_bundle_idx"",""catalog_product_index_price_bundle_opt_idx"",""catalog_product_index_price_bundle_opt_tmp"",""catalog_product_index_price_bundle_sel_idx"",""catalog_product_index_price_bundle_sel_tmp"",""catalog_product_index_price_bundle_tmp"",""catalog_product_index_price_cfg_opt_agr_idx"",""catalog_product_index_price_cfg_opt_agr_tmp"",""catalog_product_index_price_cfg_opt_idx"",""catalog_product_index_price_cfg_opt_tmp"",""catalog_product_index_price_downlod_idx"",""catalog_product_index_price_downlod_tmp"",""catalog_product_index_price_final_idx"",""catalog_product_index_price_final_tmp"",""catalog_product_index_price_idx"",""catalog_product_index_price_opt_agr_idx"",""catalog_product_index_price_opt_agr_tmp"",""catalog_product_index_price_opt_idx"",""catalog_product_index_price_opt_tmp"",""catalog_product_index_price_replica"",""catalog_product_index_price_tmp"",""catalog_product_index_tier_price"",""catalog_product_index_website"",""catalog_product_link"",""catalog_product_link_attribute"",""catalog_product_link_attribute_decimal"",""catalog_product_link_attribute_int"",""catalog_product_link_attribute_varchar"",""catalog_product_link_type"",""catalog_product_option"",""catalog_product_option_price"",""catalog_product_option_title"",""catalog_product_option_type_price"",""catalog_product_option_type_title"",""catalog_product_option_type_value"",""catalog_product_relation"",""catalog_product_super_attribute"",""catalog_product_super_attribute_label"",""catalog_product_super_link"",""catalog_product_website"",""catalog_url_rewrite_product_category"",""checkout_agreement"",""checkout_agreement_store"",""cms_block"",""cms_block_store"",""cms_page"",""cms_page_store"",""core_config_data"",""cron_schedule"",""customer_address_entity"",""customer_address_entity_datetime"",""customer_address_entity_decimal"",""customer_address_entity_int"",""customer_address_entity_text"",""customer_address_entity_varchar"",""customer_eav_attribute"",""customer_eav_attribute_website"",""customer_entity"",""customer_entity_datetime"",""customer_entity_decimal"",""customer_entity_int"",""customer_entity_text"",""customer_entity_varchar"",""customer_form_attribute"",""customer_grid_flat"",""customer_group"",""customer_group_excluded_website"",""customer_log"",""customer_visitor"",""design_change"",""design_config_grid_flat"",""directory_country"",""directory_country_format"",""directory_country_region"",""directory_country_region_name"",""directory_currency_rate"",""downloadable_link"",""downloadable_link_price"",""downloadable_link_purchased"",""downloadable_link_purchased_item"",""downloadable_link_title"",""downloadable_sample"",""downloadable_sample_title"",""eav_attribute"",""eav_attribute_group"",""eav_attribute_label"",""eav_attribute_option"",""eav_attribute_option_swatch"",""eav_attribute_option_value"",""eav_attribute_set"",""eav_entity"",""eav_entity_attribute"",""eav_entity_datetime"",""eav_entity_decimal"",""eav_entity_int"",""eav_entity_store"",""eav_entity_text"",""eav_entity_type"",""eav_entity_varchar"",""eav_form_element"",""eav_form_fieldset"",""eav_form_fieldset_label"",""eav_form_type"",""eav_form_type_entity"",""email_template"",""flag"",""gift_message"",""googleoptimizer_code"",""importexport_importdata"",""import_history"",""indexer_state"",""integration"",""jwt_auth_revoked"",""layout_link"",""layout_update"",""login_as_customer"",""login_as_customer_assistance_allowed"",""magento_acknowledged_bulk"",""magento_bulk"",""magento_login_as_customer_log"",""magento_operation"",""media_content_asset"",""media_gallery_asset"",""media_gallery_asset_keyword"",""media_gallery_keyword"",""mview_state"",""newsletter_problem"",""newsletter_queue"",""newsletter_queue_link"",""newsletter_queue_store_link"",""newsletter_subscriber"",""newsletter_template"",""oauth_consumer"",""oauth_nonce"",""oauth_token"",""oauth_token_request_log"",""password_reset_request_event"",""patch_list"",""paypal_billing_agreement"",""paypal_billing_agreement_order"",""paypal_cert"",""paypal_payment_transaction"",""paypal_settlement_report"",""paypal_settlement_report_row"",""persistent_session"",""product_alert_price"",""product_alert_stock"",""queue"",""queue_lock"",""queue_message"",""queue_message_status"",""queue_poison_pill"",""quote"",""quote_address"",""quote_address_item"",""quote_id_mask"",""quote_item"",""quote_item_option"",""quote_payment"",""quote_shipping_rate"",""rating"",""rating_entity"",""rating_option"",""rating_option_vote"",""rating_option_vote_aggregated"",""rating_store"",""rating_title"",""release_notification_viewer_log"",""reporting_counts"",""reporting_module_status"",""reporting_orders"",""reporting_system_updates"",""reporting_users"",""report_compared_product_index"",""report_event"",""report_event_types"",""report_viewed_product_aggregated_daily"",""report_viewed_product_aggregated_monthly"",""report_viewed_product_aggregated_yearly"",""report_viewed_product_index"",""review"",""review_detail"",""review_entity"",""review_entity_summary"",""review_status"",""review_store"",""salesrule"",""salesrule_coupon"",""salesrule_coupon_aggregated"",""salesrule_coupon_aggregated_order"",""salesrule_coupon_aggregated_updated"",""salesrule_coupon_usage"",""salesrule_customer"",""salesrule_customer_group"",""salesrule_label"",""salesrule_product_attribute"",""salesrule_website"",""sales_bestsellers_aggregated_daily"",""sales_bestsellers_aggregated_monthly"",""sales_bestsellers_aggregated_yearly"",""sales_creditmemo"",""sales_creditmemo_comment"",""sales_creditmemo_grid"",""sales_creditmemo_item"",""sales_invoice"",""sales_invoiced_aggregated"",""sales_invoiced_aggregated_order"",""sales_invoice_comment"",""sales_invoice_grid"",""sales_invoice_item"",""sales_order"",""sales_order_address"",""sales_order_aggregated_created"",""sales_order_aggregated_updated"",""sales_order_grid"",""sales_order_item"",""sales_order_payment"",""sales_order_status"",""sales_order_status_history"",""sales_order_status_label"",""sales_order_status_state"",""sales_order_tax"",""sales_order_tax_item"",""sales_payment_transaction"",""sales_refunded_aggregated"",""sales_refunded_aggregated_order"",""sales_sequence_meta"",""sales_sequence_profile"",""sales_shipment"",""sales_shipment_comment"",""sales_shipment_grid"",""sales_shipment_item"",""sales_shipment_track"",""sales_shipping_aggregated"",""sales_shipping_aggregated_order"",""search_query"",""search_synonyms"",""sendfriend_log"",""sequence_creditmemo_0"",""sequence_creditmemo_1"",""sequence_invoice_0"",""sequence_invoice_1"",""sequence_order_0"",""sequence_order_1"",""sequence_shipment_0"",""sequence_shipment_1"",""session"",""setup_module"",""shipping_tablerate"",""sitemap"",""store"",""store_group"",""store_website"",""tax_calculation"",""tax_calculation_rate"",""tax_calculation_rate_title"",""tax_calculation_rule"",""tax_class"",""tax_order_aggregated_created"",""tax_order_aggregated_updated"",""theme"",""theme_file"",""translation"",""ui_bookmark"",""url_rewrite"",""variable"",""variable_value"",""vault_payment_token"",""vault_payment_token_order_payment_link"",""weee_tax"",""widget"",""widget_instance"",""widget_instance_page"",""widget_instance_page_layout"",""wishlist"",""wishlist_item"",""wishlist_item_option""],""aliases_new"":"""",""output_format"":""sendit"",""filename_template"":""@DATABASE@"",""remember_template"":""on"",""charset"":""utf-8"",""compression"":""none"",""maxsize"":"""",""codegen_structure_or_data"":""data"",""codegen_format"":""0"",""csv_separator"":"","",""csv_enclosed"":""\"""",""csv_escaped"":""\"""",""csv_terminated"":""AUTO"",""csv_null"":""NULL"",""csv_structure_or_data"":""data"",""excel_null"":""NULL"",""excel_columns"":""something"",""excel_edition"":""win"",""excel_structure_or_data"":""data"",""json_structure_or_data"":""data"",""json_unicode"":""something"",""latex_caption"":""something"",""latex_structure_or_data"":""structure_and_data"",""latex_structure_caption"":""Cấu trúc của bảng @TABLE@"",""latex_structure_continued_caption"":""Cấu trúc của bảng @TABLE@ (còn nữa)"",""latex_structure_label"":""tab:@TABLE@-structure"",""latex_relation"":""something"",""latex_comments"":""something"",""latex_mime"":""something"",""latex_columns"":""something"",""latex_data_caption"":""Nội dung của bảng @TABLE@"",""latex_data_continued_caption"":""Nội dung của bảng @TABLE@ (còn nữa)"",""latex_data_label"":""tab:@TABLE@-data"",""latex_null"":""\\textit{NULL}"",""mediawiki_structure_or_data"":""structure_and_data"",""mediawiki_caption"":""something"",""mediawiki_headers"":""something"",""htmlword_structure_or_data"":""structure_and_data"",""htmlword_null"":""NULL"",""ods_null"":""NULL"",""ods_structure_or_data"":""data"",""odt_structure_or_data"":""structure_and_data"",""odt_relation"":""something"",""odt_comments"":""something"",""odt_mime"":""something"",""odt_columns"":""something"",""odt_null"":""NULL"",""pdf_report_title"":"""",""pdf_structure_or_data"":""structure_and_data"",""phparray_structure_or_data"":""data"",""sql_include_comments"":""something"",""sql_header_comment"":"""",""sql_use_transaction"":""something"",""sql_compatibility"":""NONE"",""sql_structure_or_data"":""structure_and_data"",""sql_create_table"":""something"",""sql_auto_increment"":""something"",""sql_create_view"":""something"",""sql_procedure_function"":""something"",""sql_create_trigger"":""something"",""sql_backquotes"":""something"",""sql_type"":""INSERT"",""sql_insert_syntax"":""both"",""sql_max_query_size"":""50000"",""sql_hex_for_binary"":""something"",""sql_utc_time"":""something"",""texytext_structure_or_data"":""structure_and_data"",""texytext_null"":""NULL"",""xml_structure_or_data"":""data"",""xml_export_events"":""something"",""xml_export_functions"":""something"",""xml_export_procedures"":""something"",""xml_export_tables"":""something"",""xml_export_triggers"":""something"",""xml_export_views"":""something"",""xml_export_contents"":""something"",""yaml_structure_or_data"":""data"","""":null,""lock_tables"":null,""as_separate_files"":null,""csv_removeCRLF"":null,""csv_columns"":null,""excel_removeCRLF"":null,""json_pretty_print"":null,""htmlword_columns"":null,""ods_columns"":null,""sql_dates"":null,""sql_relation"":null,""sql_mime"":null,""sql_disable_fk"":null,""sql_views_as_tables"":null,""sql_metadata"":null,""sql_create_database"":null,""sql_drop_table"":null,""sql_if_not_exists"":null,""sql_simple_view_export"":null,""sql_view_current_user"":null,""sql_or_replace_view"":null,""sql_truncate"":null,""sql_delayed"":null,""sql_ignore"":null,""texytext_columns"":null}"
+"username","tables"
+"id","username","db","table","timevalue","sqlquery"
+"username","item_name","item_type","db_name","table_name"
+"db_name","page_nr","page_descr"
+"username","tables"
+"root","[{""db"":""magento2"",""table"":""core_config_data""}]"
+"master_db","master_table","master_field","foreign_db","foreign_table","foreign_field"
+"id","username","db_name","search_name","search_data"
+"db_name","table_name","pdf_page_number","x","y"
+"db_name","table_name","display_field"
+"username","db_name","table_name","prefs","last_update"
+"db_name","table_name","version","date_created","date_updated","schema_snapshot","schema_sql","data_sql","tracking","tracking_active"
+"username","timevalue","config_data"
+"root","2021-11-23 15:52:36","{""Console\/Mode"":""collapse"",""lang"":""vi""}"
+"usergroup","tab","allowed"
+"username","usergroup"
