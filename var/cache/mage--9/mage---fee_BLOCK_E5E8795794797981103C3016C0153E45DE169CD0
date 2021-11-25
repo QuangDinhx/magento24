@@ -1,0 +1,101 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1637818809;s:6:"expire";i:1637822409;s:4:"tags";s:43:"fee_STORE,fee_CMS_B,fee_BLOCK_HTML,fee_MAGE";}
+<div class="footer-container footer-v2">
+	<section class="top-footer">
+		<div class="text-center">
+			<div><img src="http://yourname.magento.com/media/wysiwyg/footer-logo.png" alt=""></div>			<ul class="social-btn">
+<li><a href="#">&nbsp;<em class="fa fa-facebook">&nbsp;</em></a></li>
+<li><a href="#">&nbsp;<em class="fa fa-twitter">&nbsp;</em></a></li>
+<li><a href="#">&nbsp;<em class="fa fa-instagram">&nbsp;</em></a></li>
+<li><a href="#">&nbsp;<em class="fa fa-vine">&nbsp;</em></a></li>
+<li><a href="#">&nbsp;<em class="fa fa-dribbble">&nbsp;</em></a></li>
+</ul>		</div>
+	</section>
+	<section class="middle-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 col-sm-4 col-xs-12 col-xs-half footer-box">
+					<h4 class="title"><span>INFORMATION</span></h4>
+<div class="box-content">
+<ul class="footer-menu">
+<li><a href="#">About Store</a></li>
+<li><a href="#">New Collection</a></li>
+<li><a href="#">Woman Dress</a></li>
+<li><a href="#">Contact Us</a></li>
+<li><a href="#">Latest News</a></li>
+<li><a href="#">Our Sitemap</a></li>
+</ul>
+</div>				</div>
+				<div class="col-md-2 col-sm-4 col-xs-12 col-xs-half footer-box">
+					<h4 class="title"><span>LOCATION</span></h4>
+<div class="box-content">
+<ul class="footer-menu">
+<li><a href="#">New York</a></li>
+<li><a href="#">London SF</a></li>
+<li><a href="#">Cockfosters BP</a></li>
+<li><a href="#">Los Angeles</a></li>
+<li><a href="#">Chicago</a></li>
+<li><a href="#">Las Vegas</a></li>
+</ul>
+</div>				</div>
+				<div class="col-md-2 col-sm-4 col-xs-12 col-xs-half footer-box row-half-first">
+					<h4 class="title"><span>USEFUL LINK</span></h4>
+<div class="box-content">
+<ul class="footer-menu">
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Returns</a></li>
+<li><a href="#">Terms &amp; Conditions</a></li>
+<li><a href="#">Contact Us</a></li>
+<li><a href="#">Latest News</a></li>
+<li><a href="#">Our Sitemap</a></li>
+</ul>
+</div>				</div>
+				<div class="col-md-2 col-sm-4 col-xs-12 col-xs-half footer-box">
+					<h4 class="title"><span>MENU</span></h4>
+<div class="box-content">
+<ul class="footer-menu">
+<li><a href="#">Instargram</a></li>
+<li><a href="#">Facebook</a></li>
+<li><a href="#">Contact Us</a></li>
+<li><a href="#">Latest News</a></li>
+<li><a href="#">Purchase Theme</a></li>
+<li><a href="#">F.A.Q</a></li>
+</ul>
+</div>				</div>
+				<div class="col-md-4 col-sm-8 col-xs-12 footer-box">
+					<div class="contact-box">
+<h4 class="title">Get in touch</h4>
+<div class="box-content">
+<ul>
+<li><em class="fa fa-map-marker" style="color: #fff;">&nbsp;</em>
+<div class="box-content"><span class="h4">ADDRESS</span>
+<p>144 đường Xuân Thủy, Quận Cầu Giấy, Hà Nội, Việt Nam</p>
+</div>
+</li>
+<li><em class="fa fa-phone" style="color: #fff;">&nbsp;</em>
+<div class="box-content"><span class="h4">PHONE</span>
+<p>+0912958558</p>
+</div>
+</li>
+<li><em class="fa fa-envelope-o" style="color: #fff;">&nbsp;</em>
+<div class="box-content"><span class="h4">EMAIL</span>
+<p>shopgameconsole.com</p>
+</div>
+</li>
+</ul>
+</div>
+</div>				</div>
+			</div>
+		</div>
+	</section>
+	<section class="bottom-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 coppy-text">
+					<address>Copyright © 2021 ShopGameConsole.com, Inc. All rights reserved.</address>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 payment-block">
+									</div>
+			</div>
+		</div>
+	</section>
+</div>
