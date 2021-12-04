@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1637825494;s:6:"expire";i:1669361494;s:4:"tags";s:37:"fee_LAYOUT_GENERAL_CACHE_TAG,fee_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1638625664;s:6:"expire";i:1670161664;s:4:"tags";s:37:"fee_LAYOUT_GENERAL_CACHE_TAG,fee_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -6421,6 +6421,12 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1637825494;s:6:"expire";i:1669361494;s:4:"t
       <block class="Magento\Wishlist\Block\Share\Wishlist" name="customer.wishlist" template="Magento_Wishlist::shared.phtml" cacheable="false"/>
    </referenceContainer>
 </body>
+</handle><handle id="addittionalmodules_hello_world" layout="2columns-left"><head>
+    D&#x1EF1; b&#xE1;o th&#x1EDD;i ti&#x1EBF;t
+</head>
+<referenceBlock name="content">
+   <block class="AdditionalModules\Weather\Block\Weather" name="additionalmodules_weather" template="weather.phtml"/>
+</referenceBlock>
 </handle><handle id="blog_category_view" layout="1column"><body>
    <referenceBlock name="catalog.compare.sidebar" remove="true"/>
    <referenceBlock name="wishlist_sidebar" remove="true"/>
@@ -6664,6 +6670,13 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1637825494;s:6:"expire";i:1669361494;s:4:"t
       <block class="MGS\Testimonial\Block\Testimonial" name="testimonial.view" template="MGS_Testimonial::view.phtml"/>
    </referenceContainer>
 </body>
+</handle><handle id="weather1_index_index" layout="1column"><head>
+   <title>D&#x1EF1; b&#xE1;o th&#x1EDD;i ti&#x1EBF;t</title>
+   <css src="Robin_Weather1::css/style.css"/>
+</head>
+<referenceBlock name="content">
+   <block class="Robin\Weather1\Block\Weather" name="robin_Weather1" template="weather.phtml"/>
+</referenceBlock>
 </handle><handle id="cms_index_index"><referenceContainer name="page.wrapper">
    <block class="Magento\Framework\View\Element\Template" name="script" template="Magento_Theme::newletter-popup.phtml" after="footer-container"/>
 </referenceContainer>

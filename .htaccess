@@ -1,3 +1,5 @@
+Header add Access-Control-Allow-Origin "#fully_qualified_domain_name#"
+Header always set Access-Control-Allow-Headers "Access-Control-Allow-Headers, Origin, Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers, Authorization"
 RewriteEngine on
 RewriteCond %{REQUEST_URI} !^/pub/
 RewriteCond %{REQUEST_URI} !^/setup/

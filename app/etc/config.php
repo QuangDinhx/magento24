@@ -210,6 +210,7 @@ return [
         'Magento_Wishlist' => 1,
         'Magento_WishlistAnalytics' => 1,
         'Magento_WishlistGraphQl' => 1,
+        'AdditionalModules_Weather' => 1,
         'MGS_Blog' => 1,
         'MGS_Brand' => 1,
         'MGS_Core' => 1,
@@ -219,6 +220,9 @@ return [
         'MGS_QuickView' => 1,
         'MGS_Social' => 1,
         'MGS_StoreLocator' => 1,
-        'MGS_Testimonial' => 1
+        'MGS_Testimonial' => 1,
+        'Robin_Tygiawidget' => 1,
+        'Robin_Weather1' => 1,
+        'Robin_Widget' => 1
     ]
 ];

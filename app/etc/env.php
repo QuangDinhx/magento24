@@ -35,7 +35,7 @@ return [
             'connection' => 'default'
         ]
     ],
-    'x-frame-options' => 'SAMEORIGIN',
+    'x-frame-options' => 'CROSS-ORIGIN',
     'MAGE_MODE' => 'default',
     'session' => [
         'save' => 'files'
