@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1638625664;s:6:"expire";i:1670161664;s:4:"tags";s:37:"fee_LAYOUT_GENERAL_CACHE_TAG,fee_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1639017507;s:6:"expire";i:1670553507;s:4:"tags";s:37:"fee_LAYOUT_GENERAL_CACHE_TAG,fee_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -6670,6 +6670,20 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1638625664;s:6:"expire";i:1670161664;s:4:"t
       <block class="MGS\Testimonial\Block\Testimonial" name="testimonial.view" template="MGS_Testimonial::view.phtml"/>
    </referenceContainer>
 </body>
+</handle><handle id="kinhdoanhpage_index_index" layout="1column"><head>
+   <title>D&#x1EF1; b&#xE1;o kinh doanh</title>
+   <css src="Robin_Kinhdoanhpage::css/style.css"/>
+</head>
+<referenceBlock name="content">
+   <block class="Robin\Kinhdoanhpage\Block\Kinhdoanhpage" name="robin_kinhdoanhpage" template="kinhdoanhpage.phtml"/>
+</referenceBlock>
+</handle><handle id="tygiapage_index_index" layout="1column"><head>
+   <title>T&#x1EF7; gi&#xE1; ti&#x1EC1;n t&#x1EC7;</title>
+   <css src="Robin_Tygiapage::css/style.css"/>
+</head>
+<referenceBlock name="content">
+   <block class="Robin\Tygiapage\Block\Tygiapage" name="robin_tygiapage" template="tygiapage.phtml"/>
+</referenceBlock>
 </handle><handle id="weather1_index_index" layout="1column"><head>
    <title>D&#x1EF1; b&#xE1;o th&#x1EDD;i ti&#x1EBF;t</title>
    <css src="Robin_Weather1::css/style.css"/>
