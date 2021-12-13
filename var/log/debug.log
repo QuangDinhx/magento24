@@ -14625,3 +14625,751 @@ Stack trace:
 [2021-12-13T05:11:56.675777+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/block/save/key/737eeff13670f84a7a5f3e0135a857954bd3fd70633bf478b13615978410b56d/","invalidateInfo":{"tags":["cms_b_orson_vertical_menu","FPC"],"mode":"matchingTag"}} []
 [2021-12-13T05:11:56.920411+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/block/save/key/737eeff13670f84a7a5f3e0135a857954bd3fd70633bf478b13615978410b56d/","invalidateInfo":{"tags":["cms_b_19","FPC"],"mode":"matchingTag"}} []
 [2021-12-13T05:11:56.920699+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/block/save/key/737eeff13670f84a7a5f3e0135a857954bd3fd70633bf478b13615978410b56d/","invalidateInfo":{"tags":["cms_b_orson_vertical_menu","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T13:30:02.683790+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CONFIG"],"mode":"matchingTag"}} []
+[2021-12-13T13:30:02.699421+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["LAYOUT_GENERAL_CACHE_TAG"],"mode":"matchingTag"}} []
+[2021-12-13T13:30:02.705867+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["BLOCK_HTML"],"mode":"matchingTag"}} []
+[2021-12-13T13:30:02.710410+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COLLECTION_DATA"],"mode":"matchingTag"}} []
+[2021-12-13T13:30:02.715461+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["REFLECTION"],"mode":"matchingTag"}} []
+[2021-12-13T13:30:02.720830+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["DB_DDL"],"mode":"matchingTag"}} []
+[2021-12-13T13:30:02.726451+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COMPILED_CONFIG"],"mode":"matchingTag"}} []
+[2021-12-13T13:30:02.730210+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV"],"mode":"matchingTag"}} []
+[2021-12-13T13:30:02.734006+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CUSTOMER_NOTIFICATION"],"mode":"matchingTag"}} []
+[2021-12-13T13:30:02.737640+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION"],"mode":"matchingTag"}} []
+[2021-12-13T13:30:02.741181+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION_API_CONFIG"],"mode":"matchingTag"}} []
+[2021-12-13T13:30:03.417820+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["FPC"],"mode":"matchingTag"}} []
+[2021-12-13T13:30:03.428108+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["WEBSERVICE"],"mode":"matchingTag"}} []
+[2021-12-13T13:30:03.431625+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["TRANSLATE"],"mode":"matchingTag"}} []
+[2021-12-13T13:32:08.416848+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CONFIG"],"mode":"matchingTag"}} []
+[2021-12-13T13:32:11.982175+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CONFIG"],"mode":"matchingTag"}} []
+[2021-12-13T13:32:12.000727+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["LAYOUT_GENERAL_CACHE_TAG"],"mode":"matchingTag"}} []
+[2021-12-13T13:32:12.015703+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["BLOCK_HTML"],"mode":"matchingTag"}} []
+[2021-12-13T13:32:12.019918+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COLLECTION_DATA"],"mode":"matchingTag"}} []
+[2021-12-13T13:32:12.024535+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["REFLECTION"],"mode":"matchingTag"}} []
+[2021-12-13T13:32:12.028265+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["DB_DDL"],"mode":"matchingTag"}} []
+[2021-12-13T13:32:12.032552+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COMPILED_CONFIG"],"mode":"matchingTag"}} []
+[2021-12-13T13:32:12.036615+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV"],"mode":"matchingTag"}} []
+[2021-12-13T13:32:12.040535+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CUSTOMER_NOTIFICATION"],"mode":"matchingTag"}} []
+[2021-12-13T13:32:12.044126+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION"],"mode":"matchingTag"}} []
+[2021-12-13T13:32:12.048477+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION_API_CONFIG"],"mode":"matchingTag"}} []
+[2021-12-13T13:32:12.053071+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["FPC"],"mode":"matchingTag"}} []
+[2021-12-13T13:32:12.057224+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["WEBSERVICE"],"mode":"matchingTag"}} []
+[2021-12-13T13:32:12.061705+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["TRANSLATE"],"mode":"matchingTag"}} []
+[2021-12-13T13:32:42.429514+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["LAYOUT_GENERAL_CACHE_TAG"],"mode":"matchingTag"}} []
+[2021-12-13T13:32:42.441525+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["BLOCK_HTML"],"mode":"matchingTag"}} []
+[2021-12-13T13:32:42.446609+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["FPC"],"mode":"matchingTag"}} []
+[2021-12-13T13:43:58.601900+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/MGS_Promobanners/css/promobanner.css is wrong. [] []
+[2021-12-13T13:43:58.608776+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/MGS_Promobanners/css/promobanner.css is wrong. [] []
+[2021-12-13T13:43:58.625470+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/extjs/resources/css/ext-all.css is wrong. [] []
+[2021-12-13T13:43:58.629197+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/extjs/resources/css/ext-all.css is wrong. [] []
+[2021-12-13T13:43:58.682133+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2021-12-13T13:43:58.684720+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2021-12-13T13:43:59.713709+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/jquery/jstree/themes/default/style.css is wrong. [] []
+[2021-12-13T13:43:59.715732+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/jquery/jstree/themes/default/style.css is wrong. [] []
+[2021-12-13T13:43:59.717188+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/requirejs/require.js is wrong. [] []
+[2021-12-13T13:43:59.718888+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/requirejs/require.js is wrong. [] []
+[2021-12-13T13:44:00.037801+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/css/styles.css is wrong. [] []
+[2021-12-13T13:44:00.039889+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/css/styles.css is wrong. [] []
+[2021-12-13T13:44:00.656120+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/mage/requirejs/mixins.js is wrong. [] []
+[2021-12-13T13:44:00.658214+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/mage/requirejs/mixins.js is wrong. [] []
+[2021-12-13T13:44:00.956074+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/images/magento-logo.svg is wrong. [] []
+[2021-12-13T13:44:00.957811+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/images/magento-logo.svg is wrong. [] []
+[2021-12-13T13:44:02.933113+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T13:44:02.936083+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T13:44:20.275264+00:00] main.DEBUG: URI '/admin/cms/page/edit/page_id/14/key/1f55193580d9e1d2e6a67f57ff35b070967756a2b9eacfe130556f57da16e42d/'' cannot be accessed with POST method (Magento\Cms\Controller\Adminhtml\Page\Edit) [] []
+[2021-12-13T13:44:20.336310+00:00] main.DEBUG: Request validation failed for action "Magento\Cms\Controller\Adminhtml\Page\Edit\Interceptor" {"exception":"[object] (Magento\\Framework\\App\\Request\\InvalidRequestException(code: 0): Invalid request received at C:\\xampp\\htdocs\\magento24\\lib\\internal\\Magento\\Framework\\App\\Request\\HttpMethodValidator.php:69)"} []
+[2021-12-13T13:44:21.578086+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/page/edit/page_id/14/key/1f55193580d9e1d2e6a67f57ff35b070967756a2b9eacfe130556f57da16e42d/","invalidateInfo":{"tags":["BACKEND_MAINMENU"],"mode":"matchingAnyTag"}} []
+[2021-12-13T13:44:23.258897+00:00] main.INFO: Item Magento_Backend::system_currency was removed [] []
+[2021-12-13T13:44:23.341843+00:00] main.INFO: Add of item with id Magento_Config::system_config was processed [] []
+[2021-12-13T13:44:23.342128+00:00] main.INFO: Add of item with id Magento_Theme::design_config was processed [] []
+[2021-12-13T13:44:23.342285+00:00] main.INFO: Add of item with id Magento_Theme::system_design_theme was processed [] []
+[2021-12-13T13:44:23.342436+00:00] main.INFO: Add of item with id Magento_Backend::system_design_schedule was processed [] []
+[2021-12-13T13:44:23.342579+00:00] main.INFO: Add of item with id Magento_Backend::system_store was processed [] []
+[2021-12-13T13:44:23.342720+00:00] main.INFO: Add of item with id Magento_Backend::dashboard was processed [] []
+[2021-12-13T13:44:23.342859+00:00] main.INFO: Add of item with id Magento_Backend::system was processed [] []
+[2021-12-13T13:44:23.343019+00:00] main.INFO: Add of item with id Magento_Backend::system_tools was processed [] []
+[2021-12-13T13:44:23.343181+00:00] main.INFO: Add of item with id Magento_Backend::system_design was processed [] []
+[2021-12-13T13:44:23.343329+00:00] main.INFO: Add of item with id Magento_Backend::system_convert was processed [] []
+[2021-12-13T13:44:23.343510+00:00] main.INFO: Add of item with id Magento_Backend::system_cache was processed [] []
+[2021-12-13T13:44:23.343653+00:00] main.INFO: Add of item with id Magento_Backend::marketing was processed [] []
+[2021-12-13T13:44:23.343812+00:00] main.INFO: Add of item with id Magento_Backend::marketing_communications was processed [] []
+[2021-12-13T13:44:23.343956+00:00] main.INFO: Add of item with id Magento_Backend::marketing_seo was processed [] []
+[2021-12-13T13:44:23.344096+00:00] main.INFO: Add of item with id Magento_Backend::marketing_user_content was processed [] []
+[2021-12-13T13:44:23.344235+00:00] main.INFO: Add of item with id Magento_Backend::content was processed [] []
+[2021-12-13T13:44:23.344384+00:00] main.INFO: Add of item with id Magento_Backend::content_elements was processed [] []
+[2021-12-13T13:44:23.344524+00:00] main.INFO: Add of item with id Magento_Backend::stores was processed [] []
+[2021-12-13T13:44:23.344682+00:00] main.INFO: Add of item with id Magento_Backend::stores_settings was processed [] []
+[2021-12-13T13:44:23.344827+00:00] main.INFO: Add of item with id Magento_Backend::stores_attributes was processed [] []
+[2021-12-13T13:44:23.344967+00:00] main.INFO: Add of item with id Magento_Backend::other_settings was processed [] []
+[2021-12-13T13:44:23.345163+00:00] main.INFO: Add of item with id Magento_Backend::system_other_settings was processed [] []
+[2021-12-13T13:44:23.345367+00:00] main.INFO: Add of item with id Magento_Variable::system_variable was processed [] []
+[2021-12-13T13:44:23.345534+00:00] main.INFO: Add of item with id Magento_Search::search_terms was processed [] []
+[2021-12-13T13:44:23.345730+00:00] main.INFO: Add of item with id Magento_Search::search_synonyms was processed [] []
+[2021-12-13T13:44:23.345892+00:00] main.INFO: Add of item with id Magento_Backup::system_tools_backup was processed [] []
+[2021-12-13T13:44:23.346033+00:00] main.INFO: Add of item with id Magento_Customer::customer was processed [] []
+[2021-12-13T13:44:23.346197+00:00] main.INFO: Add of item with id Magento_Customer::customer_manage was processed [] []
+[2021-12-13T13:44:23.346346+00:00] main.INFO: Add of item with id Magento_Customer::customer_online was processed [] []
+[2021-12-13T13:44:23.346487+00:00] main.INFO: Add of item with id Magento_Customer::customer_group was processed [] []
+[2021-12-13T13:44:23.346626+00:00] main.INFO: Add of item with id Magento_AdminNotification::system_adminnotification was processed [] []
+[2021-12-13T13:44:23.346767+00:00] main.INFO: Add of item with id Magento_Indexer::system_index was processed [] []
+[2021-12-13T13:44:23.346927+00:00] main.INFO: Add of item with id Magento_Cms::cms_page was processed [] []
+[2021-12-13T13:44:23.347070+00:00] main.INFO: Add of item with id Magento_Cms::cms_block was processed [] []
+[2021-12-13T13:44:23.347209+00:00] main.INFO: Add of item with id Magento_Catalog::catalog was processed [] []
+[2021-12-13T13:44:23.347403+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_products was processed [] []
+[2021-12-13T13:44:23.347581+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_categories was processed [] []
+[2021-12-13T13:44:23.347744+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_attributes_attributes was processed [] []
+[2021-12-13T13:44:23.347891+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_attributes_sets was processed [] []
+[2021-12-13T13:44:23.348050+00:00] main.INFO: Add of item with id Magento_Catalog::inventory was processed [] []
+[2021-12-13T13:44:23.348194+00:00] main.INFO: Add of item with id Magento_CatalogRule::promo was processed [] []
+[2021-12-13T13:44:23.348462+00:00] main.INFO: Add of item with id Magento_CatalogRule::promo_catalog was processed [] []
+[2021-12-13T13:44:23.348619+00:00] main.INFO: Add of item with id Magento_Widget::cms_widget_instance was processed [] []
+[2021-12-13T13:44:23.348762+00:00] main.INFO: Add of item with id Magento_User::system_acl was processed [] []
+[2021-12-13T13:44:23.348928+00:00] main.INFO: Add of item with id Magento_User::system_acl_users was processed [] []
+[2021-12-13T13:44:23.349073+00:00] main.INFO: Add of item with id Magento_User::system_acl_roles was processed [] []
+[2021-12-13T13:44:23.349212+00:00] main.INFO: Add of item with id Magento_User::system_acl_locks was processed [] []
+[2021-12-13T13:44:23.349354+00:00] main.INFO: Add of item with id Magento_Sales::sales was processed [] []
+[2021-12-13T13:44:23.349515+00:00] main.INFO: Add of item with id Magento_Sales::sales_operation was processed [] []
+[2021-12-13T13:44:23.349677+00:00] main.INFO: Add of item with id Magento_Sales::sales_order was processed [] []
+[2021-12-13T13:44:23.349820+00:00] main.INFO: Add of item with id Magento_Sales::sales_invoice was processed [] []
+[2021-12-13T13:44:23.349960+00:00] main.INFO: Add of item with id Magento_Sales::sales_shipment was processed [] []
+[2021-12-13T13:44:23.350099+00:00] main.INFO: Add of item with id Magento_Sales::sales_creditmemo was processed [] []
+[2021-12-13T13:44:23.350238+00:00] main.INFO: Add of item with id Magento_Sales::sales_transactions was processed [] []
+[2021-12-13T13:44:23.350394+00:00] main.INFO: Add of item with id Magento_Sales::system_order_statuses was processed [] []
+[2021-12-13T13:44:23.350581+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency was processed [] []
+[2021-12-13T13:44:23.350750+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency_rates was processed [] []
+[2021-12-13T13:44:23.350895+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency_symbols was processed [] []
+[2021-12-13T13:44:23.351064+00:00] main.INFO: Add of item with id Magento_Integration::system_extensions was processed [] []
+[2021-12-13T13:44:23.351269+00:00] main.INFO: Add of item with id Magento_Integration::system_integrations was processed [] []
+[2021-12-13T13:44:23.351577+00:00] main.INFO: Add of item with id Magento_Downloadable::report_products_downloads was processed [] []
+[2021-12-13T13:44:23.351830+00:00] main.INFO: Add of item with id Magento_AsynchronousOperations::system_magento_logging was processed [] []
+[2021-12-13T13:44:23.352044+00:00] main.INFO: Add of item with id Magento_AsynchronousOperations::system_magento_logging_bulk_operations was processed [] []
+[2021-12-13T13:44:23.352330+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_import was processed [] []
+[2021-12-13T13:44:23.352488+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_export was processed [] []
+[2021-12-13T13:44:23.352634+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_history was processed [] []
+[2021-12-13T13:44:23.352818+00:00] main.INFO: Add of item with id Magento_Email::template was processed [] []
+[2021-12-13T13:44:23.352968+00:00] main.INFO: Add of item with id Magento_EncryptionKey::system_crypt_key was processed [] []
+[2021-12-13T13:44:23.353134+00:00] main.INFO: Add of item with id Magento_Analytics::business_intelligence was processed [] []
+[2021-12-13T13:44:23.353333+00:00] main.INFO: Add of item with id Magento_Analytics::advanced_reporting was processed [] []
+[2021-12-13T13:44:23.353482+00:00] main.INFO: Add of item with id Magento_Analytics::bi_essentials was processed [] []
+[2021-12-13T13:44:23.353626+00:00] main.INFO: Add of item with id Magento_LoginAsCustomerLog::login_log was processed [] []
+[2021-12-13T13:44:23.353768+00:00] main.INFO: Add of item with id Magento_Marketplace::partners was processed [] []
+[2021-12-13T13:44:23.353910+00:00] main.INFO: Add of item with id Magento_MediaGalleryUi::media was processed [] []
+[2021-12-13T13:44:23.354075+00:00] main.INFO: Add of item with id Magento_MediaGalleryUi::media_gallery was processed [] []
+[2021-12-13T13:44:23.354221+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_template was processed [] []
+[2021-12-13T13:44:23.354365+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_queue was processed [] []
+[2021-12-13T13:44:23.354505+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_subscriber was processed [] []
+[2021-12-13T13:44:23.354672+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_problem was processed [] []
+[2021-12-13T13:44:23.354819+00:00] main.INFO: Add of item with id Magento_SalesRule::promo_quote was processed [] []
+[2021-12-13T13:44:23.354982+00:00] main.INFO: Add of item with id Magento_Paypal::report_salesroot_paypal_settlement_reports was processed [] []
+[2021-12-13T13:44:23.355129+00:00] main.INFO: Add of item with id Magento_Paypal::paypal_billing_agreement was processed [] []
+[2021-12-13T13:44:23.355270+00:00] main.INFO: Add of item with id Magento_CheckoutAgreements::sales_checkoutagreement was processed [] []
+[2021-12-13T13:44:23.355414+00:00] main.INFO: Add of item with id Magento_Sitemap::catalog_sitemap was processed [] []
+[2021-12-13T13:44:23.355553+00:00] main.INFO: Add of item with id Magento_Reports::report was processed [] []
+[2021-12-13T13:44:23.355712+00:00] main.INFO: Add of item with id Magento_Reports::report_marketing was processed [] []
+[2021-12-13T13:44:23.355886+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot was processed [] []
+[2021-12-13T13:44:23.356028+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_sales was processed [] []
+[2021-12-13T13:44:23.356232+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_tax was processed [] []
+[2021-12-13T13:44:23.356452+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_invoiced was processed [] []
+[2021-12-13T13:44:23.356616+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_shipping was processed [] []
+[2021-12-13T13:44:23.356761+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_refunded was processed [] []
+[2021-12-13T13:44:23.356902+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_coupons was processed [] []
+[2021-12-13T13:44:23.357043+00:00] main.INFO: Add of item with id Magento_Reports::report_shopcart_product was processed [] []
+[2021-12-13T13:44:23.357182+00:00] main.INFO: Add of item with id Magento_Reports::report_shopcart_abandoned was processed [] []
+[2021-12-13T13:44:23.357324+00:00] main.INFO: Add of item with id Magento_Reports::report_products was processed [] []
+[2021-12-13T13:44:23.357466+00:00] main.INFO: Add of item with id Magento_Reports::report_products_bestsellers was processed [] []
+[2021-12-13T13:44:23.357606+00:00] main.INFO: Add of item with id Magento_Reports::report_products_sold was processed [] []
+[2021-12-13T13:44:23.357746+00:00] main.INFO: Add of item with id Magento_Reports::report_products_viewed was processed [] []
+[2021-12-13T13:44:23.357885+00:00] main.INFO: Add of item with id Magento_Reports::report_products_lowstock was processed [] []
+[2021-12-13T13:44:23.358025+00:00] main.INFO: Add of item with id Magento_Reports::report_customers was processed [] []
+[2021-12-13T13:44:23.358203+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_accounts was processed [] []
+[2021-12-13T13:44:23.358351+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_totals was processed [] []
+[2021-12-13T13:44:23.358497+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_orders was processed [] []
+[2021-12-13T13:44:23.358637+00:00] main.INFO: Add of item with id Magento_Reports::report_statistics was processed [] []
+[2021-12-13T13:44:23.358801+00:00] main.INFO: Add of item with id Magento_Reports::report_statistics_refresh was processed [] []
+[2021-12-13T13:44:23.358945+00:00] main.INFO: Add of item with id Magento_Search::report_search_term was processed [] []
+[2021-12-13T13:44:23.359085+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_ratings was processed [] []
+[2021-12-13T13:44:23.359244+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_pending was processed [] []
+[2021-12-13T13:44:23.359397+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_reviews_all was processed [] []
+[2021-12-13T13:44:23.359606+00:00] main.INFO: Add of item with id Magento_Review::report_review was processed [] []
+[2021-12-13T13:44:23.360363+00:00] main.INFO: Add of item with id Magento_Review::report_review_customer was processed [] []
+[2021-12-13T13:44:23.360538+00:00] main.INFO: Add of item with id Magento_Review::report_review_product was processed [] []
+[2021-12-13T13:44:23.360681+00:00] main.INFO: Add of item with id Magento_UrlRewrite::urlrewrite was processed [] []
+[2021-12-13T13:44:23.360822+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax was processed [] []
+[2021-12-13T13:44:23.360988+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax_rules was processed [] []
+[2021-12-13T13:44:23.361134+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax_rates was processed [] []
+[2021-12-13T13:44:23.361277+00:00] main.INFO: Add of item with id Magento_TaxImportExport::system_convert_tax was processed [] []
+[2021-12-13T13:44:23.361441+00:00] main.INFO: Add of item with id MGS_Blog::blog was processed [] []
+[2021-12-13T13:44:23.361608+00:00] main.INFO: Add of item with id MGS_Blog::manage_post was processed [] []
+[2021-12-13T13:44:23.361754+00:00] main.INFO: Add of item with id MGS_Blog::manage_comment was processed [] []
+[2021-12-13T13:44:23.361898+00:00] main.INFO: Add of item with id MGS_Blog::manage_category was processed [] []
+[2021-12-13T13:44:23.362042+00:00] main.INFO: Add of item with id MGS_Blog::configuration was processed [] []
+[2021-12-13T13:44:23.362182+00:00] main.INFO: Add of item with id MGS_Brand::brand was processed [] []
+[2021-12-13T13:44:23.362417+00:00] main.INFO: Add of item with id MGS_Brand::manage_brand was processed [] []
+[2021-12-13T13:44:23.362568+00:00] main.INFO: Add of item with id MGS_Brand::configuration was processed [] []
+[2021-12-13T13:44:23.362714+00:00] main.INFO: Add of item with id Magento_Backend::mgs was processed [] []
+[2021-12-13T13:44:23.362855+00:00] main.INFO: Add of item with id MGS_Mpanel::mgs_elements was processed [] []
+[2021-12-13T13:44:23.363030+00:00] main.INFO: Add of item with id MGS_Mpanel::general_setting was processed [] []
+[2021-12-13T13:44:23.363181+00:00] main.INFO: Add of item with id MGS_Mpanel::theme_setting was processed [] []
+[2021-12-13T13:44:23.363379+00:00] main.INFO: Add of item with id MGS_Mpanel::color_setting was processed [] []
+[2021-12-13T13:44:23.363598+00:00] main.INFO: Add of item with id MGS_Portfolio::portfolio was processed [] []
+[2021-12-13T13:44:23.363821+00:00] main.INFO: Add of item with id MGS_Portfolio::portfolio_category was processed [] []
+[2021-12-13T13:44:23.364075+00:00] main.INFO: Add of item with id MGS_Portfolio::portfolio_items was processed [] []
+[2021-12-13T13:44:23.364474+00:00] main.INFO: Add of item with id MGS_Promobanners::promobanners was processed [] []
+[2021-12-13T13:44:23.364847+00:00] main.INFO: Add of item with id MGS_Promobanners::manage was processed [] []
+[2021-12-13T13:44:23.365354+00:00] main.INFO: Add of item with id MGS_QuickView::QuickView was processed [] []
+[2021-12-13T13:44:23.366049+00:00] main.INFO: Add of item with id MGS_QuickView::configuration was processed [] []
+[2021-12-13T13:44:23.366621+00:00] main.INFO: Add of item with id MGS_Social::social was processed [] []
+[2021-12-13T13:44:23.367355+00:00] main.INFO: Add of item with id MGS_Social::configuration was processed [] []
+[2021-12-13T13:44:23.367598+00:00] main.INFO: Add of item with id MGS_StoreLocator::storelocator was processed [] []
+[2021-12-13T13:44:23.367815+00:00] main.INFO: Add of item with id MGS_StoreLocator::locator_manage was processed [] []
+[2021-12-13T13:44:23.367973+00:00] main.INFO: Add of item with id MGS_Testimonial::testimonial was processed [] []
+[2021-12-13T13:44:23.368142+00:00] main.INFO: Add of item with id MGS_Testimonial::testimonial_manage was processed [] []
+[2021-12-13T13:45:33.330025+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T13:45:33.333077+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T13:45:47.630170+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T13:45:47.631575+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T13:45:51.952878+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T13:45:51.956526+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T13:48:55.109085+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/page/save/key/a6bc522e139eb9917ddbd604efffadc06e0d5b81379d298f6888a7898a94aa19/back/edit","invalidateInfo":{"tags":["cms_p"],"mode":"matchingAnyTag"}} []
+[2021-12-13T13:48:55.119073+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/page/save/key/a6bc522e139eb9917ddbd604efffadc06e0d5b81379d298f6888a7898a94aa19/back/edit","invalidateInfo":{"tags":["cms_p_14","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T13:48:55.426218+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/page/save/key/a6bc522e139eb9917ddbd604efffadc06e0d5b81379d298f6888a7898a94aa19/back/edit","invalidateInfo":{"tags":["cms_p_14","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T13:49:01.739696+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T13:49:01.742204+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T13:49:16.327209+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T13:49:16.329832+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T13:53:28.275796+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T13:53:28.280445+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T14:03:59.937597+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/save/key/8cd33c2607a38d30defcf49343445aed6ecf16e77be5c61da4ca831ee3852f8d/","invalidateInfo":{"tags":["cat_c_21","cat_c_p_21"],"mode":"matchingAnyTag"}} []
+[2021-12-13T14:03:59.940967+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/save/key/8cd33c2607a38d30defcf49343445aed6ecf16e77be5c61da4ca831ee3852f8d/","invalidateInfo":{"tags":["cat_c_21","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T14:03:59.941337+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/save/key/8cd33c2607a38d30defcf49343445aed6ecf16e77be5c61da4ca831ee3852f8d/","invalidateInfo":{"tags":["cat_c_p_21","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T14:04:01.022914+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/save/key/8cd33c2607a38d30defcf49343445aed6ecf16e77be5c61da4ca831ee3852f8d/","invalidateInfo":{"tags":["cat_c_21","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T14:04:01.023332+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/save/key/8cd33c2607a38d30defcf49343445aed6ecf16e77be5c61da4ca831ee3852f8d/","invalidateInfo":{"tags":["cat_c_21"],"mode":"matchingAnyTag"}} []
+[2021-12-13T14:04:01.023509+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/save/key/8cd33c2607a38d30defcf49343445aed6ecf16e77be5c61da4ca831ee3852f8d/","invalidateInfo":{"tags":["cat_c_21"],"mode":"matchingAnyTag"}} []
+[2021-12-13T14:04:31.597506+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T14:04:31.599368+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T14:04:37.818169+00:00] main.CRITICAL: Elasticsearch\Common\Exceptions\BadRequest400Exception: {"error":{"root_cause":[{"type":"query_shard_exception","reason":"No mapping found for [position_category_21] in order to sort on","index_uuid":"9l3S7UHZRBug1dbzxdAu3g","index":"magento2_product_1_v10"}],"type":"search_phase_execution_exception","reason":"all shards failed","phase":"query","grouped":true,"failed_shards":[{"shard":0,"index":"magento2_product_1_v10","node":"h9W9ElHnQtumGu-wx6inLg","reason":{"type":"query_shard_exception","reason":"No mapping found for [position_category_21] in order to sort on","index_uuid":"9l3S7UHZRBug1dbzxdAu3g","index":"magento2_product_1_v10"}}]},"status":400} in C:\xampp\htdocs\magento24\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Connections\Connection.php:693
+Stack trace:
+#0 C:\xampp\htdocs\magento24\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Connections\Connection.php(333): Elasticsearch\Connections\Connection->process4xxError(Array, Array, Array)
+#1 C:\xampp\htdocs\magento24\vendor\react\promise\src\FulfilledPromise.php(28): Elasticsearch\Connections\Connection->Elasticsearch\Connections\{closure}(Array)
+#2 C:\xampp\htdocs\magento24\vendor\ezimuel\ringphp\src\Future\CompletedFutureValue.php(55): React\Promise\FulfilledPromise->then(Object(Closure), NULL, NULL)
+#3 C:\xampp\htdocs\magento24\vendor\ezimuel\ringphp\src\Core.php(341): GuzzleHttp\Ring\Future\CompletedFutureValue->then(Object(Closure), NULL, NULL)
+#4 C:\xampp\htdocs\magento24\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Connections\Connection.php(345): GuzzleHttp\Ring\Core::proxy(Object(GuzzleHttp\Ring\Future\CompletedFutureArray), Object(Closure))
+#5 C:\xampp\htdocs\magento24\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Connections\Connection.php(241): Elasticsearch\Connections\Connection->Elasticsearch\Connections\{closure}(Array, Object(Elasticsearch\Connections\Connection), Object(Elasticsearch\Transport), Array)
+#6 C:\xampp\htdocs\magento24\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Transport.php(110): Elasticsearch\Connections\Connection->performRequest('POST', '/magento2_produ...', Array, '{"from":0,"size...', Array, Object(Elasticsearch\Transport))
+#7 C:\xampp\htdocs\magento24\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php(1903): Elasticsearch\Transport->performRequest('POST', '/magento2_produ...', Array, Array, Array)
+#8 C:\xampp\htdocs\magento24\vendor\elasticsearch\elasticsearch\src\Elasticsearch\Client.php(1365): Elasticsearch\Client->performRequest(Object(Elasticsearch\Endpoints\Search))
+#9 C:\xampp\htdocs\magento24\app\code\Magento\Elasticsearch7\Model\Client\Elasticsearch.php(338): Elasticsearch\Client->search(Array)
+#10 C:\xampp\htdocs\magento24\app\code\Magento\Elasticsearch7\SearchAdapter\Adapter.php(117): Magento\Elasticsearch7\Model\Client\Elasticsearch->query(Array)
+#11 C:\xampp\htdocs\magento24\app\code\Magento\Search\Model\SearchEngine.php(42): Magento\Elasticsearch7\SearchAdapter\Adapter->query(Object(Magento\Framework\Search\Request))
+#12 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Search\Search.php(85): Magento\Search\Model\SearchEngine->search(Object(Magento\Framework\Search\Request))
+#13 C:\xampp\htdocs\magento24\app\code\Magento\CatalogSearch\Model\ResourceModel\Fulltext\Collection.php(465): Magento\Framework\Search\Search->search(Object(Magento\Framework\Api\Search\SearchCriteria))
+#14 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Data\Collection\AbstractDb.php(343): Magento\CatalogSearch\Model\ResourceModel\Fulltext\Collection->_renderFiltersBefore()
+#15 C:\xampp\htdocs\magento24\app\code\Magento\CatalogSearch\Model\ResourceModel\Fulltext\Collection.php(583): Magento\Framework\Data\Collection\AbstractDb->_renderFilters()
+#16 C:\xampp\htdocs\magento24\app\code\Magento\CatalogSearch\Model\ResourceModel\Fulltext\Collection.php(605): Magento\CatalogSearch\Model\ResourceModel\Fulltext\Collection->_renderFilters()
+#17 C:\xampp\htdocs\magento24\generated\code\Magento\CatalogSearch\Model\ResourceModel\Fulltext\Collection\Interceptor.php(113): Magento\CatalogSearch\Model\ResourceModel\Fulltext\Collection->getFacetedData('category')
+#18 C:\xampp\htdocs\magento24\app\code\Magento\CatalogSearch\Model\Layer\Filter\Category.php(126): Magento\CatalogSearch\Model\ResourceModel\Fulltext\Collection\Interceptor->getFacetedData('category')
+#19 C:\xampp\htdocs\magento24\app\code\Magento\Catalog\Model\Layer\Filter\AbstractFilter.php(202): Magento\CatalogSearch\Model\Layer\Filter\Category->_getItemsData()
+#20 C:\xampp\htdocs\magento24\app\code\Magento\Catalog\Model\Layer\Filter\AbstractFilter.php(159): Magento\Catalog\Model\Layer\Filter\AbstractFilter->_initItems()
+#21 C:\xampp\htdocs\magento24\app\code\Magento\Catalog\Model\Layer\Filter\AbstractFilter.php(148): Magento\Catalog\Model\Layer\Filter\AbstractFilter->getItems()
+#22 C:\xampp\htdocs\magento24\app\code\Magento\Catalog\Model\Layer\Category\AvailabilityFlag.php(33): Magento\Catalog\Model\Layer\Filter\AbstractFilter->getItemsCount()
+#23 C:\xampp\htdocs\magento24\app\code\Magento\Catalog\Model\Layer\Category\AvailabilityFlag.php(23): Magento\Catalog\Model\Layer\Category\AvailabilityFlag->canShowOptions(Array)
+#24 C:\xampp\htdocs\magento24\app\code\Magento\LayeredNavigation\Block\Navigation.php(126): Magento\Catalog\Model\Layer\Category\AvailabilityFlag->isEnabled(Object(Magento\Catalog\Model\Layer\Category), Array)
+#25 C:\xampp\htdocs\magento24\app\design\frontend\Mgs\orson\Magento_LayeredNavigation\templates\layer\view.phtml(24): Magento\LayeredNavigation\Block\Navigation->canShowBlock()
+#26 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\TemplateEngine\Php.php(71): include('C:\\xampp\\htdocs...')
+#27 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Element\Template.php(263): Magento\Framework\View\TemplateEngine\Php->render(Object(Magento\LayeredNavigation\Block\Navigation), 'C:/xampp/htdocs...', Array)
+#28 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Element\Template.php(293): Magento\Framework\View\Element\Template->fetchView('C:/xampp/htdocs...')
+#29 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Element\AbstractBlock.php(1114): Magento\Framework\View\Element\Template->_toHtml()
+#30 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Element\AbstractBlock.php(1118): Magento\Framework\View\Element\AbstractBlock->Magento\Framework\View\Element\{closure}()
+#31 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Element\AbstractBlock.php(678): Magento\Framework\View\Element\AbstractBlock->_loadCache()
+#32 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(578): Magento\Framework\View\Element\AbstractBlock->toHtml()
+#33 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(555): Magento\Framework\View\Layout->_renderBlock('catalog.leftnav')
+#34 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement('catalog.leftnav')
+#35 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement('catalog.leftnav')
+#36 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(140): Magento\Framework\View\Layout->renderElement('catalog.leftnav', false)
+#37 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement('catalog.leftnav', false)
+#38 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(557): Magento\Framework\View\Layout->_renderContainer('sidebar.main', false)
+#39 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement('sidebar.main')
+#40 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement('sidebar.main')
+#41 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(140): Magento\Framework\View\Layout->renderElement('sidebar.main', false)
+#42 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement('sidebar.main', false)
+#43 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(557): Magento\Framework\View\Layout->_renderContainer('div.sidebar.mai...', false)
+#44 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement('div.sidebar.mai...')
+#45 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement('div.sidebar.mai...')
+#46 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(140): Magento\Framework\View\Layout->renderElement('div.sidebar.mai...', false)
+#47 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement('div.sidebar.mai...', false)
+#48 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(557): Magento\Framework\View\Layout->_renderContainer('columns', false)
+#49 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement('columns')
+#50 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement('columns')
+#51 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(140): Magento\Framework\View\Layout->renderElement('columns', false)
+#52 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement('columns', false)
+#53 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(557): Magento\Framework\View\Layout->_renderContainer('main.content', false)
+#54 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement('main.content')
+#55 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement('main.content')
+#56 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(140): Magento\Framework\View\Layout->renderElement('main.content', false)
+#57 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement('main.content', false)
+#58 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(557): Magento\Framework\View\Layout->_renderContainer('page.wrapper', false)
+#59 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement('page.wrapper')
+#60 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement('page.wrapper')
+#61 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(140): Magento\Framework\View\Layout->renderElement('page.wrapper', false)
+#62 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement('page.wrapper', false)
+#63 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(557): Magento\Framework\View\Layout->_renderContainer('root', false)
+#64 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement('root')
+#65 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement('root')
+#66 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(140): Magento\Framework\View\Layout->renderElement('root', true)
+#67 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(975): Magento\Framework\View\Layout\Interceptor->renderElement('root')
+#68 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Framework\View\Layout->getOutput()
+#69 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Framework\View\Layout\Interceptor->___callParent('getOutput', Array)
+#70 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Framework\View\Layout\Interceptor->Magento\Framework\Interception\{closure}()
+#71 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(347): Magento\Framework\View\Layout\Interceptor->___callPlugins('getOutput', Array, Array)
+#72 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Result\Page.php(260): Magento\Framework\View\Layout\Interceptor->getOutput()
+#73 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Result\Layout.php(171): Magento\Framework\View\Result\Page->render(Object(Magento\Framework\App\Response\Http\Interceptor))
+#74 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Framework\View\Result\Layout->renderResult(Object(Magento\Framework\App\Response\Http\Interceptor))
+#75 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): MGS\Mpanel\Block\Framework\Page\Interceptor->___callParent('renderResult', Array)
+#76 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): MGS\Mpanel\Block\Framework\Page\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Framework\App\Response\Http\Interceptor))
+#77 C:\xampp\htdocs\magento24\generated\code\MGS\Mpanel\Block\Framework\Page\Interceptor.php(104): MGS\Mpanel\Block\Framework\Page\Interceptor->___callPlugins('renderResult', Array, Array)
+#78 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Http.php(120): MGS\Mpanel\Block\Framework\Page\Interceptor->renderResult(Object(Magento\Framework\App\Response\Http\Interceptor))
+#79 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\App\Http\Interceptor.php(23): Magento\Framework\App\Http->launch()
+#80 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#81 C:\xampp\htdocs\magento24\pub\index.php(30): Magento\Framework\App\Bootstrap->run(Object(Magento\Framework\App\Http\Interceptor))
+#82 {main} [] []
+[2021-12-13T14:04:49.431972+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T14:04:49.433377+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T14:39:33.673801+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/extjs/resources/css/ext-all.css is wrong. [] []
+ [] []
+[2021-12-13T14:39:33.677526+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2021-12-13T14:39:33.677539+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/extjs/resources/css/ext-all.css is wrong. [] []
+[2021-12-13T14:39:33.677525+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/MGS_Promobanners/css/promobanner.css is wrong. [] []
+[2021-12-13T14:39:33.673811+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/requirejs/require.js is wrong. [] []
+[2021-12-13T14:39:33.690165+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/requirejs/require.js is wrong. [] []
+[2021-12-13T14:39:33.719537+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/css/styles.css is wrong. [] []
+[2021-12-13T14:39:33.721093+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/css/styles.css is wrong. [] []
+[2021-12-13T14:39:33.728005+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/jquery/jstree/themes/default/style.css is wrong. [] []
+[2021-12-13T14:39:33.731551+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/jquery/jstree/themes/default/style.css is wrong. [] []
+[2021-12-13T14:39:34.159710+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/mage/requirejs/mixins.js is wrong. [] []
+[2021-12-13T14:39:34.160617+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/mage/requirejs/mixins.js is wrong. [] []
+[2021-12-13T14:39:34.174906+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/images/magento-logo.svg is wrong. [] []
+[2021-12-13T14:39:34.175679+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/images/magento-logo.svg is wrong. [] []
+[2021-12-13T14:39:37.423263+00:00] main.DEBUG: URI '/admin/catalog/category/edit/key/518fb5399be2534970f15995f94808a502ba28bc62e69a2202a6d3d304ffc2dc/id/19/'' cannot be accessed with POST method (Magento\Catalog\Controller\Adminhtml\Category\Edit) [] []
+[2021-12-13T14:39:37.488495+00:00] main.DEBUG: Request validation failed for action "Magento\Catalog\Controller\Adminhtml\Category\Edit\Interceptor" {"exception":"[object] (Magento\\Framework\\App\\Request\\InvalidRequestException(code: 0): Invalid request received at C:\\xampp\\htdocs\\magento24\\lib\\internal\\Magento\\Framework\\App\\Request\\HttpMethodValidator.php:69)"} []
+[2021-12-13T14:39:38.133652+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/edit/key/518fb5399be2534970f15995f94808a502ba28bc62e69a2202a6d3d304ffc2dc/id/19/","invalidateInfo":{"tags":["BACKEND_MAINMENU"],"mode":"matchingAnyTag"}} []
+[2021-12-13T14:40:26.769105+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/delete/key/1904912d0de512ce5fe9e658ed2c6e02eb4cc48f4fcaa348c059d6ba9426f130/id/19/","invalidateInfo":{"tags":["cat_c_19"],"mode":"matchingAnyTag"}} []
+[2021-12-13T14:40:26.820387+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/delete/key/1904912d0de512ce5fe9e658ed2c6e02eb4cc48f4fcaa348c059d6ba9426f130/id/19/","invalidateInfo":{"tags":["cat_c_20","cat_c_p_20"],"mode":"matchingAnyTag"}} []
+[2021-12-13T14:40:26.865436+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/delete/key/1904912d0de512ce5fe9e658ed2c6e02eb4cc48f4fcaa348c059d6ba9426f130/id/19/","invalidateInfo":{"tags":["cat_c_20","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T14:40:26.866143+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/delete/key/1904912d0de512ce5fe9e658ed2c6e02eb4cc48f4fcaa348c059d6ba9426f130/id/19/","invalidateInfo":{"tags":["cat_c_p_20","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T14:40:26.866695+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/delete/key/1904912d0de512ce5fe9e658ed2c6e02eb4cc48f4fcaa348c059d6ba9426f130/id/19/","invalidateInfo":{"tags":["cat_c","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T14:40:26.979911+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/delete/key/1904912d0de512ce5fe9e658ed2c6e02eb4cc48f4fcaa348c059d6ba9426f130/id/19/","invalidateInfo":{"tags":["cat_c_20","cat_c_p_20","cat_c"],"mode":"matchingAnyTag"}} []
+[2021-12-13T14:40:26.981266+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/delete/key/1904912d0de512ce5fe9e658ed2c6e02eb4cc48f4fcaa348c059d6ba9426f130/id/19/","invalidateInfo":{"tags":["cat_c_20","cat_c_p_20","cat_c"],"mode":"matchingAnyTag"}} []
+[2021-12-13T14:40:27.089756+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/delete/key/1904912d0de512ce5fe9e658ed2c6e02eb4cc48f4fcaa348c059d6ba9426f130/id/19/","invalidateInfo":{"tags":["cat_c_21","cat_c_p_21"],"mode":"matchingAnyTag"}} []
+[2021-12-13T14:40:27.097011+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/delete/key/1904912d0de512ce5fe9e658ed2c6e02eb4cc48f4fcaa348c059d6ba9426f130/id/19/","invalidateInfo":{"tags":["cat_c_21","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T14:40:27.097789+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/delete/key/1904912d0de512ce5fe9e658ed2c6e02eb4cc48f4fcaa348c059d6ba9426f130/id/19/","invalidateInfo":{"tags":["cat_c_p_21","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T14:40:27.098695+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/delete/key/1904912d0de512ce5fe9e658ed2c6e02eb4cc48f4fcaa348c059d6ba9426f130/id/19/","invalidateInfo":{"tags":["cat_c","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T14:40:27.118256+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/delete/key/1904912d0de512ce5fe9e658ed2c6e02eb4cc48f4fcaa348c059d6ba9426f130/id/19/","invalidateInfo":{"tags":["cat_c_21","cat_c_p_21","cat_c"],"mode":"matchingAnyTag"}} []
+[2021-12-13T14:40:27.119732+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/delete/key/1904912d0de512ce5fe9e658ed2c6e02eb4cc48f4fcaa348c059d6ba9426f130/id/19/","invalidateInfo":{"tags":["cat_c_21","cat_c_p_21","cat_c"],"mode":"matchingAnyTag"}} []
+[2021-12-13T14:40:27.123093+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/delete/key/1904912d0de512ce5fe9e658ed2c6e02eb4cc48f4fcaa348c059d6ba9426f130/id/19/","invalidateInfo":{"tags":["cat_c_22","cat_c_p_22"],"mode":"matchingAnyTag"}} []
+[2021-12-13T14:40:27.130061+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/delete/key/1904912d0de512ce5fe9e658ed2c6e02eb4cc48f4fcaa348c059d6ba9426f130/id/19/","invalidateInfo":{"tags":["cat_c_22","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T14:40:27.130830+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/delete/key/1904912d0de512ce5fe9e658ed2c6e02eb4cc48f4fcaa348c059d6ba9426f130/id/19/","invalidateInfo":{"tags":["cat_c_p_22","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T14:40:27.131529+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/delete/key/1904912d0de512ce5fe9e658ed2c6e02eb4cc48f4fcaa348c059d6ba9426f130/id/19/","invalidateInfo":{"tags":["cat_c","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T14:40:27.145533+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/delete/key/1904912d0de512ce5fe9e658ed2c6e02eb4cc48f4fcaa348c059d6ba9426f130/id/19/","invalidateInfo":{"tags":["cat_c_22","cat_c_p_22","cat_c"],"mode":"matchingAnyTag"}} []
+[2021-12-13T14:40:27.147532+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/delete/key/1904912d0de512ce5fe9e658ed2c6e02eb4cc48f4fcaa348c059d6ba9426f130/id/19/","invalidateInfo":{"tags":["cat_c_22","cat_c_p_22","cat_c"],"mode":"matchingAnyTag"}} []
+[2021-12-13T14:40:27.223433+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/delete/key/1904912d0de512ce5fe9e658ed2c6e02eb4cc48f4fcaa348c059d6ba9426f130/id/19/","invalidateInfo":{"tags":["cat_c_19","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T14:40:27.223878+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/delete/key/1904912d0de512ce5fe9e658ed2c6e02eb4cc48f4fcaa348c059d6ba9426f130/id/19/","invalidateInfo":{"tags":["cat_c_p_19","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T14:40:27.224231+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/delete/key/1904912d0de512ce5fe9e658ed2c6e02eb4cc48f4fcaa348c059d6ba9426f130/id/19/","invalidateInfo":{"tags":["cat_c","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T14:40:27.243674+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/delete/key/1904912d0de512ce5fe9e658ed2c6e02eb4cc48f4fcaa348c059d6ba9426f130/id/19/","invalidateInfo":{"tags":["cat_c_19","cat_c_p_19","cat_c"],"mode":"matchingAnyTag"}} []
+[2021-12-13T14:40:27.247633+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/catalog/category/delete/key/1904912d0de512ce5fe9e658ed2c6e02eb4cc48f4fcaa348c059d6ba9426f130/id/19/","invalidateInfo":{"tags":["cat_c_19","cat_c_p_19","cat_c"],"mode":"matchingAnyTag"}} []
+[2021-12-13T14:40:57.611182+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T14:40:57.615464+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T14:43:29.502360+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/admin/system_config/save/key/e81c9563003e60a12df17e93bf13c7de9ae0e09366c910041c1fbe9d7f192539/section/mgstheme/group/general/field/sticky_menu/","invalidateInfo":{"tags":["config_scopes","CONFIG"],"mode":"matchingTag"}} []
+[2021-12-13T14:43:42.541661+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T14:43:42.546406+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T14:43:52.823108+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T14:43:52.824031+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T14:45:42.177281+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/admin/system_config/save/key/e81c9563003e60a12df17e93bf13c7de9ae0e09366c910041c1fbe9d7f192539/section/color/","invalidateInfo":{"tags":["config_scopes","CONFIG"],"mode":"matchingTag"}} []
+[2021-12-13T14:46:07.008766+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T14:46:07.011758+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T14:52:46.066072+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/admin/system_config/save/key/e81c9563003e60a12df17e93bf13c7de9ae0e09366c910041c1fbe9d7f192539/section/payment/","invalidateInfo":{"tags":["config_scopes","CONFIG"],"mode":"matchingTag"}} []
+[2021-12-13T15:01:37.139989+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/page/save/key/7cf900ff2cfc128329eaaf9d6deb740ef58307f8e003b5a03ff057336ed56a50/back/edit","invalidateInfo":{"tags":["cms_p"],"mode":"matchingAnyTag"}} []
+[2021-12-13T15:01:37.142392+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/page/save/key/7cf900ff2cfc128329eaaf9d6deb740ef58307f8e003b5a03ff057336ed56a50/back/edit","invalidateInfo":{"tags":["cms_p_14","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T15:01:37.328833+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/page/save/key/7cf900ff2cfc128329eaaf9d6deb740ef58307f8e003b5a03ff057336ed56a50/back/edit","invalidateInfo":{"tags":["cms_p_14","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T15:02:12.968029+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/page/save/key/7cf900ff2cfc128329eaaf9d6deb740ef58307f8e003b5a03ff057336ed56a50/back/edit","invalidateInfo":{"tags":["cms_p"],"mode":"matchingAnyTag"}} []
+[2021-12-13T15:02:12.970634+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/page/save/key/7cf900ff2cfc128329eaaf9d6deb740ef58307f8e003b5a03ff057336ed56a50/back/edit","invalidateInfo":{"tags":["cms_p_14","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T15:02:13.010246+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/page/save/key/7cf900ff2cfc128329eaaf9d6deb740ef58307f8e003b5a03ff057336ed56a50/back/edit","invalidateInfo":{"tags":["cms_p_14","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T15:02:23.391869+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T15:02:23.394719+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T15:02:24.184979+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Vertical does not exist [] []
+[2021-12-13T15:02:24.185769+00:00] main.CRITICAL: ReflectionException: Class MGS\Mmegamenu\Block\Vertical does not exist in C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Code\Reader\ClassReader.php:34
+Stack trace:
+#0 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Code\Reader\ClassReader.php(34): ReflectionClass->__construct('MGS\\Mmegamenu\\B...')
+#1 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\ObjectManager\Definition\Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor('MGS\\Mmegamenu\\B...')
+#2 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\ObjectManager\Factory\Dynamic\Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters('MGS\\Mmegamenu\\B...')
+#3 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\ObjectManager\ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create('MGS\\Mmegamenu\\B...', Array)
+#4 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Element\BlockFactory.php(58): Magento\Framework\ObjectManager\ObjectManager->create('MGS\\Mmegamenu\\B...', Array)
+#5 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout\Generator\Block.php(272): Magento\Framework\View\Element\BlockFactory->createBlock('MGS\\Mmegamenu\\B...', Array)
+#6 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout\Generator\Block.php(252): Magento\Framework\View\Layout\Generator\Block->getBlockInstance('MGS\\Mmegamenu\\B...', Array)
+#7 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(797): Magento\Framework\View\Layout\Generator\Block->createBlock('MGS\\Mmegamenu\\B...', 'vertical_0', Array)
+#8 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(780): Magento\Framework\View\Layout->_createBlock('MGS\\Mmegamenu\\B...', 'vertical_0', Array)
+#9 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(248): Magento\Framework\View\Layout->createBlock('MGS\\Mmegamenu\\B...', 'vertical_0', Array)
+#10 C:\xampp\htdocs\magento24\app\code\Magento\Email\Model\Template\Filter.php(402): Magento\Framework\View\Layout\Interceptor->createBlock('MGS\\Mmegamenu\\B...', NULL, Array)
+#11 [internal function]: Magento\Email\Model\Template\Filter->blockDirective(Array)
+#12 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Filter\DirectiveProcessor\LegacyDirective.php(42): ReflectionMethod->invokeArgs(Object(Magento\Widget\Model\Template\Filter), Array)
+#13 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Filter\Template.php(192): Magento\Framework\Filter\DirectiveProcessor\LegacyDirective->process(Array, Object(Magento\Widget\Model\Template\Filter), Array)
+#14 C:\xampp\htdocs\magento24\app\code\Magento\Email\Model\Template\Filter.php(1106): Magento\Framework\Filter\Template->filter('<div class="ver...')
+#15 C:\xampp\htdocs\magento24\app\code\Magento\Cms\Block\Widget\Block.php(88): Magento\Email\Model\Template\Filter->filter('<div class="ver...')
+#16 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Element\AbstractBlock.php(1113): Magento\Cms\Block\Widget\Block->_beforeToHtml()
+#17 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Element\AbstractBlock.php(1118): Magento\Framework\View\Element\AbstractBlock->Magento\Framework\View\Element\{closure}()
+#18 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Element\AbstractBlock.php(678): Magento\Framework\View\Element\AbstractBlock->_loadCache()
+#19 C:\xampp\htdocs\magento24\app\code\Magento\Widget\Model\Template\Filter.php(156): Magento\Framework\View\Element\AbstractBlock->toHtml()
+#20 C:\xampp\htdocs\magento24\app\code\Magento\Widget\Model\Template\Filter.php(167): Magento\Widget\Model\Template\Filter->generateWidget(Array)
+#21 [internal function]: Magento\Widget\Model\Template\Filter->widgetDirective(Array)
+#22 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Filter\DirectiveProcessor\LegacyDirective.php(42): ReflectionMethod->invokeArgs(Object(Magento\Widget\Model\Template\Filter), Array)
+#23 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Filter\Template.php(192): Magento\Framework\Filter\DirectiveProcessor\LegacyDirective->process(Array, Object(Magento\Widget\Model\Template\Filter), Array)
+#24 C:\xampp\htdocs\magento24\app\code\Magento\Email\Model\Template\Filter.php(1106): Magento\Framework\Filter\Template->filter('<p>{{widget typ...')
+#25 C:\xampp\htdocs\magento24\app\code\Magento\Cms\Block\Page.php(170): Magento\Email\Model\Template\Filter->filter('<p>{{widget typ...')
+#26 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Element\AbstractBlock.php(1114): Magento\Cms\Block\Page->_toHtml()
+#27 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Element\AbstractBlock.php(1118): Magento\Framework\View\Element\AbstractBlock->Magento\Framework\View\Element\{closure}()
+#28 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Element\AbstractBlock.php(678): Magento\Framework\View\Element\AbstractBlock->_loadCache()
+#29 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(578): Magento\Framework\View\Element\AbstractBlock->toHtml()
+#30 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(555): Magento\Framework\View\Layout->_renderBlock('cms_page')
+#31 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement('cms_page')
+#32 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement('cms_page')
+#33 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(140): Magento\Framework\View\Layout->renderElement('cms_page', false)
+#34 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement('cms_page', false)
+#35 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(557): Magento\Framework\View\Layout->_renderContainer('content', false)
+#36 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement('content')
+#37 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement('content')
+#38 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(140): Magento\Framework\View\Layout->renderElement('content', false)
+#39 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement('content', false)
+#40 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(557): Magento\Framework\View\Layout->_renderContainer('main', false)
+#41 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement('main')
+#42 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement('main')
+#43 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(140): Magento\Framework\View\Layout->renderElement('main', false)
+#44 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement('main', false)
+#45 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(557): Magento\Framework\View\Layout->_renderContainer('columns', false)
+#46 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement('columns')
+#47 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement('columns')
+#48 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(140): Magento\Framework\View\Layout->renderElement('columns', false)
+#49 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement('columns', false)
+#50 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(557): Magento\Framework\View\Layout->_renderContainer('main.content', false)
+#51 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement('main.content')
+#52 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement('main.content')
+#53 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(140): Magento\Framework\View\Layout->renderElement('main.content', false)
+#54 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement('main.content', false)
+#55 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(557): Magento\Framework\View\Layout->_renderContainer('page.wrapper', false)
+#56 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement('page.wrapper')
+#57 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement('page.wrapper')
+#58 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(140): Magento\Framework\View\Layout->renderElement('page.wrapper', false)
+#59 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement('page.wrapper', false)
+#60 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(557): Magento\Framework\View\Layout->_renderContainer('root', false)
+#61 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement('root')
+#62 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement('root')
+#63 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(140): Magento\Framework\View\Layout->renderElement('root', true)
+#64 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(975): Magento\Framework\View\Layout\Interceptor->renderElement('root')
+#65 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Framework\View\Layout->getOutput()
+#66 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Framework\View\Layout\Interceptor->___callParent('getOutput', Array)
+#67 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Framework\View\Layout\Interceptor->Magento\Framework\Interception\{closure}()
+#68 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(347): Magento\Framework\View\Layout\Interceptor->___callPlugins('getOutput', Array, Array)
+#69 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Result\Page.php(260): Magento\Framework\View\Layout\Interceptor->getOutput()
+#70 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Result\Layout.php(171): Magento\Framework\View\Result\Page->render(Object(Magento\Framework\App\Response\Http\Interceptor))
+#71 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Framework\View\Result\Layout->renderResult(Object(Magento\Framework\App\Response\Http\Interceptor))
+#72 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): MGS\Mpanel\Block\Framework\Page\Interceptor->___callParent('renderResult', Array)
+#73 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): MGS\Mpanel\Block\Framework\Page\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Framework\App\Response\Http\Interceptor))
+#74 C:\xampp\htdocs\magento24\generated\code\MGS\Mpanel\Block\Framework\Page\Interceptor.php(104): MGS\Mpanel\Block\Framework\Page\Interceptor->___callPlugins('renderResult', Array, Array)
+#75 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Http.php(120): MGS\Mpanel\Block\Framework\Page\Interceptor->renderResult(Object(Magento\Framework\App\Response\Http\Interceptor))
+#76 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\App\Http\Interceptor.php(23): Magento\Framework\App\Http->launch()
+#77 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#78 C:\xampp\htdocs\magento24\pub\index.php(30): Magento\Framework\App\Bootstrap->run(Object(Magento\Framework\App\Http\Interceptor))
+#79 {main}
+
+Next Magento\Framework\Exception\LocalizedException: Invalid block type: MGS\Mmegamenu\Block\Vertical in C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout\Generator\Block.php:278
+Stack trace:
+#0 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout\Generator\Block.php(252): Magento\Framework\View\Layout\Generator\Block->getBlockInstance('MGS\\Mmegamenu\\B...', Array)
+#1 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(797): Magento\Framework\View\Layout\Generator\Block->createBlock('MGS\\Mmegamenu\\B...', 'vertical_0', Array)
+#2 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(780): Magento\Framework\View\Layout->_createBlock('MGS\\Mmegamenu\\B...', 'vertical_0', Array)
+#3 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(248): Magento\Framework\View\Layout->createBlock('MGS\\Mmegamenu\\B...', 'vertical_0', Array)
+#4 C:\xampp\htdocs\magento24\app\code\Magento\Email\Model\Template\Filter.php(402): Magento\Framework\View\Layout\Interceptor->createBlock('MGS\\Mmegamenu\\B...', NULL, Array)
+#5 [internal function]: Magento\Email\Model\Template\Filter->blockDirective(Array)
+#6 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Filter\DirectiveProcessor\LegacyDirective.php(42): ReflectionMethod->invokeArgs(Object(Magento\Widget\Model\Template\Filter), Array)
+#7 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Filter\Template.php(192): Magento\Framework\Filter\DirectiveProcessor\LegacyDirective->process(Array, Object(Magento\Widget\Model\Template\Filter), Array)
+#8 C:\xampp\htdocs\magento24\app\code\Magento\Email\Model\Template\Filter.php(1106): Magento\Framework\Filter\Template->filter('<div class="ver...')
+#9 C:\xampp\htdocs\magento24\app\code\Magento\Cms\Block\Widget\Block.php(88): Magento\Email\Model\Template\Filter->filter('<div class="ver...')
+#10 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Element\AbstractBlock.php(1113): Magento\Cms\Block\Widget\Block->_beforeToHtml()
+#11 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Element\AbstractBlock.php(1118): Magento\Framework\View\Element\AbstractBlock->Magento\Framework\View\Element\{closure}()
+#12 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Element\AbstractBlock.php(678): Magento\Framework\View\Element\AbstractBlock->_loadCache()
+#13 C:\xampp\htdocs\magento24\app\code\Magento\Widget\Model\Template\Filter.php(156): Magento\Framework\View\Element\AbstractBlock->toHtml()
+#14 C:\xampp\htdocs\magento24\app\code\Magento\Widget\Model\Template\Filter.php(167): Magento\Widget\Model\Template\Filter->generateWidget(Array)
+#15 [internal function]: Magento\Widget\Model\Template\Filter->widgetDirective(Array)
+#16 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Filter\DirectiveProcessor\LegacyDirective.php(42): ReflectionMethod->invokeArgs(Object(Magento\Widget\Model\Template\Filter), Array)
+#17 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Filter\Template.php(192): Magento\Framework\Filter\DirectiveProcessor\LegacyDirective->process(Array, Object(Magento\Widget\Model\Template\Filter), Array)
+#18 C:\xampp\htdocs\magento24\app\code\Magento\Email\Model\Template\Filter.php(1106): Magento\Framework\Filter\Template->filter('<p>{{widget typ...')
+#19 C:\xampp\htdocs\magento24\app\code\Magento\Cms\Block\Page.php(170): Magento\Email\Model\Template\Filter->filter('<p>{{widget typ...')
+#20 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Element\AbstractBlock.php(1114): Magento\Cms\Block\Page->_toHtml()
+#21 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Element\AbstractBlock.php(1118): Magento\Framework\View\Element\AbstractBlock->Magento\Framework\View\Element\{closure}()
+#22 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Element\AbstractBlock.php(678): Magento\Framework\View\Element\AbstractBlock->_loadCache()
+#23 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(578): Magento\Framework\View\Element\AbstractBlock->toHtml()
+#24 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(555): Magento\Framework\View\Layout->_renderBlock('cms_page')
+#25 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement('cms_page')
+#26 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement('cms_page')
+#27 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(140): Magento\Framework\View\Layout->renderElement('cms_page', false)
+#28 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement('cms_page', false)
+#29 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(557): Magento\Framework\View\Layout->_renderContainer('content', false)
+#30 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement('content')
+#31 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement('content')
+#32 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(140): Magento\Framework\View\Layout->renderElement('content', false)
+#33 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement('content', false)
+#34 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(557): Magento\Framework\View\Layout->_renderContainer('main', false)
+#35 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement('main')
+#36 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement('main')
+#37 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(140): Magento\Framework\View\Layout->renderElement('main', false)
+#38 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement('main', false)
+#39 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(557): Magento\Framework\View\Layout->_renderContainer('columns', false)
+#40 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement('columns')
+#41 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement('columns')
+#42 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(140): Magento\Framework\View\Layout->renderElement('columns', false)
+#43 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement('columns', false)
+#44 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(557): Magento\Framework\View\Layout->_renderContainer('main.content', false)
+#45 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement('main.content')
+#46 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement('main.content')
+#47 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(140): Magento\Framework\View\Layout->renderElement('main.content', false)
+#48 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement('main.content', false)
+#49 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(557): Magento\Framework\View\Layout->_renderContainer('page.wrapper', false)
+#50 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement('page.wrapper')
+#51 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement('page.wrapper')
+#52 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(140): Magento\Framework\View\Layout->renderElement('page.wrapper', false)
+#53 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement('page.wrapper', false)
+#54 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(557): Magento\Framework\View\Layout->_renderContainer('root', false)
+#55 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement('root')
+#56 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement('root')
+#57 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(140): Magento\Framework\View\Layout->renderElement('root', true)
+#58 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(975): Magento\Framework\View\Layout\Interceptor->renderElement('root')
+#59 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Framework\View\Layout->getOutput()
+#60 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Framework\View\Layout\Interceptor->___callParent('getOutput', Array)
+#61 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Framework\View\Layout\Interceptor->Magento\Framework\Interception\{closure}()
+#62 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(347): Magento\Framework\View\Layout\Interceptor->___callPlugins('getOutput', Array, Array)
+#63 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Result\Page.php(260): Magento\Framework\View\Layout\Interceptor->getOutput()
+#64 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Result\Layout.php(171): Magento\Framework\View\Result\Page->render(Object(Magento\Framework\App\Response\Http\Interceptor))
+#65 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Framework\View\Result\Layout->renderResult(Object(Magento\Framework\App\Response\Http\Interceptor))
+#66 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): MGS\Mpanel\Block\Framework\Page\Interceptor->___callParent('renderResult', Array)
+#67 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): MGS\Mpanel\Block\Framework\Page\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Framework\App\Response\Http\Interceptor))
+#68 C:\xampp\htdocs\magento24\generated\code\MGS\Mpanel\Block\Framework\Page\Interceptor.php(104): MGS\Mpanel\Block\Framework\Page\Interceptor->___callPlugins('renderResult', Array, Array)
+#69 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Http.php(120): MGS\Mpanel\Block\Framework\Page\Interceptor->renderResult(Object(Magento\Framework\App\Response\Http\Interceptor))
+#70 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\App\Http\Interceptor.php(23): Magento\Framework\App\Http->launch()
+#71 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#72 C:\xampp\htdocs\magento24\pub\index.php(30): Magento\Framework\App\Bootstrap->run(Object(Magento\Framework\App\Http\Interceptor))
+#73 {main} [] []
+[2021-12-13T15:03:43.986614+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/page/save/key/7cf900ff2cfc128329eaaf9d6deb740ef58307f8e003b5a03ff057336ed56a50/back/edit","invalidateInfo":{"tags":["cms_p"],"mode":"matchingAnyTag"}} []
+[2021-12-13T15:03:43.988886+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/page/save/key/7cf900ff2cfc128329eaaf9d6deb740ef58307f8e003b5a03ff057336ed56a50/back/edit","invalidateInfo":{"tags":["cms_p_14","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T15:03:44.022620+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/page/save/key/7cf900ff2cfc128329eaaf9d6deb740ef58307f8e003b5a03ff057336ed56a50/back/edit","invalidateInfo":{"tags":["cms_p_14","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T15:03:54.190258+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T15:03:54.193045+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T15:05:56.253019+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/admin/system_config/save/key/e81c9563003e60a12df17e93bf13c7de9ae0e09366c910041c1fbe9d7f192539/section/mgstheme/group/general/field/sticky_menu/","invalidateInfo":{"tags":["config_scopes","CONFIG"],"mode":"matchingTag"}} []
+[2021-12-13T15:25:39.905602+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/page/save/key/7cf900ff2cfc128329eaaf9d6deb740ef58307f8e003b5a03ff057336ed56a50/back/edit","invalidateInfo":{"tags":["cms_p"],"mode":"matchingAnyTag"}} []
+[2021-12-13T15:25:39.908439+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/page/save/key/7cf900ff2cfc128329eaaf9d6deb740ef58307f8e003b5a03ff057336ed56a50/back/edit","invalidateInfo":{"tags":["cms_p_14","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T15:25:39.963854+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/page/save/key/7cf900ff2cfc128329eaaf9d6deb740ef58307f8e003b5a03ff057336ed56a50/back/edit","invalidateInfo":{"tags":["cms_p_14","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T15:25:48.274577+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T15:25:48.278932+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T15:43:39.210347+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/page/save/key/7cf900ff2cfc128329eaaf9d6deb740ef58307f8e003b5a03ff057336ed56a50/back/edit","invalidateInfo":{"tags":["cms_p"],"mode":"matchingAnyTag"}} []
+[2021-12-13T15:43:39.218271+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/page/save/key/7cf900ff2cfc128329eaaf9d6deb740ef58307f8e003b5a03ff057336ed56a50/back/edit","invalidateInfo":{"tags":["cms_p_14","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T15:43:39.321982+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/page/save/key/7cf900ff2cfc128329eaaf9d6deb740ef58307f8e003b5a03ff057336ed56a50/back/edit","invalidateInfo":{"tags":["cms_p_14","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T15:43:49.828113+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T15:43:49.830517+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T15:49:42.917102+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/page/save/key/7cf900ff2cfc128329eaaf9d6deb740ef58307f8e003b5a03ff057336ed56a50/back/edit","invalidateInfo":{"tags":["cms_p"],"mode":"matchingAnyTag"}} []
+[2021-12-13T15:49:42.919166+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/page/save/key/7cf900ff2cfc128329eaaf9d6deb740ef58307f8e003b5a03ff057336ed56a50/back/edit","invalidateInfo":{"tags":["cms_p_14","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T15:49:42.974742+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/page/save/key/7cf900ff2cfc128329eaaf9d6deb740ef58307f8e003b5a03ff057336ed56a50/back/edit","invalidateInfo":{"tags":["cms_p_14","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T15:49:52.008654+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T15:49:52.012026+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T15:50:44.733760+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/page/save/key/7cf900ff2cfc128329eaaf9d6deb740ef58307f8e003b5a03ff057336ed56a50/back/edit","invalidateInfo":{"tags":["cms_p"],"mode":"matchingAnyTag"}} []
+[2021-12-13T15:50:44.736215+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/page/save/key/7cf900ff2cfc128329eaaf9d6deb740ef58307f8e003b5a03ff057336ed56a50/back/edit","invalidateInfo":{"tags":["cms_p_14","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T15:50:44.807411+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/page/save/key/7cf900ff2cfc128329eaaf9d6deb740ef58307f8e003b5a03ff057336ed56a50/back/edit","invalidateInfo":{"tags":["cms_p_14","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T15:50:56.090414+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T15:50:56.093065+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T15:56:24.103010+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/page/save/key/7cf900ff2cfc128329eaaf9d6deb740ef58307f8e003b5a03ff057336ed56a50/back/edit","invalidateInfo":{"tags":["cms_p"],"mode":"matchingAnyTag"}} []
+[2021-12-13T15:56:24.105520+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/page/save/key/7cf900ff2cfc128329eaaf9d6deb740ef58307f8e003b5a03ff057336ed56a50/back/edit","invalidateInfo":{"tags":["cms_p_14","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T15:56:24.149917+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"http://yourname.magento.com/admin/cms/page/save/key/7cf900ff2cfc128329eaaf9d6deb740ef58307f8e003b5a03ff057336ed56a50/back/edit","invalidateInfo":{"tags":["cms_p_14","FPC"],"mode":"matchingTag"}} []
+[2021-12-13T15:56:33.581776+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T15:56:33.586923+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T15:57:23.191193+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T15:57:23.193699+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T15:58:09.442681+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T15:58:09.443850+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T15:58:23.521132+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T15:58:23.523732+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T15:58:57.983599+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T15:58:57.986031+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T15:59:06.816872+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T15:59:06.819174+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T16:01:16.430256+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T16:01:16.432669+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T16:02:32.146289+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T16:02:32.149380+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T16:02:52.891968+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T16:02:52.894997+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T16:03:03.519145+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T16:03:03.521722+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T16:04:13.497671+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http://yourname.magento.com/admin/admin/cache/flushSystem/key/2af5a3c91a0b0a8f064f7ca971cadd926373184632bd7975158df8e98972075a/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2021-12-13T16:04:14.495021+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http://yourname.magento.com/admin/admin/cache/flushSystem/key/2af5a3c91a0b0a8f064f7ca971cadd926373184632bd7975158df8e98972075a/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2021-12-13T16:04:14.518317+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http://yourname.magento.com/admin/admin/cache/flushSystem/key/2af5a3c91a0b0a8f064f7ca971cadd926373184632bd7975158df8e98972075a/","invalidateInfo":{"tags":["FPC"],"mode":"matchingTag"}} []
+[2021-12-13T16:05:20.771059+00:00] main.INFO: Item Magento_Backend::system_currency was removed [] []
+[2021-12-13T16:05:20.790658+00:00] main.INFO: Add of item with id Magento_Config::system_config was processed [] []
+[2021-12-13T16:05:20.791272+00:00] main.INFO: Add of item with id Magento_Theme::design_config was processed [] []
+[2021-12-13T16:05:20.791626+00:00] main.INFO: Add of item with id Magento_Theme::system_design_theme was processed [] []
+[2021-12-13T16:05:20.791951+00:00] main.INFO: Add of item with id Magento_Backend::system_design_schedule was processed [] []
+[2021-12-13T16:05:20.792281+00:00] main.INFO: Add of item with id Magento_Backend::system_store was processed [] []
+[2021-12-13T16:05:20.792589+00:00] main.INFO: Add of item with id Magento_Backend::dashboard was processed [] []
+[2021-12-13T16:05:20.792899+00:00] main.INFO: Add of item with id Magento_Backend::system was processed [] []
+[2021-12-13T16:05:20.793274+00:00] main.INFO: Add of item with id Magento_Backend::system_tools was processed [] []
+[2021-12-13T16:05:20.793638+00:00] main.INFO: Add of item with id Magento_Backend::system_design was processed [] []
+[2021-12-13T16:05:20.793958+00:00] main.INFO: Add of item with id Magento_Backend::system_convert was processed [] []
+[2021-12-13T16:05:20.794325+00:00] main.INFO: Add of item with id Magento_Backend::system_cache was processed [] []
+[2021-12-13T16:05:20.794790+00:00] main.INFO: Add of item with id Magento_Backend::marketing was processed [] []
+[2021-12-13T16:05:20.796201+00:00] main.INFO: Add of item with id Magento_Backend::marketing_communications was processed [] []
+[2021-12-13T16:05:20.796713+00:00] main.INFO: Add of item with id Magento_Backend::marketing_seo was processed [] []
+[2021-12-13T16:05:20.797075+00:00] main.INFO: Add of item with id Magento_Backend::marketing_user_content was processed [] []
+[2021-12-13T16:05:20.797594+00:00] main.INFO: Add of item with id Magento_Backend::content was processed [] []
+[2021-12-13T16:05:20.798617+00:00] main.INFO: Add of item with id Magento_Backend::content_elements was processed [] []
+[2021-12-13T16:05:20.799315+00:00] main.INFO: Add of item with id Magento_Backend::stores was processed [] []
+[2021-12-13T16:05:20.799746+00:00] main.INFO: Add of item with id Magento_Backend::stores_settings was processed [] []
+[2021-12-13T16:05:20.800089+00:00] main.INFO: Add of item with id Magento_Backend::stores_attributes was processed [] []
+[2021-12-13T16:05:20.800452+00:00] main.INFO: Add of item with id Magento_Backend::other_settings was processed [] []
+[2021-12-13T16:05:20.800768+00:00] main.INFO: Add of item with id Magento_Backend::system_other_settings was processed [] []
+[2021-12-13T16:05:20.801144+00:00] main.INFO: Add of item with id Magento_Variable::system_variable was processed [] []
+[2021-12-13T16:05:20.801550+00:00] main.INFO: Add of item with id Magento_Search::search_terms was processed [] []
+[2021-12-13T16:05:20.801873+00:00] main.INFO: Add of item with id Magento_Search::search_synonyms was processed [] []
+[2021-12-13T16:05:20.802217+00:00] main.INFO: Add of item with id Magento_Backup::system_tools_backup was processed [] []
+[2021-12-13T16:05:20.802532+00:00] main.INFO: Add of item with id Magento_Customer::customer was processed [] []
+[2021-12-13T16:05:20.803049+00:00] main.INFO: Add of item with id Magento_Customer::customer_manage was processed [] []
+[2021-12-13T16:05:20.803526+00:00] main.INFO: Add of item with id Magento_Customer::customer_online was processed [] []
+[2021-12-13T16:05:20.803830+00:00] main.INFO: Add of item with id Magento_Customer::customer_group was processed [] []
+[2021-12-13T16:05:20.804177+00:00] main.INFO: Add of item with id Magento_AdminNotification::system_adminnotification was processed [] []
+[2021-12-13T16:05:20.804503+00:00] main.INFO: Add of item with id Magento_Indexer::system_index was processed [] []
+[2021-12-13T16:05:20.804874+00:00] main.INFO: Add of item with id Magento_Cms::cms_page was processed [] []
+[2021-12-13T16:05:20.805225+00:00] main.INFO: Add of item with id Magento_Cms::cms_block was processed [] []
+[2021-12-13T16:05:20.805539+00:00] main.INFO: Add of item with id Magento_Catalog::catalog was processed [] []
+[2021-12-13T16:05:20.805895+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_products was processed [] []
+[2021-12-13T16:05:20.806223+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_categories was processed [] []
+[2021-12-13T16:05:20.806571+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_attributes_attributes was processed [] []
+[2021-12-13T16:05:20.806886+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_attributes_sets was processed [] []
+[2021-12-13T16:05:20.807277+00:00] main.INFO: Add of item with id Magento_Catalog::inventory was processed [] []
+[2021-12-13T16:05:20.807598+00:00] main.INFO: Add of item with id Magento_CatalogRule::promo was processed [] []
+[2021-12-13T16:05:20.807948+00:00] main.INFO: Add of item with id Magento_CatalogRule::promo_catalog was processed [] []
+[2021-12-13T16:05:20.808272+00:00] main.INFO: Add of item with id Magento_Widget::cms_widget_instance was processed [] []
+[2021-12-13T16:05:20.808581+00:00] main.INFO: Add of item with id Magento_User::system_acl was processed [] []
+[2021-12-13T16:05:20.808928+00:00] main.INFO: Add of item with id Magento_User::system_acl_users was processed [] []
+[2021-12-13T16:05:20.809250+00:00] main.INFO: Add of item with id Magento_User::system_acl_roles was processed [] []
+[2021-12-13T16:05:20.809556+00:00] main.INFO: Add of item with id Magento_User::system_acl_locks was processed [] []
+[2021-12-13T16:05:20.809858+00:00] main.INFO: Add of item with id Magento_Sales::sales was processed [] []
+[2021-12-13T16:05:20.810224+00:00] main.INFO: Add of item with id Magento_Sales::sales_operation was processed [] []
+[2021-12-13T16:05:20.810586+00:00] main.INFO: Add of item with id Magento_Sales::sales_order was processed [] []
+[2021-12-13T16:05:20.810902+00:00] main.INFO: Add of item with id Magento_Sales::sales_invoice was processed [] []
+[2021-12-13T16:05:20.811221+00:00] main.INFO: Add of item with id Magento_Sales::sales_shipment was processed [] []
+[2021-12-13T16:05:20.811529+00:00] main.INFO: Add of item with id Magento_Sales::sales_creditmemo was processed [] []
+[2021-12-13T16:05:20.812393+00:00] main.INFO: Add of item with id Magento_Sales::sales_transactions was processed [] []
+[2021-12-13T16:05:20.813224+00:00] main.INFO: Add of item with id Magento_Sales::system_order_statuses was processed [] []
+[2021-12-13T16:05:20.813900+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency was processed [] []
+[2021-12-13T16:05:20.814667+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency_rates was processed [] []
+[2021-12-13T16:05:20.815064+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency_symbols was processed [] []
+[2021-12-13T16:05:20.815386+00:00] main.INFO: Add of item with id Magento_Integration::system_extensions was processed [] []
+[2021-12-13T16:05:20.815754+00:00] main.INFO: Add of item with id Magento_Integration::system_integrations was processed [] []
+[2021-12-13T16:05:20.816127+00:00] main.INFO: Add of item with id Magento_Downloadable::report_products_downloads was processed [] []
+[2021-12-13T16:05:20.816553+00:00] main.INFO: Add of item with id Magento_AsynchronousOperations::system_magento_logging was processed [] []
+[2021-12-13T16:05:20.817011+00:00] main.INFO: Add of item with id Magento_AsynchronousOperations::system_magento_logging_bulk_operations was processed [] []
+[2021-12-13T16:05:20.817392+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_import was processed [] []
+[2021-12-13T16:05:20.817717+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_export was processed [] []
+[2021-12-13T16:05:20.818040+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_history was processed [] []
+[2021-12-13T16:05:20.818396+00:00] main.INFO: Add of item with id Magento_Email::template was processed [] []
+[2021-12-13T16:05:20.818717+00:00] main.INFO: Add of item with id Magento_EncryptionKey::system_crypt_key was processed [] []
+[2021-12-13T16:05:20.819083+00:00] main.INFO: Add of item with id Magento_Analytics::business_intelligence was processed [] []
+[2021-12-13T16:05:20.819487+00:00] main.INFO: Add of item with id Magento_Analytics::advanced_reporting was processed [] []
+[2021-12-13T16:05:20.819920+00:00] main.INFO: Add of item with id Magento_Analytics::bi_essentials was processed [] []
+[2021-12-13T16:05:20.820345+00:00] main.INFO: Add of item with id Magento_LoginAsCustomerLog::login_log was processed [] []
+[2021-12-13T16:05:20.820732+00:00] main.INFO: Add of item with id Magento_Marketplace::partners was processed [] []
+[2021-12-13T16:05:20.821093+00:00] main.INFO: Add of item with id Magento_MediaGalleryUi::media was processed [] []
+[2021-12-13T16:05:20.821532+00:00] main.INFO: Add of item with id Magento_MediaGalleryUi::media_gallery was processed [] []
+[2021-12-13T16:05:20.821850+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_template was processed [] []
+[2021-12-13T16:05:20.822234+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_queue was processed [] []
+[2021-12-13T16:05:20.822576+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_subscriber was processed [] []
+[2021-12-13T16:05:20.822995+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_problem was processed [] []
+[2021-12-13T16:05:20.823344+00:00] main.INFO: Add of item with id Magento_SalesRule::promo_quote was processed [] []
+[2021-12-13T16:05:20.823698+00:00] main.INFO: Add of item with id Magento_Paypal::report_salesroot_paypal_settlement_reports was processed [] []
+[2021-12-13T16:05:20.824021+00:00] main.INFO: Add of item with id Magento_Paypal::paypal_billing_agreement was processed [] []
+[2021-12-13T16:05:20.824337+00:00] main.INFO: Add of item with id Magento_CheckoutAgreements::sales_checkoutagreement was processed [] []
+[2021-12-13T16:05:20.824647+00:00] main.INFO: Add of item with id Magento_Sitemap::catalog_sitemap was processed [] []
+[2021-12-13T16:05:20.824952+00:00] main.INFO: Add of item with id Magento_Reports::report was processed [] []
+[2021-12-13T16:05:20.825265+00:00] main.INFO: Add of item with id Magento_Reports::report_marketing was processed [] []
+[2021-12-13T16:05:20.825571+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot was processed [] []
+[2021-12-13T16:05:20.825875+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_sales was processed [] []
+[2021-12-13T16:05:20.826189+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_tax was processed [] []
+[2021-12-13T16:05:20.826495+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_invoiced was processed [] []
+[2021-12-13T16:05:20.826795+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_shipping was processed [] []
+[2021-12-13T16:05:20.827097+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_refunded was processed [] []
+[2021-12-13T16:05:20.827404+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_coupons was processed [] []
+[2021-12-13T16:05:20.827711+00:00] main.INFO: Add of item with id Magento_Reports::report_shopcart_product was processed [] []
+[2021-12-13T16:05:20.828098+00:00] main.INFO: Add of item with id Magento_Reports::report_shopcart_abandoned was processed [] []
+[2021-12-13T16:05:20.829622+00:00] main.INFO: Add of item with id Magento_Reports::report_products was processed [] []
+[2021-12-13T16:05:20.830406+00:00] main.INFO: Add of item with id Magento_Reports::report_products_bestsellers was processed [] []
+[2021-12-13T16:05:20.831043+00:00] main.INFO: Add of item with id Magento_Reports::report_products_sold was processed [] []
+[2021-12-13T16:05:20.831731+00:00] main.INFO: Add of item with id Magento_Reports::report_products_viewed was processed [] []
+[2021-12-13T16:05:20.832608+00:00] main.INFO: Add of item with id Magento_Reports::report_products_lowstock was processed [] []
+[2021-12-13T16:05:20.833417+00:00] main.INFO: Add of item with id Magento_Reports::report_customers was processed [] []
+[2021-12-13T16:05:20.834250+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_accounts was processed [] []
+[2021-12-13T16:05:20.835068+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_totals was processed [] []
+[2021-12-13T16:05:20.836024+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_orders was processed [] []
+[2021-12-13T16:05:20.836811+00:00] main.INFO: Add of item with id Magento_Reports::report_statistics was processed [] []
+[2021-12-13T16:05:20.837709+00:00] main.INFO: Add of item with id Magento_Reports::report_statistics_refresh was processed [] []
+[2021-12-13T16:05:20.838611+00:00] main.INFO: Add of item with id Magento_Search::report_search_term was processed [] []
+[2021-12-13T16:05:20.839504+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_ratings was processed [] []
+[2021-12-13T16:05:20.840391+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_pending was processed [] []
+[2021-12-13T16:05:20.841096+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_reviews_all was processed [] []
+[2021-12-13T16:05:20.841771+00:00] main.INFO: Add of item with id Magento_Review::report_review was processed [] []
+[2021-12-13T16:05:20.842964+00:00] main.INFO: Add of item with id Magento_Review::report_review_customer was processed [] []
+[2021-12-13T16:05:20.844085+00:00] main.INFO: Add of item with id Magento_Review::report_review_product was processed [] []
+[2021-12-13T16:05:20.847103+00:00] main.INFO: Add of item with id Magento_UrlRewrite::urlrewrite was processed [] []
+[2021-12-13T16:05:20.848032+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax was processed [] []
+[2021-12-13T16:05:20.849066+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax_rules was processed [] []
+[2021-12-13T16:05:20.849974+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax_rates was processed [] []
+[2021-12-13T16:05:20.850725+00:00] main.INFO: Add of item with id Magento_TaxImportExport::system_convert_tax was processed [] []
+[2021-12-13T16:05:20.851557+00:00] main.INFO: Add of item with id MGS_Blog::blog was processed [] []
+[2021-12-13T16:05:20.852386+00:00] main.INFO: Add of item with id MGS_Blog::manage_post was processed [] []
+[2021-12-13T16:05:20.853100+00:00] main.INFO: Add of item with id MGS_Blog::manage_comment was processed [] []
+[2021-12-13T16:05:20.853766+00:00] main.INFO: Add of item with id MGS_Blog::manage_category was processed [] []
+[2021-12-13T16:05:20.854403+00:00] main.INFO: Add of item with id MGS_Blog::configuration was processed [] []
+[2021-12-13T16:05:20.855251+00:00] main.INFO: Add of item with id MGS_Brand::brand was processed [] []
+[2021-12-13T16:05:20.856001+00:00] main.INFO: Add of item with id MGS_Brand::manage_brand was processed [] []
+[2021-12-13T16:05:20.856660+00:00] main.INFO: Add of item with id MGS_Brand::configuration was processed [] []
+[2021-12-13T16:05:20.857839+00:00] main.INFO: Add of item with id Magento_Backend::mgs was processed [] []
+[2021-12-13T16:05:20.858559+00:00] main.INFO: Add of item with id MGS_Mpanel::mgs_elements was processed [] []
+[2021-12-13T16:05:20.859847+00:00] main.INFO: Add of item with id MGS_Mpanel::general_setting was processed [] []
+[2021-12-13T16:05:20.860837+00:00] main.INFO: Add of item with id MGS_Mpanel::theme_setting was processed [] []
+[2021-12-13T16:05:20.862405+00:00] main.INFO: Add of item with id MGS_Mpanel::color_setting was processed [] []
+[2021-12-13T16:05:20.863147+00:00] main.INFO: Add of item with id MGS_Portfolio::portfolio was processed [] []
+[2021-12-13T16:05:20.863811+00:00] main.INFO: Add of item with id MGS_Portfolio::portfolio_category was processed [] []
+[2021-12-13T16:05:20.864439+00:00] main.INFO: Add of item with id MGS_Portfolio::portfolio_items was processed [] []
+[2021-12-13T16:05:20.865064+00:00] main.INFO: Add of item with id MGS_Promobanners::promobanners was processed [] []
+[2021-12-13T16:05:20.865793+00:00] main.INFO: Add of item with id MGS_Promobanners::manage was processed [] []
+[2021-12-13T16:05:20.866504+00:00] main.INFO: Add of item with id MGS_QuickView::QuickView was processed [] []
+[2021-12-13T16:05:20.867231+00:00] main.INFO: Add of item with id MGS_QuickView::configuration was processed [] []
+[2021-12-13T16:05:20.867887+00:00] main.INFO: Add of item with id MGS_Social::social was processed [] []
+[2021-12-13T16:05:20.868570+00:00] main.INFO: Add of item with id MGS_Social::configuration was processed [] []
+[2021-12-13T16:05:20.869329+00:00] main.INFO: Add of item with id MGS_StoreLocator::storelocator was processed [] []
+[2021-12-13T16:05:20.870000+00:00] main.INFO: Add of item with id MGS_StoreLocator::locator_manage was processed [] []
+[2021-12-13T16:05:20.870659+00:00] main.INFO: Add of item with id MGS_Testimonial::testimonial was processed [] []
+[2021-12-13T16:05:20.871277+00:00] main.INFO: Add of item with id MGS_Testimonial::testimonial_manage was processed [] []
+[2021-12-13T16:05:21.667223+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T16:05:21.670002+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T16:06:38.383131+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T16:06:38.384944+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T16:08:17.323242+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T16:08:17.326897+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T16:08:48.337401+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T16:08:48.340756+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T16:08:55.400058+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T16:08:55.402873+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T16:09:09.698058+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T16:09:09.701118+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T16:09:18.516761+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T16:09:18.521511+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T16:17:08.000238+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T16:17:08.006774+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T16:20:20.921288+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T16:20:20.923724+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T16:20:24.157602+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T16:20:24.160359+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T16:20:27.587667+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T16:20:27.591019+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []

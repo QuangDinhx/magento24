@@ -1,0 +1,115 @@
+ <style> @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300); .body1{ background:#222; font-family:'Source Sans Pro',Helvetica,Arial,sans-serif; overflow:hidden; } .wrapper1{ width:650px; margin:0 auto; position: relative; } .instructions1{ width:100%; height:40px; font:18px/40px 'Source Sans Pro',Helvetica,Arial,sans-serif; color:#4597d1; text-align:center; } .input1{ width:385px; height:45px; font-size:30px; float:left; border:none; background:rgba(255,255,255,0.1); padding-left:20px; margin-right:20px; font-family:'Source Sans Pro',Helvetica,Arial,sans-serif; color:#8ec2da; box-sizing:border-box; } input:focus{border:1px solid #f1e85b} .currencies{ list-style:none; margin:0; padding:0; font-size: 24px; position:absolute; right:0; max-height:45px; overflow:hidden; transition:all 0.5s ease-in-out; z-index:12; } .currencies li{ height:40px; background:#4162a9; margin-bottom:5px; line-height:40px; text-align:center; padding:5px; color:#f5fcd0; cursor:pointer; border-radius:5px; } .currencies li:hover{ background:#ee3b37; } .open{ max-height:600px; } .results{ float:left; width:100%; list-style:none; margin:0; padding:0; } .results li{ width:100%; height:30px; line-height:30px; background:rgba(0,0,0,0.2); margin-top:10px; font-size:25px; border-radius:5px; color:#f5fcd0; } .name,.iso,.result{ width:33.33%; float:left; text-align:center; } .hide{ display:none; }</style><div class="wrapper1 body1"><p class="instructions1">Nhập số tiền và chọn đơn vị tiền</p><input type="number" min = '0' value='0' class = 'amount input1' id='curr_amount' placeholder='Nhập số tiền' /><ul class='currencies' onmouseover="openn(this)" onmouseout="normall(this)" ><li class='VND li-class' id='idactive'>VND</li> <li class='VND li-class' id='0'>VND(VND)</li> <li class='AUD li-class' id='1'>Dollar AUD(AUD)</li> <li class='CAD li-class' id='2'>Dollar Canada(CAD)</li> <li class='CHF li-class' id='3'>Schweizer Franken(CHF)</li> <li class='CNY li-class' id='4'>China(CNY)</li> <li class='EUR li-class' id='5'>Euro(EUR)</li> <li class='JPY li-class' id='6'>Japanese Yen(JPY)</li> <li class='KRW li-class' id='7'>Korea(KRW)</li> <li class='SGD li-class' id='8'>Dollar Singapore(SGD)</li> <li class='THB li-class' id='9'>Thai Lan (THB)</li> <li class='USD li-class' id='10'>Dollar US(USD)</li></ul><ul class="results"><li class='VND'><span class="name">Viet Nam Dong</span><span class="iso">VND</span><span id= "rs0" class="result">0</span></li> <li class='AUD'><span class="name">Australian Dollar</span><span class="iso">AUD</span><span id= "rs1" class="result">0</span></li> <li class='CAD'><span class="name">Canadian Dollar</span><span class="iso">CAD</span><span id= "rs2" class="result">0</span></li> <li class='CHF'><span class="name">Swiss Franc</span><span class="iso">CHF</span><span id= "rs3" class="result">0</span></li> <li class='CNY'><span class="name">China</span><span class="iso">CNY</span><span id= "rs4" class="result">0</span></li> <li class='EUR'><span class="name">VND</span><span class="iso">VND</span><span id= "rs5" class="result">0</span></li> <li class='JPY'><span class="name">Japanese Yen</span><span class="iso">JPY</span><span id= "rs6" class="result">0</span></li> <li class='KRW'><span class="name">Korea</span><span class="iso">KRW</span><span id= "rs7" class="result">0</span></li> <li class='SGD'><span class="name">Dollar Singapore</span><span class="iso">SGD</span><span id= "rs8" class="result">0</span></li> <li class='THB'><span class="name">Thai Lan</span><span class="iso">THB</span><span id= "rs9" class="result">0</span></li> <li class='USD'><span class="name">US Dollar</span><span class="iso">USD</span><span id= "rs10" class="result">0</span></li></ul></div><script>
+  send();
+  function send() {
+  
+  var searchLink = "https://api.exchangerate.host/latest";
+ httpRequestAsync(searchLink, theResponse);
+
+}
+
+
+var AUD = 0,
+CAD = 0,
+CHF = 0,
+CNY = 0,
+EUR = 0,
+JPY = 0,
+KRW = 0,
+SGD = 0,
+THB = 0,
+USD = 0;
+var VND = 1;
+var arr;
+var arr_name;
+
+var heso = 1;
+var curr_amount = 0;
+function theResponse(response) {
+
+
+var jsonObject = JSON.parse(response);
+
+AUD = parseFloat(jsonObject.rates.VND/jsonObject.rates.AUD).toFixed(3);
+CAD = parseFloat(jsonObject.rates.VND/jsonObject.rates.CAD).toFixed(3); 
+
+CHF = parseFloat(jsonObject.rates.VND/jsonObject.rates.CHF).toFixed(3); 
+
+CNY = parseFloat(jsonObject.rates.VND/jsonObject.rates.CNY).toFixed(3); 
+
+EUR = parseFloat(jsonObject.rates.VND/jsonObject.rates.EUR).toFixed(3); 
+
+JPY = parseFloat(jsonObject.rates.VND/jsonObject.rates.JPY).toFixed(3); 
+
+KRW = parseFloat(jsonObject.rates.VND/jsonObject.rates.KRW).toFixed(3); 
+
+SGD = parseFloat(jsonObject.rates.VND/jsonObject.rates.SGD).toFixed(3); 
+
+THB = parseFloat(jsonObject.rates.VND/jsonObject.rates.THB).toFixed(3); 
+
+USD = parseFloat(jsonObject.rates.VND/jsonObject.rates.USD).toFixed(3); 
+
+var VND = 1; 
+arr = [VND, AUD , CAD ,CHF,CNY,EUR,JPY,KRW, SGD,THB,USD    ];
+
+arr_name =["VND", "AUD" , "CAD" ,"CHF","CNY","EUR","JPY","KRW", "SGD","THB","USD"    ];
+
+ var ob = "AUD: "+ AUD +"   "+".   CAD: "+ CAD +"   "+"CHF: "+ CHF +"   "+"CNY: "+ CNY +"   "+"EUR: "+ EUR +"   "+"JPY: "+ JPY +"   "+"KRW: "+ KRW +"   "+"SGD: "+ SGD +"   "+"THB: "+ THB +"   "+"USD: "+ AUD +"   ";
+
+}
+
+function httpRequestAsync(url, callback)
+{
+var httpRequest = new XMLHttpRequest();
+httpRequest.onreadystatechange = () => { 
+    if (httpRequest.readyState == 4 && httpRequest.status == 200)
+        callback(httpRequest.responseText);
+}
+httpRequest.open("GET", url, true); 
+httpRequest.send();
+}
+
+
+var curr_amountt = document.getElementById("curr_amount");
+curr_amountt.addEventListener('input', update);
+
+function openn(x) {
+  x.classList.add("open");
+}
+
+function normall(x) {
+   x.classList.remove("open");
+}
+
+var idactive = document.getElementById("idactive");
+
+document.querySelectorAll('.li-class').forEach(item => {
+  item.addEventListener('click', event => {
+if(event.target.id != 'idactive'){console.log(event.target.id);
+	heso = arr[event.target.id];
+	idactive.innerHTML = arr_name[event.target.id];
+update();}
+   	 
+  })
+})
+
+function update()
+{
+
+
+curr_amount = document.getElementById("curr_amount").value;
+
+document.getElementById("rs0").innerHTML = parseFloat(heso*curr_amount/arr[0]).toFixed(3);
+document.getElementById("rs1").innerHTML = parseFloat(heso*curr_amount/arr[1]).toFixed(3);
+document.getElementById("rs2").innerHTML = parseFloat(heso*curr_amount/arr[2]).toFixed(3);
+document.getElementById("rs3").innerHTML = parseFloat(heso*curr_amount/arr[3]).toFixed(3);
+document.getElementById("rs4").innerHTML = parseFloat(heso*curr_amount/arr[4]).toFixed(3);
+document.getElementById("rs5").innerHTML = parseFloat(heso*curr_amount/arr[5]).toFixed(3);
+document.getElementById("rs6").innerHTML = parseFloat(heso*curr_amount/arr[6]).toFixed(3);
+document.getElementById("rs7").innerHTML = parseFloat(heso*curr_amount/arr[7]).toFixed(3);
+document.getElementById("rs8").innerHTML = parseFloat(heso*curr_amount/arr[8]).toFixed(3);
+document.getElementById("rs9").innerHTML = parseFloat(heso*curr_amount/arr[9]).toFixed(3);
+document.getElementById("rs10").innerHTML = parseFloat(heso*curr_amount/arr[10]).toFixed(3);
+
+
+console.log(curr_amount,heso );
+}</script>

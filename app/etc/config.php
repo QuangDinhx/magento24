@@ -219,6 +219,11 @@ return [
         'MGS_QuickView' => 1,
         'MGS_Social' => 1,
         'MGS_StoreLocator' => 1,
-        'MGS_Testimonial' => 1
+        'MGS_Testimonial' => 1,
+        'Robin_Kinhdoanhpage' => 1,
+        'Robin_Tygiapage' => 1,
+        'Robin_Tygiawidget' => 1,
+        'Robin_Weather1' => 1,
+        'Robin_Widget' => 1
     ]
 ];
