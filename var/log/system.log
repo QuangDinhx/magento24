@@ -10858,3 +10858,315 @@ Stack trace:
 [2021-11-29T05:46:26.496328+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
 [2021-11-29T05:46:40.153102+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
 [2021-11-29T05:46:40.154510+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-12T14:59:54.155662+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-12T14:59:54.159042+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-12T14:59:56.885807+00:00] main.CRITICAL: Exception: Notice: Undefined variable: quickViewHelper in C:\xampp\htdocs\magento24\app\design\frontend\Mgs\orson\Magento_CatalogWidget\templates\product\widget\content\grid.phtml on line 70 in C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\ErrorHandler.php:61
+Stack trace:
+#0 C:\xampp\htdocs\magento24\app\design\frontend\Mgs\orson\Magento_CatalogWidget\templates\product\widget\content\grid.phtml(70): Magento\Framework\App\ErrorHandler->handler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\TemplateEngine\Php.php(71): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Element\Template.php(263): Magento\Framework\View\TemplateEngine\Php->render(Object(Magento\CatalogWidget\Block\Product\ProductsList\Interceptor), 'C:/xampp/htdocs...', Array)
+#3 C:\xampp\htdocs\magento24\generated\code\Magento\CatalogWidget\Block\Product\ProductsList\Interceptor.php(365): Magento\Framework\View\Element\Template->fetchView('C:/xampp/htdocs...')
+#4 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Element\Template.php(293): Magento\CatalogWidget\Block\Product\ProductsList\Interceptor->fetchView('C:/xampp/htdocs...')
+#5 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Element\AbstractBlock.php(1114): Magento\Framework\View\Element\Template->_toHtml()
+#6 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Cache\LockGuardedCacheLoader.php(136): Magento\Framework\View\Element\AbstractBlock->Magento\Framework\View\Element\{closure}()
+#7 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Element\AbstractBlock.php(1136): Magento\Framework\Cache\LockGuardedCacheLoader->lockedLoadData('BLOCK_f8cd23b23...', Object(Closure), Object(Closure), Object(Closure))
+#8 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Element\AbstractBlock.php(678): Magento\Framework\View\Element\AbstractBlock->_loadCache()
+#9 C:\xampp\htdocs\magento24\generated\code\Magento\CatalogWidget\Block\Product\ProductsList\Interceptor.php(581): Magento\Framework\View\Element\AbstractBlock->toHtml()
+#10 C:\xampp\htdocs\magento24\app\code\Magento\Widget\Model\Template\Filter.php(156): Magento\CatalogWidget\Block\Product\ProductsList\Interceptor->toHtml()
+#11 C:\xampp\htdocs\magento24\app\code\Magento\Widget\Model\Template\Filter.php(167): Magento\Widget\Model\Template\Filter->generateWidget(Array)
+#12 [internal function]: Magento\Widget\Model\Template\Filter->widgetDirective(Array)
+#13 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Filter\DirectiveProcessor\LegacyDirective.php(42): ReflectionMethod->invokeArgs(Object(Magento\Widget\Model\Template\Filter), Array)
+#14 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Filter\Template.php(192): Magento\Framework\Filter\DirectiveProcessor\LegacyDirective->process(Array, Object(Magento\Widget\Model\Template\Filter), Array)
+#15 C:\xampp\htdocs\magento24\app\code\Magento\Email\Model\Template\Filter.php(1106): Magento\Framework\Filter\Template->filter('<div>\t<!-- Stat...')
+#16 C:\xampp\htdocs\magento24\app\code\Magento\Cms\Block\Page.php(170): Magento\Email\Model\Template\Filter->filter('<div>{{widget t...')
+#17 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Element\AbstractBlock.php(1114): Magento\Cms\Block\Page->_toHtml()
+#18 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Element\AbstractBlock.php(1118): Magento\Framework\View\Element\AbstractBlock->Magento\Framework\View\Element\{closure}()
+#19 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Element\AbstractBlock.php(678): Magento\Framework\View\Element\AbstractBlock->_loadCache()
+#20 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(578): Magento\Framework\View\Element\AbstractBlock->toHtml()
+#21 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(555): Magento\Framework\View\Layout->_renderBlock('cms_page')
+#22 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement('cms_page')
+#23 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement('cms_page')
+#24 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(140): Magento\Framework\View\Layout->renderElement('cms_page', false)
+#25 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement('cms_page', false)
+#26 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(557): Magento\Framework\View\Layout->_renderContainer('content', false)
+#27 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement('content')
+#28 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement('content')
+#29 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(140): Magento\Framework\View\Layout->renderElement('content', false)
+#30 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement('content', false)
+#31 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(557): Magento\Framework\View\Layout->_renderContainer('main', false)
+#32 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement('main')
+#33 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement('main')
+#34 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(140): Magento\Framework\View\Layout->renderElement('main', false)
+#35 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement('main', false)
+#36 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(557): Magento\Framework\View\Layout->_renderContainer('columns', false)
+#37 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement('columns')
+#38 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement('columns')
+#39 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(140): Magento\Framework\View\Layout->renderElement('columns', false)
+#40 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement('columns', false)
+#41 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(557): Magento\Framework\View\Layout->_renderContainer('main.content', false)
+#42 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement('main.content')
+#43 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement('main.content')
+#44 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(140): Magento\Framework\View\Layout->renderElement('main.content', false)
+#45 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement('main.content', false)
+#46 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(557): Magento\Framework\View\Layout->_renderContainer('page.wrapper', false)
+#47 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement('page.wrapper')
+#48 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement('page.wrapper')
+#49 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(140): Magento\Framework\View\Layout->renderElement('page.wrapper', false)
+#50 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(606): Magento\Framework\View\Layout\Interceptor->renderElement('page.wrapper', false)
+#51 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(557): Magento\Framework\View\Layout->_renderContainer('root', false)
+#52 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(149): Magento\Framework\View\Layout->renderNonCachedElement('root')
+#53 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(510): Magento\Framework\View\Layout\Interceptor->renderNonCachedElement('root')
+#54 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(140): Magento\Framework\View\Layout->renderElement('root', true)
+#55 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Layout.php(975): Magento\Framework\View\Layout\Interceptor->renderElement('root')
+#56 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Framework\View\Layout->getOutput()
+#57 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Framework\View\Layout\Interceptor->___callParent('getOutput', Array)
+#58 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Framework\View\Layout\Interceptor->Magento\Framework\Interception\{closure}()
+#59 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\View\Layout\Interceptor.php(347): Magento\Framework\View\Layout\Interceptor->___callPlugins('getOutput', Array, Array)
+#60 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Result\Page.php(260): Magento\Framework\View\Layout\Interceptor->getOutput()
+#61 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Result\Layout.php(171): Magento\Framework\View\Result\Page->render(Object(Magento\Framework\App\Response\Http\Interceptor))
+#62 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Framework\View\Result\Layout->renderResult(Object(Magento\Framework\App\Response\Http\Interceptor))
+#63 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): MGS\Mpanel\Block\Framework\Page\Interceptor->___callParent('renderResult', Array)
+#64 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): MGS\Mpanel\Block\Framework\Page\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Framework\App\Response\Http\Interceptor))
+#65 C:\xampp\htdocs\magento24\generated\code\MGS\Mpanel\Block\Framework\Page\Interceptor.php(104): MGS\Mpanel\Block\Framework\Page\Interceptor->___callPlugins('renderResult', Array, Array)
+#66 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Http.php(120): MGS\Mpanel\Block\Framework\Page\Interceptor->renderResult(Object(Magento\Framework\App\Response\Http\Interceptor))
+#67 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\App\Http\Interceptor.php(23): Magento\Framework\App\Http->launch()
+#68 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#69 C:\xampp\htdocs\magento24\pub\index.php(30): Magento\Framework\App\Bootstrap->run(Object(Magento\Framework\App\Http\Interceptor))
+#70 {main} [] []
+[2021-12-12T15:01:11.595645+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-12T15:01:11.597353+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-12T15:06:45.944627+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-12T15:06:45.945799+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-12T15:09:40.150372+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-12T15:09:40.154727+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-12T15:10:07.894643+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-12T15:10:07.896089+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-12T15:10:15.998169+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-12T15:10:15.999689+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T01:16:54.905761+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T01:16:54.932014+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T01:17:16.339438+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T01:17:16.341945+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T01:18:20.206116+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T01:18:20.207930+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T01:18:37.692874+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T01:18:37.694324+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T01:19:22.772733+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T01:19:22.775603+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T01:19:37.325598+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T01:19:37.327754+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T01:19:55.533848+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T01:19:55.536527+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T01:20:04.547327+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T01:20:04.548334+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T01:20:30.356707+00:00] main.ERROR: Magento\Framework\View\Asset\ContentProcessorException: Compilation from source: LESS file is empty: frontend/Mgs/orson/vi_VN/css/email-inline.less in C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Css\PreProcessor\Adapter\Less\Processor.php:99
+Stack trace:
+#0 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Asset\PreProcessor\AlternativeSource.php(156): Magento\Framework\Css\PreProcessor\Adapter\Less\Processor->processContent(Object(Magento\Framework\View\Asset\File))
+#1 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Asset\PreProcessor\AlternativeSource.php(114): Magento\Framework\View\Asset\PreProcessor\AlternativeSource->processContent('css/email-inlin...', '', '', Object(Magento\Framework\View\Asset\File\FallbackContext))
+#2 C:\xampp\htdocs\magento24\app\code\Magento\Developer\Model\View\Asset\PreProcessor\PreprocessorStrategy.php(78): Magento\Framework\View\Asset\PreProcessor\AlternativeSource->process(Object(Magento\Framework\View\Asset\PreProcessor\Chain))
+#3 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Asset\PreProcessor\Pool.php(77): Magento\Developer\Model\View\Asset\PreProcessor\PreprocessorStrategy->process(Object(Magento\Framework\View\Asset\PreProcessor\Chain))
+#4 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Asset\Source.php(152): Magento\Framework\View\Asset\PreProcessor\Pool->process(Object(Magento\Framework\View\Asset\PreProcessor\Chain))
+#5 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Asset\Source.php(121): Magento\Framework\View\Asset\Source->preProcess(Object(Magento\Framework\View\Asset\File))
+#6 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\View\Asset\File.php(185): Magento\Framework\View\Asset\Source->getContent(Object(Magento\Framework\View\Asset\File))
+#7 C:\xampp\htdocs\magento24\app\code\Magento\Email\Model\Template\Filter.php(1025): Magento\Framework\View\Asset\File->getContent()
+#8 C:\xampp\htdocs\magento24\app\code\Magento\Email\Model\Template\Filter.php(1049): Magento\Email\Model\Template\Filter->getCssFilesContent(Array)
+#9 [internal function]: Magento\Email\Model\Template\Filter->applyInlineCss('<!DOCTYPE html ...')
+#10 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Filter\Template.php(210): call_user_func(Array, '<!DOCTYPE html ...')
+#11 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Filter\Template.php(198): Magento\Framework\Filter\Template->afterFilter('<!DOCTYPE html ...')
+#12 C:\xampp\htdocs\magento24\app\code\Magento\Email\Model\Template\Filter.php(1106): Magento\Framework\Filter\Template->filter('<!DOCTYPE html ...')
+#13 C:\xampp\htdocs\magento24\app\code\Magento\Email\Model\AbstractTemplate.php(376): Magento\Email\Model\Template\Filter->filter('{{template conf...')
+#14 C:\xampp\htdocs\magento24\generated\code\Magento\Email\Model\Template\Interceptor.php(185): Magento\Email\Model\AbstractTemplate->getProcessedTemplate(Array)
+#15 C:\xampp\htdocs\magento24\app\code\Magento\Email\Model\Template.php(388): Magento\Email\Model\Template\Interceptor->getProcessedTemplate(Array)
+#16 C:\xampp\htdocs\magento24\generated\code\Magento\Email\Model\Template\Interceptor.php(122): Magento\Email\Model\Template->processTemplate()
+#17 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Mail\Template\TransportBuilder.php(380): Magento\Email\Model\Template\Interceptor->processTemplate()
+#18 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Mail\Template\TransportBuilder.php(336): Magento\Framework\Mail\Template\TransportBuilder->prepareMessage()
+#19 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\Mail\Template\TransportBuilder\Interceptor.php(113): Magento\Framework\Mail\Template\TransportBuilder->getTransport()
+#20 C:\xampp\htdocs\magento24\app\code\Magento\Customer\Model\EmailNotification.php(284): Magento\Framework\Mail\Template\TransportBuilder\Interceptor->getTransport()
+#21 C:\xampp\htdocs\magento24\app\code\Magento\Customer\Model\EmailNotification.php(412): Magento\Customer\Model\EmailNotification->sendEmailTemplate(Object(Magento\Customer\Model\Data\Customer), 'customer/create...', 'customer/create...', Array, '1')
+#22 C:\xampp\htdocs\magento24\app\code\Magento\Customer\Model\AccountManagement.php(1000): Magento\Customer\Model\EmailNotification->newAccount(Object(Magento\Customer\Model\Data\Customer), 'registered', NULL, '1')
+#23 C:\xampp\htdocs\magento24\app\code\Magento\Customer\Model\AccountManagement.php(958): Magento\Customer\Model\AccountManagement->sendEmailConfirmation(Object(Magento\Customer\Model\Data\Customer), NULL)
+#24 C:\xampp\htdocs\magento24\generated\code\Magento\Customer\Model\AccountManagement\Interceptor.php(104): Magento\Customer\Model\AccountManagement->createAccountWithPasswordHash(Object(Magento\Customer\Model\Data\Customer), 'e0f6128cc146bcf...', NULL)
+#25 C:\xampp\htdocs\magento24\app\code\Magento\Customer\Model\AccountManagement.php(874): Magento\Customer\Model\AccountManagement\Interceptor->createAccountWithPasswordHash(Object(Magento\Customer\Model\Data\Customer), 'e0f6128cc146bcf...', NULL)
+#26 C:\xampp\htdocs\magento24\generated\code\Magento\Customer\Model\AccountManagement\Interceptor.php(95): Magento\Customer\Model\AccountManagement->createAccount(Object(Magento\Customer\Model\Data\Customer), 'Matkhau8!', NULL)
+#27 C:\xampp\htdocs\magento24\app\code\Magento\Customer\Controller\Account\CreatePost.php(380): Magento\Customer\Model\AccountManagement\Interceptor->createAccount(Object(Magento\Customer\Model\Data\Customer), 'Matkhau8!', NULL)
+#28 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Customer\Controller\Account\CreatePost->execute()
+#29 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Customer\Controller\Account\CreatePost\Interceptor->___callParent('execute', Array)
+#30 C:\xampp\htdocs\magento24\app\code\Magento\Customer\Controller\Plugin\Account.php(64): Magento\Customer\Controller\Account\CreatePost\Interceptor->Magento\Framework\Interception\{closure}()
+#31 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(135): Magento\Customer\Controller\Plugin\Account->aroundExecute(Object(Magento\Customer\Controller\Account\CreatePost\Interceptor), Object(Closure))
+#32 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Customer\Controller\Account\CreatePost\Interceptor->Magento\Framework\Interception\{closure}()
+#33 C:\xampp\htdocs\magento24\generated\code\Magento\Customer\Controller\Account\CreatePost\Interceptor.php(41): Magento\Customer\Controller\Account\CreatePost\Interceptor->___callPlugins('execute', Array, Array)
+#34 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Action\Action.php(111): Magento\Customer\Controller\Account\CreatePost\Interceptor->execute()
+#35 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Framework\App\Action\Action->dispatch(Object(Magento\Framework\App\Request\Http))
+#36 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Customer\Controller\Account\CreatePost\Interceptor->___callParent('dispatch', Array)
+#37 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Customer\Controller\Account\CreatePost\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Framework\App\Request\Http))
+#38 C:\xampp\htdocs\magento24\generated\code\Magento\Customer\Controller\Account\CreatePost\Interceptor.php(50): Magento\Customer\Controller\Account\CreatePost\Interceptor->___callPlugins('dispatch', Array, Array)
+#39 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\FrontController.php(245): Magento\Customer\Controller\Account\CreatePost\Interceptor->dispatch(Object(Magento\Framework\App\Request\Http))
+#40 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\FrontController.php(212): Magento\Framework\App\FrontController->getActionResponse(Object(Magento\Customer\Controller\Account\CreatePost\Interceptor), Object(Magento\Framework\App\Request\Http))
+#41 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\FrontController.php(147): Magento\Framework\App\FrontController->processRequest(Object(Magento\Framework\App\Request\Http), Object(Magento\Customer\Controller\Account\CreatePost\Interceptor))
+#42 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Framework\App\FrontController->dispatch(Object(Magento\Framework\App\Request\Http))
+#43 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Framework\App\FrontController\Interceptor->___callParent('dispatch', Array)
+#44 C:\xampp\htdocs\magento24\app\code\Magento\Store\App\FrontController\Plugin\RequestPreprocessor.php(99): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Framework\App\Request\Http))
+#45 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(135): Magento\Store\App\FrontController\Plugin\RequestPreprocessor->aroundDispatch(Object(Magento\Framework\App\FrontController\Interceptor), Object(Closure), Object(Magento\Framework\App\Request\Http))
+#46 C:\xampp\htdocs\magento24\app\code\Magento\PageCache\Model\App\FrontController\BuiltinPlugin.php(75): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Framework\App\Request\Http))
+#47 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch(Object(Magento\Framework\App\FrontController\Interceptor), Object(Closure), Object(Magento\Framework\App\Request\Http))
+#48 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Framework\App\Request\Http))
+#49 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\App\FrontController\Interceptor.php(23): Magento\Framework\App\FrontController\Interceptor->___callPlugins('dispatch', Array, NULL)
+#50 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Http.php(116): Magento\Framework\App\FrontController\Interceptor->dispatch(Object(Magento\Framework\App\Request\Http))
+#51 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\App\Http\Interceptor.php(23): Magento\Framework\App\Http->launch()
+#52 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#53 C:\xampp\htdocs\magento24\pub\index.php(30): Magento\Framework\App\Bootstrap->run(Object(Magento\Framework\App\Http\Interceptor))
+#54 {main} [] []
+[2021-12-13T01:20:33.185821+00:00] main.ERROR: Laminas\Mail\Transport\Exception\RuntimeException: Unable to send mail: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\magento24\vendor\laminas\laminas-mail\src\Transport\Sendmail.php:298
+Stack trace:
+#0 C:\xampp\htdocs\magento24\vendor\laminas\laminas-mail\src\Transport\Sendmail.php(130): Laminas\Mail\Transport\Sendmail->mailHandler('ngquanghaiizz@g...', '=?UTF-8?Q?Welco...', '<!DOCTYPE html ...', 'Date: Mon, 13 D...', NULL)
+#1 C:\xampp\htdocs\magento24\app\code\Magento\Email\Model\Transport.php(111): Laminas\Mail\Transport\Sendmail->send(Object(Laminas\Mail\Message))
+#2 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Email\Model\Transport->sendMessage()
+#3 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Email\Model\Transport\Interceptor->___callParent('sendMessage', Array)
+#4 C:\xampp\htdocs\magento24\app\code\Magento\Email\Model\Mail\TransportInterfacePlugin.php(48): Magento\Email\Model\Transport\Interceptor->Magento\Framework\Interception\{closure}()
+#5 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(135): Magento\Email\Model\Mail\TransportInterfacePlugin->aroundSendMessage(Object(Magento\Email\Model\Transport\Interceptor), Object(Closure))
+#6 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Email\Model\Transport\Interceptor->Magento\Framework\Interception\{closure}()
+#7 C:\xampp\htdocs\magento24\generated\code\Magento\Email\Model\Transport\Interceptor.php(23): Magento\Email\Model\Transport\Interceptor->___callPlugins('sendMessage', Array, NULL)
+#8 C:\xampp\htdocs\magento24\app\code\Magento\Customer\Model\EmailNotification.php(287): Magento\Email\Model\Transport\Interceptor->sendMessage()
+#9 C:\xampp\htdocs\magento24\app\code\Magento\Customer\Model\EmailNotification.php(412): Magento\Customer\Model\EmailNotification->sendEmailTemplate(Object(Magento\Customer\Model\Data\Customer), 'customer/create...', 'customer/create...', Array, '1')
+#10 C:\xampp\htdocs\magento24\app\code\Magento\Customer\Model\AccountManagement.php(1000): Magento\Customer\Model\EmailNotification->newAccount(Object(Magento\Customer\Model\Data\Customer), 'registered', NULL, '1')
+#11 C:\xampp\htdocs\magento24\app\code\Magento\Customer\Model\AccountManagement.php(958): Magento\Customer\Model\AccountManagement->sendEmailConfirmation(Object(Magento\Customer\Model\Data\Customer), NULL)
+#12 C:\xampp\htdocs\magento24\generated\code\Magento\Customer\Model\AccountManagement\Interceptor.php(104): Magento\Customer\Model\AccountManagement->createAccountWithPasswordHash(Object(Magento\Customer\Model\Data\Customer), 'e0f6128cc146bcf...', NULL)
+#13 C:\xampp\htdocs\magento24\app\code\Magento\Customer\Model\AccountManagement.php(874): Magento\Customer\Model\AccountManagement\Interceptor->createAccountWithPasswordHash(Object(Magento\Customer\Model\Data\Customer), 'e0f6128cc146bcf...', NULL)
+#14 C:\xampp\htdocs\magento24\generated\code\Magento\Customer\Model\AccountManagement\Interceptor.php(95): Magento\Customer\Model\AccountManagement->createAccount(Object(Magento\Customer\Model\Data\Customer), 'Matkhau8!', NULL)
+#15 C:\xampp\htdocs\magento24\app\code\Magento\Customer\Controller\Account\CreatePost.php(380): Magento\Customer\Model\AccountManagement\Interceptor->createAccount(Object(Magento\Customer\Model\Data\Customer), 'Matkhau8!', NULL)
+#16 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Customer\Controller\Account\CreatePost->execute()
+#17 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Customer\Controller\Account\CreatePost\Interceptor->___callParent('execute', Array)
+#18 C:\xampp\htdocs\magento24\app\code\Magento\Customer\Controller\Plugin\Account.php(64): Magento\Customer\Controller\Account\CreatePost\Interceptor->Magento\Framework\Interception\{closure}()
+#19 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(135): Magento\Customer\Controller\Plugin\Account->aroundExecute(Object(Magento\Customer\Controller\Account\CreatePost\Interceptor), Object(Closure))
+#20 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Customer\Controller\Account\CreatePost\Interceptor->Magento\Framework\Interception\{closure}()
+#21 C:\xampp\htdocs\magento24\generated\code\Magento\Customer\Controller\Account\CreatePost\Interceptor.php(41): Magento\Customer\Controller\Account\CreatePost\Interceptor->___callPlugins('execute', Array, Array)
+#22 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Action\Action.php(111): Magento\Customer\Controller\Account\CreatePost\Interceptor->execute()
+#23 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Framework\App\Action\Action->dispatch(Object(Magento\Framework\App\Request\Http))
+#24 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Customer\Controller\Account\CreatePost\Interceptor->___callParent('dispatch', Array)
+#25 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Customer\Controller\Account\CreatePost\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Framework\App\Request\Http))
+#26 C:\xampp\htdocs\magento24\generated\code\Magento\Customer\Controller\Account\CreatePost\Interceptor.php(50): Magento\Customer\Controller\Account\CreatePost\Interceptor->___callPlugins('dispatch', Array, Array)
+#27 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\FrontController.php(245): Magento\Customer\Controller\Account\CreatePost\Interceptor->dispatch(Object(Magento\Framework\App\Request\Http))
+#28 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\FrontController.php(212): Magento\Framework\App\FrontController->getActionResponse(Object(Magento\Customer\Controller\Account\CreatePost\Interceptor), Object(Magento\Framework\App\Request\Http))
+#29 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\FrontController.php(147): Magento\Framework\App\FrontController->processRequest(Object(Magento\Framework\App\Request\Http), Object(Magento\Customer\Controller\Account\CreatePost\Interceptor))
+#30 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Framework\App\FrontController->dispatch(Object(Magento\Framework\App\Request\Http))
+#31 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Framework\App\FrontController\Interceptor->___callParent('dispatch', Array)
+#32 C:\xampp\htdocs\magento24\app\code\Magento\Store\App\FrontController\Plugin\RequestPreprocessor.php(99): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Framework\App\Request\Http))
+#33 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(135): Magento\Store\App\FrontController\Plugin\RequestPreprocessor->aroundDispatch(Object(Magento\Framework\App\FrontController\Interceptor), Object(Closure), Object(Magento\Framework\App\Request\Http))
+#34 C:\xampp\htdocs\magento24\app\code\Magento\PageCache\Model\App\FrontController\BuiltinPlugin.php(75): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Framework\App\Request\Http))
+#35 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch(Object(Magento\Framework\App\FrontController\Interceptor), Object(Closure), Object(Magento\Framework\App\Request\Http))
+#36 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Framework\App\Request\Http))
+#37 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\App\FrontController\Interceptor.php(23): Magento\Framework\App\FrontController\Interceptor->___callPlugins('dispatch', Array, NULL)
+#38 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Http.php(116): Magento\Framework\App\FrontController\Interceptor->dispatch(Object(Magento\Framework\App\Request\Http))
+#39 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\App\Http\Interceptor.php(23): Magento\Framework\App\Http->launch()
+#40 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#41 C:\xampp\htdocs\magento24\pub\index.php(30): Magento\Framework\App\Bootstrap->run(Object(Magento\Framework\App\Http\Interceptor))
+#42 {main} [] []
+[2021-12-13T01:20:33.199715+00:00] main.CRITICAL: Laminas\Mail\Transport\Exception\RuntimeException: Unable to send mail: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\magento24\vendor\laminas\laminas-mail\src\Transport\Sendmail.php:298
+Stack trace:
+#0 C:\xampp\htdocs\magento24\vendor\laminas\laminas-mail\src\Transport\Sendmail.php(130): Laminas\Mail\Transport\Sendmail->mailHandler('ngquanghaiizz@g...', '=?UTF-8?Q?Welco...', '<!DOCTYPE html ...', 'Date: Mon, 13 D...', NULL)
+#1 C:\xampp\htdocs\magento24\app\code\Magento\Email\Model\Transport.php(111): Laminas\Mail\Transport\Sendmail->send(Object(Laminas\Mail\Message))
+#2 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Email\Model\Transport->sendMessage()
+#3 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Email\Model\Transport\Interceptor->___callParent('sendMessage', Array)
+#4 C:\xampp\htdocs\magento24\app\code\Magento\Email\Model\Mail\TransportInterfacePlugin.php(48): Magento\Email\Model\Transport\Interceptor->Magento\Framework\Interception\{closure}()
+#5 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(135): Magento\Email\Model\Mail\TransportInterfacePlugin->aroundSendMessage(Object(Magento\Email\Model\Transport\Interceptor), Object(Closure))
+#6 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Email\Model\Transport\Interceptor->Magento\Framework\Interception\{closure}()
+#7 C:\xampp\htdocs\magento24\generated\code\Magento\Email\Model\Transport\Interceptor.php(23): Magento\Email\Model\Transport\Interceptor->___callPlugins('sendMessage', Array, NULL)
+#8 C:\xampp\htdocs\magento24\app\code\Magento\Customer\Model\EmailNotification.php(287): Magento\Email\Model\Transport\Interceptor->sendMessage()
+#9 C:\xampp\htdocs\magento24\app\code\Magento\Customer\Model\EmailNotification.php(412): Magento\Customer\Model\EmailNotification->sendEmailTemplate(Object(Magento\Customer\Model\Data\Customer), 'customer/create...', 'customer/create...', Array, '1')
+#10 C:\xampp\htdocs\magento24\app\code\Magento\Customer\Model\AccountManagement.php(1000): Magento\Customer\Model\EmailNotification->newAccount(Object(Magento\Customer\Model\Data\Customer), 'registered', NULL, '1')
+#11 C:\xampp\htdocs\magento24\app\code\Magento\Customer\Model\AccountManagement.php(958): Magento\Customer\Model\AccountManagement->sendEmailConfirmation(Object(Magento\Customer\Model\Data\Customer), NULL)
+#12 C:\xampp\htdocs\magento24\generated\code\Magento\Customer\Model\AccountManagement\Interceptor.php(104): Magento\Customer\Model\AccountManagement->createAccountWithPasswordHash(Object(Magento\Customer\Model\Data\Customer), 'e0f6128cc146bcf...', NULL)
+#13 C:\xampp\htdocs\magento24\app\code\Magento\Customer\Model\AccountManagement.php(874): Magento\Customer\Model\AccountManagement\Interceptor->createAccountWithPasswordHash(Object(Magento\Customer\Model\Data\Customer), 'e0f6128cc146bcf...', NULL)
+#14 C:\xampp\htdocs\magento24\generated\code\Magento\Customer\Model\AccountManagement\Interceptor.php(95): Magento\Customer\Model\AccountManagement->createAccount(Object(Magento\Customer\Model\Data\Customer), 'Matkhau8!', NULL)
+#15 C:\xampp\htdocs\magento24\app\code\Magento\Customer\Controller\Account\CreatePost.php(380): Magento\Customer\Model\AccountManagement\Interceptor->createAccount(Object(Magento\Customer\Model\Data\Customer), 'Matkhau8!', NULL)
+#16 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Customer\Controller\Account\CreatePost->execute()
+#17 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Customer\Controller\Account\CreatePost\Interceptor->___callParent('execute', Array)
+#18 C:\xampp\htdocs\magento24\app\code\Magento\Customer\Controller\Plugin\Account.php(64): Magento\Customer\Controller\Account\CreatePost\Interceptor->Magento\Framework\Interception\{closure}()
+#19 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(135): Magento\Customer\Controller\Plugin\Account->aroundExecute(Object(Magento\Customer\Controller\Account\CreatePost\Interceptor), Object(Closure))
+#20 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Customer\Controller\Account\CreatePost\Interceptor->Magento\Framework\Interception\{closure}()
+#21 C:\xampp\htdocs\magento24\generated\code\Magento\Customer\Controller\Account\CreatePost\Interceptor.php(41): Magento\Customer\Controller\Account\CreatePost\Interceptor->___callPlugins('execute', Array, Array)
+#22 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Action\Action.php(111): Magento\Customer\Controller\Account\CreatePost\Interceptor->execute()
+#23 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Framework\App\Action\Action->dispatch(Object(Magento\Framework\App\Request\Http))
+#24 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Customer\Controller\Account\CreatePost\Interceptor->___callParent('dispatch', Array)
+#25 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Customer\Controller\Account\CreatePost\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Framework\App\Request\Http))
+#26 C:\xampp\htdocs\magento24\generated\code\Magento\Customer\Controller\Account\CreatePost\Interceptor.php(50): Magento\Customer\Controller\Account\CreatePost\Interceptor->___callPlugins('dispatch', Array, Array)
+#27 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\FrontController.php(245): Magento\Customer\Controller\Account\CreatePost\Interceptor->dispatch(Object(Magento\Framework\App\Request\Http))
+#28 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\FrontController.php(212): Magento\Framework\App\FrontController->getActionResponse(Object(Magento\Customer\Controller\Account\CreatePost\Interceptor), Object(Magento\Framework\App\Request\Http))
+#29 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\FrontController.php(147): Magento\Framework\App\FrontController->processRequest(Object(Magento\Framework\App\Request\Http), Object(Magento\Customer\Controller\Account\CreatePost\Interceptor))
+#30 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Framework\App\FrontController->dispatch(Object(Magento\Framework\App\Request\Http))
+#31 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Framework\App\FrontController\Interceptor->___callParent('dispatch', Array)
+#32 C:\xampp\htdocs\magento24\app\code\Magento\Store\App\FrontController\Plugin\RequestPreprocessor.php(99): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Framework\App\Request\Http))
+#33 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(135): Magento\Store\App\FrontController\Plugin\RequestPreprocessor->aroundDispatch(Object(Magento\Framework\App\FrontController\Interceptor), Object(Closure), Object(Magento\Framework\App\Request\Http))
+#34 C:\xampp\htdocs\magento24\app\code\Magento\PageCache\Model\App\FrontController\BuiltinPlugin.php(75): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Framework\App\Request\Http))
+#35 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch(Object(Magento\Framework\App\FrontController\Interceptor), Object(Closure), Object(Magento\Framework\App\Request\Http))
+#36 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Framework\App\Request\Http))
+#37 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\App\FrontController\Interceptor.php(23): Magento\Framework\App\FrontController\Interceptor->___callPlugins('dispatch', Array, NULL)
+#38 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Http.php(116): Magento\Framework\App\FrontController\Interceptor->dispatch(Object(Magento\Framework\App\Request\Http))
+#39 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\App\Http\Interceptor.php(23): Magento\Framework\App\Http->launch()
+#40 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#41 C:\xampp\htdocs\magento24\pub\index.php(30): Magento\Framework\App\Bootstrap->run(Object(Magento\Framework\App\Http\Interceptor))
+#42 {main}
+
+Next Magento\Framework\Exception\MailException: Unable to send mail. Please try again later. in C:\xampp\htdocs\magento24\app\code\Magento\Email\Model\Transport.php:114
+Stack trace:
+#0 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Email\Model\Transport->sendMessage()
+#1 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Email\Model\Transport\Interceptor->___callParent('sendMessage', Array)
+#2 C:\xampp\htdocs\magento24\app\code\Magento\Email\Model\Mail\TransportInterfacePlugin.php(48): Magento\Email\Model\Transport\Interceptor->Magento\Framework\Interception\{closure}()
+#3 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(135): Magento\Email\Model\Mail\TransportInterfacePlugin->aroundSendMessage(Object(Magento\Email\Model\Transport\Interceptor), Object(Closure))
+#4 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Email\Model\Transport\Interceptor->Magento\Framework\Interception\{closure}()
+#5 C:\xampp\htdocs\magento24\generated\code\Magento\Email\Model\Transport\Interceptor.php(23): Magento\Email\Model\Transport\Interceptor->___callPlugins('sendMessage', Array, NULL)
+#6 C:\xampp\htdocs\magento24\app\code\Magento\Customer\Model\EmailNotification.php(287): Magento\Email\Model\Transport\Interceptor->sendMessage()
+#7 C:\xampp\htdocs\magento24\app\code\Magento\Customer\Model\EmailNotification.php(412): Magento\Customer\Model\EmailNotification->sendEmailTemplate(Object(Magento\Customer\Model\Data\Customer), 'customer/create...', 'customer/create...', Array, '1')
+#8 C:\xampp\htdocs\magento24\app\code\Magento\Customer\Model\AccountManagement.php(1000): Magento\Customer\Model\EmailNotification->newAccount(Object(Magento\Customer\Model\Data\Customer), 'registered', NULL, '1')
+#9 C:\xampp\htdocs\magento24\app\code\Magento\Customer\Model\AccountManagement.php(958): Magento\Customer\Model\AccountManagement->sendEmailConfirmation(Object(Magento\Customer\Model\Data\Customer), NULL)
+#10 C:\xampp\htdocs\magento24\generated\code\Magento\Customer\Model\AccountManagement\Interceptor.php(104): Magento\Customer\Model\AccountManagement->createAccountWithPasswordHash(Object(Magento\Customer\Model\Data\Customer), 'e0f6128cc146bcf...', NULL)
+#11 C:\xampp\htdocs\magento24\app\code\Magento\Customer\Model\AccountManagement.php(874): Magento\Customer\Model\AccountManagement\Interceptor->createAccountWithPasswordHash(Object(Magento\Customer\Model\Data\Customer), 'e0f6128cc146bcf...', NULL)
+#12 C:\xampp\htdocs\magento24\generated\code\Magento\Customer\Model\AccountManagement\Interceptor.php(95): Magento\Customer\Model\AccountManagement->createAccount(Object(Magento\Customer\Model\Data\Customer), 'Matkhau8!', NULL)
+#13 C:\xampp\htdocs\magento24\app\code\Magento\Customer\Controller\Account\CreatePost.php(380): Magento\Customer\Model\AccountManagement\Interceptor->createAccount(Object(Magento\Customer\Model\Data\Customer), 'Matkhau8!', NULL)
+#14 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Customer\Controller\Account\CreatePost->execute()
+#15 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Customer\Controller\Account\CreatePost\Interceptor->___callParent('execute', Array)
+#16 C:\xampp\htdocs\magento24\app\code\Magento\Customer\Controller\Plugin\Account.php(64): Magento\Customer\Controller\Account\CreatePost\Interceptor->Magento\Framework\Interception\{closure}()
+#17 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(135): Magento\Customer\Controller\Plugin\Account->aroundExecute(Object(Magento\Customer\Controller\Account\CreatePost\Interceptor), Object(Closure))
+#18 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Customer\Controller\Account\CreatePost\Interceptor->Magento\Framework\Interception\{closure}()
+#19 C:\xampp\htdocs\magento24\generated\code\Magento\Customer\Controller\Account\CreatePost\Interceptor.php(41): Magento\Customer\Controller\Account\CreatePost\Interceptor->___callPlugins('execute', Array, Array)
+#20 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Action\Action.php(111): Magento\Customer\Controller\Account\CreatePost\Interceptor->execute()
+#21 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Framework\App\Action\Action->dispatch(Object(Magento\Framework\App\Request\Http))
+#22 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Customer\Controller\Account\CreatePost\Interceptor->___callParent('dispatch', Array)
+#23 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Customer\Controller\Account\CreatePost\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Framework\App\Request\Http))
+#24 C:\xampp\htdocs\magento24\generated\code\Magento\Customer\Controller\Account\CreatePost\Interceptor.php(50): Magento\Customer\Controller\Account\CreatePost\Interceptor->___callPlugins('dispatch', Array, Array)
+#25 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\FrontController.php(245): Magento\Customer\Controller\Account\CreatePost\Interceptor->dispatch(Object(Magento\Framework\App\Request\Http))
+#26 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\FrontController.php(212): Magento\Framework\App\FrontController->getActionResponse(Object(Magento\Customer\Controller\Account\CreatePost\Interceptor), Object(Magento\Framework\App\Request\Http))
+#27 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\FrontController.php(147): Magento\Framework\App\FrontController->processRequest(Object(Magento\Framework\App\Request\Http), Object(Magento\Customer\Controller\Account\CreatePost\Interceptor))
+#28 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Framework\App\FrontController->dispatch(Object(Magento\Framework\App\Request\Http))
+#29 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Framework\App\FrontController\Interceptor->___callParent('dispatch', Array)
+#30 C:\xampp\htdocs\magento24\app\code\Magento\Store\App\FrontController\Plugin\RequestPreprocessor.php(99): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Framework\App\Request\Http))
+#31 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(135): Magento\Store\App\FrontController\Plugin\RequestPreprocessor->aroundDispatch(Object(Magento\Framework\App\FrontController\Interceptor), Object(Closure), Object(Magento\Framework\App\Request\Http))
+#32 C:\xampp\htdocs\magento24\app\code\Magento\PageCache\Model\App\FrontController\BuiltinPlugin.php(75): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Framework\App\Request\Http))
+#33 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch(Object(Magento\Framework\App\FrontController\Interceptor), Object(Closure), Object(Magento\Framework\App\Request\Http))
+#34 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Framework\App\Request\Http))
+#35 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\App\FrontController\Interceptor.php(23): Magento\Framework\App\FrontController\Interceptor->___callPlugins('dispatch', Array, NULL)
+#36 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Http.php(116): Magento\Framework\App\FrontController\Interceptor->dispatch(Object(Magento\Framework\App\Request\Http))
+#37 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\App\Http\Interceptor.php(23): Magento\Framework\App\Http->launch()
+#38 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#39 C:\xampp\htdocs\magento24\pub\index.php(30): Magento\Framework\App\Bootstrap->run(Object(Magento\Framework\App\Http\Interceptor))
+#40 {main} [] []
+[2021-12-13T01:20:39.565222+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T01:20:39.567778+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T01:20:52.657010+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-13T01:20:52.658791+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-13T01:23:35.946861+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/extjs/resources/css/ext-all.css is wrong. [] []
+[2021-12-13T01:23:35.949782+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/extjs/resources/css/ext-all.css is wrong. [] []
+[2021-12-13T01:23:36.016227+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/jquery/jstree/themes/default/style.css is wrong. [] []
+[2021-12-13T01:23:36.019614+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/jquery/jstree/themes/default/style.css is wrong. [] []
+[2021-12-13T01:23:36.026762+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2021-12-13T01:23:36.028083+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/MGS_Promobanners/css/promobanner.css is wrong. [] []
+[2021-12-13T01:23:36.029023+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/requirejs/require.js is wrong. [] []
+[2021-12-13T01:23:36.029986+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2021-12-13T01:23:36.031237+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/MGS_Promobanners/css/promobanner.css is wrong. [] []
+[2021-12-13T01:23:36.032495+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/requirejs/require.js is wrong. [] []
+[2021-12-13T01:23:36.035724+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/css/styles.css is wrong. [] []
+[2021-12-13T01:23:36.040502+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/css/styles.css is wrong. [] []
+[2021-12-13T01:23:37.001385+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/mage/requirejs/mixins.js is wrong. [] []
+[2021-12-13T01:23:37.005297+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/mage/requirejs/mixins.js is wrong. [] []
+[2021-12-13T01:23:37.019145+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/images/magento-logo.svg is wrong. [] []
+[2021-12-13T01:23:37.022825+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/images/magento-logo.svg is wrong. [] []
