@@ -1,11 +1,11 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1639358456;s:6:"expire";i:1639444856;s:4:"tags";s:72:"fee_CAT_P,fee_BLOCK_HTML,fee_CAT_P_52,fee_CAT_P_51,fee_CAT_P_13,fee_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1639360249;s:6:"expire";i:1639446649;s:4:"tags";s:72:"fee_CAT_P,fee_BLOCK_HTML,fee_CAT_P_52,fee_CAT_P_51,fee_CAT_P_13,fee_MAGE";}
     <div class="block widget block-products-list grid">
         			<div class="title-content margin-bottom50">
 				<h2 class="title">Tay cầm</h2>
 			</div>
                 <div class="block-content">
             <!-- category_page_grid-->            <div class="row products-grid grid">
-                <ol id="widget-product-21467691561639358455" class="product-items widget-product-grid">
+                <ol id="widget-product-14066250331639360249" class="product-items widget-product-grid">
                                                                 <li class="item">
 														<div class="product-content product-item-info">
 								<div class="product-top">
@@ -186,7 +186,7 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1639358456;s:6:"expire";i:1639444856;s:4:"t
 						'jquery',
 						'mgs/owlcarousel'
 					], function ($) {
-						var owl = $('#widget-product-21467691561639358455');
+						var owl = $('#widget-product-14066250331639360249');
 						owl.owlCarousel({
 							items: 3,
 							autoPlay: false,
