@@ -210,6 +210,7 @@ return [
         'Magento_Wishlist' => 1,
         'Magento_WishlistAnalytics' => 1,
         'Magento_WishlistGraphQl' => 1,
+        'Boolfly_MomoWallet' => 1,
         'MGS_Blog' => 1,
         'MGS_Brand' => 1,
         'MGS_Core' => 1,

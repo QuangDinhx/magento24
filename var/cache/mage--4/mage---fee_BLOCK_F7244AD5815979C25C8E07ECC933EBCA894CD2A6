@@ -1,11 +1,11 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1639411526;s:6:"expire";i:1639497926;s:4:"tags";s:150:"fee_CAT_P,fee_BLOCK_HTML,fee_CAT_P_50,fee_CAT_P_49,fee_CAT_P_48,fee_CAT_P_47,fee_CAT_P_46,fee_CAT_P_45,fee_CAT_P_41,fee_CAT_P_14,fee_CAT_P_12,fee_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1639453312;s:6:"expire";i:1639539712;s:4:"tags";s:150:"fee_CAT_P,fee_BLOCK_HTML,fee_CAT_P_50,fee_CAT_P_49,fee_CAT_P_48,fee_CAT_P_47,fee_CAT_P_46,fee_CAT_P_45,fee_CAT_P_41,fee_CAT_P_14,fee_CAT_P_12,fee_MAGE";}
     <div class="block widget block-products-list grid">
         			<div class="title-content margin-bottom50">
 				<h2 class="title">Máy Chơi Game</h2>
 			</div>
                 <div class="block-content">
             <!-- category_page_grid-->            <div class="row products-grid grid">
-                <ol id="widget-product-14525882031639411524" class="product-items widget-product-grid">
+                <ol id="widget-product-18598467181639453308" class="product-items widget-product-grid">
                                                                 <li class="item">
 														<div class="product-content product-item-info">
 								<div class="product-top">
@@ -609,7 +609,7 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1639411526;s:6:"expire";i:1639497926;s:4:"t
 						'jquery',
 						'mgs/owlcarousel'
 					], function ($) {
-						var owl = $('#widget-product-14525882031639411524');
+						var owl = $('#widget-product-18598467181639453308');
 						owl.owlCarousel({
 							items: 3,
 							autoPlay: false,

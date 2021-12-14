@@ -1,11 +1,11 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1639411527;s:6:"expire";i:1639497927;s:4:"tags";s:163:"fee_CAT_P,fee_BLOCK_HTML,fee_CAT_P_44,fee_CAT_P_43,fee_CAT_P_42,fee_CAT_P_40,fee_CAT_P_39,fee_CAT_P_38,fee_CAT_P_37,fee_CAT_P_36,fee_CAT_P_34,fee_CAT_P_33,fee_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1639453312;s:6:"expire";i:1639539712;s:4:"tags";s:163:"fee_CAT_P,fee_BLOCK_HTML,fee_CAT_P_44,fee_CAT_P_43,fee_CAT_P_42,fee_CAT_P_40,fee_CAT_P_39,fee_CAT_P_38,fee_CAT_P_37,fee_CAT_P_36,fee_CAT_P_34,fee_CAT_P_33,fee_MAGE";}
     <div class="block widget block-products-list grid">
         			<div class="title-content margin-bottom50">
 				<h2 class="title">Game Console</h2>
 			</div>
                 <div class="block-content">
             <!-- category_page_grid-->            <div class="row products-grid grid">
-                <ol id="widget-product-3210982721639411526" class="product-items widget-product-grid">
+                <ol id="widget-product-5239285241639453312" class="product-items widget-product-grid">
                                                                 <li class="item">
 														<div class="product-content product-item-info">
 								<div class="product-top">
@@ -592,7 +592,7 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1639411527;s:6:"expire";i:1639497927;s:4:"t
 						'jquery',
 						'mgs/owlcarousel'
 					], function ($) {
-						var owl = $('#widget-product-3210982721639411526');
+						var owl = $('#widget-product-5239285241639453312');
 						owl.owlCarousel({
 							items: 3,
 							autoPlay: false,
