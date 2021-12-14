@@ -1,0 +1,28 @@
+[2021-12-14T07:58:28.397757+00:00] main.DEBUG: array (
+  'request' => 
+  array (
+    'partnerCode' => '****',
+    'accessKey' => '****',
+    'requestId' => '1639468707000',
+    'amount' => '8799000',
+    'orderId' => '000000007',
+    'orderInfo' => 'Default Store View',
+    'returnUrl' => 'http://yourname.magento.com/momo/payment/return/',
+    'notifyUrl' => 'http://yourname.magento.com/momo/payment/ipn/',
+    'extraData' => 'merchantName=Momo Partner',
+    'signature' => '253344fc3a08caae7b3ed2808a9f33ed81d9b7e7fba848f21a5528dd44883b08',
+    'requestType' => 'captureMoMoWallet',
+  ),
+  'request_uri' => 'https://test-payment.momo.vn/gw_payment/transactionProcessor',
+  'response' => 
+  array (
+    'requestId' => '1639468707000',
+    'errorCode' => 0,
+    'orderId' => '000000007',
+    'message' => 'Success',
+    'localMessage' => 'Thành công',
+    'requestType' => 'captureMoMoWallet',
+    'payUrl' => 'https://test-payment.momo.vn/gw_payment/payment/qr?partnerCode=MOMO4FUX20211212&accessKey=e1WQIv82kIQyY0ZJ&requestId=1639468707000&amount=8799000&orderId=000000007&signature=d70941eb6c3518e228b7258726ed0b9f88ef9b33956aab7f0358107bd395abe6&requestType=captureMoMoWallet',
+    'signature' => 'def1a426cad3c8fa73a68a21b10e2f091ab911de47ec7d78a763d32a162b18a9',
+  ),
+) [] []

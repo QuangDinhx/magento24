@@ -12591,3 +12591,333 @@ Stack trace:
 [2021-12-14T03:57:25.008734+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/images/magento-logo.svg is wrong. [] []
 [2021-12-14T03:59:10.337664+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
 [2021-12-14T03:59:10.339533+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-14T05:06:03.863779+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/requirejs/require.js is wrong. [] []
+ong. [] []
+:03.863[2021-12-14T05:06:03.863827+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/jquery/jstree/themes/default/style.css is wrong. [] []
+[2021-12-14T05:06:03.893214+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/css/styles.css is wrong. [] []
+[2021-12-14T05:06:03.893194+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/jquery/jstree/themes/default/style.cs[2021-12-14T05:06:03.893254+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2021-12-14T05:06:03.893598+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/MGS_Promobanners/css/promobanner.css is wrong. [] []
+[2021-12-14T05:06:04.745848+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/images/magento-logo.svg is wrong. [] []
+[2021-12-14T05:06:04.747526+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/images/magento-logo.svg is wrong. [] []
+[2021-12-14T05:06:04.771561+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/mage/requirejs/mixins.js is wrong. [] []
+[2021-12-14T05:06:04.773602+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/mage/requirejs/mixins.js is wrong. [] []
+[2021-12-14T07:21:54.373558+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-14T07:21:54.383643+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-14T07:22:54.136928+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-14T07:22:54.138113+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-14T07:23:06.458550+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-14T07:23:06.463189+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-14T07:23:23.053334+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-14T07:23:23.054658+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-14T07:23:42.562986+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-14T07:23:42.567894+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-14T07:25:28.860969+00:00] main.CRITICAL: Magento\Framework\Exception\LocalizedException: Could not ping search engine: No alive nodes found in your cluster in C:\xampp\htdocs\magento24\app\code\Magento\Elasticsearch\Model\Adapter\Elasticsearch.php:175
+Stack trace:
+#0 C:\xampp\htdocs\magento24\app\code\Magento\Elasticsearch\Model\Indexer\IndexerHandler.php(205): Magento\Elasticsearch\Model\Adapter\Elasticsearch->ping()
+#1 C:\xampp\htdocs\magento24\app\code\Magento\CatalogSearch\Model\Indexer\IndexerHandlerFactory.php(78): Magento\Elasticsearch\Model\Indexer\IndexerHandler->isAvailable()
+#2 C:\xampp\htdocs\magento24\app\code\Magento\CatalogSearch\Model\Indexer\Fulltext\Action\Full.php(278): Magento\CatalogSearch\Model\Indexer\IndexerHandlerFactory->create(Array)
+#3 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\ObjectManager\Factory\AbstractFactory.php(121): Magento\CatalogSearch\Model\Indexer\Fulltext\Action\Full->__construct(Object(Magento\Framework\App\ResourceConnection\Interceptor), Object(Magento\Catalog\Model\Product\Type\Interceptor), Object(Magento\Eav\Model\Config), Object(Magento\Framework\Search\Request\Config), Object(Magento\Catalog\Model\Product\Attribute\Source\Status), Object(Magento\Catalog\Model\ResourceModel\Product\Attribute\CollectionFactory), Object(Magento\CatalogSearch\Model\ResourceModel\EngineProvider), Object(Magento\CatalogSearch\Model\Indexer\IndexerHandlerFactory), Object(Magento\Framework\Event\Manager\Proxy), Object(Magento\Framework\App\Config), Object(Magento\Store\Model\StoreManager), Object(Magento\Framework\Stdlib\DateTime), Object(Magento\Framework\Locale\Resolver), Object(Magento\Framework\Stdlib\DateTime\Timezone), Object(Magento\CatalogSearch\Model\ResourceModel\Fulltext), Object(Magento\Framework\Search\Request\DimensionFactory), Object(Magento\Indexer\Model\Config), NULL, NULL, NULL, 500, NULL)
+#4 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\ObjectManager\Factory\Dynamic\Developer.php(66): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject('Magento\\Catalog...', Array)
+#5 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\ObjectManager\ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create('Magento\\Catalog...', Array)
+#6 C:\xampp\htdocs\magento24\generated\code\Magento\CatalogSearch\Model\Indexer\Fulltext\Action\FullFactory.php(43): Magento\Framework\ObjectManager\ObjectManager->create('\\Magento\\Catalo...', Array)
+#7 C:\xampp\htdocs\magento24\app\code\Magento\CatalogSearch\Model\Indexer\Fulltext.php(129): Magento\CatalogSearch\Model\Indexer\Fulltext\Action\FullFactory->create(Array)
+#8 C:\xampp\htdocs\magento24\generated\code\Magento\CatalogSearch\Model\Indexer\Fulltext\Interceptor.php(14): Magento\CatalogSearch\Model\Indexer\Fulltext->__construct(Object(Magento\CatalogSearch\Model\Indexer\Fulltext\Action\FullFactory), Object(Magento\CatalogSearch\Model\Indexer\IndexerHandlerFactory), Object(Magento\CatalogSearch\Model\ResourceModel\Fulltext), Object(Magento\CatalogSearch\Model\Indexer\IndexSwitcherProxy), Object(Magento\CatalogSearch\Model\Indexer\Scope\StateFactory), Object(Magento\Store\Model\StoreDimensionProvider), Array, NULL, NULL, NULL)
+#9 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\ObjectManager\Factory\AbstractFactory.php(121): Magento\CatalogSearch\Model\Indexer\Fulltext\Interceptor->__construct(Object(Magento\CatalogSearch\Model\Indexer\Fulltext\Action\FullFactory), Object(Magento\CatalogSearch\Model\Indexer\IndexerHandlerFactory), Object(Magento\CatalogSearch\Model\ResourceModel\Fulltext), Object(Magento\CatalogSearch\Model\Indexer\IndexSwitcherProxy), Object(Magento\CatalogSearch\Model\Indexer\Scope\StateFactory), Object(Magento\Store\Model\StoreDimensionProvider), Array, NULL, NULL, NULL)
+#10 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\ObjectManager\Factory\Dynamic\Developer.php(66): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject('Magento\\Catalog...', Array)
+#11 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\ObjectManager\ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create('Magento\\Catalog...', Array)
+#12 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Indexer\ActionFactory.php(33): Magento\Framework\ObjectManager\ObjectManager->create('Magento\\Catalog...', Array)
+#13 C:\xampp\htdocs\magento24\app\code\Magento\Indexer\Model\Indexer.php(399): Magento\Framework\Indexer\ActionFactory->create('Magento\\Catalog...', Array)
+#14 C:\xampp\htdocs\magento24\app\code\Magento\Indexer\Model\Indexer.php(533): Magento\Indexer\Model\Indexer->getActionInstance()
+#15 C:\xampp\htdocs\magento24\app\code\Magento\Indexer\Model\Indexer\DependencyDecorator.php(294): Magento\Indexer\Model\Indexer->reindexList(Array)
+#16 C:\xampp\htdocs\magento24\app\code\Magento\Indexer\Model\Indexer\DependencyDecorator.php(299): Magento\Indexer\Model\Indexer\DependencyDecorator->reindexList(Array)
+#17 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Indexer\AbstractProcessor.php(69): Magento\Indexer\Model\Indexer\DependencyDecorator->reindexList(Array)
+#18 C:\xampp\htdocs\magento24\app\code\Magento\CatalogInventory\Observer\ReindexQuoteInventoryObserver.php(66): Magento\Framework\Indexer\AbstractProcessor->reindexList(Array)
+#19 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Event\Invoker\InvokerDefault.php(88): Magento\CatalogInventory\Observer\ReindexQuoteInventoryObserver->execute(Object(Magento\Framework\Event\Observer))
+#20 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Event\Invoker\InvokerDefault.php(74): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(Magento\CatalogInventory\Observer\ReindexQuoteInventoryObserver), Object(Magento\Framework\Event\Observer))
+#21 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Event\Manager.php(66): Magento\Framework\Event\Invoker\InvokerDefault->dispatch(Array, Object(Magento\Framework\Event\Observer))
+#22 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\Event\Manager\Proxy.php(95): Magento\Framework\Event\Manager->dispatch('sales_model_ser...', Array)
+#23 C:\xampp\htdocs\magento24\app\code\Magento\Quote\Model\QuoteManagement.php(607): Magento\Framework\Event\Manager\Proxy->dispatch('sales_model_ser...', Array)
+#24 C:\xampp\htdocs\magento24\app\code\Magento\Quote\Model\QuoteManagement.php(482): Magento\Quote\Model\QuoteManagement->submitQuote(Object(Magento\Quote\Model\Quote\Interceptor), Array)
+#25 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Quote\Model\QuoteManagement->submit(Object(Magento\Quote\Model\Quote\Interceptor), Array)
+#26 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Quote\Model\QuoteManagement\Interceptor->___callParent('submit', Array)
+#27 C:\xampp\htdocs\magento24\app\code\Magento\SalesRule\Plugin\CouponUsagesIncrement.php(54): Magento\Quote\Model\QuoteManagement\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Quote\Model\Quote\Interceptor), Array)
+#28 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(135): Magento\SalesRule\Plugin\CouponUsagesIncrement->aroundSubmit(Object(Magento\Quote\Model\QuoteManagement\Interceptor), Object(Closure), Object(Magento\Quote\Model\Quote\Interceptor))
+#29 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Quote\Model\QuoteManagement\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Quote\Model\Quote\Interceptor))
+#30 C:\xampp\htdocs\magento24\generated\code\Magento\Quote\Model\QuoteManagement\Interceptor.php(68): Magento\Quote\Model\QuoteManagement\Interceptor->___callPlugins('submit', Array, NULL)
+#31 C:\xampp\htdocs\magento24\app\code\Magento\Quote\Model\QuoteManagement.php(440): Magento\Quote\Model\QuoteManagement\Interceptor->submit(Object(Magento\Quote\Model\Quote\Interceptor))
+#32 C:\xampp\htdocs\magento24\generated\code\Magento\Quote\Model\QuoteManagement\Interceptor.php(50): Magento\Quote\Model\QuoteManagement->placeOrder('10', NULL)
+#33 C:\xampp\htdocs\magento24\app\code\Magento\Quote\Model\GuestCart\GuestCartManagement.php(87): Magento\Quote\Model\QuoteManagement\Interceptor->placeOrder('10', NULL)
+#34 C:\xampp\htdocs\magento24\generated\code\Magento\Quote\Model\GuestCart\GuestCartManagement\Interceptor.php(41): Magento\Quote\Model\GuestCart\GuestCartManagement->placeOrder('yhA6wEwPBiHricU...', NULL)
+#35 C:\xampp\htdocs\magento24\app\code\Magento\Checkout\Model\GuestPaymentInformationManagement.php(127): Magento\Quote\Model\GuestCart\GuestCartManagement\Interceptor->placeOrder('yhA6wEwPBiHricU...')
+#36 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Checkout\Model\GuestPaymentInformationManagement->savePaymentInformationAndPlaceOrder('yhA6wEwPBiHricU...', 'ngquangdinhhzz@...', Object(Magento\Quote\Model\Quote\Payment), Object(Magento\Quote\Model\Quote\Address))
+#37 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Checkout\Model\GuestPaymentInformationManagement\Interceptor->___callParent('savePaymentInfo...', Array)
+#38 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Checkout\Model\GuestPaymentInformationManagement\Interceptor->Magento\Framework\Interception\{closure}('yhA6wEwPBiHricU...', 'ngquangdinhhzz@...', Object(Magento\Quote\Model\Quote\Payment), Object(Magento\Quote\Model\Quote\Address))
+#39 C:\xampp\htdocs\magento24\generated\code\Magento\Checkout\Model\GuestPaymentInformationManagement\Interceptor.php(23): Magento\Checkout\Model\GuestPaymentInformationManagement\Interceptor->___callPlugins('savePaymentInfo...', Array, Array)
+#40 [internal function]: Magento\Checkout\Model\GuestPaymentInformationManagement\Interceptor->savePaymentInformationAndPlaceOrder('yhA6wEwPBiHricU...', 'ngquangdinhhzz@...', Object(Magento\Quote\Model\Quote\Payment), Object(Magento\Quote\Model\Quote\Address))
+#41 C:\xampp\htdocs\magento24\app\code\Magento\Webapi\Controller\Rest\SynchronousRequestProcessor.php(95): call_user_func_array(Array, Array)
+#42 C:\xampp\htdocs\magento24\app\code\Magento\Webapi\Controller\Rest.php(188): Magento\Webapi\Controller\Rest\SynchronousRequestProcessor->process(Object(Magento\Framework\Webapi\Rest\Request\Proxy))
+#43 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Webapi\Controller\Rest->dispatch(Object(Magento\Framework\App\Request\Http))
+#44 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Webapi\Controller\Rest\Interceptor->___callParent('dispatch', Array)
+#45 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Webapi\Controller\Rest\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Framework\App\Request\Http))
+#46 C:\xampp\htdocs\magento24\generated\code\Magento\Webapi\Controller\Rest\Interceptor.php(23): Magento\Webapi\Controller\Rest\Interceptor->___callPlugins('dispatch', Array, Array)
+#47 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Http.php(116): Magento\Webapi\Controller\Rest\Interceptor->dispatch(Object(Magento\Framework\App\Request\Http))
+#48 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\App\Http\Interceptor.php(23): Magento\Framework\App\Http->launch()
+#49 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#50 C:\xampp\htdocs\magento24\pub\index.php(30): Magento\Framework\App\Bootstrap->run(Object(Magento\Framework\App\Http\Interceptor))
+#51 {main}
+
+Next Exception: An exception occurred on 'sales_model_service_quote_submit_failure' event: Could not ping search engine: No alive nodes found in your cluster in C:\xampp\htdocs\magento24\app\code\Magento\Quote\Model\QuoteManagement.php:741
+Stack trace:
+#0 C:\xampp\htdocs\magento24\app\code\Magento\Quote\Model\QuoteManagement.php(612): Magento\Quote\Model\QuoteManagement->rollbackAddresses(Object(Magento\Quote\Model\Quote\Interceptor), Object(Magento\Sales\Model\Order\Interceptor), Object(Magento\Framework\Exception\LocalizedException))
+#1 C:\xampp\htdocs\magento24\app\code\Magento\Quote\Model\QuoteManagement.php(482): Magento\Quote\Model\QuoteManagement->submitQuote(Object(Magento\Quote\Model\Quote\Interceptor), Array)
+#2 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Quote\Model\QuoteManagement->submit(Object(Magento\Quote\Model\Quote\Interceptor), Array)
+#3 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Quote\Model\QuoteManagement\Interceptor->___callParent('submit', Array)
+#4 C:\xampp\htdocs\magento24\app\code\Magento\SalesRule\Plugin\CouponUsagesIncrement.php(54): Magento\Quote\Model\QuoteManagement\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Quote\Model\Quote\Interceptor), Array)
+#5 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(135): Magento\SalesRule\Plugin\CouponUsagesIncrement->aroundSubmit(Object(Magento\Quote\Model\QuoteManagement\Interceptor), Object(Closure), Object(Magento\Quote\Model\Quote\Interceptor))
+#6 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Quote\Model\QuoteManagement\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Quote\Model\Quote\Interceptor))
+#7 C:\xampp\htdocs\magento24\generated\code\Magento\Quote\Model\QuoteManagement\Interceptor.php(68): Magento\Quote\Model\QuoteManagement\Interceptor->___callPlugins('submit', Array, NULL)
+#8 C:\xampp\htdocs\magento24\app\code\Magento\Quote\Model\QuoteManagement.php(440): Magento\Quote\Model\QuoteManagement\Interceptor->submit(Object(Magento\Quote\Model\Quote\Interceptor))
+#9 C:\xampp\htdocs\magento24\generated\code\Magento\Quote\Model\QuoteManagement\Interceptor.php(50): Magento\Quote\Model\QuoteManagement->placeOrder('10', NULL)
+#10 C:\xampp\htdocs\magento24\app\code\Magento\Quote\Model\GuestCart\GuestCartManagement.php(87): Magento\Quote\Model\QuoteManagement\Interceptor->placeOrder('10', NULL)
+#11 C:\xampp\htdocs\magento24\generated\code\Magento\Quote\Model\GuestCart\GuestCartManagement\Interceptor.php(41): Magento\Quote\Model\GuestCart\GuestCartManagement->placeOrder('yhA6wEwPBiHricU...', NULL)
+#12 C:\xampp\htdocs\magento24\app\code\Magento\Checkout\Model\GuestPaymentInformationManagement.php(127): Magento\Quote\Model\GuestCart\GuestCartManagement\Interceptor->placeOrder('yhA6wEwPBiHricU...')
+#13 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Checkout\Model\GuestPaymentInformationManagement->savePaymentInformationAndPlaceOrder('yhA6wEwPBiHricU...', 'ngquangdinhhzz@...', Object(Magento\Quote\Model\Quote\Payment), Object(Magento\Quote\Model\Quote\Address))
+#14 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Checkout\Model\GuestPaymentInformationManagement\Interceptor->___callParent('savePaymentInfo...', Array)
+#15 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Checkout\Model\GuestPaymentInformationManagement\Interceptor->Magento\Framework\Interception\{closure}('yhA6wEwPBiHricU...', 'ngquangdinhhzz@...', Object(Magento\Quote\Model\Quote\Payment), Object(Magento\Quote\Model\Quote\Address))
+#16 C:\xampp\htdocs\magento24\generated\code\Magento\Checkout\Model\GuestPaymentInformationManagement\Interceptor.php(23): Magento\Checkout\Model\GuestPaymentInformationManagement\Interceptor->___callPlugins('savePaymentInfo...', Array, Array)
+#17 [internal function]: Magento\Checkout\Model\GuestPaymentInformationManagement\Interceptor->savePaymentInformationAndPlaceOrder('yhA6wEwPBiHricU...', 'ngquangdinhhzz@...', Object(Magento\Quote\Model\Quote\Payment), Object(Magento\Quote\Model\Quote\Address))
+#18 C:\xampp\htdocs\magento24\app\code\Magento\Webapi\Controller\Rest\SynchronousRequestProcessor.php(95): call_user_func_array(Array, Array)
+#19 C:\xampp\htdocs\magento24\app\code\Magento\Webapi\Controller\Rest.php(188): Magento\Webapi\Controller\Rest\SynchronousRequestProcessor->process(Object(Magento\Framework\Webapi\Rest\Request\Proxy))
+#20 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Webapi\Controller\Rest->dispatch(Object(Magento\Framework\App\Request\Http))
+#21 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Webapi\Controller\Rest\Interceptor->___callParent('dispatch', Array)
+#22 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Webapi\Controller\Rest\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Framework\App\Request\Http))
+#23 C:\xampp\htdocs\magento24\generated\code\Magento\Webapi\Controller\Rest\Interceptor.php(23): Magento\Webapi\Controller\Rest\Interceptor->___callPlugins('dispatch', Array, Array)
+#24 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Http.php(116): Magento\Webapi\Controller\Rest\Interceptor->dispatch(Object(Magento\Framework\App\Request\Http))
+#25 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\App\Http\Interceptor.php(23): Magento\Framework\App\Http->launch()
+#26 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#27 C:\xampp\htdocs\magento24\pub\index.php(30): Magento\Framework\App\Bootstrap->run(Object(Magento\Framework\App\Http\Interceptor))
+#28 {main} [] []
+[2021-12-14T07:25:49.885264+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2021-12-14T07:25:49.887791+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2021-12-14T07:25:49.891966+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/MGS_Promobanners/css/promobanner.css is wrong. [] []
+[2021-12-14T07:25:49.896846+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/MGS_Promobanners/css/promobanner.css is wrong. [] []
+[2021-12-14T07:25:51.309115+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/jquery/jstree/themes/default/style.css is wrong. [] []
+[2021-12-14T07:25:51.320353+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/jquery/jstree/themes/default/style.css is wrong. [] []
+[2021-12-14T07:25:51.403599+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/css/styles.css is wrong. [] []
+[2021-12-14T07:25:51.407084+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/css/styles.css is wrong. [] []
+[2021-12-14T07:25:51.438798+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/extjs/resources/css/ext-all.css is wrong. [] []
+[2021-12-14T07:25:51.443856+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/extjs/resources/css/ext-all.css is wrong. [] []
+[2021-12-14T07:25:51.787855+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/requirejs/require.js is wrong. [] []
+[2021-12-14T07:25:51.793628+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/requirejs/require.js is wrong. [] []
+[2021-12-14T07:25:51.806547+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/mage/requirejs/mixins.js is wrong. [] []
+[2021-12-14T07:25:51.808859+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/mage/requirejs/mixins.js is wrong. [] []
+[2021-12-14T07:25:53.103719+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/images/magento-logo.svg is wrong. [] []
+[2021-12-14T07:25:53.106178+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/images/magento-logo.svg is wrong. [] []
+[2021-12-14T07:25:55.885000+00:00] main.CRITICAL: Magento\Framework\Exception\LocalizedException: Could not ping search engine: No alive nodes found in your cluster in C:\xampp\htdocs\magento24\app\code\Magento\Elasticsearch\Model\Adapter\Elasticsearch.php:175
+Stack trace:
+#0 C:\xampp\htdocs\magento24\app\code\Magento\Elasticsearch\Model\Indexer\IndexerHandler.php(205): Magento\Elasticsearch\Model\Adapter\Elasticsearch->ping()
+#1 C:\xampp\htdocs\magento24\app\code\Magento\CatalogSearch\Model\Indexer\IndexerHandlerFactory.php(78): Magento\Elasticsearch\Model\Indexer\IndexerHandler->isAvailable()
+#2 C:\xampp\htdocs\magento24\app\code\Magento\CatalogSearch\Model\Indexer\Fulltext\Action\Full.php(278): Magento\CatalogSearch\Model\Indexer\IndexerHandlerFactory->create(Array)
+#3 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\ObjectManager\Factory\AbstractFactory.php(121): Magento\CatalogSearch\Model\Indexer\Fulltext\Action\Full->__construct(Object(Magento\Framework\App\ResourceConnection\Interceptor), Object(Magento\Catalog\Model\Product\Type\Interceptor), Object(Magento\Eav\Model\Config), Object(Magento\Framework\Search\Request\Config), Object(Magento\Catalog\Model\Product\Attribute\Source\Status), Object(Magento\Catalog\Model\ResourceModel\Product\Attribute\CollectionFactory), Object(Magento\CatalogSearch\Model\ResourceModel\EngineProvider), Object(Magento\CatalogSearch\Model\Indexer\IndexerHandlerFactory), Object(Magento\Framework\Event\Manager\Proxy), Object(Magento\Framework\App\Config), Object(Magento\Store\Model\StoreManager), Object(Magento\Framework\Stdlib\DateTime), Object(Magento\Framework\Locale\Resolver), Object(Magento\Framework\Stdlib\DateTime\Timezone), Object(Magento\CatalogSearch\Model\ResourceModel\Fulltext), Object(Magento\Framework\Search\Request\DimensionFactory), Object(Magento\Indexer\Model\Config), NULL, NULL, NULL, 500, NULL)
+#4 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\ObjectManager\Factory\Dynamic\Developer.php(66): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject('Magento\\Catalog...', Array)
+#5 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\ObjectManager\ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create('Magento\\Catalog...', Array)
+#6 C:\xampp\htdocs\magento24\generated\code\Magento\CatalogSearch\Model\Indexer\Fulltext\Action\FullFactory.php(43): Magento\Framework\ObjectManager\ObjectManager->create('\\Magento\\Catalo...', Array)
+#7 C:\xampp\htdocs\magento24\app\code\Magento\CatalogSearch\Model\Indexer\Fulltext.php(129): Magento\CatalogSearch\Model\Indexer\Fulltext\Action\FullFactory->create(Array)
+#8 C:\xampp\htdocs\magento24\generated\code\Magento\CatalogSearch\Model\Indexer\Fulltext\Interceptor.php(14): Magento\CatalogSearch\Model\Indexer\Fulltext->__construct(Object(Magento\CatalogSearch\Model\Indexer\Fulltext\Action\FullFactory), Object(Magento\CatalogSearch\Model\Indexer\IndexerHandlerFactory), Object(Magento\CatalogSearch\Model\ResourceModel\Fulltext), Object(Magento\CatalogSearch\Model\Indexer\IndexSwitcherProxy), Object(Magento\CatalogSearch\Model\Indexer\Scope\StateFactory), Object(Magento\Store\Model\StoreDimensionProvider), Array, NULL, NULL, NULL)
+#9 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\ObjectManager\Factory\AbstractFactory.php(121): Magento\CatalogSearch\Model\Indexer\Fulltext\Interceptor->__construct(Object(Magento\CatalogSearch\Model\Indexer\Fulltext\Action\FullFactory), Object(Magento\CatalogSearch\Model\Indexer\IndexerHandlerFactory), Object(Magento\CatalogSearch\Model\ResourceModel\Fulltext), Object(Magento\CatalogSearch\Model\Indexer\IndexSwitcherProxy), Object(Magento\CatalogSearch\Model\Indexer\Scope\StateFactory), Object(Magento\Store\Model\StoreDimensionProvider), Array, NULL, NULL, NULL)
+#10 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\ObjectManager\Factory\Dynamic\Developer.php(66): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject('Magento\\Catalog...', Array)
+#11 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\ObjectManager\ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create('Magento\\Catalog...', Array)
+#12 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Indexer\ActionFactory.php(33): Magento\Framework\ObjectManager\ObjectManager->create('Magento\\Catalog...', Array)
+#13 C:\xampp\htdocs\magento24\app\code\Magento\Indexer\Model\Indexer.php(399): Magento\Framework\Indexer\ActionFactory->create('Magento\\Catalog...', Array)
+#14 C:\xampp\htdocs\magento24\app\code\Magento\Indexer\Model\Indexer.php(533): Magento\Indexer\Model\Indexer->getActionInstance()
+#15 C:\xampp\htdocs\magento24\app\code\Magento\Indexer\Model\Indexer\DependencyDecorator.php(294): Magento\Indexer\Model\Indexer->reindexList(Array)
+#16 C:\xampp\htdocs\magento24\app\code\Magento\Indexer\Model\Indexer\DependencyDecorator.php(299): Magento\Indexer\Model\Indexer\DependencyDecorator->reindexList(Array)
+#17 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Indexer\AbstractProcessor.php(69): Magento\Indexer\Model\Indexer\DependencyDecorator->reindexList(Array)
+#18 C:\xampp\htdocs\magento24\app\code\Magento\CatalogInventory\Observer\ReindexQuoteInventoryObserver.php(66): Magento\Framework\Indexer\AbstractProcessor->reindexList(Array)
+#19 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Event\Invoker\InvokerDefault.php(88): Magento\CatalogInventory\Observer\ReindexQuoteInventoryObserver->execute(Object(Magento\Framework\Event\Observer))
+#20 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Event\Invoker\InvokerDefault.php(74): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(Magento\CatalogInventory\Observer\ReindexQuoteInventoryObserver), Object(Magento\Framework\Event\Observer))
+#21 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Event\Manager.php(66): Magento\Framework\Event\Invoker\InvokerDefault->dispatch(Array, Object(Magento\Framework\Event\Observer))
+#22 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\Event\Manager\Proxy.php(95): Magento\Framework\Event\Manager->dispatch('sales_model_ser...', Array)
+#23 C:\xampp\htdocs\magento24\app\code\Magento\Quote\Model\QuoteManagement.php(607): Magento\Framework\Event\Manager\Proxy->dispatch('sales_model_ser...', Array)
+#24 C:\xampp\htdocs\magento24\app\code\Magento\Quote\Model\QuoteManagement.php(482): Magento\Quote\Model\QuoteManagement->submitQuote(Object(Magento\Quote\Model\Quote\Interceptor), Array)
+#25 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Quote\Model\QuoteManagement->submit(Object(Magento\Quote\Model\Quote\Interceptor), Array)
+#26 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Quote\Model\QuoteManagement\Interceptor->___callParent('submit', Array)
+#27 C:\xampp\htdocs\magento24\app\code\Magento\SalesRule\Plugin\CouponUsagesIncrement.php(54): Magento\Quote\Model\QuoteManagement\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Quote\Model\Quote\Interceptor), Array)
+#28 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(135): Magento\SalesRule\Plugin\CouponUsagesIncrement->aroundSubmit(Object(Magento\Quote\Model\QuoteManagement\Interceptor), Object(Closure), Object(Magento\Quote\Model\Quote\Interceptor))
+#29 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Quote\Model\QuoteManagement\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Quote\Model\Quote\Interceptor))
+#30 C:\xampp\htdocs\magento24\generated\code\Magento\Quote\Model\QuoteManagement\Interceptor.php(68): Magento\Quote\Model\QuoteManagement\Interceptor->___callPlugins('submit', Array, NULL)
+#31 C:\xampp\htdocs\magento24\app\code\Magento\Quote\Model\QuoteManagement.php(440): Magento\Quote\Model\QuoteManagement\Interceptor->submit(Object(Magento\Quote\Model\Quote\Interceptor))
+#32 C:\xampp\htdocs\magento24\generated\code\Magento\Quote\Model\QuoteManagement\Interceptor.php(50): Magento\Quote\Model\QuoteManagement->placeOrder('10', NULL)
+#33 C:\xampp\htdocs\magento24\app\code\Magento\Quote\Model\GuestCart\GuestCartManagement.php(87): Magento\Quote\Model\QuoteManagement\Interceptor->placeOrder('10', NULL)
+#34 C:\xampp\htdocs\magento24\generated\code\Magento\Quote\Model\GuestCart\GuestCartManagement\Interceptor.php(41): Magento\Quote\Model\GuestCart\GuestCartManagement->placeOrder('yhA6wEwPBiHricU...', NULL)
+#35 C:\xampp\htdocs\magento24\app\code\Magento\Checkout\Model\GuestPaymentInformationManagement.php(127): Magento\Quote\Model\GuestCart\GuestCartManagement\Interceptor->placeOrder('yhA6wEwPBiHricU...')
+#36 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Checkout\Model\GuestPaymentInformationManagement->savePaymentInformationAndPlaceOrder('yhA6wEwPBiHricU...', 'ngquangdinhhzz@...', Object(Magento\Quote\Model\Quote\Payment), Object(Magento\Quote\Model\Quote\Address))
+#37 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Checkout\Model\GuestPaymentInformationManagement\Interceptor->___callParent('savePaymentInfo...', Array)
+#38 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Checkout\Model\GuestPaymentInformationManagement\Interceptor->Magento\Framework\Interception\{closure}('yhA6wEwPBiHricU...', 'ngquangdinhhzz@...', Object(Magento\Quote\Model\Quote\Payment), Object(Magento\Quote\Model\Quote\Address))
+#39 C:\xampp\htdocs\magento24\generated\code\Magento\Checkout\Model\GuestPaymentInformationManagement\Interceptor.php(23): Magento\Checkout\Model\GuestPaymentInformationManagement\Interceptor->___callPlugins('savePaymentInfo...', Array, Array)
+#40 [internal function]: Magento\Checkout\Model\GuestPaymentInformationManagement\Interceptor->savePaymentInformationAndPlaceOrder('yhA6wEwPBiHricU...', 'ngquangdinhhzz@...', Object(Magento\Quote\Model\Quote\Payment), Object(Magento\Quote\Model\Quote\Address))
+#41 C:\xampp\htdocs\magento24\app\code\Magento\Webapi\Controller\Rest\SynchronousRequestProcessor.php(95): call_user_func_array(Array, Array)
+#42 C:\xampp\htdocs\magento24\app\code\Magento\Webapi\Controller\Rest.php(188): Magento\Webapi\Controller\Rest\SynchronousRequestProcessor->process(Object(Magento\Framework\Webapi\Rest\Request\Proxy))
+#43 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Webapi\Controller\Rest->dispatch(Object(Magento\Framework\App\Request\Http))
+#44 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Webapi\Controller\Rest\Interceptor->___callParent('dispatch', Array)
+#45 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Webapi\Controller\Rest\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Framework\App\Request\Http))
+#46 C:\xampp\htdocs\magento24\generated\code\Magento\Webapi\Controller\Rest\Interceptor.php(23): Magento\Webapi\Controller\Rest\Interceptor->___callPlugins('dispatch', Array, Array)
+#47 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Http.php(116): Magento\Webapi\Controller\Rest\Interceptor->dispatch(Object(Magento\Framework\App\Request\Http))
+#48 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\App\Http\Interceptor.php(23): Magento\Framework\App\Http->launch()
+#49 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#50 C:\xampp\htdocs\magento24\pub\index.php(30): Magento\Framework\App\Bootstrap->run(Object(Magento\Framework\App\Http\Interceptor))
+#51 {main}
+
+Next Exception: An exception occurred on 'sales_model_service_quote_submit_failure' event: Could not ping search engine: No alive nodes found in your cluster in C:\xampp\htdocs\magento24\app\code\Magento\Quote\Model\QuoteManagement.php:741
+Stack trace:
+#0 C:\xampp\htdocs\magento24\app\code\Magento\Quote\Model\QuoteManagement.php(612): Magento\Quote\Model\QuoteManagement->rollbackAddresses(Object(Magento\Quote\Model\Quote\Interceptor), Object(Magento\Sales\Model\Order\Interceptor), Object(Magento\Framework\Exception\LocalizedException))
+#1 C:\xampp\htdocs\magento24\app\code\Magento\Quote\Model\QuoteManagement.php(482): Magento\Quote\Model\QuoteManagement->submitQuote(Object(Magento\Quote\Model\Quote\Interceptor), Array)
+#2 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Quote\Model\QuoteManagement->submit(Object(Magento\Quote\Model\Quote\Interceptor), Array)
+#3 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Quote\Model\QuoteManagement\Interceptor->___callParent('submit', Array)
+#4 C:\xampp\htdocs\magento24\app\code\Magento\SalesRule\Plugin\CouponUsagesIncrement.php(54): Magento\Quote\Model\QuoteManagement\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Quote\Model\Quote\Interceptor), Array)
+#5 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(135): Magento\SalesRule\Plugin\CouponUsagesIncrement->aroundSubmit(Object(Magento\Quote\Model\QuoteManagement\Interceptor), Object(Closure), Object(Magento\Quote\Model\Quote\Interceptor))
+#6 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Quote\Model\QuoteManagement\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Quote\Model\Quote\Interceptor))
+#7 C:\xampp\htdocs\magento24\generated\code\Magento\Quote\Model\QuoteManagement\Interceptor.php(68): Magento\Quote\Model\QuoteManagement\Interceptor->___callPlugins('submit', Array, NULL)
+#8 C:\xampp\htdocs\magento24\app\code\Magento\Quote\Model\QuoteManagement.php(440): Magento\Quote\Model\QuoteManagement\Interceptor->submit(Object(Magento\Quote\Model\Quote\Interceptor))
+#9 C:\xampp\htdocs\magento24\generated\code\Magento\Quote\Model\QuoteManagement\Interceptor.php(50): Magento\Quote\Model\QuoteManagement->placeOrder('10', NULL)
+#10 C:\xampp\htdocs\magento24\app\code\Magento\Quote\Model\GuestCart\GuestCartManagement.php(87): Magento\Quote\Model\QuoteManagement\Interceptor->placeOrder('10', NULL)
+#11 C:\xampp\htdocs\magento24\generated\code\Magento\Quote\Model\GuestCart\GuestCartManagement\Interceptor.php(41): Magento\Quote\Model\GuestCart\GuestCartManagement->placeOrder('yhA6wEwPBiHricU...', NULL)
+#12 C:\xampp\htdocs\magento24\app\code\Magento\Checkout\Model\GuestPaymentInformationManagement.php(127): Magento\Quote\Model\GuestCart\GuestCartManagement\Interceptor->placeOrder('yhA6wEwPBiHricU...')
+#13 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Checkout\Model\GuestPaymentInformationManagement->savePaymentInformationAndPlaceOrder('yhA6wEwPBiHricU...', 'ngquangdinhhzz@...', Object(Magento\Quote\Model\Quote\Payment), Object(Magento\Quote\Model\Quote\Address))
+#14 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Checkout\Model\GuestPaymentInformationManagement\Interceptor->___callParent('savePaymentInfo...', Array)
+#15 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Checkout\Model\GuestPaymentInformationManagement\Interceptor->Magento\Framework\Interception\{closure}('yhA6wEwPBiHricU...', 'ngquangdinhhzz@...', Object(Magento\Quote\Model\Quote\Payment), Object(Magento\Quote\Model\Quote\Address))
+#16 C:\xampp\htdocs\magento24\generated\code\Magento\Checkout\Model\GuestPaymentInformationManagement\Interceptor.php(23): Magento\Checkout\Model\GuestPaymentInformationManagement\Interceptor->___callPlugins('savePaymentInfo...', Array, Array)
+#17 [internal function]: Magento\Checkout\Model\GuestPaymentInformationManagement\Interceptor->savePaymentInformationAndPlaceOrder('yhA6wEwPBiHricU...', 'ngquangdinhhzz@...', Object(Magento\Quote\Model\Quote\Payment), Object(Magento\Quote\Model\Quote\Address))
+#18 C:\xampp\htdocs\magento24\app\code\Magento\Webapi\Controller\Rest\SynchronousRequestProcessor.php(95): call_user_func_array(Array, Array)
+#19 C:\xampp\htdocs\magento24\app\code\Magento\Webapi\Controller\Rest.php(188): Magento\Webapi\Controller\Rest\SynchronousRequestProcessor->process(Object(Magento\Framework\Webapi\Rest\Request\Proxy))
+#20 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Webapi\Controller\Rest->dispatch(Object(Magento\Framework\App\Request\Http))
+#21 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Webapi\Controller\Rest\Interceptor->___callParent('dispatch', Array)
+#22 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Webapi\Controller\Rest\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Framework\App\Request\Http))
+#23 C:\xampp\htdocs\magento24\generated\code\Magento\Webapi\Controller\Rest\Interceptor.php(23): Magento\Webapi\Controller\Rest\Interceptor->___callPlugins('dispatch', Array, Array)
+#24 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Http.php(116): Magento\Webapi\Controller\Rest\Interceptor->dispatch(Object(Magento\Framework\App\Request\Http))
+#25 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\App\Http\Interceptor.php(23): Magento\Framework\App\Http->launch()
+#26 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#27 C:\xampp\htdocs\magento24\pub\index.php(30): Magento\Framework\App\Bootstrap->run(Object(Magento\Framework\App\Http\Interceptor))
+#28 {main} [] []
+[2021-12-14T07:27:18.081363+00:00] main.CRITICAL: Magento\Framework\Exception\LocalizedException: Could not ping search engine: No alive nodes found in your cluster in C:\xampp\htdocs\magento24\app\code\Magento\Elasticsearch\Model\Adapter\Elasticsearch.php:175
+Stack trace:
+#0 C:\xampp\htdocs\magento24\app\code\Magento\Elasticsearch\Model\Indexer\IndexerHandler.php(205): Magento\Elasticsearch\Model\Adapter\Elasticsearch->ping()
+#1 C:\xampp\htdocs\magento24\app\code\Magento\CatalogSearch\Model\Indexer\IndexerHandlerFactory.php(78): Magento\Elasticsearch\Model\Indexer\IndexerHandler->isAvailable()
+#2 C:\xampp\htdocs\magento24\app\code\Magento\CatalogSearch\Model\Indexer\Fulltext\Action\Full.php(278): Magento\CatalogSearch\Model\Indexer\IndexerHandlerFactory->create(Array)
+#3 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\ObjectManager\Factory\AbstractFactory.php(121): Magento\CatalogSearch\Model\Indexer\Fulltext\Action\Full->__construct(Object(Magento\Framework\App\ResourceConnection\Interceptor), Object(Magento\Catalog\Model\Product\Type\Interceptor), Object(Magento\Eav\Model\Config), Object(Magento\Framework\Search\Request\Config), Object(Magento\Catalog\Model\Product\Attribute\Source\Status), Object(Magento\Catalog\Model\ResourceModel\Product\Attribute\CollectionFactory), Object(Magento\CatalogSearch\Model\ResourceModel\EngineProvider), Object(Magento\CatalogSearch\Model\Indexer\IndexerHandlerFactory), Object(Magento\Framework\Event\Manager\Proxy), Object(Magento\Framework\App\Config), Object(Magento\Store\Model\StoreManager), Object(Magento\Framework\Stdlib\DateTime), Object(Magento\Framework\Locale\Resolver), Object(Magento\Framework\Stdlib\DateTime\Timezone), Object(Magento\CatalogSearch\Model\ResourceModel\Fulltext), Object(Magento\Framework\Search\Request\DimensionFactory), Object(Magento\Indexer\Model\Config), NULL, NULL, NULL, 500, NULL)
+#4 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\ObjectManager\Factory\Dynamic\Developer.php(66): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject('Magento\\Catalog...', Array)
+#5 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\ObjectManager\ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create('Magento\\Catalog...', Array)
+#6 C:\xampp\htdocs\magento24\generated\code\Magento\CatalogSearch\Model\Indexer\Fulltext\Action\FullFactory.php(43): Magento\Framework\ObjectManager\ObjectManager->create('\\Magento\\Catalo...', Array)
+#7 C:\xampp\htdocs\magento24\app\code\Magento\CatalogSearch\Model\Indexer\Fulltext.php(129): Magento\CatalogSearch\Model\Indexer\Fulltext\Action\FullFactory->create(Array)
+#8 C:\xampp\htdocs\magento24\generated\code\Magento\CatalogSearch\Model\Indexer\Fulltext\Interceptor.php(14): Magento\CatalogSearch\Model\Indexer\Fulltext->__construct(Object(Magento\CatalogSearch\Model\Indexer\Fulltext\Action\FullFactory), Object(Magento\CatalogSearch\Model\Indexer\IndexerHandlerFactory), Object(Magento\CatalogSearch\Model\ResourceModel\Fulltext), Object(Magento\CatalogSearch\Model\Indexer\IndexSwitcherProxy), Object(Magento\CatalogSearch\Model\Indexer\Scope\StateFactory), Object(Magento\Store\Model\StoreDimensionProvider), Array, NULL, NULL, NULL)
+#9 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\ObjectManager\Factory\AbstractFactory.php(121): Magento\CatalogSearch\Model\Indexer\Fulltext\Interceptor->__construct(Object(Magento\CatalogSearch\Model\Indexer\Fulltext\Action\FullFactory), Object(Magento\CatalogSearch\Model\Indexer\IndexerHandlerFactory), Object(Magento\CatalogSearch\Model\ResourceModel\Fulltext), Object(Magento\CatalogSearch\Model\Indexer\IndexSwitcherProxy), Object(Magento\CatalogSearch\Model\Indexer\Scope\StateFactory), Object(Magento\Store\Model\StoreDimensionProvider), Array, NULL, NULL, NULL)
+#10 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\ObjectManager\Factory\Dynamic\Developer.php(66): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject('Magento\\Catalog...', Array)
+#11 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\ObjectManager\ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create('Magento\\Catalog...', Array)
+#12 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Indexer\ActionFactory.php(33): Magento\Framework\ObjectManager\ObjectManager->create('Magento\\Catalog...', Array)
+#13 C:\xampp\htdocs\magento24\app\code\Magento\Indexer\Model\Indexer.php(399): Magento\Framework\Indexer\ActionFactory->create('Magento\\Catalog...', Array)
+#14 C:\xampp\htdocs\magento24\app\code\Magento\Indexer\Model\Indexer.php(533): Magento\Indexer\Model\Indexer->getActionInstance()
+#15 C:\xampp\htdocs\magento24\app\code\Magento\Indexer\Model\Indexer\DependencyDecorator.php(294): Magento\Indexer\Model\Indexer->reindexList(Array)
+#16 C:\xampp\htdocs\magento24\app\code\Magento\Indexer\Model\Indexer\DependencyDecorator.php(299): Magento\Indexer\Model\Indexer\DependencyDecorator->reindexList(Array)
+#17 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Indexer\AbstractProcessor.php(69): Magento\Indexer\Model\Indexer\DependencyDecorator->reindexList(Array)
+#18 C:\xampp\htdocs\magento24\app\code\Magento\CatalogInventory\Observer\ReindexQuoteInventoryObserver.php(66): Magento\Framework\Indexer\AbstractProcessor->reindexList(Array)
+#19 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Event\Invoker\InvokerDefault.php(88): Magento\CatalogInventory\Observer\ReindexQuoteInventoryObserver->execute(Object(Magento\Framework\Event\Observer))
+#20 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Event\Invoker\InvokerDefault.php(74): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(Magento\CatalogInventory\Observer\ReindexQuoteInventoryObserver), Object(Magento\Framework\Event\Observer))
+#21 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Event\Manager.php(66): Magento\Framework\Event\Invoker\InvokerDefault->dispatch(Array, Object(Magento\Framework\Event\Observer))
+#22 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\Event\Manager\Proxy.php(95): Magento\Framework\Event\Manager->dispatch('sales_model_ser...', Array)
+#23 C:\xampp\htdocs\magento24\app\code\Magento\Quote\Model\QuoteManagement.php(607): Magento\Framework\Event\Manager\Proxy->dispatch('sales_model_ser...', Array)
+#24 C:\xampp\htdocs\magento24\app\code\Magento\Quote\Model\QuoteManagement.php(482): Magento\Quote\Model\QuoteManagement->submitQuote(Object(Magento\Quote\Model\Quote\Interceptor), Array)
+#25 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Quote\Model\QuoteManagement->submit(Object(Magento\Quote\Model\Quote\Interceptor), Array)
+#26 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Quote\Model\QuoteManagement\Interceptor->___callParent('submit', Array)
+#27 C:\xampp\htdocs\magento24\app\code\Magento\SalesRule\Plugin\CouponUsagesIncrement.php(54): Magento\Quote\Model\QuoteManagement\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Quote\Model\Quote\Interceptor), Array)
+#28 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(135): Magento\SalesRule\Plugin\CouponUsagesIncrement->aroundSubmit(Object(Magento\Quote\Model\QuoteManagement\Interceptor), Object(Closure), Object(Magento\Quote\Model\Quote\Interceptor))
+#29 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Quote\Model\QuoteManagement\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Quote\Model\Quote\Interceptor))
+#30 C:\xampp\htdocs\magento24\generated\code\Magento\Quote\Model\QuoteManagement\Interceptor.php(68): Magento\Quote\Model\QuoteManagement\Interceptor->___callPlugins('submit', Array, NULL)
+#31 C:\xampp\htdocs\magento24\app\code\Magento\Quote\Model\QuoteManagement.php(440): Magento\Quote\Model\QuoteManagement\Interceptor->submit(Object(Magento\Quote\Model\Quote\Interceptor))
+#32 C:\xampp\htdocs\magento24\generated\code\Magento\Quote\Model\QuoteManagement\Interceptor.php(50): Magento\Quote\Model\QuoteManagement->placeOrder('10', NULL)
+#33 C:\xampp\htdocs\magento24\app\code\Magento\Quote\Model\GuestCart\GuestCartManagement.php(87): Magento\Quote\Model\QuoteManagement\Interceptor->placeOrder('10', NULL)
+#34 C:\xampp\htdocs\magento24\generated\code\Magento\Quote\Model\GuestCart\GuestCartManagement\Interceptor.php(41): Magento\Quote\Model\GuestCart\GuestCartManagement->placeOrder('yhA6wEwPBiHricU...', NULL)
+#35 C:\xampp\htdocs\magento24\app\code\Magento\Checkout\Model\GuestPaymentInformationManagement.php(127): Magento\Quote\Model\GuestCart\GuestCartManagement\Interceptor->placeOrder('yhA6wEwPBiHricU...')
+#36 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Checkout\Model\GuestPaymentInformationManagement->savePaymentInformationAndPlaceOrder('yhA6wEwPBiHricU...', 'ngquangdinhhzz@...', Object(Magento\Quote\Model\Quote\Payment), Object(Magento\Quote\Model\Quote\Address))
+#37 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Checkout\Model\GuestPaymentInformationManagement\Interceptor->___callParent('savePaymentInfo...', Array)
+#38 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Checkout\Model\GuestPaymentInformationManagement\Interceptor->Magento\Framework\Interception\{closure}('yhA6wEwPBiHricU...', 'ngquangdinhhzz@...', Object(Magento\Quote\Model\Quote\Payment), Object(Magento\Quote\Model\Quote\Address))
+#39 C:\xampp\htdocs\magento24\generated\code\Magento\Checkout\Model\GuestPaymentInformationManagement\Interceptor.php(23): Magento\Checkout\Model\GuestPaymentInformationManagement\Interceptor->___callPlugins('savePaymentInfo...', Array, Array)
+#40 [internal function]: Magento\Checkout\Model\GuestPaymentInformationManagement\Interceptor->savePaymentInformationAndPlaceOrder('yhA6wEwPBiHricU...', 'ngquangdinhhzz@...', Object(Magento\Quote\Model\Quote\Payment), Object(Magento\Quote\Model\Quote\Address))
+#41 C:\xampp\htdocs\magento24\app\code\Magento\Webapi\Controller\Rest\SynchronousRequestProcessor.php(95): call_user_func_array(Array, Array)
+#42 C:\xampp\htdocs\magento24\app\code\Magento\Webapi\Controller\Rest.php(188): Magento\Webapi\Controller\Rest\SynchronousRequestProcessor->process(Object(Magento\Framework\Webapi\Rest\Request\Proxy))
+#43 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Webapi\Controller\Rest->dispatch(Object(Magento\Framework\App\Request\Http))
+#44 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Webapi\Controller\Rest\Interceptor->___callParent('dispatch', Array)
+#45 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Webapi\Controller\Rest\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Framework\App\Request\Http))
+#46 C:\xampp\htdocs\magento24\generated\code\Magento\Webapi\Controller\Rest\Interceptor.php(23): Magento\Webapi\Controller\Rest\Interceptor->___callPlugins('dispatch', Array, Array)
+#47 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Http.php(116): Magento\Webapi\Controller\Rest\Interceptor->dispatch(Object(Magento\Framework\App\Request\Http))
+#48 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\App\Http\Interceptor.php(23): Magento\Framework\App\Http->launch()
+#49 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#50 C:\xampp\htdocs\magento24\pub\index.php(30): Magento\Framework\App\Bootstrap->run(Object(Magento\Framework\App\Http\Interceptor))
+#51 {main}
+
+Next Exception: An exception occurred on 'sales_model_service_quote_submit_failure' event: Could not ping search engine: No alive nodes found in your cluster in C:\xampp\htdocs\magento24\app\code\Magento\Quote\Model\QuoteManagement.php:741
+Stack trace:
+#0 C:\xampp\htdocs\magento24\app\code\Magento\Quote\Model\QuoteManagement.php(612): Magento\Quote\Model\QuoteManagement->rollbackAddresses(Object(Magento\Quote\Model\Quote\Interceptor), Object(Magento\Sales\Model\Order\Interceptor), Object(Magento\Framework\Exception\LocalizedException))
+#1 C:\xampp\htdocs\magento24\app\code\Magento\Quote\Model\QuoteManagement.php(482): Magento\Quote\Model\QuoteManagement->submitQuote(Object(Magento\Quote\Model\Quote\Interceptor), Array)
+#2 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Quote\Model\QuoteManagement->submit(Object(Magento\Quote\Model\Quote\Interceptor), Array)
+#3 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Quote\Model\QuoteManagement\Interceptor->___callParent('submit', Array)
+#4 C:\xampp\htdocs\magento24\app\code\Magento\SalesRule\Plugin\CouponUsagesIncrement.php(54): Magento\Quote\Model\QuoteManagement\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Quote\Model\Quote\Interceptor), Array)
+#5 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(135): Magento\SalesRule\Plugin\CouponUsagesIncrement->aroundSubmit(Object(Magento\Quote\Model\QuoteManagement\Interceptor), Object(Closure), Object(Magento\Quote\Model\Quote\Interceptor))
+#6 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Quote\Model\QuoteManagement\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Quote\Model\Quote\Interceptor))
+#7 C:\xampp\htdocs\magento24\generated\code\Magento\Quote\Model\QuoteManagement\Interceptor.php(68): Magento\Quote\Model\QuoteManagement\Interceptor->___callPlugins('submit', Array, NULL)
+#8 C:\xampp\htdocs\magento24\app\code\Magento\Quote\Model\QuoteManagement.php(440): Magento\Quote\Model\QuoteManagement\Interceptor->submit(Object(Magento\Quote\Model\Quote\Interceptor))
+#9 C:\xampp\htdocs\magento24\generated\code\Magento\Quote\Model\QuoteManagement\Interceptor.php(50): Magento\Quote\Model\QuoteManagement->placeOrder('10', NULL)
+#10 C:\xampp\htdocs\magento24\app\code\Magento\Quote\Model\GuestCart\GuestCartManagement.php(87): Magento\Quote\Model\QuoteManagement\Interceptor->placeOrder('10', NULL)
+#11 C:\xampp\htdocs\magento24\generated\code\Magento\Quote\Model\GuestCart\GuestCartManagement\Interceptor.php(41): Magento\Quote\Model\GuestCart\GuestCartManagement->placeOrder('yhA6wEwPBiHricU...', NULL)
+#12 C:\xampp\htdocs\magento24\app\code\Magento\Checkout\Model\GuestPaymentInformationManagement.php(127): Magento\Quote\Model\GuestCart\GuestCartManagement\Interceptor->placeOrder('yhA6wEwPBiHricU...')
+#13 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Checkout\Model\GuestPaymentInformationManagement->savePaymentInformationAndPlaceOrder('yhA6wEwPBiHricU...', 'ngquangdinhhzz@...', Object(Magento\Quote\Model\Quote\Payment), Object(Magento\Quote\Model\Quote\Address))
+#14 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Checkout\Model\GuestPaymentInformationManagement\Interceptor->___callParent('savePaymentInfo...', Array)
+#15 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Checkout\Model\GuestPaymentInformationManagement\Interceptor->Magento\Framework\Interception\{closure}('yhA6wEwPBiHricU...', 'ngquangdinhhzz@...', Object(Magento\Quote\Model\Quote\Payment), Object(Magento\Quote\Model\Quote\Address))
+#16 C:\xampp\htdocs\magento24\generated\code\Magento\Checkout\Model\GuestPaymentInformationManagement\Interceptor.php(23): Magento\Checkout\Model\GuestPaymentInformationManagement\Interceptor->___callPlugins('savePaymentInfo...', Array, Array)
+#17 [internal function]: Magento\Checkout\Model\GuestPaymentInformationManagement\Interceptor->savePaymentInformationAndPlaceOrder('yhA6wEwPBiHricU...', 'ngquangdinhhzz@...', Object(Magento\Quote\Model\Quote\Payment), Object(Magento\Quote\Model\Quote\Address))
+#18 C:\xampp\htdocs\magento24\app\code\Magento\Webapi\Controller\Rest\SynchronousRequestProcessor.php(95): call_user_func_array(Array, Array)
+#19 C:\xampp\htdocs\magento24\app\code\Magento\Webapi\Controller\Rest.php(188): Magento\Webapi\Controller\Rest\SynchronousRequestProcessor->process(Object(Magento\Framework\Webapi\Rest\Request\Proxy))
+#20 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(58): Magento\Webapi\Controller\Rest->dispatch(Object(Magento\Framework\App\Request\Http))
+#21 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(138): Magento\Webapi\Controller\Rest\Interceptor->___callParent('dispatch', Array)
+#22 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\Interception\Interceptor.php(153): Magento\Webapi\Controller\Rest\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Framework\App\Request\Http))
+#23 C:\xampp\htdocs\magento24\generated\code\Magento\Webapi\Controller\Rest\Interceptor.php(23): Magento\Webapi\Controller\Rest\Interceptor->___callPlugins('dispatch', Array, Array)
+#24 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Http.php(116): Magento\Webapi\Controller\Rest\Interceptor->dispatch(Object(Magento\Framework\App\Request\Http))
+#25 C:\xampp\htdocs\magento24\generated\code\Magento\Framework\App\Http\Interceptor.php(23): Magento\Framework\App\Http->launch()
+#26 C:\xampp\htdocs\magento24\lib\internal\Magento\Framework\App\Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#27 C:\xampp\htdocs\magento24\pub\index.php(30): Magento\Framework\App\Bootstrap->run(Object(Magento\Framework\App\Http\Interceptor))
+#28 {main} [] []
+[2021-12-14T07:33:45.118854+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-14T07:33:45.123928+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-14T07:54:02.598124+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-14T07:54:02.612079+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-14T07:54:50.835943+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-14T07:54:50.838691+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-14T08:05:06.844473+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-14T08:05:06.849385+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-14T08:05:21.519375+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-14T08:05:21.522972+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-14T08:08:45.330594+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/jquery/jstree/themes/default/style.css is wrong. [] []
+[2021-12-14T08:08:45.334465+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/jquery/jstree/themes/default/style.css is wrong. [] []
+[2021-12-14T08:08:45.337984+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/MGS_Promobanners/css/promobanner.css is wrong. [] []
+[2021-12-14T08:08:45.341180+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/MGS_Promobanners/css/promobanner.css is wrong. [] []
+[2021-12-14T08:08:45.347149+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/extjs/resources/css/ext-all.css is wrong. [] []
+[2021-12-14T08:08:45.352791+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/extjs/resources/css/ext-all.css is wrong. [] []
+[2021-12-14T08:08:45.351584+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/css/styles.css is wrong. [] []
+[2021-12-14T08:08:45.355481+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/css/styles.css is wrong. [] []
+[2021-12-14T08:08:45.901148+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2021-12-14T08:08:45.911821+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2021-12-14T08:08:45.944568+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/requirejs/require.js is wrong. [] []
+[2021-12-14T08:08:45.947785+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/requirejs/require.js is wrong. [] []
+[2021-12-14T08:08:47.070487+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/mage/requirejs/mixins.js is wrong. [] []
+[2021-12-14T08:08:47.076801+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/mage/requirejs/mixins.js is wrong. [] []
+[2021-12-14T08:08:47.796006+00:00] main.ERROR: Requested path adminhtml/Magento/backend/vi_VN/images/magento-logo.svg is wrong. [] []
+[2021-12-14T08:08:47.799585+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/vi_VN/images/magento-logo.svg is wrong. [] []
+[2021-12-14T08:21:21.314938+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-14T08:21:21.346263+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-14T08:23:31.464208+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-14T08:23:31.477939+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-14T08:23:36.325555+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-14T08:23:36.327254+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-14T08:23:57.129879+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-14T08:23:57.131003+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
+[2021-12-14T09:54:01.133476+00:00] main.CRITICAL: Class MGS\Mmegamenu\Block\Mmegamenu does not exist [] []
+[2021-12-14T09:54:01.171984+00:00] main.CRITICAL: Invalid block type: MGS\Mmegamenu\Block\Mmegamenu [] []
