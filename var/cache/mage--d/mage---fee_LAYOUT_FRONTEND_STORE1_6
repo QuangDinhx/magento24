@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1637770140;s:6:"expire";i:1669306140;s:4:"tags";s:37:"fee_LAYOUT_GENERAL_CACHE_TAG,fee_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1639453300;s:6:"expire";i:1670989300;s:4:"tags";s:37:"fee_LAYOUT_GENERAL_CACHE_TAG,fee_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -6421,6 +6421,45 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1637770140;s:6:"expire";i:1669306140;s:4:"t
       <block class="Magento\Wishlist\Block\Share\Wishlist" name="customer.wishlist" template="Magento_Wishlist::shared.phtml" cacheable="false"/>
    </referenceContainer>
 </body>
+</handle><handle id="checkout_index_index"><body>
+   <referenceBlock name="checkout.root">
+      <arguments>
+         <argument name="jsLayout" xsi:type="array">
+            <item name="components" xsi:type="array">
+               <item name="checkout" xsi:type="array">
+                  <item name="children" xsi:type="array">
+                     <item name="steps" xsi:type="array">
+                        <item name="children" xsi:type="array">
+                           <item name="billing-step" xsi:type="array">
+                              <item name="component" xsi:type="string">uiComponent</item>
+                              <item name="children" xsi:type="array">
+                                 <item name="payment" xsi:type="array">
+                                    <item name="children" xsi:type="array">
+                                       <item name="renders" xsi:type="array">
+                                          <item name="children" xsi:type="array">
+                                             <item name="momo" xsi:type="array">
+                                                <item name="component" xsi:type="string">Boolfly_MomoWallet/js/view/payment/momo</item>
+                                                <item name="methods" xsi:type="array">
+                                                   <item name="momo" xsi:type="array">
+                                                      <item name="isBillingAddressRequired" xsi:type="boolean">true</item>
+                                                   </item>
+                                                </item>
+                                             </item>
+                                          </item>
+                                       </item>
+                                    </item>
+                                 </item>
+                              </item>
+                           </item>
+                        </item>
+                     </item>
+                  </item>
+               </item>
+            </item>
+         </argument>
+      </arguments>
+   </referenceBlock>
+</body>
 </handle><handle id="blog_category_view" layout="1column"><body>
    <referenceBlock name="catalog.compare.sidebar" remove="true"/>
    <referenceBlock name="wishlist_sidebar" remove="true"/>
@@ -6664,6 +6703,27 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1637770140;s:6:"expire";i:1669306140;s:4:"t
       <block class="MGS\Testimonial\Block\Testimonial" name="testimonial.view" template="MGS_Testimonial::view.phtml"/>
    </referenceContainer>
 </body>
+</handle><handle id="kinhdoanhpage_index_index" layout="1column"><head>
+   <title>Kinh doanh</title>
+   <css src="Robin_Kinhdoanhpage::css/style.css"/>
+</head>
+<referenceBlock name="content">
+   <block class="Robin\Kinhdoanhpage\Block\Kinhdoanhpage" name="robin_kinhdoanhpage" template="kinhdoanhpage.phtml"/>
+</referenceBlock>
+</handle><handle id="tygiapage_index_index" layout="1column"><head>
+   <title>T&#x1EF7; gi&#xE1; ti&#x1EC1;n t&#x1EC7;</title>
+   <css src="Robin_Tygiapage::css/style.css"/>
+</head>
+<referenceBlock name="content">
+   <block class="Robin\Tygiapage\Block\Tygiapage" name="robin_tygiapage" template="tygiapage.phtml"/>
+</referenceBlock>
+</handle><handle id="weather1_index_index" layout="1column"><head>
+   <title>D&#x1EF1; b&#xE1;o th&#x1EDD;i ti&#x1EBF;t</title>
+   <css src="Robin_Weather1::css/style.css"/>
+</head>
+<referenceBlock name="content">
+   <block class="Robin\Weather1\Block\Weather" name="robin_Weather1" template="weather.phtml"/>
+</referenceBlock>
 </handle><handle id="cms_index_index"><referenceContainer name="page.wrapper">
    <block class="Magento\Framework\View\Element\Template" name="script" template="Magento_Theme::newletter-popup.phtml" after="footer-container"/>
 </referenceContainer>

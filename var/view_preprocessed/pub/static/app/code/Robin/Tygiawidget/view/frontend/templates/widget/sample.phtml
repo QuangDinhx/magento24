@@ -1,0 +1,65 @@
+<marquee id="textt" style="border:blue 2px SOLID" onclick="redirectt()">www.thietkemenu.net</marquee><script>
+  send();
+  function send() {
+  
+  var searchLink = "https://api.exchangerate.host/latest";
+ httpRequestAsync(searchLink, theResponse);
+
+}
+
+
+var AUD = 0,
+CAD = 0,
+CHF = 0,
+CNY = 0,
+EUR = 0,
+JPY = 0,
+KRW = 0,
+SGD = 0,
+THB = 0,
+USD = 0;
+
+function theResponse(response) {
+console.log("ssssssssssssssss",response);
+
+var jsonObject = JSON.parse(response);
+
+AUD = parseFloat(jsonObject.rates.VND/jsonObject.rates.AUD).toFixed(3);
+CAD = parseFloat(jsonObject.rates.VND/jsonObject.rates.CAD).toFixed(3); 
+
+CHF = parseFloat(jsonObject.rates.VND/jsonObject.rates.CHF).toFixed(3); 
+
+CNY = parseFloat(jsonObject.rates.VND/jsonObject.rates.CNY).toFixed(3); 
+
+EUR = parseFloat(jsonObject.rates.VND/jsonObject.rates.EUR).toFixed(3); 
+
+JPY = parseFloat(jsonObject.rates.VND/jsonObject.rates.JPY).toFixed(3); 
+
+KRW = parseFloat(jsonObject.rates.VND/jsonObject.rates.KRW).toFixed(3); 
+
+SGD = parseFloat(jsonObject.rates.VND/jsonObject.rates.SGD).toFixed(3); 
+
+THB = parseFloat(jsonObject.rates.VND/jsonObject.rates.THB).toFixed(3); 
+
+USD = parseFloat(jsonObject.rates.VND/jsonObject.rates.USD).toFixed(3); 
+
+console.log(AUD);
+var t = document.getElementById('textt');
+ var ob = "AUD: "+ AUD +"   "+"CAD: "+ CAD +"   "+"CHF: "+ CHF +"   "+"CNY: "+ CNY +"   "+"EUR: "+ EUR +"   "+"JPY: "+ JPY +"   "+"KRW: "+ KRW +"   "+"SGD: "+ SGD +"   "+"THB: "+ THB +"   "+"USD: "+ AUD +"   ";
+console.log("sssssssssssss",ob);
+t.innerText = ob;
+}
+
+function httpRequestAsync(url, callback)
+{
+var httpRequest = new XMLHttpRequest();
+httpRequest.onreadystatechange = () => { 
+    if (httpRequest.readyState == 4 && httpRequest.status == 200)
+        callback(httpRequest.responseText);
+}
+httpRequest.open("GET", url, true); 
+httpRequest.send();
+}
+function redirectt(){
+  window.location.href = "http://yourname.magento.com/Tygiapage";
+}</script>

@@ -1,0 +1,8 @@
+.temperature {
+    position: absolute;
+    left: 50%;
+    top:0%;
+    height: 40%;
+    width: 50%;
+    background-color: #9C27B0;
+}
